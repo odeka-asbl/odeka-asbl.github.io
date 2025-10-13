@@ -8,11 +8,15 @@ website:
   navbar:
     left:
       - href: about.qmd
-        text: News
+        text: About
+      - href: people.qmd
+        text: People
+      - href: projects/index.qmd
+        text: Projects
       - href: news/index.qmd
-        text: Research
-      - href: cv.pdf
-        text: CV
+        text: News
+      - href: contacts.qmd
+        text: Contacts 
 
 format:
   html:
