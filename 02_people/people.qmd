@@ -20,7 +20,7 @@ BLabla.
 
 Blabla
 
-## Platform Executives
+## Field Executives
 
 ### Predoc
 
@@ -34,4 +34,4 @@ Blabla
 
 ### Coucou
 
-## Field Executives Alumni
+## Field Executives - Alumni
