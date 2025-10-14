@@ -29,7 +29,3 @@ Blabla
 Blabla
 
 Blabla
-
-<div class="about-inline-logo" style="margin-top: 0;margin-bottom: 50px;">
-  <img src="image2.jpg" alt="ODEKA header" style="max-width: 400px; height: auto;">
-</div>
