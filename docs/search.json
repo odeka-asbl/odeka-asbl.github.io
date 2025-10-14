@@ -261,9 +261,9 @@
   {
     "objectID": "05_contacts/contacts.html",
     "href": "05_contacts/contacts.html",
-    "title": "News",
+    "title": "Contacts",
     "section": "",
-    "text": "BLabla."
+    "text": "Headquarters address:\n6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC\n\n\nContact information:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20\n\n\nLegal matters:\n(+243) 9 94 63 66 87\n\n\nWebmaster:\nodeka.webmaster@gmail.com"
   },
   {
     "objectID": "05_contacts/contacts.html#blabla",
@@ -292,5 +292,40 @@
     "title": "News",
     "section": "",
     "text": "News 1\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#headquarters",
+    "href": "05_contacts/contacts.html#headquarters",
+    "title": "Contacts",
+    "section": "",
+    "text": "6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#contact-information",
+    "href": "05_contacts/contacts.html#contact-information",
+    "title": "Contacts",
+    "section": "Contact information:",
+    "text": "Contact information:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#webmaster",
+    "href": "05_contacts/contacts.html#webmaster",
+    "title": "Contacts",
+    "section": "Webmaster:",
+    "text": "Webmaster:\nodeka.webmaster@gmail.com"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#legal-matters",
+    "href": "05_contacts/contacts.html#legal-matters",
+    "title": "Contacts",
+    "section": "Legal matters:",
+    "text": "Legal matters:\n(+243) 9 94 63 66 87"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#headquarters-address",
+    "href": "05_contacts/contacts.html#headquarters-address",
+    "title": "Contacts",
+    "section": "",
+    "text": "6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC"
   }
 ]
