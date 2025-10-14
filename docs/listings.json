@@ -33,5 +33,12 @@
       "/04_news/news-1.html",
       "/04_news/news-2.html"
     ]
+  },
+  {
+    "listing": "/05_jobs/index.html",
+    "items": [
+      "/05_jobs/job-1.html",
+      "/05_jobs/job-2.html"
+    ]
   }
 ]

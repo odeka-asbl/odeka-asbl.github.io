@@ -1,0 +1,28 @@
+---
+toc: false
+title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 24px;'>Legal Notice<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 24px;'>"
+about:
+  template: trestles
+  image: image1.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/gateau_thecongolesecat/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+---
+
+ODEKA is a ________ nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number ________, with its principal office located at:
+
+ODEKA A.S.B.L 6, avenue du Commerce<br>
+L/AZDA (Cinquantenaire)<br>
+Q/TSHINSAMBI C/KANANGA<br>
+KASAÏ CENTRAL, RDC.<br>
+
+ODEKA’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.
+
+This website is published and maintained by ODEKA. Unless otherwise stated, all content on this site is the property of ODEKA and may not be reproduced without prior written permission.

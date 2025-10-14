@@ -15,8 +15,12 @@ website:
         text: Projects
       - href: 04_news/index.qmd
         text: News
-      - href: 05_contacts/contacts.qmd
-        text: Contacts 
+      - href: 05_jobs/index.qmd
+        text: Jobs
+      - href: 06_contacts/contacts.qmd
+        text: Contacts
+      - href: 07_legal_notice/legal_notice.qmd
+        text: Legal Notice 
 
 format:
   html:
