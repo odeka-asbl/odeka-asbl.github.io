@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "<img src='odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>",
     "section": "",
-    "text": "Blabla.\nBla bla\nBla bla"
+    "text": "Blabla.\nBla bla"
   },
   {
     "objectID": "people.html",
@@ -235,7 +235,7 @@
     "href": "01_about/about.html#blabla-1",
     "title": "About us",
     "section": "Blabla",
-    "text": "Blabla\nBlabla"
+    "text": "Blabla\nBlabla\nBlabla\nBlabla"
   },
   {
     "objectID": "03_projects/paper-1.html",
@@ -340,7 +340,7 @@
     "href": "02_people/people.html#executive-board",
     "title": "People",
     "section": "Executive Board",
-    "text": "Executive Board\n\nJon\n\n\nEtc.\nBlabla"
+    "text": "Executive Board\n\nJon Weigel\n\n\nJames Robinson\n\n\nNathan Nunn\n\n\nEtc.\nBlabla"
   },
   {
     "objectID": "02_people/people.html#platform-executives",
