@@ -16,3 +16,37 @@ h1.title,
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;       /* optional – adjust to your taste */
   font-size: 1.0rem;      /* optional – adjust size of links */
+}
+
+:root {
+  --nav-offset: 61px;           /* adjust to your navbar height */
+  --line-thickness: 6px;        /* thickness of each line */
+  --line-top-1: #f4dc85;        /* first top line color */
+  --line-top-2: #a12116;        /* second top line color */
+  --line-left-1: #f4dc85;       /* first left line color */
+  --line-left-2: #a12116;       /* second left line color */
+}
+
+html, body {
+  background-color: #ffffff !important; /* force pure white everywhere */
+}
+
+body {
+  background:
+    /* top line 1 */
+    linear-gradient(var(--line-top-1), var(--line-top-1)) 
+      0 var(--nav-offset) / 100% var(--line-thickness) no-repeat,
+
+    /* left line 1 */
+    linear-gradient(var(--line-left-1), var(--line-left-1)) 
+      0 var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat,
+
+    /* top line 2 - sits just below line 1 */
+    linear-gradient(var(--line-top-2), var(--line-top-2)) 
+      0 calc(var(--nav-offset) + var(--line-thickness)) / 100% var(--line-thickness) no-repeat,
+
+    /* left line 2 - sits just right of line 1 */
+    linear-gradient(var(--line-left-2), var(--line-left-2)) 
+      var(--line-thickness) var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat;
+
+    }
