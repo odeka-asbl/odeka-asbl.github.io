@@ -1,5 +1,5 @@
 ---
-title: "People<br><img src='odeka_logo_bw.png' style='height: 15px;margin-left: 33px;'>"
+title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 12px;'>People<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
 about:
   template: solana
   image: image.jpg
