@@ -1,5 +1,5 @@
 ---
-title: "News<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
+title: "News<br><img src='odeka_logo_bw.png' style='height: 15px;margin-left: 25px;'>"
 listing:
   type: default
   contents:

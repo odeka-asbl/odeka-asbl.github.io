@@ -1,5 +1,5 @@
 ---
-title: "About us<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
+title: "About us<br><img src='odeka_logo_bw.png' style='height: 15px;margin-left: 50px;'>"
 about:
   template: broadside
   image: image.jpg
