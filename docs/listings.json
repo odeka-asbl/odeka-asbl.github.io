@@ -5,5 +5,33 @@
       "/research/paper-1.html",
       "/research/project-1.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/paper-1.html",
+      "/projects/project-1.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/news-1.html",
+      "/news/news-2.html"
+    ]
+  },
+  {
+    "listing": "/03_projects/index.html",
+    "items": [
+      "/03_projects/paper-1.html",
+      "/03_projects/project-1.html"
+    ]
+  },
+  {
+    "listing": "/04_news/index.html",
+    "items": [
+      "/04_news/news-1.html",
+      "/04_news/news-2.html"
+    ]
   }
 ]

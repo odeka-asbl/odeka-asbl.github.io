@@ -1,0 +1,7 @@
+---
+title: "News<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
+listing:
+  type: default
+  contents:
+    - "*.qmd"
+---

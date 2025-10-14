@@ -1,9 +1,0 @@
----
-title: "News"
-listing:
-  type: default
-  contents:
-    - "*.qmd"
----
-
-Our news feed.

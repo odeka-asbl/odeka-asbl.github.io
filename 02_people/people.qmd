@@ -1,0 +1,16 @@
+---
+title: "People<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
+about:
+  template: solana
+  image: image.jpg
+---
+
+BLabla.
+
+## Blabla
+
+Blabla
+
+## Blabla
+
+Blabla

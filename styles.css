@@ -1,1 +1,19 @@
 /* css styles */
+
+/* === Page titles === */
+.quarto-title h1.title,
+h1.title,
+.title-block h1.title {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;       /* makes the title bold */
+  font-size: 1.3rem;      /* adjust size of the titles */
+}
+
+/* === Navbar links === */
+.navbar-nav .nav-link,
+.navbar-brand,
+.navbar-nav li a {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;       /* optional – adjust to your taste */
+  font-size: 1.0rem;      /* optional – adjust size of links */
+

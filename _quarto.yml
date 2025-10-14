@@ -3,19 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Home"
-  favicon: logo.png
+  title: "<img src='odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>"
+  favicon: odeka_logo.png
   navbar:
     left:
-      - href: about.qmd
+      - href: 01_about/about.qmd
         text: About
-      - href: people.qmd
+      - href: 02_people/people.qmd
         text: People
-      - href: projects/index.qmd
+      - href: 03_projects/index.qmd
         text: Projects
-      - href: news/index.qmd
+      - href: 04_news/index.qmd
         text: News
-      - href: contacts.qmd
+      - href: 05_contacts/contacts.qmd
         text: Contacts 
 
 format:

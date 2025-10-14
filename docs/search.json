@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Simone",
+    "title": "ODEKA A.S.B.L",
     "section": "",
-    "text": "A longer paragraph about me and my interests and anything else I like to do."
+    "text": "BLabla."
   },
   {
     "objectID": "about.html#education",
@@ -44,8 +44,253 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Simone",
+    "title": "<img src='odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>",
     "section": "",
-    "text": "I am a Ph.D. student in upside-down studies at Sunspot University.\nMost of my current research is driven by trying to find an answer to the age-old question of “How cute am I?”\nPlease feel free to get in touch!"
+    "text": "Blabla.\nBla bla\nBla bla"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "ODEKA A.S.B.L",
+    "section": "",
+    "text": "BLabla."
+  },
+  {
+    "objectID": "people.html#education",
+    "href": "people.html#education",
+    "title": "Simone",
+    "section": "Education",
+    "text": "Education\nWhere I studied"
+  },
+  {
+    "objectID": "people.html#experience",
+    "href": "people.html#experience",
+    "title": "Simone",
+    "section": "Experience",
+    "text": "Experience\nWhat I’ve done"
+  },
+  {
+    "objectID": "news/project-1.html",
+    "href": "news/project-1.html",
+    "title": "My First Project",
+    "section": "",
+    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "ODEKA A.S.B.L",
+    "section": "",
+    "text": "BLabla."
+  },
+  {
+    "objectID": "contacts.html#education",
+    "href": "contacts.html#education",
+    "title": "Simone",
+    "section": "Education",
+    "text": "Education\nWhere I studied"
+  },
+  {
+    "objectID": "contacts.html#experience",
+    "href": "contacts.html#experience",
+    "title": "Simone",
+    "section": "Experience",
+    "text": "Experience\nWhat I’ve done"
+  },
+  {
+    "objectID": "projects/project-1.html",
+    "href": "projects/project-1.html",
+    "title": "First Project",
+    "section": "",
+    "text": "Blabla.\nBlabla."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "First Paper\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJohn , Jim , Nathan\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Project\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nJohn\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/paper-1.html",
+    "href": "projects/paper-1.html",
+    "title": "First Paper",
+    "section": "",
+    "text": "Blabla.\nBlabla."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "News 1\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/paper-1.html",
+    "href": "news/paper-1.html",
+    "title": "My First Paper",
+    "section": "",
+    "text": "A description of my paper.\nCould include a photo, or links, or anything at all!"
+  },
+  {
+    "objectID": "about.html#blabla",
+    "href": "about.html#blabla",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "about.html#blabla-1",
+    "href": "about.html#blabla-1",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "contacts.html#blabla",
+    "href": "contacts.html#blabla",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "contacts.html#blabla-1",
+    "href": "contacts.html#blabla-1",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "people.html#blabla",
+    "href": "people.html#blabla",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "people.html#blabla-1",
+    "href": "people.html#blabla-1",
+    "title": "ODEKA A.S.B.L",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "news/news-1.html",
+    "href": "news/news-1.html",
+    "title": "News 1",
+    "section": "",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "news/news-2.html",
+    "href": "news/news-2.html",
+    "title": "News 2",
+    "section": "",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "02_people/people.html",
+    "href": "02_people/people.html",
+    "title": "People",
+    "section": "",
+    "text": "BLabla."
+  },
+  {
+    "objectID": "02_people/people.html#blabla",
+    "href": "02_people/people.html#blabla",
+    "title": "People",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "02_people/people.html#blabla-1",
+    "href": "02_people/people.html#blabla-1",
+    "title": "People",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "04_news/news-2.html",
+    "href": "04_news/news-2.html",
+    "title": "News 2",
+    "section": "",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "01_about/about.html",
+    "href": "01_about/about.html",
+    "title": "About us",
+    "section": "",
+    "text": "BLabla."
+  },
+  {
+    "objectID": "01_about/about.html#blabla",
+    "href": "01_about/about.html#blabla",
+    "title": "About us",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "01_about/about.html#blabla-1",
+    "href": "01_about/about.html#blabla-1",
+    "title": "About us",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "03_projects/paper-1.html",
+    "href": "03_projects/paper-1.html",
+    "title": "First Paper",
+    "section": "",
+    "text": "Blabla.\nBlabla."
+  },
+  {
+    "objectID": "03_projects/index.html",
+    "href": "03_projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "First Paper\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJohn , Jim , Nathan\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Project\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nJohn\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "03_projects/project-1.html",
+    "href": "03_projects/project-1.html",
+    "title": "First Project",
+    "section": "",
+    "text": "Blabla.\nBlabla."
+  },
+  {
+    "objectID": "05_contacts/contacts.html",
+    "href": "05_contacts/contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "BLabla."
+  },
+  {
+    "objectID": "05_contacts/contacts.html#blabla",
+    "href": "05_contacts/contacts.html#blabla",
+    "title": "Contacts",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "05_contacts/contacts.html#blabla-1",
+    "href": "05_contacts/contacts.html#blabla-1",
+    "title": "Contacts",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "04_news/news-1.html",
+    "href": "04_news/news-1.html",
+    "title": "News 1",
+    "section": "",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "04_news/index.html",
+    "href": "04_news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "News 1\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,0 +1,26 @@
+---
+title: "Contacts<br><img src='odeka_logo_bw.png' style='height: 15px;'>"
+about:
+  template: trestles
+  image: image.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/gateau_thecongolesecat/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+---
+
+BLabla.
+
+## Blabla
+
+Blabla
+
+## Blabla
+
+Blabla
