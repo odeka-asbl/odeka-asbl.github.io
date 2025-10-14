@@ -8,7 +8,7 @@ website:
   navbar:
     left:
       - href: 01_about/about.qmd
-        text: About
+        text: About us
       - href: 02_people/people.qmd
         text: People
       - href: 03_projects/index.qmd
