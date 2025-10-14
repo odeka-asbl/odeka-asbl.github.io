@@ -200,7 +200,7 @@
     "href": "02_people/people.html#blabla",
     "title": "People",
     "section": "Blabla",
-    "text": "Blabla\nBlabla"
+    "text": "Blabla\n\nBlabla\nBlabla"
   },
   {
     "objectID": "02_people/people.html#blabla-1",
@@ -327,5 +327,47 @@
     "title": "Contacts",
     "section": "",
     "text": "6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC"
+  },
+  {
+    "objectID": "02_people/people.html#blabla-2",
+    "href": "02_people/people.html#blabla-2",
+    "title": "People",
+    "section": "Blabla",
+    "text": "Blabla\nBlabla"
+  },
+  {
+    "objectID": "02_people/people.html#executive-board",
+    "href": "02_people/people.html#executive-board",
+    "title": "People",
+    "section": "Executive Board",
+    "text": "Executive Board\n\nJon\n\n\nEtc.\nBlabla"
+  },
+  {
+    "objectID": "02_people/people.html#platform-executives",
+    "href": "02_people/people.html#platform-executives",
+    "title": "People",
+    "section": "Platform Executives",
+    "text": "Platform Executives\n\nPredoc\n\n\nElie"
+  },
+  {
+    "objectID": "02_people/people.html#team-managers",
+    "href": "02_people/people.html#team-managers",
+    "title": "People",
+    "section": "Team Managers",
+    "text": "Team Managers\n\nJean Freddy"
+  },
+  {
+    "objectID": "02_people/people.html#interns",
+    "href": "02_people/people.html#interns",
+    "title": "People",
+    "section": "Interns",
+    "text": "Interns\n\nCoucou"
+  },
+  {
+    "objectID": "02_people/people.html#field-executives-alumni",
+    "href": "02_people/people.html#field-executives-alumni",
+    "title": "People",
+    "section": "Field Executives Alumni",
+    "text": "Field Executives Alumni"
   }
 ]

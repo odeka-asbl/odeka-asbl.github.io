@@ -1,4 +1,5 @@
 ---
+toc-depth: 2
 title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 12px;'>People<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
 about:
   template: solana
@@ -7,10 +8,26 @@ about:
 
 BLabla.
 
-## Blabla
+## Executive Board
+
+### Jon
+
+### Etc.
 
 Blabla
 
-## Blabla
+## Platform Executives
 
-Blabla
+### Predoc
+
+### Elie
+
+## Team Managers
+
+### Jean Freddy
+
+## Interns
+
+### Coucou
+
+## Field Executives Alumni

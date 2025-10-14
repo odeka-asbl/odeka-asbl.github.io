@@ -1,4 +1,5 @@
 ---
+toc: false
 title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 12px;'>About us<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 12px;'>"
 about:
   template: broadside
