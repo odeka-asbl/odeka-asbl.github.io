@@ -20,7 +20,7 @@ h1.title,
 
 :root {
   --nav-offset: 61px;           /* adjust to your navbar height */
-  --line-thickness: 6px;        /* thickness of each line */
+  --line-thickness: 7px;        /* thickness of each line */
   --line-top-1: rgb(254, 254, 165);        /* first top line color */
   --line-top-2: rgb(178, 49, 40);        /* second top line color */
   --line-left-1: rgb(254, 254, 165);       /* first left line color */

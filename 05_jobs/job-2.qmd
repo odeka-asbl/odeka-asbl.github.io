@@ -1,8 +1,8 @@
 ---
-title: "Job 2"
+title: "Research Intern"
 author: 
-  - Intern
-date: "January 01, 2024"
+  - Jon Weigel, UC Berkeley
+date: "September 01, 2025"
 ---
 
 Blabla

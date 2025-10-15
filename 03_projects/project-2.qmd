@@ -5,9 +5,9 @@ author:
   - James Robinson
   - Jon Weigel
 date: "2022-ongoing"
+image: images/project2.jpg
 about:
   template: solana
-  image: images/project2.jpg
 ---
 
-Page in construction.
+Page under construction.

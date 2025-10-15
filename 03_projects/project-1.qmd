@@ -8,10 +8,10 @@ author:
   - Clara Sievert
   - Marina NGoma
 date: "2020-2023"
+image: images/project1.jpg
 about:
   template: solana
-  image: images/project1.jpg
 ---
 
-Page in construction.
+Page under construction.
 

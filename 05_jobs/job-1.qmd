@@ -1,10 +1,8 @@
 ---
-title: "Job 1"
+title: "Predoctoral Research Associate"
 author: 
-  - Predoc
-date: "January 01, 2024"
+  - Jon Weigel, UC Berkeley"
+date: "September 01, 2025"
 ---
 
-Blabla
-
-Blabla
+Under construction
