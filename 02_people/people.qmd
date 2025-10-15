@@ -3,36 +3,283 @@ toc-depth: 2
 title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 24px; margin-left: 70px;'>People<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 24px;'>"
 about:
   template: solana
+
 ---
+# Executive Board
 
-BLabla.
+<div style="clear: both;"></div>
 
-## Executive Board
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/weigel.jpg" alt="Jon Weigel" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
 
-### Jon Weigel
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Jon Weigel
+</div>
 
-### James Robinson
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Chief Executive & Chair
+</div>
 
-### Nathan Nunn
+<p>Jon.
 
-### Etc.
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://haas.berkeley.edu/faculty/jonathan-weigel/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  UC Berkeley Profile
+</a>
+</div>
 
-Blabla
+<div style="clear: both;"></div>
 
-## Field Executives
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/robinson.jpeg" alt="James Robinson" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
 
-### Predoc
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  James Robinson
+</div>
 
-### Elie
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Board Member
+</div>
 
-## Team Managers
+<p>James.
 
-### Jean Freddy
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://harris.uchicago.edu/directory/james-robinson" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  UChicago Profile
+</a>
+</div>
 
-## Interns
+<div style="clear: both;"></div>
 
-### Laure
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/nunn.jpeg" alt="Nathan Nunn" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
 
-## Past Field Executives
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Nathan Nunn
+</div>
 
-### Arthur
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Board Member
+</div>
+
+<p>Nathan.
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://nathannunn.arts.ubc.ca" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  UBC Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/bergeron.jpeg" alt="Augustin Bergeron" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Augustin Bergeron
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Board Member
+</div>
+
+<p>Augustin.
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.economics.harvard.edu/people/augustin-bergeron" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  Harvard Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/tourek.jpeg" alt="Gabriel Tourek" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Gabriel Tourek
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Board Member
+</div>
+
+<p>Gabriel.
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://economics.ucdavis.edu/people/gabriel-tourek" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  UC Davis Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+# Country Directors
+
+# Senior Management
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/kabue.jpg" alt="Elie Kabue NGindu" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Elie Kabue NGindu
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Head of Personnel
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/kabasulela.jpg" alt="Jean-Freddy Kabasulela" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Jean-Freddy Kabasulela
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Head of HR & External Relations
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/fiston.jpg" alt="Raphaël Fiston Mukendi" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Raphaël Fiston Mukendi
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Deputy Head of HR & External Relations
+</div>
+
+<div style="clear: both;"></div>
+
+# Interns
+
+# Past Country Directors
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/bellot.jpeg" alt="Manon Bellot Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Manon Bellot
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Country Director, 2023-2024
+</div>
+
+<p>**Placement:** Consultant, World Bank<br>
+**Previous occupation:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/manon-bellot-409b08204/?locale=en_US" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/benabid.jpeg" alt="Robin Benabid Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Robin Benabid Jegaden
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Country Director, 2022-2023
+</div>
+
+<p>**Placement:** Research Engineer in Economics, CNRS<br>
+**Previous occupation:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/robin-benabid-jegaden-630446157/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/foutelet.jpg" alt="Adrien Foutelet" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Adrien Foutelet
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Country Director, 2021-2022
+</div>
+
+<p>**Placement:** PhD in Economics, Brown University<br>
+**Previous occupation:** MSc Analysis and Policy in Economics, ENS Lyon
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/adrien-foutelet-110b37168/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/cote.jpg" alt="Jean-François Coté" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Jean-François Coté
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Country Director, 2020-2021
+</div>
+
+<p>**Placement:** Consultant, CPCS<br>
+**Previous occupation:** Economist, Treasury Board of Canada
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/jf-côté/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/laroche.jpg" alt="Arthur Laroche" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Arthur Laroche
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Country Director, 2019-2020
+</div>
+
+<p>**Placement:** PhD in Economics, UCL<br>
+**Previous occupation:** MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/arthur-laroche-294774133/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>

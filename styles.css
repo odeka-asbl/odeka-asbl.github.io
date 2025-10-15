@@ -21,10 +21,10 @@ h1.title,
 :root {
   --nav-offset: 61px;           /* adjust to your navbar height */
   --line-thickness: 6px;        /* thickness of each line */
-  --line-top-1: #f4dc85;        /* first top line color */
-  --line-top-2: #a12116;        /* second top line color */
-  --line-left-1: #f4dc85;       /* first left line color */
-  --line-left-2: #a12116;       /* second left line color */
+  --line-top-1: rgb(254, 254, 165);        /* first top line color */
+  --line-top-2: rgb(178, 49, 40);        /* second top line color */
+  --line-left-1: rgb(254, 254, 165);       /* first left line color */
+  --line-left-2: rgb(178, 49, 40);       /* second left line color */
 }
 
 html, body {
@@ -50,3 +50,13 @@ body {
       var(--line-thickness) var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat;
 
     }
+
+/* Move Broadside hero image down on this page only */
+body#about .quarto-about-broadside .about-image img {
+  transform: translateY(100px) !important; /* adjust 40px as needed */
+}
+
+/* Also create real spacing so content doesn't overlap */
+body#about .quarto-about-broadside .about-image {
+  margin-top: 100px !important; /* or padding-top: 40px !important; */
+}

@@ -193,7 +193,7 @@
     "href": "02_people/people.html",
     "title": "People",
     "section": "",
-    "text": "BLabla."
+    "text": "Executive Board\n\n\n\n\n\n\nJon Weigel\n\n\nChief Executive & Chair\n\n\nJon.\n\n UC Berkeley Profile \n\n\n\n\n\n\n\nJames Robinson\n\n\nBoard Member\n\n\nJames.\n\n UChicago Profile \n\n\n\n\n\n\n\nNathan Nunn\n\n\nBoard Member\n\n\nNathan.\n\n UBC Profile \n\n\n\n\n\n\n\nAugustin Bergeron\n\n\nBoard Member\n\n\nAugustin.\n\n Harvard Profile \n\n\n\n\n\n\n\nGabriel Tourek\n\n\nBoard Member\n\n\nGabriel.\n\n UC Davis Profile \n\n\n\n\n\nCountry Directors\n\n\nSenior Management\n\n\n\n\nElie Kabue NGindu\n\n\nHead of Personnel\n\n\n\n\n\n\n\nJean-Freddy Kabasulela\n\n\nHead of HR & External Relations\n\n\n\n\n\n\n\nRaphaël Fiston Mukendi\n\n\nDeputy Head of HR & External Relations\n\n\n\n\n\nInterns\n\n\nPast Country Directors\n\n\n\n\nManon Bellot\n\n\nCountry Director, 2023-2024\n\n\nPlacement: Consultant, World Bank Previous occupation: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\nRobin Benabid Jegaden\n\n\nCountry Director, 2022-2023\n\n\nPlacement: Research Engineer in Economics, CNRS Previous occupation: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\nAdrien Foutelet\n\n\nCountry Director, 2021-2022\n\n\nPlacement: PhD in Economics, Brown University Previous occupation: MSc Analysis and Policy in Economics, ENS Lyon\n\n LinkedIn Profile \n\n\n\n\n\n\n\nJean-François Coté\n\n\nCountry Director, 2020-2021\n\n\nPlacement: Consultant, CPCS Previous occupation: Economist, Treasury Board of Canada\n\n LinkedIn Profile \n\n\n\n\n\n\n\nArthur Laroche\n\n\nCountry Director, 2019-2020\n\n\nPlacement: PhD in Economics, UCL Previous occupation: MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées\n\n LinkedIn Profile"
   },
   {
     "objectID": "02_people/people.html#blabla",
@@ -340,7 +340,7 @@
     "href": "02_people/people.html#executive-board",
     "title": "People",
     "section": "Executive Board",
-    "text": "Executive Board\n\nJon Weigel\n\n\nJames Robinson\n\n\nNathan Nunn\n\n\nEtc.\nBlabla"
+    "text": "Executive Board\n\n\n\n\nJon Weigel\n\n\nChief Executive\n\n\nJohn oversees the implementation of ODEKA’s community programs in Kananga.\n\n\n&lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\" style=\"color: #0077b5; text-decoration: none; font-weight: 600;\"&gt;\n  LinkedIn Profile\n&lt;/a&gt;\n\n\n\n\n\n\n&lt;div class=\"name\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div class=\"title\"&gt;Chief Executive&lt;/div&gt;\n&lt;div class=\"description\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div class=\"linkedin\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\"&gt;LinkedIn&lt;/a&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "02_people/people.html#platform-executives",
@@ -439,5 +439,12 @@
     "title": "People",
     "section": "Past Field Executives",
     "text": "Past Field Executives\n\nArthur"
+  },
+  {
+    "objectID": "02_people/people.html#jon-weigel",
+    "href": "02_people/people.html#jon-weigel",
+    "title": "People",
+    "section": "Jon Weigel",
+    "text": "Jon Weigel\nChief Executive John oversees the implementation of ODEKA’s community programs in Kananga. He works closely with local communities and international partners to coordinate all field operations.\nHis work has significantly improved the reach and efficiency of ODEKA’s educational and health initiatives across the Kasai region.\nThis paragraph will continue to flow around the image to the right, wrapping naturally while the image stays on the left.\n\n\n\n&lt;div style=\"font-weight:800; font-size:1.6rem; margin-bottom:6px;\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div style=\"font-style:italic; color:#555; margin-bottom:10px;\"&gt;Chief Executive&lt;/div&gt;\n&lt;div style=\"font-size:1rem; color:#333; margin-bottom:12px; line-height:1.5;\n            white-space:normal; overflow-wrap:anywhere; word-break:break-word;\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\"\n     target=\"_blank\" style=\"color:#0077b5; text-decoration:none; font-weight:600;\"&gt;\n    LinkedIn Profile\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n\n\n\n&lt;div class=\"name\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div class=\"title\"&gt;Chief Executive&lt;/div&gt;\n&lt;div class=\"description\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div class=\"linkedin\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\"&gt;LinkedIn&lt;/a&gt;\n&lt;/div&gt;"
   }
 ]
