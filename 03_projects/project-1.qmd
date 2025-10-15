@@ -1,9 +1,17 @@
 ---
-title: "First Project"
-author: John
-date: "February 28, 2024"
+toc: false
+title: "Religion & Development"
+author: 
+  - Nathan Nunn
+  - Jon Weigel
+  - Augustin Bergeron
+  - Clara Sievert
+  - Marina NGoma
+date: "2020-2023"
+about:
+  template: solana
+  image: images/project1.jpg
 ---
 
-Blabla.
+Page in construction.
 
-Blabla.

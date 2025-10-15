@@ -1,0 +1,13 @@
+---
+toc: false
+title: "Legal Antecedents of Fiscal Capacity"
+author: 
+  - James Robinson
+  - Jon Weigel
+date: "2022-ongoing"
+about:
+  template: solana
+  image: images/project2.jpg
+---
+
+Page in construction.
