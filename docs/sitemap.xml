@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
-    <lastmod>2025-10-16T05:50:53.644Z</lastmod>
+    <lastmod>2025-10-16T05:57:24.347Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
-    <lastmod>2025-10-16T00:21:58.838Z</lastmod>
+    <lastmod>2025-10-16T06:03:25.018Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/index.html</loc>
-    <lastmod>2025-10-16T05:52:20.450Z</lastmod>
+    <lastmod>2025-10-16T06:05:50.864Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
-    <lastmod>2025-10-16T03:33:50.837Z</lastmod>
+    <lastmod>2025-10-16T06:05:40.190Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/news20241014.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
-    <lastmod>2025-10-15T22:14:02.493Z</lastmod>
+    <lastmod>2025-10-16T05:56:47.694Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/03_projects/project-1.html</loc>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
-    <lastmod>2025-10-16T05:38:08.233Z</lastmod>
+    <lastmod>2025-10-16T06:04:09.366Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/05_jobs/job-2.html</loc>
@@ -54,22 +54,38 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
-    <lastmod>2025-10-14T13:48:31.496Z</lastmod>
+    <lastmod>2025-10-16T06:04:25.930Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/07_legal_notice/legal_notice.html</loc>
-    <lastmod>2025-10-16T03:32:08.292Z</lastmod>
+    <lastmod>2025-10-16T06:04:42.103Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20241014.html</loc>
-    <lastmod>2025-10-16T05:35:30.069Z</lastmod>
+    <lastmod>2025-10-16T06:01:23.487Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220718.html</loc>
-    <lastmod>2025-10-16T05:49:33.445Z</lastmod>
+    <lastmod>2025-10-16T06:01:08.886Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220912.html</loc>
-    <lastmod>2025-10-16T05:35:15.686Z</lastmod>
+    <lastmod>2025-10-16T06:01:16.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
+    <lastmod>2025-10-16T06:03:04.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/project-2.html</loc>
+    <lastmod>2025-10-16T06:01:49.617Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/project-1.html</loc>
+    <lastmod>2025-10-16T06:01:59.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-1.html</loc>
+    <lastmod>2025-10-16T06:02:57.973Z</lastmod>
   </url>
 </urlset>

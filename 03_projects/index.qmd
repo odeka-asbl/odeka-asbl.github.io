@@ -1,9 +1,9 @@
 ---
-title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 24px; margin-left: 70px;'>Projects<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 24px;'>"
+title: "Projects"
 listing:
   type: grid
   contents:
-    - "*.qmd"
+    - "posts/*.qmd"
   sort: "date desc"
   fields: [title, author, image]
 ---

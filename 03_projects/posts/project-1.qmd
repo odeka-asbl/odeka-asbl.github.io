@@ -9,11 +9,11 @@ author:
   - Marina NGoma
 date: 2020-01-01
 display date: "2020-2023"
-image: images/project1.jpg
+image: ../images/project1.jpg
 about:
   template: solana
 ---
-[← Back to Projects](../03_projects/index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to Projects](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
 Page under construction.
 

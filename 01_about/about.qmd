@@ -1,6 +1,6 @@
 ---
 toc: false
-title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 24px; margin-left: 70px;'>About us<img src='odeka_logo_bw.png' style='height: 15px; margin-left: 24px;'>"
+title: "About us"
 about:
   template: broadside
   image: image1.jpg
@@ -19,11 +19,11 @@ about:
 
 Under construction
 
-## In construction
+## Under construction
 
 Under construction
 
-## In construction
+## Under construction
 
 Under construction
 

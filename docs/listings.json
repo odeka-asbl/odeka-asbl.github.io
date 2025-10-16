@@ -23,8 +23,8 @@
   {
     "listing": "/03_projects/index.html",
     "items": [
-      "/03_projects/project-1.html",
-      "/03_projects/project-2.html"
+      "/03_projects/posts/project-1.html",
+      "/03_projects/posts/project-2.html"
     ]
   },
   {
@@ -38,8 +38,8 @@
   {
     "listing": "/05_jobs/index.html",
     "items": [
-      "/05_jobs/job-2.html",
-      "/05_jobs/job-1.html"
+      "/05_jobs/posts/job-2.html",
+      "/05_jobs/posts/job-1.html"
     ]
   },
   {
