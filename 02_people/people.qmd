@@ -331,4 +331,32 @@ Individuals who previously served as Director of Finance & Operations or Country
 
 # Past Senior Management
 
+Individuals who previously served in senior management roles, including Head of Human Resources, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager.<div style="clear: both;"></div>
+<br>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/reich.jpg" alt="Manon Bellot Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Dylan Reich
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Program Manager, 2022-2023
+</div>
+
+<p>**Next position:** Research Assistant, University of Oxford<br>
+**Previous position:** MSc Development Management, Applied Development Economics, LSE
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/dylan-reich-9709231a0/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+
+<div style="clear: both;"></div>
+<br>
+
 # Past Interns
+Individuals who previously served as interns.
