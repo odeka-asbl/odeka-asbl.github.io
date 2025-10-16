@@ -79,7 +79,7 @@ main.content { padding-top: 0 !important; margin-top: 0 !important; }
 
 .full-width-banner .hero-logo {
   position: absolute;
-  top: 15%;                     /* move slightly toward the top */
+  top: 10%;                     /* move slightly toward the top */
   left: 50%;
   transform: translateX(-50%);
   width: 40%;                   /* logo size; tweak 25–45% */
