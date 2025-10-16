@@ -48,9 +48,18 @@ body::before {
   pointer-events: none;
 }
 
-/* kill default top padding under fixed navbar */
+/* Default top spacing under the fixed navbar */
 body.nav-fixed .content,
-main.content { padding-top: 0 !important; margin-top: 0 !important; }
+main.content {
+  padding-top: var(--nav-offset);
+  margin-top: 0;
+}
+
+/* But remove it on pages with a hero banner (like home) */
+body.nav-fixed .content:has(.full-width-banner),
+main.content:has(.full-width-banner) {
+  padding-top: 0 !important;
+}
 
 /* full-bleed hero that ignores parent padding/width */
 .full-width-banner { margin: 0 !important; }
