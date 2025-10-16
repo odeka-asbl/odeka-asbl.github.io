@@ -1,6 +1,6 @@
 ---
 toc-depth: 2
-title: "People"
+title: "<img src='/odeka_logo_diamond.png' style='height: 80px; margin-right: 7px; margin-left: 0px;'><img src='/odeka_logo_left_bracket.png' style='height: 80px; margin-right: 7px; margin-left: 0px;'>People<img src='/odeka_logo_right_bracket.png' style='height: 80px; margin-right: 0px; margin-left: 0px;'><img src='/odeka_logo_diamond.png' style='height: 80px; margin-right: 0px; margin-left: 7px;'>"
 #about:
 #  template: solana
 ---
@@ -346,7 +346,7 @@ Individuals who previously served in senior management roles, including Head of 
   Program Manager, 2022-2023
 </div>
 
-<p>**Next position:** Research Assistant, University of Oxford<br>
+<p>**Next position:** Research Assistant, Oxford University<br>
 **Previous position:** MSc Development Management, Applied Development Economics, LSE
 
 <div style="margin-top: 0px;line-height: 0;">
@@ -356,7 +356,6 @@ Individuals who previously served in senior management roles, including Head of 
 </div>
 
 <div style="clear: both;"></div>
-<br>
 
 # Past Interns
 Individuals who previously served as interns.
