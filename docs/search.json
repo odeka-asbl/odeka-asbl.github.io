@@ -221,7 +221,7 @@
     "href": "01_about/about.html",
     "title": "About us",
     "section": "",
-    "text": "BLabla."
+    "text": "Under construction"
   },
   {
     "objectID": "01_about/about.html#blabla",
@@ -256,7 +256,7 @@
     "href": "03_projects/project-1.html",
     "title": "Religion & Development",
     "section": "",
-    "text": "Page under construction."
+    "text": "← Back to Projects\nPage under construction."
   },
   {
     "objectID": "05_contacts/contacts.html",
@@ -282,16 +282,16 @@
   {
     "objectID": "04_news/news-1.html",
     "href": "04_news/news-1.html",
-    "title": "News 1",
+    "title": "Visit of James Robinson and Jon Weigel to the field",
     "section": "",
-    "text": "Blabla\nBlabla"
+    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper."
   },
   {
     "objectID": "04_news/index.html",
     "href": "04_news/index.html",
     "title": "News",
     "section": "",
-    "text": "News 1\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
+    "text": "Visit of James Robinson and Jon Weigel to the field\n\n\n\n\n\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\n\n\n\n\n\nJan 1, 2024\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "05_contacts/contacts.html#headquarters",
@@ -417,21 +417,21 @@
     "href": "05_jobs/job-1.html",
     "title": "Predoctoral Research Associate",
     "section": "",
-    "text": "Under construction"
+    "text": "← Back to Jobs\nUnder construction"
   },
   {
     "objectID": "05_jobs/job-2.html",
     "href": "05_jobs/job-2.html",
     "title": "Research Intern",
     "section": "",
-    "text": "Under construction"
+    "text": "← Back to Jobs\nUnder construction"
   },
   {
     "objectID": "07_legal_notice/legal_notice.html",
     "href": "07_legal_notice/legal_notice.html",
     "title": "Legal Notice",
     "section": "",
-    "text": "ODEKA A.S.B.L is a ________ nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number ________, with its principal office located at:\nODEKA A.S.B.L 6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC.\nODEKA A.S.B.L’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.\nThis website is published and maintained by ODEKA A.S.B.L. Unless otherwise stated, all content on this site is the property of ODEKA A.S.B.L and may not be reproduced without prior written permission.\nCopyright © 2025 ODEKA A.S.B.L. All rights reserved."
+    "text": "ODEKA A.S.B.L is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA, with its principal office located at:\nODEKA A.S.B.L 6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC.\nODEKA A.S.B.L’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.\nThis website is published and maintained by ODEKA A.S.B.L. Unless otherwise stated, all content on this site is the property of ODEKA A.S.B.L and may not be reproduced without prior written permission.\nCopyright © 2025 ODEKA A.S.B.L. All rights reserved."
   },
   {
     "objectID": "02_people/people.html#past-field-executives",
@@ -452,6 +452,20 @@
     "href": "03_projects/project-2.html",
     "title": "Legal Antecedents of Fiscal Capacity",
     "section": "",
-    "text": "Page under construction."
+    "text": "← Back to Projects\nPage under construction."
+  },
+  {
+    "objectID": "01_about/about.html#in-construction",
+    "href": "01_about/about.html#in-construction",
+    "title": "About us",
+    "section": "In construction",
+    "text": "In construction\nUnder construction"
+  },
+  {
+    "objectID": "01_about/about.html#in-construction-1",
+    "href": "01_about/about.html#in-construction-1",
+    "title": "About us",
+    "section": "In construction",
+    "text": "In construction\nUnder construction\nUnder construction\nUnder construction"
   }
 ]

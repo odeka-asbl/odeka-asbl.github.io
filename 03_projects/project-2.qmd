@@ -9,5 +9,6 @@ image: images/project2.jpg
 about:
   template: solana
 ---
+[← Back to Projects](../03_projects/index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;"}
 
 Page under construction.

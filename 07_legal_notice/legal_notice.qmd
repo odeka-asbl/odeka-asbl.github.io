@@ -16,9 +16,10 @@ about:
       href: https://linkedin.com
 ---
 
-ODEKA A.S.B.L is a ________ nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number ________, with its principal office located at:
+ODEKA A.S.B.L is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA, with its principal office located at:
 
-ODEKA A.S.B.L 6, avenue du Commerce<br>
+**ODEKA A.S.B.L**<br>
+6, avenue du Commerce<br>
 L/AZDA (Cinquantenaire)<br>
 Q/TSHINSAMBI C/KANANGA<br>
 KASAÏ CENTRAL, RDC.<br>
@@ -27,4 +28,4 @@ ODEKA A.S.B.L’s mission is to support evidence-based development initiatives i
 
 This website is published and maintained by ODEKA A.S.B.L. Unless otherwise stated, all content on this site is the property of ODEKA A.S.B.L and may not be reproduced without prior written permission.
 
-Copyright © 2025 ODEKA A.S.B.L. All rights reserved.
+**Copyright © 2025 ODEKA A.S.B.L. All rights reserved.**
