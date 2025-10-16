@@ -1,9 +1,8 @@
 ---
 toc-depth: 2
 title: "People"
-about:
-  template: solana
-
+#about:
+#  template: solana
 ---
 # Executive Board
 

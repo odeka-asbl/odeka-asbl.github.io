@@ -4,16 +4,6 @@ title: "Legal Notice"
 about:
   template: trestles
   image: image1.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/gateau_thecongolesecat/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
 ---
 
 ODEKA A.S.B.L is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA, with its principal office located at:
