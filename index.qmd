@@ -44,8 +44,8 @@ Under construction
   margin: 40px 0 20px 0;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
-  margin-left: 25px;   /* shift the whole section to the right */
-  margin-right: 11px;  
+  margin-left: 35px;   /* shift the whole section to the right */
+  margin-right: 21px;  
 ">
   <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
     Latest News
@@ -54,7 +54,7 @@ Under construction
     View all news →
   </a>
 </div>
-<div style="margin-left: 25px; margin-right: 11px;">
+<div style="margin-left: 35px; margin-right: 21px;">
 :::{#news_carousel}
 :::
 </div>
@@ -64,4 +64,4 @@ Under construction
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
-
+**Copyright © 2025 ODEKA A.S.B.L. All rights reserved.**
