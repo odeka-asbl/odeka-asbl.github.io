@@ -2,9 +2,9 @@
 title: "Visit of James Robinson and Jon Weigel to the field"
 author: 
   - Adrien Foutelet
-date: "September 12, 2022"
+date: "July 18, 2022"
 description: "End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L."
-image: images/news20220912.jpg
+image: ../images/news20220718.jpg
 
 about:
   template: marquee
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../04_news/index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;"}
+[← Back to News](../04_news/index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
 **End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.**
 

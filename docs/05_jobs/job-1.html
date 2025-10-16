@@ -167,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../05_jobs/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;">← Back to Jobs</a></p>
+<p><a href="../05_jobs/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to Jobs</a></p>
 <p>Under construction</p>
 
 
@@ -254,7 +254,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/odeka-asbl\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

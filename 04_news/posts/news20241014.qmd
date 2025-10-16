@@ -1,0 +1,29 @@
+---
+title: "James Robinson laureate of the 2024 Nobel Prize in Economics"
+author: 
+  - Adrien Foutelet
+date: "October 14, 2024"
+description: "End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L."
+image: ../images/news20241014.jpg
+
+about:
+  template: marquee
+---
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+
+[← Back to News](../04_news/index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+
+**End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.**
+
+ODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.
+
+The visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.
+

@@ -8,4 +8,6 @@ listing:
   contents:
     - "*.qmd"
   sort: "date desc"
+  fields: [title, date, author]
+
 ---

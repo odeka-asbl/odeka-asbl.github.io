@@ -10,11 +10,11 @@
 <atom:link href="https://odeka-asbl.github.io/04_news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Latest updates and announcements from ODEKA A.S.B.L.</description>
 <generator>quarto-1.4.551</generator>
-<lastBuildDate>Mon, 12 Sep 2022 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Oct 2024 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Visit of James Robinson and Jon Weigel to the field</title>
+  <title>James Robinson laureate of the 2024 Nobel Prize in Economics</title>
   <dc:creator>Adrien Foutelet</dc:creator>
-  <link>https://odeka-asbl.github.io/04_news/news20220912.html</link>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20241014.html</link>
   <description><![CDATA[ 
 <style>
 /* Hide the visible description under the title block on THIS page */
@@ -25,21 +25,46 @@ p.description {
   display: none !important;
 }
 </style>
-<p><a href="../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;">← Back to News</a></p>
+<p><a href="../04_news/index.qmd" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
 <p><strong>End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.</strong></p>
 <p>ODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.</p>
 <p>The visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.</p>
 
 
  ]]></description>
-  <guid>https://odeka-asbl.github.io/04_news/news20220912.html</guid>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20241014.html</guid>
+  <pubDate>Mon, 14 Oct 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://odeka-asbl.github.io/04_news/images/news20241014.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Visit of James Robinson and Jon Weigel to the field</title>
+  <dc:creator>Adrien Foutelet</dc:creator>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20220912.html</link>
+  <description><![CDATA[ 
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+<p><a href="../04_news/index.qmd" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
+<p><strong>End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.</strong></p>
+<p>ODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.</p>
+<p>The visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.</p>
+
+
+ ]]></description>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20220912.html</guid>
   <pubDate>Mon, 12 Sep 2022 04:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220912.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Visit of James Robinson and Jon Weigel to the field</title>
   <dc:creator>Adrien Foutelet</dc:creator>
-  <link>https://odeka-asbl.github.io/04_news/news20220718.html</link>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20220718.html</link>
   <description><![CDATA[ 
 <style>
 /* Hide the visible description under the title block on THIS page */
@@ -50,14 +75,14 @@ p.description {
   display: none !important;
 }
 </style>
-<p><a href="../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;">← Back to News</a></p>
+<p><a href="../04_news/index.qmd" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
 <p><strong>End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.</strong></p>
 <p>ODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.</p>
 <p>The visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.</p>
 
 
  ]]></description>
-  <guid>https://odeka-asbl.github.io/04_news/news20220718.html</guid>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20220718.html</guid>
   <pubDate>Mon, 18 Jul 2022 04:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220718.jpg" medium="image" type="image/jpeg"/>
 </item>

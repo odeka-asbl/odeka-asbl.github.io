@@ -170,7 +170,7 @@ p.description {
   display: none !important;
 }
 </style>
-<p><a href="../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#555;">← Back to News</a></p>
+<p><a href="../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
 <p><strong>End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.</strong></p>
 <p>ODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.</p>
 <p>The visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.</p>
@@ -254,7 +254,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/odeka-asbl\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
-    <lastmod>2025-10-16T04:49:22.600Z</lastmod>
+    <lastmod>2025-10-16T05:50:53.644Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
@@ -10,10 +10,66 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/index.html</loc>
-    <lastmod>2025-10-16T05:23:53.378Z</lastmod>
+    <lastmod>2025-10-16T05:52:20.450Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
     <lastmod>2025-10-16T03:33:50.837Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/news20241014.html</loc>
+    <lastmod>2025-10-16T05:35:30.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
+    <lastmod>2025-10-15T22:14:02.493Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/project-1.html</loc>
+    <lastmod>2025-10-16T05:36:38.638Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
+    <lastmod>2025-10-16T05:38:08.233Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/job-2.html</loc>
+    <lastmod>2025-10-16T05:34:47.946Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/job-1.html</loc>
+    <lastmod>2025-10-16T05:34:24.982Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/news20220718.html</loc>
+    <lastmod>2025-10-16T05:35:02.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/project-2.html</loc>
+    <lastmod>2025-10-16T05:36:51.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/news20220912.html</loc>
+    <lastmod>2025-10-16T05:35:15.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
+    <lastmod>2025-10-14T13:48:31.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/07_legal_notice/legal_notice.html</loc>
+    <lastmod>2025-10-16T03:32:08.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20241014.html</loc>
+    <lastmod>2025-10-16T05:35:30.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220718.html</loc>
+    <lastmod>2025-10-16T05:49:33.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220912.html</loc>
+    <lastmod>2025-10-16T05:35:15.686Z</lastmod>
   </url>
 </urlset>

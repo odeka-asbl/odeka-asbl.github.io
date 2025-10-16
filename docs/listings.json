@@ -30,8 +30,9 @@
   {
     "listing": "/04_news/index.html",
     "items": [
-      "/04_news/news20220912.html",
-      "/04_news/news20220718.html"
+      "/04_news/posts/news20241014.html",
+      "/04_news/posts/news20220912.html",
+      "/04_news/posts/news20220718.html"
     ]
   },
   {
@@ -44,9 +45,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/04_news/index.html",
-      "/04_news/news20220912.html",
-      "/04_news/news20220718.html"
+      "/04_news/posts/news20241014.html",
+      "/04_news/posts/news20220912.html",
+      "/04_news/posts/news20220718.html"
     ]
   }
 ]

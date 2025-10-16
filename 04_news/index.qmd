@@ -3,11 +3,13 @@ title: "<img src='odeka_logo_bw.png' style='height: 15px; margin-right: 24px; ma
 listing:
   type: default
   contents:
-    - "*.qmd"
+    - "posts/*.qmd"
   feed:
     title: "ODEKA A.S.B.L News"
     description: "Latest updates and announcements from ODEKA A.S.B.L."
   sort: "date desc"
 
 ---
-[Subscribe via RSS](news.xml)
+<a href="04_news/news.xml" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
+  ⟳ Subscribe via RSS
+</a>

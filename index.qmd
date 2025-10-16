@@ -17,7 +17,7 @@ listing:
   id: news_carousel
   type: grid
   contents:
-    - "04_news/*.qmd"
+    - "04_news/posts/*.qmd"
   max-items: 3
   sort: "date desc"
   fields: [title, date, image]
@@ -45,7 +45,7 @@ Under construction
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
   margin-left: 25px;   /* shift the whole section to the right */
-  margin-right: 25px;  
+  margin-right: 11px;  
 ">
   <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
     Latest News
@@ -54,7 +54,7 @@ Under construction
     View all news →
   </a>
 </div>
-<div style="margin-left: 25px; margin-right: 25px;">
+<div style="margin-left: 25px; margin-right: 11px;">
 :::{#news_carousel}
 :::
 </div>
