@@ -30,8 +30,8 @@
   {
     "listing": "/04_news/index.html",
     "items": [
-      "/04_news/news-1.html",
-      "/04_news/news-2.html"
+      "/04_news/news20220912.html",
+      "/04_news/news20220718.html"
     ]
   },
   {
@@ -39,6 +39,14 @@
     "items": [
       "/05_jobs/job-2.html",
       "/05_jobs/job-1.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/04_news/index.html",
+      "/04_news/news20220912.html",
+      "/04_news/news20220718.html"
     ]
   }
 ]

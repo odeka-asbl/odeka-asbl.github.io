@@ -4,6 +4,10 @@ listing:
   type: default
   contents:
     - "*.qmd"
+  feed:
+    title: "ODEKA A.S.B.L News"
+    description: "Latest updates and announcements from ODEKA A.S.B.L."
   sort: "date desc"
 
 ---
+[Subscribe via RSS](news.xml)

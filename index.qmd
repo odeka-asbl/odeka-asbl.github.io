@@ -13,6 +13,15 @@ about:
       href: https://linkedin.com
 
 page-layout: full
+listing:
+  id: news_carousel
+  type: grid
+  contents:
+    - "04_news/*.qmd"
+  max-items: 3
+  sort: "date desc"
+  fields: [title, date, image]
+
 ---
 
 <div class="full-width-banner">
@@ -28,6 +37,31 @@ Under construction
 
 Under construction
 
+<div style="
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 40px 0 20px 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 4px;
+  margin-left: 25px;   /* shift the whole section to the right */
+  margin-right: 25px;  
+">
+  <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
+    Latest News
+  </h2>
+  <a href="04_news/index.html" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
+    View all news →
+  </a>
+</div>
+<div style="margin-left: 25px; margin-right: 25px;">
+:::{#news_carousel}
+:::
+</div>
+
+Under construction
+
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
+
