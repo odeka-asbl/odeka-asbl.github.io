@@ -7,5 +7,5 @@ listing:
   type: default
   contents:
     - "*.qmd"
-  sort: "date"
+  sort: "date desc"
 ---

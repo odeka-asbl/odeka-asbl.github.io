@@ -34,7 +34,7 @@ html, body {
 body {
   background:
     /* top line 1 */
-    linear-gradient(var(--line-top-1), var(--line-top-1)) 
+    /*linear-gradient(var(--line-top-1), var(--line-top-1)) 
       0 var(--nav-offset) / 100% var(--line-thickness) no-repeat,
 
     /* left line 1 */
@@ -42,7 +42,7 @@ body {
       0 var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat,
 
     /* top line 2 - sits just below line 1 */
-    linear-gradient(var(--line-top-2), var(--line-top-2)) 
+    /*linear-gradient(var(--line-top-2), var(--line-top-2)) 
       0 calc(var(--nav-offset) + var(--line-thickness)) / 100% var(--line-thickness) no-repeat,
 
     /* left line 2 - sits just right of line 1 */
@@ -51,12 +51,23 @@ body {
 
     }
 
-/* Move Broadside hero image down on this page only */
-body#about .quarto-about-broadside .about-image img {
-  transform: translateY(100px) !important; /* adjust 40px as needed */
-}
 
-/* Also create real spacing so content doesn't overlap */
-body#about .quarto-about-broadside .about-image {
-  margin-top: 100px !important; /* or padding-top: 40px !important; */
+/* kill default top padding under fixed navbar */
+body.nav-fixed .content,
+main.content { padding-top: 0 !important; margin-top: 0 !important; }
+
+/* full-bleed hero that ignores parent padding/width */
+.full-width-banner { margin: 0 !important; }
+.full-width-banner img {
+  display: block;
+  width: 100vw;                 /* span the viewport */
+  height: 40vh;                 /* adjust (28–40vh) */
+  max-height: 550px;
+  object-fit: cover;
+  object-position: center;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);  /* center regardless of parent */
+  margin: 0; padding: 0;
 }

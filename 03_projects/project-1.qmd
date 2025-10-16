@@ -7,7 +7,8 @@ author:
   - Augustin Bergeron
   - Clara Sievert
   - Marina NGoma
-date: "2020-2023"
+date: 2020-01-01
+display date: "2020-2023"
 image: images/project1.jpg
 about:
   template: solana

@@ -4,4 +4,6 @@ listing:
   type: default
   contents:
     - "*.qmd"
+  sort: "date desc"
+
 ---

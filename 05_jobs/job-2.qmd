@@ -2,9 +2,7 @@
 title: "Research Intern"
 author: 
   - Jon Weigel, UC Berkeley
-date: "September 01, 2025"
+date: "September 02, 2025"
 ---
 
-Blabla
-
-Blabla
+Under construction

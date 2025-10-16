@@ -11,7 +11,14 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
+
+page-layout: full
 ---
+
+<div class="full-width-banner">
+  <img src="00_index/image4.JPG" alt="ODEKA banner">
+</div>
+
 
 <div class="about-inline-logo" style="margin-top: 0;margin-bottom: 50px;">
   <img src="00_index/image1.jpg" alt="ODEKA header" style="max-width: 600px; height: auto;">

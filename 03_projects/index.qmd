@@ -4,4 +4,6 @@ listing:
   type: grid
   contents:
     - "*.qmd"
+  sort: "date desc"
+  fields: [title, author, image]
 ---
