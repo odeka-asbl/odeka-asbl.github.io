@@ -16,13 +16,16 @@ page-layout: full
 ---
 
 <div class="full-width-banner">
-  <img src="00_index/image4.JPG" alt="ODEKA banner">
+  <img src="00_index/image4.JPG" alt="ODEKA banner" class="hero-image">
+  <img src="00_index/image8.png" alt="ODEKA logo" class="hero-logo">
 </div>
 
-
-<div class="about-inline-logo" style="margin-top: 0;margin-bottom: 50px;">
-  <img src="00_index/image1.jpg" alt="ODEKA header" style="max-width: 600px; height: auto;">
+<div class="logo-strip">
+  <img src="00_index/image9.jpg" alt="ODEKA logo" class="logo-alone">
 </div>
+
+Blabla.
+
 
 Blabla.
 
