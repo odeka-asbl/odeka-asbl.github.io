@@ -31,26 +31,22 @@ html, body {
   background-color: #ffffff !important; /* force pure white everywhere */
 }
 
-body {
+/* Left double bar OVER everything (incl. navbar & hero) */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;                           /* start at top of screen */
+  left: 0;
+  width: calc(var(--line-thickness) * 2);
+  height: 100vh;                    /* fill full viewport height */
   background:
-    /* top line 1 */
-    /*linear-gradient(var(--line-top-1), var(--line-top-1)) 
-      0 var(--nav-offset) / 100% var(--line-thickness) no-repeat,
-
-    /* left line 1 */
-    linear-gradient(var(--line-left-1), var(--line-left-1)) 
-      0 var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat,
-
-    /* top line 2 - sits just below line 1 */
-    /*linear-gradient(var(--line-top-2), var(--line-top-2)) 
-      0 calc(var(--nav-offset) + var(--line-thickness)) / 100% var(--line-thickness) no-repeat,
-
-    /* left line 2 - sits just right of line 1 */
-    linear-gradient(var(--line-left-2), var(--line-left-2)) 
-      var(--line-thickness) var(--nav-offset) / var(--line-thickness) calc(100% - var(--nav-offset)) no-repeat;
-
-    }
-
+    linear-gradient(var(--line-left-1), var(--line-left-1))
+      0 0 / var(--line-thickness) 100% no-repeat,
+    linear-gradient(var(--line-left-2), var(--line-left-2))
+      var(--line-thickness) 0 / var(--line-thickness) 100% no-repeat;
+  z-index: 1000;                    /* > navbar z-index so it covers that space */
+  pointer-events: none;
+}
 
 /* kill default top padding under fixed navbar */
 body.nav-fixed .content,
@@ -82,8 +78,8 @@ main.content { padding-top: 0 !important; margin-top: 0 !important; }
   top: 10%;                     /* move slightly toward the top */
   left: 50%;
   transform: translateX(-50%);
-  width: 40%;                   /* logo size; tweak 25–45% */
-  height: auto;
+  width: auto;                   /* logo size; tweak 25–45% */
+  height: 27vh;
   z-index: 10;                  /* above the hero image */
   /* optional polish:
   filter: drop-shadow(0 2px 6px rgba(0,0,0,.25));
