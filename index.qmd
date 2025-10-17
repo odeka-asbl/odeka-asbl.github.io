@@ -67,4 +67,4 @@ Under construction
 **Copyright © 2025 ODEKA A.S.B.L. All rights reserved.**
 <div style="clear: both;"></div>
 <br>
-<img src='/odeka_logo.png' style='height: 40px; margin-top: 15px;'>
+<img src='/odeka_logo.png' style='height: 40px; margin-top: 11px;'>
