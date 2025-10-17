@@ -10,6 +10,6 @@ listing:
   sort: "date desc"
 
 ---
-<a href="04_news/news.xml" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
+<a href="04_news/index.xml" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
   ⟳ Subscribe via RSS
 </a>
