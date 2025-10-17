@@ -4,7 +4,6 @@ title: "Religion & Development"
 author: 
   - Nathan Nunn
   - Jon Weigel
-  - Augustin Bergeron
   - Clara Sievert
   - Marina NGoma
 date: 2020-01-01

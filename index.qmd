@@ -26,16 +26,20 @@ listing:
 
 <div class="full-width-banner">
   <img src="00_index/image4.JPG" alt="ODEKA banner" class="hero-image">
-  <img src="00_index/image8.png" alt="ODEKA logo" class="hero-logo">
+  <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo">
 </div>
 
-Under construction
+<div style="margin : 0 0 0 14px;text-align: center;">
+Under construction.
+</div>
 
-<div class="logo-strip">
+<div class="logo-strip" style="margin : 0 0 0 14px;">
   <img src="00_index/image9.jpg" alt="ODEKA logo" class="logo-alone">
 </div>
 
-Under construction
+<div style="margin : 0 0 0 14px;text-align: center;">
+Under construction.
+</div>
 
 <div style="
   display: flex;
@@ -59,12 +63,18 @@ Under construction
 :::
 </div>
 
-Under construction
+<div style="margin : 0 0 0 14px;text-align: center;">
+Under construction.
+</div>
 
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
+
+<div style="margin : 0 0 0 14px;text-align: center;">
 **Copyright © 2025 ODEKA A.S.B.L All rights reserved.**
+</div>
+
 <div style="clear: both;"></div>
 <br>
-<img src='/odeka_logo.png' style='height: 40px; margin-top: 11px;'>
+<img src='/odeka_logo.png' style='height: 40px; margin : 0 0 0 14px'>

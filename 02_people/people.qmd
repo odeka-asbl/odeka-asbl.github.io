@@ -6,7 +6,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 ---
 # Executive Board
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
@@ -31,7 +32,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
@@ -56,7 +58,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
@@ -81,7 +84,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
@@ -106,7 +110,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
@@ -131,22 +136,29 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 
 # Directors
-<div style="clear: both;"></div>
-<br>
+
 The Director of Finance & Operations oversees finances, grant management, institutional relationships, and coordination between the Executive Board and the field.<br>
 The Country Director heads all operations on the ground in Kananga and serves as the organization’s legal representative in the D.R. Congo.
 
+<div style="clear: both;">
+</div>
+<br>
 
 # Senior Management
-<div style="clear: both;"></div>
+
+<div style="clear: both;">
+</div>
 <br>
+
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
   <img src="faces/kabue.jpg" alt="Elie Kabue NGindu" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Elie Kabue Ngindu
 </div>
@@ -154,14 +166,17 @@ The Country Director heads all operations on the ground in Kananga and serves as
 <div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
   Head of Personnel
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/kabasulela.jpg" alt="Jean-Freddy Kabasulela" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+  <img src="faces/kabasubabo.jpg" alt="Jean-Freddy Kabasubabo Tshimanga" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Jean-Freddy Kabasubabo Tshimanga
 </div>
@@ -169,14 +184,17 @@ The Country Director heads all operations on the ground in Kananga and serves as
 <div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
   Head of HR & External Relations
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/fiston.jpg" alt="Raphaël Fiston Mukendi" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+  <img src="faces/fiston.jpg" alt="Raphaël Fiston Mukendi Tshisanga" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Raphaël Fiston Mukendi Tshisanga
 </div>
@@ -184,21 +202,26 @@ The Country Director heads all operations on the ground in Kananga and serves as
 <div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
   Deputy Head of HR & External Relations
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 
 # Research Interns
 
 # Past Directors
 
 Individuals who previously served as Director of Finance & Operations or Country Director.
-<div style="clear: both;"></div>
+
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/bellot.jpeg" alt="Manon Bellot Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+  <img src="faces/bellot.jpeg" alt="Manon Bellot" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Manon Bellot
 </div>
@@ -218,14 +241,17 @@ Individuals who previously served as Director of Finance & Operations or Country
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/benabid.jpeg" alt="Robin Benabid Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+  <img src="faces/benabid.jpg" alt="Robin Benabid Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Robin Benabid Jegaden
 </div>
@@ -245,14 +271,17 @@ Individuals who previously served as Director of Finance & Operations or Country
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
   <img src="faces/foutelet.jpg" alt="Adrien Foutelet" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Adrien Foutelet
 </div>
@@ -272,14 +301,17 @@ Individuals who previously served as Director of Finance & Operations or Country
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
   <img src="faces/cote.jpg" alt="Jean-François Coté" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Jean-François Coté
 </div>
@@ -299,14 +331,17 @@ Individuals who previously served as Director of Finance & Operations or Country
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
   <img src="faces/laroche.jpg" alt="Arthur Laroche" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Arthur Laroche
 </div>
@@ -326,19 +361,78 @@ Individuals who previously served as Director of Finance & Operations or Country
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 
 # Past Senior Management
 
-Individuals who previously served in senior management roles, including Head of Human Resources, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager.
-<div style="clear: both;"></div>
+Individuals who previously served in senior management roles, including Head of Personnel, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager.
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/somat.jpeg" alt="Adèle Somat" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="overflow: hidden">
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Adèle Somat
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Program Manager, 2023-2025
+</div>
+
+<p>**Next position:** Project Officer, LoGRI<br>
+**Previous position:** MPhil Inernational Political Economy, King's College London
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/adelesomat/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+  <img src="faces/quiviger.jpeg" alt="Zacharie Quiviger" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+</div>
+
+<div style="overflow: hidden">
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Zacharie Quiviger
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Program Manager, 2023-2024
+</div>
+
+<p>**Next position:** Researcher, SOAS University of London, then PhD in International Relations, Columbia University<br>
+**Previous position:** MPhil Politics and International Studies, Cambridge University
+
+<div style="margin-top: 0px;line-height: 0;">
+<a href="https://www.linkedin.com/in/zachariequiviger/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<div style="clear: both;">
+</div>
 <br>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
   <img src="faces/reich.jpg" alt="Dylan Reich" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
 </div>
 
+<div style="overflow: hidden">
 <div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
   Dylan Reich
 </div>
@@ -355,13 +449,76 @@ Individuals who previously served in senior management roles, including Head of 
   LinkedIn Profile
 </a>
 </div>
+</div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 
 # Past Interns
 Individuals who previously served as interns.
 
-<div style="clear: both; margin-bottom: 10px;"></div>
+<div style="clear: both; margin-bottom: 10px;">
+</div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Zoé Baudoin
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Research Intern, 2023-2024
+</div>
+
+<div style="margin-top: 27px;line-height: 0;">
+<a href="https://www.linkedin.com/in/zoé-baudoin/?locale=en_US" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<div style="clear: both; margin-bottom: 10px;">
+</div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Kip Peeling
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Research Intern, 2023
+</div>
+
+<div style="margin-top: 27px;line-height: 0;">
+<a href="https://www.linkedin.com/in/kip-peeling-b397541a7/?originalSubdomain=uk" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<div style="clear: both; margin-bottom: 10px;">
+</div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Fadela Zouleya
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Research Intern, 2023
+</div>
+
+<div style="margin-top: 27px;line-height: 0;">
+<a href="https://www.linkedin.com/in/fadela-sadou-zouleya-b41197141/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<div style="clear: both; margin-bottom: 10px;">
+</div>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -380,7 +537,8 @@ Individuals who previously served as interns.
 </div>
 </div>
 
-<div style="clear: both; margin-bottom: 10px;"></div>
+<div style="clear: both; margin-bottom: 10px;">
+</div>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -399,7 +557,8 @@ Individuals who previously served as interns.
 </div>
 </div>
 
-<div style="clear: both; margin-bottom: 10px;"></div>
+<div style="clear: both; margin-bottom: 10px;">
+</div>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -418,7 +577,8 @@ Individuals who previously served as interns.
 </div>
 </div>
 
-<div style="clear: both; margin-bottom: 10px;"></div>
+<div style="clear: both; margin-bottom: 10px;">
+</div>
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -437,5 +597,6 @@ Individuals who previously served as interns.
 </div>
 </div>
 
-<div style="clear: both;"></div>
+<div style="clear: both;">
+</div>
 <br>
