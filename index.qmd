@@ -34,7 +34,7 @@ Under construction.
 </div>
 
 <div class="logo-strip" style="margin : 0 0 0 14px;">
-  <img src="00_index/image12.jpeg" alt="ODEKA enumerators" class="logo-alone">
+  <img src="00_index/image12.jpg" alt="ODEKA enumerators" class="logo-alone">
 </div>
 
 <div style="margin : 0 0 0 14px;text-align: center;">
