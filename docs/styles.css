@@ -106,3 +106,14 @@ main.content:has(.full-width-banner) {
   max-width: 500px;
   height: auto;
   margin: 0 auto; 
+}
+
+.quarto-about-trestles .about-image,
+.quarto-about-trestles .about-image img {
+  border-radius: 0 !important;
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  overflow: visible !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
