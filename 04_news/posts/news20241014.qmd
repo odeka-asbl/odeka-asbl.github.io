@@ -2,8 +2,8 @@
 title: "James Robinson laureate of the 2024 Nobel Prize in Economics"
 author: 
   - Adrien Foutelet
-date: "October 14, 2024"
-description: "End of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L."
+date: "October 15, 2024"
+description: "We are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences."
 image: ../images/news20241014.jpg
 
 about:
@@ -21,7 +21,17 @@ p.description {
 
 [← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
-**In construction**
+**We are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences.**
 
-In construction
+James A. Robinson, a founding member of ODEKA A.S.B.L and professor at the University of Chicago’s Harris School of Public Policy, was awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. He shares the prize with Daron Acemoglu and Simon Johnson “for studies of how institutions are formed and affect prosperity.”
+Robinson’s work has profoundly reshaped our understanding of why some nations flourish while others remain trapped in poverty. Together with his co-laureates, he has shown how differences in political and economic institutions, many rooted in the legacies of European colonization, persist over time and continue to shape patterns of prosperity today. Their theoretical contributions have also deepened our understanding of how institutions evolve and how change becomes possible.
 
+A central figure in the field of political economy and development, Robinson combines rigorous mathematical and quantitative analysis with deep historical research, case studies, and fieldwork. His research spans Latin America and sub-Saharan Africa, with extensive field experience in the Democratic Republic of the Congo, Nigeria, Sierra Leone, Bolivia, and beyond. He is the co-author, with Acemoglu, of three landmark books (Economic Origins of Dictatorship and Democracy, Why Nations Fail, and The Narrow Corridor) that have shaped global debates on institutions, state formation, and development.
+
+James Robinson’s connection to ODEKA A.S.B.L runs deep. In the early 2010s, he was part of the original team that traveled to Kasai, driven by his idea to study the political and historical legacy of the Kuba Kingdom after a formative conversation with a Congolese political leader. That journey laid the foundations for what would become the Kuba Kingdom project, a cornerstone of ODEKA A.S.B.L’s early research and one that continues to influence institutional economics today. ODEKA A.S.B.L is proud to have contributed to the research agenda that ultimately led to this Nobel Prize.
+
+Beyond his towering scholarly influence, James Robinson is deeply admired by everyone at ODEKA A.S.B.L, especially by the younger researchers. He is renowned not only for his brilliance but also for his exceptional kindness, generosity, and humility. He speaks with every team member as if they were themselves Nobel laureates, asking thoughtful questions about their knowledge and ideas, and fostering a spirit of genuine intellectual curiosity and mutual respect.
+
+We at ODEKA A.S.B.L are honored to count James Robinson among our founders and leaders. His Nobel Prize is not only a recognition of his extraordinary contributions to the field, but also a celebration of the collaborative spirit, curiosity, and humanity that have defined ODEKA’s work since its inception.
+
+Congratulations, Jim, on this historic and deeply deserved recognition.

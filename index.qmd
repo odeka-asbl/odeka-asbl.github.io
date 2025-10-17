@@ -29,8 +29,6 @@ listing:
   <img src="00_index/image8.png" alt="ODEKA logo" class="hero-logo">
 </div>
 
-<link rel="icon" type="image/png" href="/favicon.png">
-
 Under construction
 
 <div class="logo-strip">
