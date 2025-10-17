@@ -79,10 +79,10 @@ Under construction.
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
 
-<div style="margin : 0 0 0 14px;text-align: center;">
+<div style="margin : 0 0 0 0px;text-align: center;">
 **Copyright © 2025 ODEKA A.S.B.L All rights reserved.**
 </div>
 
 <div style="clear: both;"></div>
 <br>
-<img src='/odeka_logo.png' style='height: 40px; margin : 0 0 0 14px'>
+<img src='/odeka_logo.png' style='height: 40px; margin : 0 0 0 0px'>
