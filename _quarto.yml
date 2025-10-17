@@ -5,7 +5,7 @@ project:
 website:
   site-url: "https://odeka-asbl.github.io"
   title: "<img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>"
-  favicon: "/favicon.png"
+  favicon: "/favicon.ico"
   navbar:
     left:
       - href: 01_about/about.qmd
