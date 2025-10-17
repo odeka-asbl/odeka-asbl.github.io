@@ -4,7 +4,11 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 #about:
 #  template: solana
 ---
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Executive Board
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -32,6 +36,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
+<!-- ============================ -->
+
 <div style="clear: both;">
 </div>
 <br>
@@ -57,6 +63,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </a>
 </div>
 </div>
+
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -84,6 +92,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
+<!-- ============================ -->
+
 <div style="clear: both;">
 </div>
 <br>
@@ -109,6 +119,8 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </a>
 </div>
 </div>
+
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -136,19 +148,28 @@ title: "<img src='/odeka_logo_diamond.png' style='height: 40px; margin-right: 7p
 </div>
 </div>
 
+<!-- ============================ -->
+
 <div style="clear: both;">
 </div>
 
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Directors
 
 The Director of Finance & Operations oversees finances, grant management, institutional relationships, and coordination between the Executive Board and the field.<br>
 The Country Director heads all operations on the ground in Kananga and serves as the organization’s legal representative in the D.R. Congo.
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
-<br>
 
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Senior Management
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -168,6 +189,8 @@ The Country Director heads all operations on the ground in Kananga and serves as
 </div>
 </div>
 
+<!-- ============================ -->
+
 <div style="clear: both;">
 </div>
 <br>
@@ -185,6 +208,8 @@ The Country Director heads all operations on the ground in Kananga and serves as
   Head of HR & External Relations
 </div>
 </div>
+
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -204,14 +229,29 @@ The Country Director heads all operations on the ground in Kananga and serves as
 </div>
 </div>
 
+<!-- ============================ -->
+
 <div style="clear: both;">
 </div>
 
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Research Interns
+<!-- ============================ -->
 
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Past Directors
 
 Individuals who previously served as Director of Finance & Operations or Country Director.
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -242,6 +282,7 @@ Individuals who previously served as Director of Finance & Operations or Country
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -272,6 +313,7 @@ Individuals who previously served as Director of Finance & Operations or Country
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -302,6 +344,7 @@ Individuals who previously served as Director of Finance & Operations or Country
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -332,6 +375,7 @@ Individuals who previously served as Director of Finance & Operations or Country
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -362,13 +406,18 @@ Individuals who previously served as Director of Finance & Operations or Country
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
 
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Past Senior Management
 
 Individuals who previously served in senior management roles, including Head of Personnel, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager.
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -396,6 +445,7 @@ Individuals who previously served in senior management roles, including Head of 
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -423,6 +473,7 @@ Individuals who previously served in senior management roles, including Head of 
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
@@ -450,12 +501,17 @@ Individuals who previously served in senior management roles, including Head of 
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
 
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
 # Past Interns
 Individuals who previously served as interns.
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -476,6 +532,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -496,6 +553,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -516,6 +574,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -536,6 +595,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -556,6 +616,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
@@ -579,6 +640,7 @@ Individuals who previously served as interns.
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
+<!-- ============================ -->
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -596,6 +658,7 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both;">
 </div>
