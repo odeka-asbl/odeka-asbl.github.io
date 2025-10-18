@@ -29,23 +29,23 @@ listing:
   <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo">
 </div>
 
-<div style="margin : 0 0 0 14px;text-align: center;">
+<div style="margin : 0 14px 0 14px;text-align: center;">
 Under construction.
 </div>
 
-<div class="logo-strip" style="margin : 0 0 0 14px;">
+<div class="logo-strip" style="margin : 0 14px 0 14px;">
   <img src="00_index/image12.jpg" alt="ODEKA enumerators" class="logo-alone">
 </div>
 
-<div style="margin : 0 0 0 14px;text-align: center;">
+<div style="margin : 0 14px 0 14px;text-align: center;">
 Under construction.
 </div>
 
-<div class="logo-strip" style="margin : 0 0 0 14px;">
+<div class="logo-strip" style="margin : 0 14px 0 14px;">
   <img src="00_index/image9.jpg" alt="ODEKA enumerators" class="logo-alone">
 </div>
 
-<div style="margin : 0 0 0 14px;text-align: center;">
+<div style="margin : 0 14px 0 14px;text-align: center;">
 Under construction.
 </div>
 
@@ -56,8 +56,8 @@ Under construction.
   margin: 40px 0 20px 0;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
-  margin-left: 35px;   /* shift the whole section to the right */
-  margin-right: 21px;  
+  margin-left: 27px;   /* shift the whole section to the right */
+  margin-right: 27px;  
 ">
   <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
     Latest News
@@ -66,12 +66,12 @@ Under construction.
     View all news →
   </a>
 </div>
-<div style="margin-left: 35px; margin-right: 21px;">
+<div style="margin-left: 27px; margin-right: 27px;">
 :::{#news_carousel}
 :::
 </div>
 
-<div style="margin : 0 0 0 14px;text-align: center;">
+<div style="margin : 0 14px 0 14px;text-align: center;">
 Under construction.
 </div>
 
@@ -79,7 +79,7 @@ Under construction.
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
 
-<div style="margin : 0 0 0 0px;text-align: center;">
+<div style="margin : 0 14px 0 14px;text-align: center;">
 **Copyright © 2025 ODEKA A.S.B.L All rights reserved.**
 </div>
 
