@@ -85,7 +85,7 @@ main.content:has(.full-width-banner) {
 .full-width-banner .hero-logo {
   position: absolute;
   top: 10%;                     /* move slightly toward the top */
-  left: calc(50% + 14px);
+  left: 50%;
   transform: translateX(-50%);
   width: auto;                   /* logo size; tweak 25–45% */
   height: 33vh;
