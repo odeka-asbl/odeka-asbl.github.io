@@ -1,0 +1,26 @@
+---
+title: "Hazard and Uncertainty Kananga"
+author: 
+  - Adrien Foutelet
+date: "May 02, 2022"
+description: "Under construction."
+image: ../images/news20220502.jpeg
+
+about:
+  template: marquee
+---
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+
+[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+
+**Under construction.**
+
+Under construction.

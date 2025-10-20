@@ -96,6 +96,54 @@ p.description {
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220718.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Hazard and Uncertainty Kananga</title>
+  <dc:creator>Adrien Foutelet</dc:creator>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20220502.html</link>
+  <description><![CDATA[ 
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+<p><a href="../../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
+<p><strong>Under construction.</strong></p>
+<p>Under construction.</p>
+
+
+ ]]></description>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20220502.html</guid>
+  <pubDate>Mon, 02 May 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://odeka-asbl.github.io/04_news/images/news20220502.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Endline survey enumerator training day at ODEKA A.S.B.L</title>
+  <dc:creator>Adrien Foutelet</dc:creator>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20220303.html</link>
+  <description><![CDATA[ 
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+<p><a href="../../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
+<p><strong>Under construction.</strong></p>
+<p>Under construction.</p>
+
+
+ ]]></description>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20220303.html</guid>
+  <pubDate>Thu, 03 Mar 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://odeka-asbl.github.io/04_news/images/news20220303.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>A Day in the Life of ODEKA A.S.B.L</title>
   <dc:creator>Adrien Foutelet</dc:creator>
   <link>https://odeka-asbl.github.io/04_news/posts/news20220220.html</link>
@@ -159,6 +207,30 @@ p.description {
   <guid>https://odeka-asbl.github.io/04_news/posts/news20220113.html</guid>
   <pubDate>Thu, 13 Jan 2022 05:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220113.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Launch of the fourth intervention wave of the Religion and Development project</title>
+  <dc:creator>Adrien Foutelet</dc:creator>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20211005.html</link>
+  <description><![CDATA[ 
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+<p><a href="../../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
+<p><strong>Under construction.</strong></p>
+<p>Under construction.</p>
+
+
+ ]]></description>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20211005.html</guid>
+  <pubDate>Tue, 05 Oct 2021 04:00:00 GMT</pubDate>
+  <media:content url="https://odeka-asbl.github.io/04_news/images/news20211005.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
