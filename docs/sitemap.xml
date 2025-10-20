@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
-    <lastmod>2025-10-18T15:13:46.041Z</lastmod>
+    <lastmod>2025-10-20T16:53:09.702Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/index.html</loc>
-    <lastmod>2025-10-18T15:13:55.432Z</lastmod>
+    <lastmod>2025-10-20T16:54:38.767Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220912.html</loc>
-    <lastmod>2025-10-17T02:17:21.756Z</lastmod>
+    <lastmod>2025-10-18T19:18:24.432Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
@@ -91,5 +91,9 @@
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220220.html</loc>
     <lastmod>2025-10-18T15:13:37.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220113.html</loc>
+    <lastmod>2025-10-20T16:51:37.383Z</lastmod>
   </url>
 </urlset>

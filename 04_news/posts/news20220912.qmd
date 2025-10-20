@@ -3,7 +3,7 @@ title: "New Kananga Team Takes Over Operations"
 author: 
   - Adrien Foutelet
 date: "September 12, 2022"
-description: "The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team"
+description: "The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team."
 image: ../images/news20220912.jpg
 
 about:
@@ -21,7 +21,7 @@ p.description {
 
 [← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
-**The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team**
+**The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.**
 
 Robin Benabid Jegaden, the new Country Director, and Dylan Reich, the new Program Manager, arrived in Kananga in early August, where they joined Laure Lepine, the new Research Intern, who had arrived a few weeks earlier. The three will steer ODEKA A.S.B.L through the months ahead.
 
