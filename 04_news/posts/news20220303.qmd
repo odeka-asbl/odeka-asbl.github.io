@@ -3,7 +3,7 @@ title: "Endline Enumerator Training Week at ODEKA A.S.B.L and the Launch of the 
 author: 
   - Adrien Foutelet
 date: "March 03, 2022"
-description: "After weeks of preparation and coding for the endline survey, the six-month deadline following the end of the first baseline wave was approaching, and everything had to be ready."
+description: "Two weeks of training and preparation at ODEKA A.S.B.L culminate in the smooth launch of the project’s first endline wave."
 image: ../images/news20220303.jpeg
 
 about:
@@ -21,7 +21,9 @@ p.description {
 
 [← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
-**After weeks of preparation and coding for the endline survey, the six-month deadline following the end of the first baseline wave was approaching, and everything had to be ready.**
+**Two week of training and preparation at ODEKA A.S.B.L culminates in the smooth launch of the project’s first endline wave.**
+
+After weeks of preparation and coding for the endline survey, the six-month deadline following the end of the first baseline wave was approaching, and everything had to be ready.
 
 Our expert enumerator team grew from 14 to 18 members after a demanding selection process that promoted the best performers from our second-tier teams. This expansion allows the first team to be large enough to conduct both baseline and endline surveys simultaneously, a major step forward in our field capacity.
 

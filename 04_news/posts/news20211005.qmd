@@ -3,7 +3,7 @@ title: "Launch of the Fourth Intervention Wave of the Religion and Development P
 author: 
   - Adrien Foutelet
 date: "October 16, 2021"
-description: "Yesterday, ODEKA A.S.B.L completed the launch of the fourth intervention wave of the Religion and Development project with its introduction day, the culmination of an intensive, methodologically sensitive process that takes place roughly every two months and will occur ten times in total over the course of the project."
+description: "ODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study."
 image: ../images/news20211005.jpeg
 
 about:
@@ -21,7 +21,9 @@ p.description {
 
 [← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
-**Yesterday, ODEKA A.S.B.L completed the launch of the fourth intervention wave of the Religion and Development project with its introduction day, the culmination of an intensive, methodologically sensitive process that takes place roughly every two months and will occur ten times in total over the course of the project.**
+**ODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study.**
+
+Yesterday, ODEKA A.S.B.L completed the launch of the fourth intervention wave of the Religion and Development project with its introduction day, the culmination of an intensive, methodologically sensitive process that takes place roughly every two months and will occur ten times in total over the course of the project.
 
 After a series of precise randomization procedures designed to select a representative sample of villages in the rural areas surrounding Kananga, stratified using both the detailed cartography produced in 2020 and baseline data collected during previous waves, the Kananga team created GIS maps by cross-referencing village and respondent location data with satellite imagery and precise manual drawing and classification of local pathroads.
 
