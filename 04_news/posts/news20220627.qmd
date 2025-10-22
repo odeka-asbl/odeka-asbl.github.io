@@ -1,5 +1,5 @@
 ---
-title: "Lecture by James Robinson and Jon Weigel at UPC"
+title: "Lecture by James Robinson and Jon Weigel at UPC in Kinshasa"
 author: 
   - Adrien Foutelet
 date: "June 27, 2022"
