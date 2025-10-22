@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
-    <lastmod>2025-10-22T15:09:00.643Z</lastmod>
+    <lastmod>2025-10-22T15:20:57.068Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
@@ -107,5 +107,9 @@
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220303.html</loc>
     <lastmod>2025-10-22T15:08:47.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220627.html</loc>
+    <lastmod>2025-10-22T15:21:38.705Z</lastmod>
   </url>
 </urlset>

@@ -96,6 +96,30 @@ p.description {
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220718.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Lecture by James Robinson and Jon Weigel at UPC</title>
+  <dc:creator>Adrien Foutelet</dc:creator>
+  <link>https://odeka-asbl.github.io/04_news/posts/news20220627.html</link>
+  <description><![CDATA[ 
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+<p><a href="../../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
+<p><strong>Under construction.</strong></p>
+<p>Under construction.</p>
+
+
+ ]]></description>
+  <guid>https://odeka-asbl.github.io/04_news/posts/news20220627.html</guid>
+  <pubDate>Mon, 27 Jun 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://odeka-asbl.github.io/04_news/images/news20220627.JPG" medium="image"/>
+</item>
+<item>
   <title>Hazard and Uncertainty in Kananga</title>
   <dc:creator>Adrien Foutelet</dc:creator>
   <link>https://odeka-asbl.github.io/04_news/posts/news20220502.html</link>
