@@ -120,7 +120,7 @@ p.description {
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220502.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Endline survey enumerator training day at ODEKA A.S.B.L</title>
+  <title>Endline survey enumerator training week at ODEKA A.S.B.L, and the launch of the first endline wave</title>
   <dc:creator>Adrien Foutelet</dc:creator>
   <link>https://odeka-asbl.github.io/04_news/posts/news20220303.html</link>
   <description><![CDATA[ 
@@ -209,7 +209,7 @@ p.description {
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220113.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Launch of the fourth intervention wave of the Religion and Development project</title>
+  <title>Launch of the Fourth Intervention Wave of the Religion and Development Project</title>
   <dc:creator>Adrien Foutelet</dc:creator>
   <link>https://odeka-asbl.github.io/04_news/posts/news20211005.html</link>
   <description><![CDATA[ 
@@ -223,13 +223,21 @@ p.description {
 }
 </style>
 <p><a href="../../04_news/index.html" class="breadcrumb" style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;">← Back to News</a></p>
-<p><strong>Under construction.</strong></p>
-<p>Under construction.</p>
+<p><strong>Yesterday, ODEKA A.S.B.L completed the launch of the fourth intervention wave of the Religion and Development project with its introduction day, the culmination of an intensive, methodologically sensitive process that takes place roughly every two months and will occur ten times in total over the course of the project.</strong></p>
+<p>After a series of precise randomization procedures designed to select a representative sample of villages in the rural areas surrounding Kananga, stratified using both the detailed cartography produced in 2020 and baseline data collected during previous waves, the Kananga team created GIS maps by cross-referencing village and respondent location data with satellite imagery and precise manual drawing and classification of local pathroads.</p>
+<p>Villages from the previous wave were grouped into clusters, and the locations of respondents’ residences were mapped, the basis for the backcheck procedures that will be carried out by two enumerators in addition to their regular baseline work. These checks will begin in the coming days, as they do after every new intervention wave is launched.</p>
+<p>For this new wave, personalized invitations were generated for participants, some containing additional information expected to affect our outcome variables, in addition to the main treatment. This meant that no error was permissible in assigning invitations. Tens of assignment sheets, dozens of tablet updates, survey uploads, map loadings, badge printings, and laminations later, the main office was almost ready.</p>
+<p>Routes had to be identified, travel distances computed, and the precise fuel cost per trip inferred, since motorbike drivers are contractors paid based on time, bike amortization, and fuel consumption. Participant phone numbers had to be compiled and weekly reminder lists printed, as participants must be called the day before their scheduled session. In an environment filled with uncertainty, where committing to a six-month weekly program is extraordinarily rare, these reminders are vital.</p>
+<p>Meanwhile, Raphaël was gathering the dozens of motorbike drivers responsible for transporting respondents selected for this wave twice a week (Fridays and Sundays) from their villages to Kananga’s markets and churches. ODEKA A.S.B.L runs three intervention waves simultaneously, involving hundreds of motorbike drivers, making Raphaël’s coordination role both immensely demanding and absolutely critical to the project’s success. And in an environment as unpredictable as rural Congo, with the inherent risks of motorbike travel, managing such a workforce requires constant patience and exceptional diplomacy.</p>
+<p>Yet motorbike drivers could not simply be sent to the villages alone. In a region where trust is extremely low, villagers would never accept traveling with strangers. On introduction day, therefore, each driver was accompanied by enumerators known to the participants, who facilitated introductions, helped build trust, and handed out invitations. Pairing enumerators, drivers, and participants is a delicate task: personalities sometimes clash, and in Kananga, even small interpersonal tensions can escalate quickly.</p>
+<p>At 5:00 a.m., everyone gathered at the Procure Office. Raphaël, Adrien, and Charlotte outlined the day’s objectives, gave motivational remarks, and distributed materials. By 7:00 a.m., all the teams had departed. For the rest of the day, as Raphaël coordinated operations on the ground via radio, Adrien and Charlotte remained at the main office, alternating between administrative work and data quality checks, all while holding their breath, waiting for updates.</p>
+<p>By 7:00 p.m., the enumerators began to return, one by one, to deliver their reports. No major incidents were reported: the day had gone smoothly, and no selected respondent refused to participate. A few could not be reached, but none had moved away: they were simply working in the fields that day. The concerned enumerators left notes and will return Monday morning with their motorbike drivers to attempt a new introduction.</p>
+<p>Next Friday, the intervention itself will begin, marking another step forward in ODEKA A.S.B.L.’s main research project. A sigh of relief, until the next wave launch… and the next challenge.</p>
 
 
  ]]></description>
   <guid>https://odeka-asbl.github.io/04_news/posts/news20211005.html</guid>
-  <pubDate>Tue, 05 Oct 2021 04:00:00 GMT</pubDate>
+  <pubDate>Sat, 16 Oct 2021 04:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20211005.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
