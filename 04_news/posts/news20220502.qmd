@@ -1,5 +1,5 @@
 ---
-title: "Hazard and Uncertainty in Kananga"
+title: "Hazard, Uncertainty, and Risk in Kananga"
 author: 
   - Adrien Foutelet
 date: "May 02, 2022"
