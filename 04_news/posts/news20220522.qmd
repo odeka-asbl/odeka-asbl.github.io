@@ -2,9 +2,9 @@
 title: "Hazard, Uncertainty, and Risk in Kananga"
 author: 
   - Adrien Foutelet
-date: "May 02, 2022"
+date: "May 22, 2022"
 description: "Under construction."
-image: ../images/news20220502.jpeg
+image: ../images/news20220522.jpeg
 
 about:
   template: marquee
