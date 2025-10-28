@@ -637,10 +637,10 @@ Individuals who previously served as interns.
 </a>
 </div>
 </div>
+<!-- ============================ -->
 
 <div style="clear: both; margin-bottom: 10px;">
 </div>
-<!-- ============================ -->
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
 
@@ -654,6 +654,27 @@ Individuals who previously served as interns.
 
 <div style="margin-top: 27px;line-height: 0;">
 <a href="https://www.linkedin.com/in/charlotte-humes-11330764/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+<!-- ============================ -->
+
+<div style="clear: both; margin-bottom: 10px;">
+</div>
+
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+
+<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+  Sara Merner
+</div>
+
+<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+  Research Intern, 2020-2021
+</div>
+
+<div style="margin-top: 27px;line-height: 0;">
+<a href="https://www.linkedin.com/in/saramerner/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
   LinkedIn Profile
 </a>
 </div>
