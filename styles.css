@@ -485,6 +485,7 @@ main.content:has(.full-width-banner) {
 }
 
 .about-section p {
+  font-family: "Cambria Math", Cambria, serif;
   font-size: 1.08rem;
   line-height: 1.8;
   color: #333;
@@ -549,6 +550,7 @@ main.content:has(.full-width-banner) {
 }
 
 .about-cta p {
+  font-family: "Cambria Math", Cambria, serif;
   font-size: 1.15rem;
   color: #333;
   margin-bottom: 16px;
@@ -570,4 +572,43 @@ main.content:has(.full-width-banner) {
 
 .about-cta a.about-button:hover {
   background-color: rgb(148, 40, 33);
+}
+
+/* === Legal Notice: donor credit line === */
+.donors-credit {
+  margin: 32px 0;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.donors-credit-heading {
+  display: block;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+}
+
+.donors-credit-list {
+  text-align: center;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.9rem;
+  line-height: 2.4;
+  color: #444;
+  margin-top: 20px;
+}
+
+.donors-credit-list .donor-sep {
+  display: inline-flex;
+  align-items: center;
+  height: 1em;
+  color: rgb(178, 49, 40);
+  font-size: 0.7em;
+  margin: 0 4px;
+  vertical-align: middle;
 }
