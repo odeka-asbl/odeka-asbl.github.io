@@ -14,13 +14,22 @@ about:
 
 page-layout: full
 listing:
-  id: news_carousel
-  type: grid
-  contents:
-    - "04_news/posts/*.qmd"
-  max-items: 3
-  sort: "date desc"
-  fields: [title, date, image]
+  - id: projects_carousel
+    type: grid
+    contents:
+      - "03_projects/posts/*.qmd"
+    max-items: 4
+    grid-columns: 4
+    sort: "date desc"
+    fields: [title, image]
+  - id: news_carousel
+    type: grid
+    contents:
+      - "04_news/posts/*.qmd"
+    max-items: 4
+    grid-columns: 4
+    sort: "date desc"
+    fields: [title, date, image]
 
 ---
 
@@ -29,35 +38,66 @@ listing:
   <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo">
 </div>
 
-<div style="margin : 0 14px 0 14px;text-align: center;">
-Under construction.
+<div class="home-manifesto">
+<p class="home-manifesto-proverb">"You cross to my side, and I cross to yours, so that we may meet. Who am I?"</p>
+<p class="home-manifesto-attribution">Kuba proverb</p>
+<img class="home-manifesto-divider" src="/odeka_logo_diamond.png" alt="">
+<p class="home-manifesto-mission">Good intentions are not enough. We use history, culture, institutions, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.</p>
 </div>
 
-<div class="logo-strip" style="margin : 0 14px 0 14px;">
-  <img src="00_index/image12.jpg" alt="ODEKA enumerators" class="logo-alone">
+<div class="home-quote-row">
+<div class="home-quote-row-image">
+<img src="00_index/image12.jpg" alt="ODEKA enumerators">
 </div>
-
-<div style="margin : 0 14px 0 14px;text-align: center;">
-Under construction.
+<div class="home-quote">
+<img src="/odeka_logo_diamond.png" alt="">
+<blockquote><img class="quote-bracket left" src="/odeka_logo_left_bracket.png" alt="">Intentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
+<cite>Jacob Moscona, Nathan Nunn &amp; James A. Robinson<span>"Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters," Working Paper, 2026</span></cite>
 </div>
-
-<div class="logo-strip" style="margin : 0 14px 0 14px;">
-  <img src="00_index/image9.jpg" alt="ODEKA enumerators" class="logo-alone">
-</div>
-
-<div style="margin : 0 14px 0 14px;text-align: center;">
-Under construction.
 </div>
 
 <div style="
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 40px 0 20px 0;
+  margin: 8px 0 20px 0;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
   margin-left: 27px;   /* shift the whole section to the right */
-  margin-right: 27px;  
+  margin-right: 27px;
+">
+  <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
+    Latest Projects
+  </h2>
+  <a href="03_projects/index.html" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
+    View all projects →
+  </a>
+</div>
+<div style="margin-left: 27px; margin-right: 27px;">
+:::{#projects_carousel}
+:::
+</div>
+
+<div class="home-quote-row">
+<div class="home-quote home-quote--right">
+<img src="/odeka_logo_diamond.png" alt="">
+<blockquote>Because they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
+<cite>Michael Kremer<span>"Experimentation, Innovation, and Economics," American Economic Review 110(7), 2020, pp. 1974–1994</span></cite>
+</div>
+<div class="home-quote-row-image">
+<img src="00_index/image9.jpg" alt="ODEKA enumerators">
+</div>
+</div>
+
+<div style="
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 8px 0 20px 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 4px;
+  margin-left: 27px;   /* shift the whole section to the right */
+  margin-right: 27px;
 ">
   <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
     Latest News
@@ -71,16 +111,12 @@ Under construction.
 :::
 </div>
 
-<div style="margin : 0 14px 0 14px;text-align: center;">
-Under construction.
-</div>
-
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
 </div>
 
-<div style="margin : 0 14px 0 14px;text-align: center;">
-**Copyright © 2025 ODEKA A.S.B.L All rights reserved.**
+<div style="margin : 40px 14px 0 14px;text-align: center;">
+**Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
 </div>
 
 <div style="clear: both;"></div>

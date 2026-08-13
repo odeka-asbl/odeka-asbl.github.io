@@ -1,5 +1,22 @@
 /* css styles */
 
+/* === Homepage listing grids: cap card width so they don't stretch
+   to fill the row on wide screens; row stays full-width, extra
+   space just becomes empty space instead of inflating the cards === */
+#listing-projects_carousel .list.grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 340px));
+  justify-content: center;
+}
+
+#listing-news_carousel .list.grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
+  justify-content: center;
+}
+
+#listing-projects_carousel .thumbnail-image {
+  height: 240px !important;
+}
+
 /* === Page titles === */
 .quarto-title h1.title,
 h1.title,
@@ -7,6 +24,91 @@ h1.title,
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;       /* makes the title bold */
   font-size: 2.6rem;      /* adjust size of the titles */
+  color: rgb(196, 18, 18); /* vivid, saturated red — stronger than the eyebrow accent */
+  -webkit-text-stroke: 0.6px currentColor; /* thickens the letterforms beyond font-weight 900's max */
+}
+
+/* Jolla-template-specific fixes: the template's default flex column
+   shrink-wraps and centers its children, so the About page's title
+   needs to be pulled back to full width and anchored to the same
+   720px column as the body text below it. The homepage also uses the
+   jolla template (with no title text), so the margin-top fix is
+   scoped to pages that actually render a title block — otherwise it
+   pushes the homepage's hero banner down from the navbar. */
+.quarto-about-jolla:has(.quarto-title-block) {
+  margin-top: 3em !important;
+}
+
+.quarto-about-jolla .quarto-title-block {
+  align-self: stretch;
+  width: 100%;
+}
+
+.quarto-about-jolla .quarto-title {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* Bracket-flanked title design, applied site-wide (every page using the
+   title-bracket-wrap markup gets the same left-aligned, pointed-rule look) */
+.quarto-title h1.title {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.quarto-title h1.title .title-bracket-wrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.quarto-title h1.title .title-bracket-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  flex-shrink: 0;
+}
+
+.quarto-title h1.title .title-text {
+  position: relative;
+  top: -0.13em; /* nudges the glyph's optical middle up to meet the rule's center */
+}
+
+.quarto-title h1.title .title-rule {
+  flex: 1 1 auto;
+  height: 32px;
+  position: relative;
+  background: rgb(254, 254, 165);
+  margin-left: 48px;
+  margin-right: 52px;
+  align-self: center; /* matches the vertical center of the bracket icons */
+  clip-path: polygon(0% 50%, 16px 0%, calc(100% - 16px) 0%, 100% 50%, calc(100% - 16px) 100%, 16px 100%);
+}
+
+.quarto-title h1.title .title-rule::after {
+  content: "";
+  position: absolute;
+  top: 32%;
+  bottom: 32%;
+  left: 5%;
+  right: 5%;
+  background: rgb(196, 18, 18);
+  clip-path: polygon(0% 50%, 7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%);
+}
+
+/* Bracket-flanked page title decoration */
+.title-bracket-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.title-bracket-wrap img {
+  display: block;
+  height: 0.95em;
+  width: auto;
 }
 
 /* === Navbar links === */
@@ -63,6 +165,7 @@ main.content:has(.full-width-banner) {
 
 /* full-bleed hero that ignores parent padding/width */
 .full-width-banner { margin: 0 !important; }
+.full-width-banner p { margin: 0; }
 .full-width-banner .hero-image {
   display: block;
   width: 100vw;                 /* span the viewport */
@@ -77,18 +180,29 @@ main.content:has(.full-width-banner) {
   padding: 0;
 }
 
-.full-width-banner { 
-  margin: 0 !important; 
+.full-width-banner {
+  margin: 0 !important;
   position: relative;           /* enable absolute positioning for logo */
+}
+
+.full-width-banner .hero-image--tall {
+  height: 86vh;
+  max-height: 1020px;
+  object-position: 50% 87%;   /* shifts view down, cropping off the top */
+}
+
+.full-width-banner .hero-image--large {
+  height: 65vh;
+  max-height: 750px;
 }
 
 .full-width-banner .hero-logo {
   position: absolute;
-  top: 10%;                     /* move slightly toward the top */
+  top: 20px;                     /* fixed offset — a % top has no reliable reference since the banner's own height is auto */
   left: 50%;
   transform: translateX(-50%);
   width: auto;                   /* logo size; tweak 25–45% */
-  height: 33vh;
+  height: min(33vh, 300px);      /* capped so it can never outgrow the banner's own 550px max-height on tall viewports */
   z-index: 10;                  /* above the hero image */
   /* optional polish:
   filter: drop-shadow(0 2px 6px rgba(0,0,0,.25));
@@ -105,7 +219,12 @@ main.content:has(.full-width-banner) {
   width: 35%;            /* size as you like */
   max-width: 500px;
   height: auto;
-  margin: 0 auto; 
+  margin: 0 auto;
+}
+
+.logo-strip .logo-alone--text-width {
+  width: 100%;
+  max-width: 720px;      /* matches .about-section max-width */
 }
 
 .quarto-about-trestles .about-image,
@@ -116,4 +235,335 @@ main.content:has(.full-width-banner) {
   overflow: visible !important;
   mask: none !important;
   -webkit-mask: none !important;
+}
+
+/* === Homepage "about" copy blocks === */
+.about-section {
+  max-width: 720px;
+  margin: 56px auto;
+  padding: 0 24px;
+  text-align: left;
+}
+
+.about-section:first-of-type {
+  margin-top: 32px;
+}
+
+.about-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-eyebrow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin-bottom: 10px;
+}
+
+.about-eyebrow img {
+  display: block;
+  height: 1.6em;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.about-eyebrow img:first-child {
+  margin-left: -32px; /* pulls the diamond out into the margin, left of the text column */
+  margin-right: 0.5em;
+}
+
+.about-eyebrow-text {
+  white-space: nowrap;
+}
+
+.about-eyebrow-rule {
+  flex: 0 0 auto;
+  width: 90px;
+  height: 4px;
+  background: rgb(35, 30, 25);
+  margin-left: 8px;
+  margin-right: 0;
+  clip-path: polygon(0% 50%, 6px 0%, calc(100% - 6px) 0%, 100% 50%, calc(100% - 6px) 100%, 6px 100%);
+}
+
+.about-section-divider {
+  width: 90px;
+  height: 4px;
+  background: rgb(35, 30, 25);
+  margin: 24px 0 0 auto;
+  clip-path: polygon(0% 50%, 6px 0%, calc(100% - 6px) 0%, 100% 50%, calc(100% - 6px) 100%, 6px 100%);
+}
+
+/* === Homepage manifesto band === */
+.home-manifesto {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: rgb(35, 30, 25);
+  padding: 14px 24px 36px 24px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.home-manifesto-proverb {
+  max-width: 760px;
+  margin: 0 auto;
+  font-family: "Cambria Math", Cambria, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #fafafa;
+}
+
+.home-manifesto-attribution {
+  margin: 18px 0 0 0;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(254, 254, 165);
+}
+
+.home-manifesto-divider {
+  display: block;
+  height: 1.6em;
+  width: auto;
+  margin: 28px auto;
+}
+
+.home-manifesto-mission {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .home-manifesto-proverb {
+    font-size: 1.5rem;
+  }
+  .home-manifesto-mission {
+    font-size: 1.2rem;
+  }
+}
+
+/* === Homepage pull-quotes === */
+.home-quote-row {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  max-width: 1100px;
+  margin: 64px auto 24px auto;
+  padding: 0 24px;
+}
+
+.home-quote-row-image {
+  flex: 0 0 34%;
+  max-width: 34%;
+}
+
+.home-quote-row-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 760px) {
+  .home-quote-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .home-quote-row-image {
+    max-width: 60%;
+    flex-basis: auto;
+  }
+}
+
+.home-quote {
+  max-width: 760px;
+  margin: 64px auto;
+  padding: 0 32px;
+  text-align: left;
+}
+
+.home-quote-row .home-quote {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 auto;
+}
+
+.home-quote--right {
+  text-align: right;
+}
+
+.home-quote img {
+  height: 1.8em;
+  width: auto;
+  margin-bottom: 18px;
+}
+
+.home-quote > img {
+  display: block;
+  margin: 0 auto 18px auto;
+}
+
+.home-quote blockquote {
+  margin: 0;
+  border: none;
+  border-left: 4px solid #ccc;
+  padding: 0 0 0 20px;
+  font-family: "Cambria Math", Cambria, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.65;
+  color: #222;
+}
+
+.home-quote--right blockquote {
+  border-left: none;
+  border-right: 4px solid #ccc;
+  padding: 0 20px 0 0;
+}
+
+.home-quote .quote-bracket {
+  height: 1.1em;
+  width: auto;
+  vertical-align: middle;
+  margin-bottom: 0.15em;
+}
+
+.home-quote .quote-bracket.left {
+  margin-right: 3em;
+}
+
+.home-quote .quote-bracket.right {
+  margin-left: 3em;
+}
+
+.home-quote cite {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-style: normal;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+}
+
+.home-quote cite span {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.about-section p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-section p.about-lead {
+  font-size: 1.22rem;
+  line-height: 1.7;
+  color: #222;
+}
+
+.about-float {
+  display: block;
+  width: 37%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.about-float--nudge-down {
+  position: relative;
+  top: 15px; /* about half a line at this text's line-height */
+}
+
+.about-lead-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 0 0 72px 0;
+}
+
+.about-float--right {
+  float: right;
+  margin-left: 24px;
+}
+
+.about-float--left {
+  float: left;
+  margin-right: 24px;
+}
+
+@media (max-width: 700px) {
+  .about-float {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.about-cta {
+  max-width: 720px;
+  margin: 56px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.about-cta p {
+  font-size: 1.15rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.about-cta a.about-button {
+  display: inline-block;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(178, 49, 40);
+  padding: 12px 28px;
+  border-radius: 2px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background-color 0.2s ease;
+}
+
+.about-cta a.about-button:hover {
+  background-color: rgb(148, 40, 33);
 }

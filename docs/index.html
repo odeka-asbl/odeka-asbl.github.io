@@ -71,6 +71,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects_carousel .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects_carousel'] = new List('listing-projects_carousel', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-news_carousel .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -194,30 +222,103 @@ window.Quarto = {
 <div class="full-width-banner">
 <p><img src="00_index/image4.JPG" alt="ODEKA banner" class="hero-image"> <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo"></p>
 </div>
-<div style="margin : 0 14px 0 14px;text-align: center;">
-<p>Under construction.</p>
+<div class="home-manifesto">
+<p class="home-manifesto-proverb">
+“You cross to my side, and I cross to yours, so that we may meet. Who am I?”
+</p>
+<p class="home-manifesto-attribution">
+Kuba proverb
+</p>
+<img class="home-manifesto-divider" src="./odeka_logo_diamond.png" alt="">
+<p class="home-manifesto-mission">
+Good intentions are not enough. We use history, culture, institutions, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.
+</p>
 </div>
-<div class="logo-strip" style="margin : 0 14px 0 14px;">
-<p><img src="00_index/image12.jpg" alt="ODEKA enumerators" class="logo-alone"></p>
+<div class="home-quote-row">
+<div class="home-quote-row-image">
+<p><img src="00_index/image12.jpg" alt="ODEKA enumerators"></p>
 </div>
-<div style="margin : 0 14px 0 14px;text-align: center;">
-<p>Under construction.</p>
+<div class="home-quote">
+<img src="./odeka_logo_diamond.png" alt="">
+<blockquote class="blockquote">
+<img class="quote-bracket left" src="./odeka_logo_left_bracket.png" alt="">Intentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.<img class="quote-bracket right" src="./odeka_logo_right_bracket.png" alt="">
+</blockquote>
+<p><cite>Jacob Moscona, Nathan Nunn &amp; James A. Robinson<span>“Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters,” Working Paper, 2026</span></cite></p>
 </div>
-<div class="logo-strip" style="margin : 0 14px 0 14px;">
-<p><img src="00_index/image9.jpg" alt="ODEKA enumerators" class="logo-alone"></p>
-</div>
-<div style="margin : 0 14px 0 14px;text-align: center;">
-<p>Under construction.</p>
 </div>
 <div style="
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 40px 0 20px 0;
+  margin: 8px 0 20px 0;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
   margin-left: 27px;   /* shift the whole section to the right */
-  margin-right: 27px;  
+  margin-right: 27px;
+">
+<h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
+Latest Projects
+</h2>
+<p><a href="03_projects/index.html" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;"> View all projects → </a></p>
+</div>
+<div style="margin-left: 27px; margin-right: 27px;">
+<div id="listing-projects_carousel" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1577854800000" data-listing-file-modified-sort="1760734047546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<a href="./03_projects/posts/project-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./03_projects/images/project1.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Religion &amp; Development
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="NaN" data-listing-file-modified-sort="1760656939097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<a href="./03_projects/posts/project-2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./03_projects/images/project2.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Legal Antecedents of Fiscal Capacity
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="home-quote-row">
+<div class="home-quote home-quote--right">
+<img src="./odeka_logo_diamond.png" alt="">
+<blockquote class="blockquote">
+Because they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.<img class="quote-bracket right" src="./odeka_logo_right_bracket.png" alt="">
+</blockquote>
+<p><cite>Michael Kremer<span>“Experimentation, Innovation, and Economics,” American Economic Review 110(7), 2020, pp.&nbsp;1974–1994</span></cite></p>
+</div>
+<div class="home-quote-row-image">
+<p><img src="00_index/image9.jpg" alt="ODEKA enumerators"></p>
+</div>
+</div>
+<div style="
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 8px 0 20px 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 4px;
+  margin-left: 27px;   /* shift the whole section to the right */
+  margin-right: 27px;
 ">
 <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
 Latest News
@@ -226,7 +327,7 @@ Latest News
 </div>
 <div style="margin-left: 27px; margin-right: 27px;">
 <div id="listing-news_carousel" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1728964800000" data-listing-file-modified-sort="1761317727440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481">
 <a href="./04_news/posts/news20241014.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -284,20 +385,36 @@ Jul 18, 2022
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1656302400000" data-listing-file-modified-sort="1761158263533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<a href="./04_news/posts/news20220627.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./04_news/images/news20220627.JPG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lecture by James Robinson and Jon Weigel at UPC in Kinshasa
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 27, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </div>
-<div style="margin : 0 14px 0 14px;text-align: center;">
-<p>Under construction.</p>
-</div>
 <div class="full-width-banner">
 <p><img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image"></p>
 </div>
-<div style="margin : 0 14px 0 14px;text-align: center;">
-<p><strong>Copyright © 2025 ODEKA A.S.B.L All rights reserved.</strong></p>
+<div style="margin : 40px 14px 0 14px;text-align: center;">
+<p><strong>Copyright © 2026 ODEKA A.S.B.L All rights reserved.</strong></p>
 </div>
 <div style="clear: both;">
 </div>

@@ -1,6 +1,6 @@
 ---
 toc: false
-title: "Contacts<br><img src='/odeka_logo.png' style='height: 40px; margin-right: 0px; margin-left: 0px;'>"
+title: "Contacts<br><img src='/odeka_logo.png' style='height: 40px; display: block; margin: 8px auto 0 auto;'>"
 about:
   template: trestles
   image: image1.jpg
