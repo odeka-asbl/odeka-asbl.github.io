@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+#listing-projects_carousel .card-title.listing-title {
+  text-align: center;
+}
+
 #listing-news_carousel .list.grid {
   grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
   justify-content: center;

@@ -81,7 +81,7 @@ listing:
 <div class="home-quote-row">
 <div class="home-quote home-quote--right">
 <img src="/odeka_logo_diamond.png" alt="">
-<blockquote>Because they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
+<blockquote><img class="quote-bracket left" src="/odeka_logo_left_bracket.png" alt="">Because they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
 <cite>Michael Kremer<span>"Experimentation, Innovation, and Economics," American Economic Review 110(7), 2020, pp. 1974–1994</span></cite>
 </div>
 <div class="home-quote-row-image">
