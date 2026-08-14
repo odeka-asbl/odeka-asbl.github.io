@@ -63,7 +63,7 @@ h1.title,
   width: 100%;
 }
 
-.quarto-title h1.title::after {
+.quarto-title h1.title:has(.title-bracket-wrap)::after {
   content: "";
   display: block;
   width: 75%;
