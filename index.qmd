@@ -45,6 +45,8 @@ listing:
 <p class="home-manifesto-mission">Good intentions are not enough. We use history, culture, institutions, economic theory, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.</p>
 </div>
 
+<div style="height: 40px;"></div>
+
 <div class="home-quote-row">
 <div class="home-quote-row-image">
 <img src="00_index/image12.jpg" alt="ODEKA enumerators">
@@ -60,23 +62,28 @@ listing:
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 8px 0 20px 0;
+  margin: 88px 27px 0 27px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
-  margin-left: 27px;   /* shift the whole section to the right */
-  margin-right: 27px;
 ">
   <h2 style="margin: 5; font-size: 1.6rem; font-weight: 700; color: #333;">
-    Latest Projects
+    Current projects
   </h2>
   <a href="03_projects/index.html" style="font-size: 1rem; color: #0077b5; text-decoration: none; font-weight: 600;">
-    View all projects →
+    View all past and present projects →
   </a>
 </div>
-<div style="margin-left: 27px; margin-right: 27px;">
+
+<div style="margin-left: 27px; margin-right: 27px; margin-top: 20px;">
 :::{#projects_carousel}
 :::
 </div>
+
+<div class="full-width-banner">
+  <img src="00_index/image13.JPG" alt="ODEKA banner" class="hero-image hero-image--bottom-anchored">
+</div>
+
+<div style="height: 40px;"></div>
 
 <div class="home-quote-row">
 <div class="home-quote home-quote--right">
@@ -93,7 +100,7 @@ listing:
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 8px 0 20px 0;
+  margin: 88px 0 20px 0;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
   margin-left: 27px;   /* shift the whole section to the right */

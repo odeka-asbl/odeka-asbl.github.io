@@ -208,6 +208,10 @@ main.content:has(.full-width-banner) {
   max-height: 750px;
 }
 
+.full-width-banner .hero-image--bottom-anchored {
+  object-position: 50% 100%; /* always keeps the bottom of the image in frame, cropping from the top if needed */
+}
+
 .full-width-banner .hero-logo {
   position: absolute;
   top: 20px;                     /* fixed offset — a % top has no reliable reference since the banner's own height is auto */
