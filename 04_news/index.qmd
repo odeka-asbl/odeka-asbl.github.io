@@ -1,5 +1,5 @@
 ---
-title: "<span class='title-bracket-wrap'><span class='title-bracket-left'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-text'>News</span></span><span class='title-rule'></span><img src='/odeka_logo_right_bracket.png' alt=''></span>"
+title: "<span class='title-bracket-wrap'><span class='title-bracket-left'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-text'>News</span></span><span class='title-line'></span><span class='title-line'></span><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 listing:
   type: default
   contents:

@@ -63,6 +63,16 @@ h1.title,
   width: 100%;
 }
 
+.quarto-title h1.title::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 4px;
+  margin: -10px 60px 0 auto;
+  background: rgb(254, 254, 165);
+  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
 .quarto-title h1.title .title-bracket-wrap {
   display: flex;
   width: 100%;
@@ -81,26 +91,24 @@ h1.title,
   top: -0.13em; /* nudges the glyph's optical middle up to meet the rule's center */
 }
 
-.quarto-title h1.title .title-rule {
-  flex: 1 1 auto;
-  height: 32px;
-  position: relative;
-  background: rgb(254, 254, 165);
-  margin-left: 48px;
-  margin-right: 52px;
-  align-self: center; /* matches the vertical center of the bracket icons */
-  clip-path: polygon(0% 50%, 16px 0%, calc(100% - 16px) 0%, 100% 50%, calc(100% - 16px) 100%, 16px 100%);
+.quarto-title h1.title .title-diamond {
+  display: block;
+  height: 0.45em;
+  width: auto;
+  flex-shrink: 0;
 }
 
-.quarto-title h1.title .title-rule::after {
-  content: "";
-  position: absolute;
-  top: 32%;
-  bottom: 32%;
-  left: 5%;
-  right: 5%;
-  background: rgb(196, 18, 18);
-  clip-path: polygon(0% 50%, 7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%);
+.quarto-title h1.title .title-line {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quarto-title h1.title .title-line img {
+  display: block;
+  height: 0.45em;
+  width: auto;
 }
 
 /* Bracket-flanked page title decoration */
