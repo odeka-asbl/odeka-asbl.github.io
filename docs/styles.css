@@ -807,7 +807,7 @@ main.content:has(.full-width-banner) {
 }
 
 .full-width-banner .hero-image--projects {
-  object-position: 50% 60%;
+  object-position: 50% 68%; /* centered on the midpoint between the house roofline (~56%) and the tree/house ground line (~80%), so that whole band stays in frame across the widest realistic range of viewport widths — see the wide-viewport verification method used for the closing banner's feet crop */
 }
 
 /* Closing banner reuses the page's former opening photo. Biased low
