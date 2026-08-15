@@ -1,0 +1,16 @@
+---
+toc: false
+title: "Supernatural Beliefs and Modern Medicine"
+author:
+  - Clara Sievert
+date: 2026-08-15
+image: ../images/project3.jpg
+description: "Project page coming soon."
+status: ongoing
+type: other
+about:
+  template: solana
+---
+[← Back to Projects](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+
+Page under construction.

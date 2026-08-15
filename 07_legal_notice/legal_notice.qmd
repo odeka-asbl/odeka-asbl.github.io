@@ -1,6 +1,7 @@
 ---
 toc: false
-title: "Legal Notice<br><img src='/odeka_logo.png' style='height: 40px; display: block; margin: 8px auto 0 auto;'>"
+title: ""
+pagetitle: "ODEKA - Legal Notice"
 about:
   template: trestles
   image: image1.jpg

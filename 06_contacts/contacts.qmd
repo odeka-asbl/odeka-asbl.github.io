@@ -1,19 +1,10 @@
 ---
 toc: false
-title: "Contacts<br><img src='/odeka_logo.png' style='height: 40px; display: block; margin: 8px auto 0 auto;'>"
+title: ""
+pagetitle: "ODEKA - Contacts"
 about:
   template: trestles
   image: image1.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/gateau_thecongolesecat/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
 ---
 
 ### Headquarters address:
@@ -32,3 +23,8 @@ KASAÏ CENTRAL, RDC
 
 ### Website administrator:
 [odeka.webmaster@gmail.com](mailto:odeka.webmaster@gmail.com)<br>
+
+### Social media:
+[Twitter](https://twitter.com)<br>
+[Instagram](https://www.instagram.com/gateau_thecongolesecat/)<br>
+[LinkedIn](https://linkedin.com)

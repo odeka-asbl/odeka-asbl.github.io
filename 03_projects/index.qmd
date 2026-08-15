@@ -1,9 +1,73 @@
 ---
-title: "<span class='title-bracket-wrap'><span class='title-bracket-left'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-text'>Projects</span></span><span class='title-line'></span><span class='title-line'></span><img src='/odeka_logo_right_bracket.png' alt=''></span>"
+toc: false
+title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='title-text'>Projects</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 listing:
-  type: grid
-  contents:
-    - "posts/*.qmd"
-  sort: "date desc"
-  fields: [title, author, image]
+  - id: major_projects
+    type: grid
+    contents: posts
+    include:
+      type: major
+    sort: "date desc"
+    fields: [title, author, image, description, status]
+  - id: other_projects
+    type: grid
+    contents: posts
+    include:
+      type: other
+    sort: "date desc"
+    fields: [title, author, image, description, status]
 ---
+
+<div class="full-width-banner">
+  <img src="image1.JPG" alt="A village in Kasaï" class="hero-image hero-image--projects">
+</div>
+
+<div class="projects-listings">
+
+<span class="projects-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Major projects</span><span class="about-eyebrow-rule"></span></span>
+
+:::{#major_projects}
+:::
+
+<div class="about-section-divider"></div>
+
+<span class="projects-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Other projects</span><span class="about-eyebrow-rule"></span></span>
+
+:::{#other_projects}
+:::
+
+<div class="about-section-divider"></div>
+
+</div>
+
+<div class="full-width-banner">
+  <img src="image2.JPG" alt="Daily life in Kananga" class="hero-image hero-image--projects-closing">
+</div>
+
+<div class="page-footer-copyright">
+**Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
+</div>
+
+<div style="clear: both;"></div>
+<br>
+<div class="page-footer-logo">
+<img src='/odeka_logo.png' style='height: 40px; margin : 0 auto;'>
+</div>
+
+<hr class="about-sep">
+<div class="page-footer-social">
+<div class="about-links">
+  <a href="https://twitter.com" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">twitter</span>
+  </a>
+  <a href="https://www.instagram.com/gateau_thecongolesecat/" class="about-link" rel="" target="">
+    <i class="bi bi-instagram"></i>
+     <span class="about-link-text">Instagram</span>
+  </a>
+  <a href="https://linkedin.com" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+</div>
+</div>

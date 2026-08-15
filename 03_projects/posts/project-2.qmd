@@ -6,6 +6,9 @@ author:
   - Jon Weigel
 date: 2022-01-01
 image: ../images/project2.jpg
+description: "Tracing how colonial and customary legal institutions shape the state's capacity to tax and govern in Kasaï today."
+status: ongoing
+type: major
 about:
   template: solana
 ---

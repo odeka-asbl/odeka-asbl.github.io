@@ -1,123 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
-    <lastmod>2026-08-14T00:10:44.238Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
-    <lastmod>2026-08-14T00:10:44.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/index.html</loc>
-    <lastmod>2026-08-14T00:39:12.802Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
-    <lastmod>2026-08-14T00:10:44.230Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/04_news/news20241014.html</loc>
-    <lastmod>2025-10-16T05:35:30.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
-    <lastmod>2026-08-14T00:10:44.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/03_projects/project-1.html</loc>
-    <lastmod>2025-10-16T05:36:38.638Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
-    <lastmod>2026-08-14T00:10:44.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/job-2.html</loc>
-    <lastmod>2025-10-16T05:34:47.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/job-1.html</loc>
-    <lastmod>2025-10-16T05:34:24.982Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/04_news/news20220718.html</loc>
-    <lastmod>2025-10-16T05:35:02.616Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/03_projects/project-2.html</loc>
-    <lastmod>2025-10-16T05:36:51.065Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/04_news/news20220912.html</loc>
-    <lastmod>2025-10-16T05:35:15.686Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
-    <lastmod>2026-08-13T21:18:39.465Z</lastmod>
-  </url>
-  <url>
     <loc>https://odeka-asbl.github.io/07_legal_notice/legal_notice.html</loc>
-    <lastmod>2026-08-13T22:45:56.102Z</lastmod>
+    <lastmod>2026-08-15T22:47:32.819Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20241014.html</loc>
-    <lastmod>2025-10-24T14:55:27.440Z</lastmod>
+    <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
+    <lastmod>2026-08-15T23:12:40.212Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220718.html</loc>
-    <lastmod>2025-10-22T18:21:56.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220912.html</loc>
-    <lastmod>2025-10-18T19:18:24.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
-    <lastmod>2025-10-16T23:22:51.223Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/03_projects/posts/project-2.html</loc>
-    <lastmod>2026-08-14T00:21:06.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/03_projects/posts/project-1.html</loc>
-    <lastmod>2025-10-17T20:47:27.546Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-1.html</loc>
-    <lastmod>2025-10-16T23:22:46.936Z</lastmod>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220522.html</loc>
+    <lastmod>2025-10-24T15:24:02.929Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220220.html</loc>
     <lastmod>2025-10-24T15:09:42.560Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220113.html</loc>
-    <lastmod>2025-10-24T15:11:42.346Z</lastmod>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220627.html</loc>
+    <lastmod>2025-10-22T18:37:43.533Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220502.html</loc>
-    <lastmod>2025-10-22T18:53:48.205Z</lastmod>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20241014.html</loc>
+    <lastmod>2025-10-24T14:55:27.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
+    <lastmod>2026-08-15T23:05:53.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
+    <lastmod>2025-10-16T23:22:51.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/index.html</loc>
+    <lastmod>2026-08-15T23:12:40.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
+    <lastmod>2026-08-15T23:12:40.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/project-2.html</loc>
+    <lastmod>2026-08-15T21:40:42.479Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/project-1.html</loc>
+    <lastmod>2026-08-15T21:40:38.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
+    <lastmod>2026-08-15T23:17:16.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-1.html</loc>
+    <lastmod>2025-10-16T23:22:46.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
+    <lastmod>2026-08-15T23:12:40.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220113.html</loc>
+    <lastmod>2025-10-24T15:11:42.346Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20211005.html</loc>
     <lastmod>2025-10-24T15:16:14.685Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220303.html</loc>
-    <lastmod>2025-10-22T18:32:29.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220627.html</loc>
-    <lastmod>2025-10-22T18:37:43.533Z</lastmod>
-  </url>
-  <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220430.html</loc>
     <lastmod>2025-10-26T21:52:03.415Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/04_news/posts/news20220522.html</loc>
-    <lastmod>2025-10-24T15:24:02.929Z</lastmod>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220912.html</loc>
+    <lastmod>2025-10-18T19:18:24.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/04_news/posts/news20220718.html</loc>
+    <lastmod>2025-10-22T18:21:56.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
+    <lastmod>2026-08-15T23:12:40.175Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/other/supernatural-beliefs-modern-medicine.html</loc>
+    <lastmod>2026-08-15T21:07:01.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/supernatural-beliefs-modern-medicine.html</loc>
+    <lastmod>2026-08-15T21:40:34.037Z</lastmod>
   </url>
 </urlset>

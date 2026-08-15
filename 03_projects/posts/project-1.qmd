@@ -9,6 +9,9 @@ author:
 date: 2020-01-01
 display date: "2020-2023"
 image: ../images/project1.jpg
+description: "Examining how religious affiliation and practice shape economic development outcomes across Congolese communities."
+status: ongoing
+type: major
 about:
   template: solana
 ---

@@ -181,6 +181,212 @@ p.description {
   </div>
 </div>
  <!-- /main -->
+<script>
+(function () {
+  function init() {
+    var nav = document.querySelector('.navbar-nav');
+    if (!nav) return;
+    var activeLink = document.querySelector('.navbar-nav .nav-link.active');
+    // On the homepage, none of the nav items are "active" (the homepage
+    // itself is the logo, not a nav link) — there's no resting spot to
+    // return to, so the brackets stay hidden until the cursor lands on
+    // a title, then fade in there instead of sliding in from nowhere.
+
+    var container = document.querySelector('.navbar-collapse') || nav.parentElement;
+    if (getComputedStyle(container).position === 'static') {
+      container.style.position = 'relative';
+    }
+
+    var leftB = document.createElement('span');
+    var rightB = document.createElement('span');
+    leftB.className = 'nav-bracket nav-bracket-left';
+    rightB.className = 'nav-bracket nav-bracket-right';
+    container.appendChild(leftB);
+    container.appendChild(rightB);
+
+    var gap = 4;
+    var currentLink = null;
+    var trackingFrame = null;
+    var navigating = false;
+    var visible = false;
+
+    function show() {
+      if (!visible) {
+        leftB.classList.add('nav-bracket-visible');
+        rightB.classList.add('nav-bracket-visible');
+        visible = true;
+      }
+    }
+
+    function hide() {
+      if (visible) {
+        leftB.classList.remove('nav-bracket-visible');
+        rightB.classList.remove('nav-bracket-visible');
+        visible = false;
+      }
+      if (currentLink) {
+        currentLink.classList.remove('nav-link-bracketed');
+        currentLink = null;
+      }
+    }
+
+    function updatePosition(link) {
+      var lr = link.getBoundingClientRect();
+      var cr = container.getBoundingClientRect();
+      var top = lr.top - cr.top + lr.height / 2;
+      leftB.style.top = top + 'px';
+      rightB.style.top = top + 'px';
+      leftB.style.left = (lr.left - cr.left - gap) + 'px';
+      rightB.style.left = (lr.right - cr.left + gap) + 'px';
+    }
+
+    // Tracks the link's live position on every frame for the duration of
+    // the margin/reflow transition (300ms — a bit longer than the 250ms
+    // CSS transition, to be safe), instead of jumping to a single
+    // precomputed target. That target would depend on exactly how far
+    // the reflow had progressed at the moment we measured it, which
+    // differs depending on hover direction and caused the brackets to
+    // overshoot left or right of where they should land.
+    function trackDuring(link, duration) {
+      if (trackingFrame) cancelAnimationFrame(trackingFrame);
+      var start = performance.now();
+      function step(now) {
+        updatePosition(link);
+        if (now - start < duration) {
+          trackingFrame = requestAnimationFrame(step);
+        } else {
+          trackingFrame = null;
+        }
+      }
+      trackingFrame = requestAnimationFrame(step);
+    }
+
+    function place(link) {
+      if (navigating) return;
+      if (currentLink && currentLink !== link) {
+        currentLink.classList.remove('nav-link-bracketed');
+      }
+      link.classList.add('nav-link-bracketed');
+      currentLink = link;
+      trackDuring(link, 300);
+      show();
+    }
+
+    // Used only for the homepage's very first hover, where there's no
+    // active link to have already made room. Rather than tracking the
+    // link's live (still-animating) position and revealing mid-chase —
+    // which looked like a small lateral drift once visible — this
+    // measures the link's TRUE final position up front, synchronously
+    // and invisibly (the standard FLIP trick: apply the class with
+    // transitions off, measure, undo, then re-apply with transitions
+    // back on so the real visible reflow still plays normally). The
+    // bracket is placed at that exact resting spot from the start, so
+    // when it fades in partway through the reflow, it never moves —
+    // it just appears in place while the titles are still sliding.
+    function placeDeferred(link) {
+      if (navigating) return;
+      if (currentLink && currentLink !== link) {
+        currentLink.classList.remove('nav-link-bracketed');
+      }
+
+      link.style.transition = 'none';
+      link.classList.add('nav-link-bracketed');
+      updatePosition(link);
+      link.classList.remove('nav-link-bracketed');
+      void link.offsetWidth;
+      link.style.transition = '';
+      link.classList.add('nav-link-bracketed');
+
+      currentLink = link;
+      var target = link;
+      setTimeout(function () {
+        if (currentLink === target) show();
+      }, 90);
+    }
+
+    if (activeLink) {
+      place(activeLink);
+      // Only turn on the margin transition after the very first placement
+      // has already painted — otherwise that first placement animates in
+      // from 0 instead of appearing instantly in its resting spot.
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          document.documentElement.classList.add('nav-brackets-ready');
+        });
+      });
+
+      // On a fresh page load (i.e. right after clicking a nav link), the
+      // navbar can still shift slightly after our initial 300ms tracking
+      // window closes — most commonly because the custom font hasn't
+      // finished swapping in yet, or a scrollbar appearing/disappearing
+      // as images finish loading. Silently re-measure once things have
+      // settled, using updatePosition() directly rather than place() —
+      // place() re-triggers the full animated placement (class toggle +
+      // 300ms tracking + show), which is right for an actual hover move
+      // but caused a visible "shiver" here, since nothing was actually
+      // moving on purpose, just correcting a couple of stray pixels.
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(function () {
+          if (currentLink === activeLink) updatePosition(activeLink);
+        });
+      }
+      window.addEventListener('load', function () {
+        if (currentLink === activeLink) updatePosition(activeLink);
+      });
+    } else {
+      // Homepage: nothing to place yet, but transitions can turn on
+      // immediately since the first appearance is supposed to fade in.
+      document.documentElement.classList.add('nav-brackets-ready');
+    }
+
+    var links = nav.querySelectorAll('.nav-link');
+    links.forEach(function (link) {
+      link.addEventListener('mouseenter', function () {
+        if (!activeLink && !visible) {
+          placeDeferred(link);
+        } else {
+          place(link);
+        }
+      });
+      // The instant a nav link is clicked, the page is about to unload.
+      // Some browsers fire a mouseleave on the nav as part of that
+      // process, which would otherwise snap the brackets back to the
+      // old active link for a couple of frames — a visible "shiver" —
+      // right before the new page replaces everything anyway. Stop
+      // reacting to any further hover events once a click has happened.
+      link.addEventListener('click', function () {
+        navigating = true;
+        if (trackingFrame) {
+          cancelAnimationFrame(trackingFrame);
+          trackingFrame = null;
+        }
+      });
+    });
+
+    nav.addEventListener('mouseleave', function () {
+      if (activeLink) {
+        place(activeLink);
+      } else {
+        hide();
+      }
+    });
+
+    window.addEventListener('resize', function () {
+      // Silent correction, same reasoning as the load/fonts.ready
+      // handlers above — a scrollbar appearing as a freshly-loaded
+      // page's images finish loading can fire this, and it should
+      // never trigger the full animated replay.
+      if (activeLink && currentLink === activeLink) updatePosition(activeLink);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

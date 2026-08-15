@@ -3,13 +3,300 @@
 /* === Homepage listing grids: cap card width so they don't stretch
    to fill the row on wide screens; row stays full-width, extra
    space just becomes empty space instead of inflating the cards === */
+/* Projects page: breathing room between the opening banner and the
+   two carousel sections right below it (they'd otherwise butt up
+   against it), and between the "Major projects" grid and the "Other
+   projects" heading that follows it */
+.projects-listings {
+  margin-top: 56px; /* matches the About page's actual rendered gap between its top banner and "Who we are" (.about-section's base margin-top; its :first-of-type override never applies — see that rule's own comment) */
+}
+
+.projects-listings .quarto-listing-container-grid {
+  margin-top: 4px;
+  margin-bottom: 48px;
+}
+
+/* Same end-of-section divider as .about-section-divider (About page):
+   right-aligned to the far edge of the grid-track area (matching
+   Quarto's .quarto-listing-cols-3, which always reserves 3 full-width
+   column tracks regardless of card count — same alignment logic as
+   the About page's version aligning to its own column's right edge),
+   but pulled in close under the grid instead of the page's usual
+   48px section gap. */
+.projects-listings .quarto-listing-container-grid:has(+ .about-section-divider) {
+  margin-bottom: 12px;
+}
+
+.projects-listings .about-section-divider {
+  margin: 0 0 64px auto;
+}
+
+/* Same eyebrow treatment as the About page (diamond + label + rule),
+   adapted for this page's wider grid layout instead of About's
+   narrow prose column — .about-eyebrow's diamond has a negative
+   margin that pulls it into that column's side padding, which
+   doesn't exist here, so this skips that and keeps the diamond
+   inline instead */
+.projects-eyebrow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin: 0;
+}
+
+.projects-eyebrow img {
+  display: block;
+  height: 1.6em;
+  width: auto;
+  flex-shrink: 0;
+  margin-right: 0.5em;
+}
+
+/* Projects page: same grid-with-thumbnail idea as the homepage
+   carousel, but toned down. The homepage card is built to catch a
+   scrolling eye (full-bleed photo, dark gradient, hover lift+zoom) —
+   the wrong register for a page someone came to deliberately in
+   order to read about every project. Plain white cards, no hover
+   motion, more room for the description to actually be read. */
+.projects-listings .quarto-listing-container-grid .quarto-grid-item.card {
+  position: relative;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-listings .quarto-listing-container-grid .card-img-top {
+  margin: 0;
+  overflow: hidden;
+  flex: 0 0 auto;
+  aspect-ratio: 4 / 3;
+}
+
+.projects-listings .quarto-listing-container-grid .thumbnail-image {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.projects-listings .quarto-listing-container-grid .card-body.post-contents {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 18px;
+}
+
+/* Diamond straddling the image/title seam — same "mark the seam"
+   language as .home-news-heading-diamond, but using the small solid
+   red ◆ glyph from the About page's donor-credit separators
+   (.donor-sep) rather than the multi-color logo mark. Positioned via
+   a negative margin on this flex item (not position:absolute), since
+   making .card-body a positioned ancestor would hijack the status
+   badge's own absolute positioning (table.card-other-values, further
+   below) — it's a descendant of .card-body and would start resolving
+   its top/right offsets against card-body instead of the outer card. */
+.projects-listings .quarto-listing-container-grid .card-body.post-contents::before {
+  content: "◆";
+  display: block;
+  align-self: center;
+  margin-top: -5px;
+  margin-bottom: 6px;
+  color: rgb(178, 49, 40);
+  font-size: 9.52px; /* matches the computed size of the same ◆ glyph in the News/Jobs listing-date separators */
+  line-height: 1;
+}
+
+.projects-listings .quarto-listing-container-grid .card-title.listing-title {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: rgb(35, 30, 25);
+  margin-bottom: 8px;
+}
+
+.projects-listings .quarto-listing-container-grid a.quarto-grid-link:hover .card-title.listing-title {
+  color: rgb(178, 49, 40);
+}
+
+.projects-listings .quarto-listing-container-grid a.quarto-grid-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects-listings .quarto-listing-container-grid .card-text.listing-description {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: rgb(70, 63, 57);
+}
+
+.projects-listings .quarto-listing-container-grid .card-attribution {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+/* Custom "status" field: Quarto renders unrecognized listing fields as
+   a raw key/value table, so this un-tables it into a small badge and
+   overlays it on the thumbnail photo's top-right corner (the card
+   itself is the positioning context — .card-img-top is its first
+   child, sitting right at that corner), instead of rendering as a
+   table row at the very end after the author line */
+.projects-listings .quarto-listing-container-grid table.card-other-values,
+.projects-listings .quarto-listing-container-grid table.card-other-values tbody,
+.projects-listings .quarto-listing-container-grid table.card-other-values tr {
+  display: block;
+}
+
+.projects-listings .quarto-listing-container-grid table.card-other-values {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  z-index: 2;
+}
+
+.projects-listings .quarto-listing-container-grid table.card-other-values td:first-child {
+  display: none;
+}
+
+.projects-listings .quarto-listing-container-grid table.card-other-values td.status {
+  display: inline-block;
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgb(178, 49, 40);
+  border: 1px solid rgb(178, 49, 40);
+  padding: 3px 10px;
+  background: #fff;
+}
+
+.projects-listings .quarto-listing-container-grid .listing-author {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: rgb(90, 82, 74);
+}
+
+/* News page: same breathing room between the opening banner and the
+   RSS link + news list right below it */
+.news-rss-link {
+  display: inline-block;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+/* Jobs page: same breathing room between the opening banner and the
+   job listings right below it */
+#listing-jobs_listing {
+  margin-top: 48px;
+  margin-bottom: 480px;
+}
+
+/* Jobs page: light typographic pass on the plain default listing —
+   same serif/ink-red palette as the rest of the site. Framing
+   (border, spacing) left as Quarto's stock default. */
+#listing-jobs_listing .body h3.listing-title,
+#listing-jobs_listing .body .listing-title.h3 {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+}
+
+#listing-jobs_listing .body h3.listing-title a,
+#listing-jobs_listing .body .listing-title.h3 a {
+  color: rgb(35, 30, 25);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#listing-jobs_listing .body h3.listing-title a:hover,
+#listing-jobs_listing .body .listing-title.h3 a:hover {
+  color: rgb(178, 49, 40);
+}
+
+#listing-jobs_listing .metadata {
+  font-family: "Cambria Math", Cambria, serif;
+  color: rgb(90, 82, 74);
+  letter-spacing: 0.03em;
+}
+
+#listing-jobs_listing .metadata a {
+  color: inherit;
+}
+
+#listing-jobs_listing .listing-date::before {
+  content: "◆";
+  display: inline-block;
+  color: rgb(178, 49, 40);
+  font-size: 0.7em;
+  margin-right: 6px;
+  position: relative;
+  top: -0.07em;
+}
+
+#listing-jobs_listing .listing-author {
+  margin-left: 15px; /* lines up under the date text, past the diamond+gap on the line above */
+}
+
+/* News page: same light typographic pass on its own plain default
+   listing (not the homepage carousel, which already has its own
+   card styling above). Framing left as Quarto's stock default. */
+#listing-news_listing.quarto-listing-container-default .body h3.listing-title,
+#listing-news_listing.quarto-listing-container-default .body .listing-title.h3 {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+}
+
+#listing-news_listing.quarto-listing-container-default .body h3.listing-title a,
+#listing-news_listing.quarto-listing-container-default .body .listing-title.h3 a {
+  color: rgb(35, 30, 25);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#listing-news_listing.quarto-listing-container-default .body h3.listing-title a:hover,
+#listing-news_listing.quarto-listing-container-default .body .listing-title.h3 a:hover {
+  color: rgb(178, 49, 40);
+}
+
+#listing-news_listing.quarto-listing-container-default .metadata {
+  font-family: "Cambria Math", Cambria, serif;
+  color: rgb(90, 82, 74);
+  letter-spacing: 0.03em;
+}
+
+#listing-news_listing.quarto-listing-container-default .metadata a {
+  color: inherit;
+}
+
+#listing-news_listing.quarto-listing-container-default .listing-date::before {
+  content: "◆";
+  display: inline-block;
+  color: rgb(178, 49, 40);
+  font-size: 0.7em;
+  margin-right: 6px;
+  position: relative;
+  top: -0.07em;
+}
+
+#listing-news_listing.quarto-listing-container-default .listing-author {
+  margin-left: 15px; /* lines up under the date text, past the diamond+gap on the line above */
+}
+
 #listing-projects_carousel .list.grid {
   grid-template-columns: repeat(auto-fit, minmax(280px, 340px));
   justify-content: center;
-}
-
-#listing-projects_carousel .card-title.listing-title {
-  text-align: center;
 }
 
 #listing-news_carousel .list.grid {
@@ -17,8 +304,65 @@
   justify-content: center;
 }
 
-#listing-projects_carousel .thumbnail-image {
-  height: 240px !important;
+#listing-news_carousel .quarto-grid-item.card {
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+#listing-news_carousel .quarto-grid-item.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.16);
+}
+
+#listing-news_carousel .card-img-top {
+  margin: 0;
+  overflow: hidden;
+  flex: 0 0 auto;
+  aspect-ratio: 4 / 3;
+}
+
+#listing-news_carousel .thumbnail-image {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+#listing-news_carousel .card-body.post-contents {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#listing-news_carousel .card-attribution {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+#listing-news_carousel .quarto-grid-item.card:hover .thumbnail-image {
+  transform: scale(1.06);
+}
+
+#listing-news_carousel .card-title.listing-title {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: rgb(35, 30, 25);
+}
+
+#listing-news_carousel .listing-date {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: #888;
 }
 
 /* === Page titles === */
@@ -27,50 +371,199 @@ h1.title,
 .title-block h1.title {
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;       /* makes the title bold */
-  font-size: 2.6rem;      /* adjust size of the titles */
+  font-size: 2rem;      /* small enough that descenders (p, j) stay inside the 42px title band */
   color: rgb(196, 18, 18); /* vivid, saturated red — stronger than the eyebrow accent */
   -webkit-text-stroke: 0.6px currentColor; /* thickens the letterforms beyond font-weight 900's max */
 }
 
-/* Jolla-template-specific fixes: the template's default flex column
+/* Jolla-template-specific fix: the template's default flex column
    shrink-wraps and centers its children, so the About page's title
-   needs to be pulled back to full width and anchored to the same
-   720px column as the body text below it. The homepage also uses the
-   jolla template (with no title text), so the margin-top fix is
-   scoped to pages that actually render a title block — otherwise it
-   pushes the homepage's hero banner down from the navbar. */
-.quarto-about-jolla:has(.quarto-title-block) {
-  margin-top: 3em !important;
-}
-
+   needs to be pulled back to full width. The homepage also uses the
+   jolla template (with no title text), so this fix is scoped to
+   pages that actually render a title block — otherwise it pushes the
+   homepage's hero banner down from the navbar. */
 .quarto-about-jolla .quarto-title-block {
   align-self: stretch;
   width: 100%;
 }
 
+/* Establishes the containing block for the title-block's absolute
+   positioning below — without this, it resolves against some further
+   ancestor instead of sitting flush with the banner right after it */
+.quarto-about-jolla:has(.quarto-title-block) {
+  position: relative;
+  margin-top: 0 !important;
+}
+
 .quarto-about-jolla .quarto-title {
   max-width: 720px;
-  margin: 0 auto;
-  padding: 0 24px;
+  margin: 0;
+  padding: 0 8px 0 28px;
   box-sizing: border-box;
 }
 
+/* Title overlaid on the first banner again: a translucent band tangent
+   to the banner's bottom edge, with the title text and bracket
+   vertically centered directly on that band (the band IS the title
+   block itself, rather than a separate element, so the centering is
+   exact by construction). Only the right bracket remains, taller than
+   the band and pushed out toward the edge, overlapping it like the
+   diamond does with the brackets in the source logo. */
+.quarto-about-jolla:has(.quarto-title-block) .quarto-title-block {
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  width: 100vw !important;
+  transform: translateX(-50%);
+  height: 45vh;        /* matches the first banner's own height exactly, */
+  max-height: 550px;   /* and its cap, so the band below lands tangent to *its* bottom edge, not the page's */
+  z-index: 20 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .quarto-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 12px 0 44px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  background: rgba(250, 247, 242, 0.6); /* trying the navbar's warm cream instead */
+  box-sizing: border-box;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) h1.title {
+  text-align: left;
+  width: 100%;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .title-bracket-wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .title-bracket-wrap img {
+  width: auto;
+  flex-shrink: 0;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .title-bracket-wrap > img:last-child {
+  height: 68px;
+  margin-right: 10px; /* almost to the edge, not flush against it */
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .title-diamond {
+  height: 58px; /* same scale as the bracket, like a piece of the same dismantled logo mark — both break out beyond the thin band */
+  margin-left: auto; /* pushes the diamond, and the bracket after it, to the right as a group */
+  margin-right: 50px;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) .title-inner {
+  background: none;
+  clip-path: none;
+  height: auto;
+  padding: 0;
+}
+
+.quarto-about-jolla:has(.quarto-title-block) h1.title .title-text {
+  color: rgb(196, 18, 18);
+  top: 0 !important;
+}
+
+/* Same banner+title overlay treatment as the About page (band tangent
+   to the bottom of the opening banner, diamond+bracket grouped at the
+   right), for pages using the default (non-jolla) title template:
+   People, Projects, News, Jobs. Their header sits right before the
+   full-width banner inside main.content — structurally the same
+   arrangement as the jolla wrapper above — so the same absolute-
+   positioning trick applies, just scoped to main.content instead. */
+main.content:has(.full-width-banner) {
+  position: relative;
+  margin-top: 0 !important;
+}
+
+main.content:has(.full-width-banner) .quarto-title-block {
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  width: 100vw !important;
+  transform: translateX(-50%);
+  height: 45vh;
+  max-height: 550px;
+  z-index: 20 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+main.content:has(.full-width-banner) .quarto-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 12px 0 44px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  background: rgba(250, 247, 242, 0.6);
+  box-sizing: border-box;
+}
+
+main.content:has(.full-width-banner) h1.title {
+  text-align: left;
+  width: 100%;
+}
+
+main.content:has(.full-width-banner) .title-bracket-wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+main.content:has(.full-width-banner) .title-bracket-wrap img {
+  width: auto;
+  flex-shrink: 0;
+}
+
+main.content:has(.full-width-banner) .title-bracket-wrap > img:last-child {
+  height: 68px;
+  margin-right: 10px;
+}
+
+main.content:has(.full-width-banner) .title-diamond {
+  height: 58px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+main.content:has(.full-width-banner) .title-inner {
+  background: none;
+  clip-path: none;
+  height: auto;
+  padding: 0;
+}
+
+main.content:has(.full-width-banner) h1.title .title-text {
+  color: rgb(196, 18, 18);
+  top: 0 !important;
+}
+
 /* Bracket-flanked title design, applied site-wide (every page using the
-   title-bracket-wrap markup gets the same left-aligned, pointed-rule look) */
+   title-bracket-wrap markup gets the same left-aligned look, brackets
+   evenly spaced from the text by the wrap's own gap) */
 .quarto-title h1.title {
   text-align: left;
   display: block;
   width: 100%;
-}
-
-.quarto-title h1.title:has(.title-bracket-wrap)::after {
-  content: "";
-  display: block;
-  width: 75%;
-  height: 4px;
-  margin: -10px 60px 0 auto;
-  background: rgb(254, 254, 165);
-  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
 }
 
 .quarto-title h1.title .title-bracket-wrap {
@@ -79,36 +572,9 @@ h1.title,
   align-items: center;
 }
 
-.quarto-title h1.title .title-bracket-left {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-  flex-shrink: 0;
-}
-
 .quarto-title h1.title .title-text {
   position: relative;
   top: -0.13em; /* nudges the glyph's optical middle up to meet the rule's center */
-}
-
-.quarto-title h1.title .title-diamond {
-  display: block;
-  height: 0.45em;
-  width: auto;
-  flex-shrink: 0;
-}
-
-.quarto-title h1.title .title-line {
-  flex: 1 1 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.quarto-title h1.title .title-line img {
-  display: block;
-  height: 0.45em;
-  width: auto;
 }
 
 /* Bracket-flanked page title decoration */
@@ -119,17 +585,120 @@ h1.title,
 }
 .title-bracket-wrap img {
   display: block;
-  height: 0.95em;
+  height: 2.2em;
   width: auto;
+  flex-shrink: 0;
 }
 
-/* === Navbar links === */
+/* === Navbar: warm cream background + ink/red palette instead of
+   Bootstrap's stock cool grey/blue, to match the rest of the site === */
+.navbar {
+  background-color: #faf7f2 !important;
+}
+
 .navbar-nav .nav-link,
 .navbar-brand,
 .navbar-nav li a {
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;       /* optional – adjust to your taste */
   font-size: 1.0rem;      /* optional – adjust size of links */
+  color: rgb(35, 30, 25);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav li a:hover {
+  color: rgb(178, 49, 40) !important;
+}
+
+/* Current page: underline instead of red text — red text here would
+   just duplicate the page's own (also red) title right below it */
+.navbar-nav .nav-link.active {
+  position: relative;
+  color: rgb(178, 49, 40) !important;
+  text-decoration: none;
+}
+
+/* Single roaming bracket pair (positioned by nav-brackets.js): rests on
+   the active page, and slides over to whichever item is being hovered.
+   Absolutely positioned relative to the navbar so it can travel freely
+   between nav items without affecting any link's own layout. */
+.nav-bracket {
+  position: absolute;
+  width: 20px;
+  height: 33px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  /* Short easing so the brackets visibly slide across the gap between
+     titles, instead of re-anchoring instantly. nav-brackets.js keeps
+     updating left/top with the target's live (mid-reflow) position on
+     every frame, so this transition is always chasing a fresh, correct
+     value rather than a single precomputed one — which is what avoids
+     the overshoot bug while still producing a smooth, visible slide. */
+  transition: left 0.08s ease, top 0.08s ease;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+}
+
+/* On pages with no active nav item (the homepage), the brackets have
+   nowhere to rest — they start hidden and fade in on the first title
+   the cursor reaches, instead of sliding in from an arbitrary spot */
+.nav-brackets-ready .nav-bracket {
+  transition: left 0.08s ease, top 0.08s ease, opacity 0.1s ease;
+}
+
+.nav-bracket.nav-bracket-visible {
+  opacity: 1;
+}
+
+.nav-bracket-left {
+  background-image: url('odeka_logo_left_bracket.png');
+}
+
+/* Pushes the item's left/right neighbors away to make room for the
+   brackets, animated via the margin transition below */
+/* Margin transition only turns on once nav-brackets.js adds this class
+   (right after the initial, un-transitioned placement) — otherwise the
+   very first placement on every fresh page load animates in from 0,
+   which looks like the hover reflow replaying itself immediately */
+.nav-brackets-ready .navbar-nav .nav-link {
+  transition: margin 0.25s ease;
+}
+
+.navbar-nav .nav-link.nav-link-bracketed {
+  margin-left: 18px !important;
+  margin-right: 18px !important;
+}
+
+.nav-bracket-right {
+  background-image: url('odeka_logo_right_bracket.png');
+}
+
+.navbar-brand {
+  overflow: visible; /* Bootstrap's default clips overflow for text-ellipsis truncation, which was cropping the logo as it scales up on hover */
+}
+
+.navbar-title span {
+  display: inline-block;
+  transition: font-size 0.2s ease, -webkit-text-stroke 0.2s ease;
+}
+
+.navbar-title img {
+  position: relative;
+  z-index: 1001; /* stays above the fixed left corner bar (z-index: 1000) even when it grows on hover */
+  transition: transform 0.2s ease;
+  transform-origin: right center;
+}
+
+.navbar-brand:hover .navbar-title span {
+  font-size: 1.2em;
+  -webkit-text-stroke: 0.5px currentColor;
+}
+
+.navbar-brand:hover .navbar-title img {
+  transform: scale(1.2);
 }
 
 :root {
@@ -198,9 +767,9 @@ main.content:has(.full-width-banner) {
 }
 
 .full-width-banner .hero-image--tall {
-  height: 86vh;
-  max-height: 1020px;
-  object-position: 50% 87%;   /* shifts view down, cropping off the top */
+  height: 45vh;
+  max-height: 550px;
+  object-position: 50% 72%;   /* shifts view down, cropping off the top instead */
 }
 
 .full-width-banner .hero-image--large {
@@ -208,8 +777,54 @@ main.content:has(.full-width-banner) {
   max-height: 750px;
 }
 
+/* Same height as the homepage's closing banner (plain .hero-image) —
+   object-position tuned so every face in this specific group photo
+   stays in frame, as centered within that as the crop allows */
+.full-width-banner .hero-image--family {
+  object-position: 50% 39%;
+}
+
+/* Same height as the closing banner — object-position tuned to keep
+   the crowd (not the sky/landscape above it) in frame */
+.full-width-banner .hero-image--crowd {
+  object-position: 50% 66%;
+}
+
 .full-width-banner .hero-image--bottom-anchored {
   object-position: 50% 100%; /* always keeps the bottom of the image in frame, cropping from the top if needed */
+}
+
+/* Opening banners for People / Projects / News / Jobs — object-position
+   tuned per photo so the subjects stay in frame at the 45vh/550px crop */
+.full-width-banner .hero-image--people {
+  object-position: 50% 55%;
+}
+
+/* Closing banner reuses the page's former opening photo — same crop
+   that was already tuned for it as the opening banner */
+.full-width-banner .hero-image--people-closing {
+  object-position: 50% 68%;
+}
+
+.full-width-banner .hero-image--projects {
+  object-position: 50% 60%;
+}
+
+/* Closing banner reuses the page's former opening photo. Biased low
+   enough to keep the woman on the left's bare feet in frame at
+   realistic viewport widths, without going all the way to a full
+   bottom-anchor (which crops so tight at wide screens it loses most
+   of the scene down to just legs and sand). */
+.full-width-banner .hero-image--projects-closing {
+  object-position: 50% 78%;
+}
+
+.full-width-banner .hero-image--news {
+  object-position: 50% 55%;
+}
+
+.full-width-banner .hero-image--jobs {
+  object-position: 50% 55%;
 }
 
 .full-width-banner .hero-logo {
@@ -251,6 +866,83 @@ main.content:has(.full-width-banner) {
   overflow: visible !important;
   mask: none !important;
   -webkit-mask: none !important;
+}
+
+/* === Contacts & Legal Notice: light typographic pass on Quarto's
+   plain trestles about-template. These pages are short and simple on
+   purpose — no banners, eyebrows, or cards — but were otherwise
+   rendering in Bootstrap's stock sans-serif/black/link-blue, with zero
+   trace of the site's identity. This brings over just the serif font
+   and ink/red palette used everywhere else, plus a little breathing
+   room and a quiet shadow on the portrait, without adding any of the
+   heavier apparatus built for the longer pages. */
+.quarto-about-trestles {
+  margin-top: 32px;
+  align-items: center; /* Quarto's default is stretch, which top-aligns both columns' content against the full row height instead of centering the (usually shorter) photo+socials column against the text column */
+}
+
+.quarto-about-trestles .about-image img {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+.quarto-about-trestles .about-contents {
+  font-family: "Cambria Math", Cambria, serif;
+  color: rgb(35, 30, 25);
+}
+
+.quarto-about-trestles .about-contents h3 {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.quarto-about-trestles .about-contents h3:first-child {
+  margin-top: 0;
+}
+
+/* Small ◆ divider between contact categories (Contacts page only —
+   Legal Notice has no h3s, it's continuous prose) — same glyph/size
+   as the News/Jobs listing separators and the Projects card seam
+   marker, used here as a light section break instead of the full
+   eyebrow/rule apparatus. Targets the section wrapper, not the h3
+   itself — Pandoc wraps each ### heading in its own <section
+   class="level3">, so every h3 is :first-child of ITS OWN section,
+   never of a shared parent; :not(:first-child) on h3 never matches.
+   Centered in the text column (not on the border line), with equal
+   margin above and below — the h3's own margin-top is zeroed out
+   here so it can't collapse asymmetrically with the marker's margin. */
+.quarto-about-trestles .about-contents section.level3:not(:first-of-type)::before {
+  content: "◆";
+  display: block;
+  margin: 24px 0 24px 111px; /* centers the glyph on the horizontal midpoint of the widest text line ("Q/TSHINSAMBI C/KANANGA"), not the full (wider, mostly-empty) column */
+  color: rgb(178, 49, 40);
+  font-size: 9.52px;
+}
+
+.quarto-about-trestles .about-contents section.level3:not(:first-of-type) h3 {
+  margin-top: 0;
+}
+
+.quarto-about-trestles .about-contents p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.quarto-about-trestles .about-contents a:not(.about-link) {
+  color: rgb(178, 49, 40);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(178, 49, 40, 0.35);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.quarto-about-trestles .about-contents a:not(.about-link):hover {
+  color: rgb(148, 40, 33);
+  border-bottom-color: rgba(148, 40, 33, 0.6);
 }
 
 /* === Homepage "about" copy blocks === */
@@ -325,7 +1017,7 @@ main.content:has(.full-width-banner) {
   width: 100vw;
   transform: translateX(-50%);
   background: rgb(35, 30, 25);
-  padding: 14px 24px 36px 24px;
+  padding: 14px 24px 48px 24px;
   text-align: center;
   box-sizing: border-box;
 }
@@ -378,13 +1070,231 @@ main.content:has(.full-width-banner) {
   }
 }
 
+.home-manifesto-bridge {
+  max-width: 560px;
+  margin: 22px auto 0 auto;
+  font-family: "Cambria Math", Cambria, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.home-projects-heading {
+  margin: 60px auto 0 auto;
+}
+
+.home-projects-heading h2 {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+.home-projects-rule {
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 0 auto;
+  background: rgb(196, 18, 18);
+  clip-path: polygon(0% 50%, 6px 0%, calc(100% - 6px) 0%, 100% 50%, calc(100% - 6px) 100%, 6px 100%);
+}
+
+.home-projects-grid {
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+}
+
+#listing-projects_carousel .quarto-grid-item.card {
+  background: rgb(20, 17, 14);
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 4 / 3;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#listing-projects_carousel .quarto-grid-item.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 46px rgba(0, 0, 0, 0.5);
+}
+
+#listing-projects_carousel .card-img-top {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#listing-projects_carousel .card-img-top::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(12, 10, 8, 0.96) 0%, rgba(12, 10, 8, 0.6) 34%, rgba(12, 10, 8, 0) 62%);
+}
+
+#listing-projects_carousel .thumbnail-image {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+#listing-projects_carousel .quarto-grid-item.card:hover .thumbnail-image {
+  transform: scale(1.08);
+}
+
+#listing-projects_carousel .card-body.post-contents {
+  position: relative;
+  z-index: 3;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: content;
+  margin: 0;
+  padding: 4px 20px 4px 20px;
+  border-left: 5px solid rgb(254, 254, 165);
+}
+
+#listing-projects_carousel .card-title.listing-title {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+#listing-projects_carousel .card-text.listing-description {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  font-family: "Cambria Math", Cambria, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.4s ease;
+}
+
+#listing-projects_carousel .quarto-grid-item.card:hover .card-text.listing-description {
+  max-height: 140px;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.home-manifesto-cta {
+  display: inline-block;
+  margin: 48px auto 8px auto;
+}
+
+.home-news-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 20px 27px 36px 27px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.home-news-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(35, 30, 25, 0.35);
+  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
+.home-news-heading-diamond {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translate(-50%, 50%);
+  height: 28px;
+  width: auto;
+  z-index: 2;
+}
+
+.home-news-heading h2 {
+  margin: 10px 0 0 0;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  color: rgb(35, 30, 25);
+}
+
+.home-news-link {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: rgb(196, 18, 18);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.home-news-link:hover {
+  color: rgb(148, 40, 33);
+}
+
+/* Quarto's default separator before the footer social links —
+   replaced with the site's pointed-rule motif for consistency */
+.about-sep {
+  border: none;
+  height: 3px;
+  opacity: 1; /* Bootstrap's default hr opacity (0.25) was compounding with the rgba alpha below, making this much fainter than the matching News rule */
+  background: rgba(35, 30, 25, 0.35);
+  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
+/* Between "How we work" and the citation band: plain white space with
+   a small red ◆ (same glyph/size used site-wide as a gentle divider —
+   Contacts categories, News/Jobs listing dates, Projects card seams)
+   centered exactly in the middle of the gap, instead of the old
+   full-bleed dark photo strip that used to sit here. */
+.about-mini-sep {
+  text-align: center;
+  color: rgb(178, 49, 40);
+  font-size: 9.52px;
+  margin: 40px 0 56px 0;
+}
+
+.about-quote-band {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  padding: 0 0 24px 0; /* top removed — the strip's own margin-bottom now provides the full visible gap above the citation */
+}
+
+.about-quote-band .home-quote-row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* === Homepage pull-quotes === */
 .home-quote-row {
   display: flex;
   align-items: center;
   gap: 5%;
   max-width: 1100px;
-  margin: 64px auto 24px auto;
+  margin: 36px auto 24px auto;
   padding: 0 24px;
 }
 
@@ -440,9 +1350,9 @@ main.content:has(.full-width-banner) {
 }
 
 .home-quote blockquote {
+  position: relative;
   margin: 0;
   border: none;
-  border-left: 4px solid #ccc;
   padding: 0 0 0 20px;
   font-family: "Cambria Math", Cambria, serif;
   font-style: italic;
@@ -452,10 +1362,31 @@ main.content:has(.full-width-banner) {
   color: #222;
 }
 
+.home-quote blockquote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgb(196, 18, 18);
+  clip-path: polygon(50% 0%, 100% 10px, 100% calc(100% - 10px), 50% 100%, 0% calc(100% - 10px), 0% 10px);
+}
+
 .home-quote--right blockquote {
-  border-left: none;
-  border-right: 4px solid #ccc;
   padding: 0 20px 0 0;
+}
+
+.home-quote--right blockquote::before {
+  left: auto;
+  right: 0;
+  background: #ccc;
+}
+
+/* On the About page's grey quote band, a grey bar reads too flat —
+   switch to the site's red accent for more definition there */
+.about-quote-band .home-quote--right blockquote::before {
+  background: rgb(196, 18, 18);
 }
 
 .home-quote .quote-bracket {
@@ -535,6 +1466,17 @@ main.content:has(.full-width-banner) {
   margin: 0 0 72px 0;
 }
 
+/* Standalone image sitting between two paragraphs — no longer floated
+   with text wrapping around it */
+.about-block-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 28px 0 52px 0;
+}
+
 .about-float--right {
   float: right;
   margin-left: 24px;
@@ -568,7 +1510,7 @@ main.content:has(.full-width-banner) {
   margin-bottom: 16px;
 }
 
-.about-cta a.about-button {
+a.about-button {
   display: inline-block;
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;
@@ -582,8 +1524,120 @@ main.content:has(.full-width-banner) {
   transition: background-color 0.2s ease;
 }
 
-.about-cta a.about-button:hover {
+a.about-button:hover {
   background-color: rgb(148, 40, 33);
+}
+
+/* Reuses the same red CTA button, overlaid centered on a photo banner
+   instead of sitting in a text section — the drop shadow is what gives
+   it enough visual separation to read as "placed on" the image rather
+   than looking pasted on, echoing the shadow treatment used on the
+   floating project cards elsewhere on the homepage. */
+.full-width-banner .banner-cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+/* Sampled directly from the foliage in this specific banner photo,
+   rather than an arbitrary green — ties the button's color to the
+   image it sits on instead of the site's red/yellow accent system */
+.full-width-banner .banner-cta.banner-cta--green {
+  background-color: rgb(62, 85, 54);
+}
+
+.full-width-banner .banner-cta.banner-cta--green:hover {
+  background-color: rgb(48, 67, 42);
+}
+
+/* Footer copyright line, site-wide (every page uses this same markup
+   except Legal Notice, where the line is just the last paragraph of
+   its already-serif .about-contents prose) — was plain unstyled text,
+   falling back to Bootstrap's sans-serif instead of the site's one
+   typeface used everywhere else. */
+.page-footer-copyright {
+  margin: 40px 14px 0 14px;
+  text-align: center;
+  font-family: "Cambria Math", Cambria, serif;
+}
+
+/* Footer logo on pages that aren't about-template pages (Projects,
+   People, News, Jobs): matches the gap the jolla about-template
+   naturally produces between its own footer logo and the hr.about-sep
+   below it on the Home/About pages (measured at 51px) — this manual
+   footer's hr had only its own default ~17px top margin and nothing
+   else, since there's no equivalent built-in spacing to inherit here. */
+.page-footer-logo {
+  text-align: center;
+  margin-bottom: 51px; /* collapses with hr.about-sep's own ~17px margin-top, so this value (not the 34px difference) is what determines the final gap */
+}
+
+/* Footer social links on pages that aren't about-template pages (e.g.
+   Projects): reuses Quarto's own about-template link styling values
+   verbatim (div.quarto-about-jolla .about-link in the compiled theme
+   CSS), but scoped under this wrapper instead of that class, since
+   that class's own base rule (display:flex!important on the whole
+   <main>, margin-top:10%) is meant for a full about-page layout and
+   would misplace/resize this footer if applied directly here */
+.page-footer-social {
+  text-align: center;
+}
+
+.page-footer-social .about-links {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .page-footer-social .about-links {
+    flex-direction: row;
+    column-gap: 0.8em;
+    row-gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .page-footer-social .about-links {
+    flex-direction: column;
+    row-gap: 1em;
+    width: 100%;
+    padding-bottom: 1.5em;
+  }
+}
+
+.page-footer-social .about-link {
+  color: #626d78;
+  text-decoration: none;
+  border: solid 1px;
+}
+
+@media (min-width: 992px) {
+  .page-footer-social .about-link {
+    font-size: 0.8em;
+    padding: 0.25em 0.5em;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .page-footer-social .about-link {
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border-radius: 6px;
+  }
+}
+
+.page-footer-social .about-link:hover {
+  color: #2761e3;
+}
+
+.page-footer-social .about-link i.bi {
+  margin-right: 0.15em;
 }
 
 /* === Legal Notice: donor credit line === */
@@ -622,5 +1676,6 @@ main.content:has(.full-width-banner) {
   color: rgb(178, 49, 40);
   font-size: 0.7em;
   margin: 0 4px;
-  vertical-align: middle;
+  position: relative;
+  top: -0.07em; /* vertical-align:middle centers on the x-height midpoint, which sits a bit low against uppercase cap-height */
 }

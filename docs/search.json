@@ -1,493 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "ODEKA A.S.B.L",
-    "section": "",
-    "text": "BLabla."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Simone",
-    "section": "Education",
-    "text": "Education\nWhere I studied"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Simone",
-    "section": "Experience",
-    "text": "Experience\nWhat I’ve done"
-  },
-  {
-    "objectID": "research/paper-1.html",
-    "href": "research/paper-1.html",
-    "title": "My First Paper",
-    "section": "",
-    "text": "A description of my paper.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "All of my research projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Paper\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nSimone , Matthew DeHaven\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Project\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nSimone\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/project-1.html",
-    "href": "research/project-1.html",
-    "title": "My First Project",
-    "section": "",
-    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "07_legal_notice/legal_notice.html",
+    "href": "07_legal_notice/legal_notice.html",
     "title": "<img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>",
     "section": "",
-    "text": "“You cross to my side, and I cross to yours, so that we may meet. Who am I?”\n\n\nKuba proverb\n\n\n\nGood intentions are not enough. We use history, culture, institutions, economic theory, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.\n\n\n\n\n\n\n\n\n\n\n\nIntentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.\n\nJacob Moscona, Nathan Nunn & James A. Robinson“Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters,” Working Paper, 2026\n\n\n\n\nCurrent projects\n\n View all past and present projects → \n\n\n\n\n\n\n\n\n\n\n\n\nReligion & Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nLegal Antecedents of Fiscal Capacity\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nBecause they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.\n\nMichael Kremer“Experimentation, Innovation, and Economics,” American Economic Review 110(7), 2020, pp. 1974–1994\n\n\n\n\n\n\n\nLatest News\n\n View all news → \n\n\n\n\n\n\n\n\n\n\n\n\nJames Robinson Wins the 2024 Nobel Prize in Economic Sciences\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Kananga Team Takes Over Operations\n\n\n\nSep 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga\n\n\n\nJul 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLecture by James Robinson and Jon Weigel at UPC in Kinshasa\n\n\n\nJun 27, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "ODEKA A.S.B.L",
-    "section": "",
-    "text": "BLabla."
-  },
-  {
-    "objectID": "people.html#education",
-    "href": "people.html#education",
-    "title": "Simone",
-    "section": "Education",
-    "text": "Education\nWhere I studied"
-  },
-  {
-    "objectID": "people.html#experience",
-    "href": "people.html#experience",
-    "title": "Simone",
-    "section": "Experience",
-    "text": "Experience\nWhat I’ve done"
-  },
-  {
-    "objectID": "news/project-1.html",
-    "href": "news/project-1.html",
-    "title": "My First Project",
-    "section": "",
-    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "ODEKA A.S.B.L",
-    "section": "",
-    "text": "BLabla."
-  },
-  {
-    "objectID": "contacts.html#education",
-    "href": "contacts.html#education",
-    "title": "Simone",
-    "section": "Education",
-    "text": "Education\nWhere I studied"
-  },
-  {
-    "objectID": "contacts.html#experience",
-    "href": "contacts.html#experience",
-    "title": "Simone",
-    "section": "Experience",
-    "text": "Experience\nWhat I’ve done"
-  },
-  {
-    "objectID": "projects/project-1.html",
-    "href": "projects/project-1.html",
-    "title": "First Project",
-    "section": "",
-    "text": "Blabla.\nBlabla."
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "First Paper\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJohn , Jim , Nathan\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Project\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nJohn\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/paper-1.html",
-    "href": "projects/paper-1.html",
-    "title": "First Paper",
-    "section": "",
-    "text": "Blabla.\nBlabla."
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "News 1\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\n\n\n\n\n\n\nNews 2\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nJim\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/paper-1.html",
-    "href": "news/paper-1.html",
-    "title": "My First Paper",
-    "section": "",
-    "text": "A description of my paper.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "about.html#blabla",
-    "href": "about.html#blabla",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "about.html#blabla-1",
-    "href": "about.html#blabla-1",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "contacts.html#blabla",
-    "href": "contacts.html#blabla",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "contacts.html#blabla-1",
-    "href": "contacts.html#blabla-1",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "people.html#blabla",
-    "href": "people.html#blabla",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "people.html#blabla-1",
-    "href": "people.html#blabla-1",
-    "title": "ODEKA A.S.B.L",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "news/news-1.html",
-    "href": "news/news-1.html",
-    "title": "News 1",
-    "section": "",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "news/news-2.html",
-    "href": "news/news-2.html",
-    "title": "News 2",
-    "section": "",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "02_people/people.html",
-    "href": "02_people/people.html",
-    "title": "People",
-    "section": "",
-    "text": "Executive Board\n\n\n\n\n\n\n\n\n\n\nJon Weigel\n\n\nChief Executive & Chair\n\n\nJonathan Weigel is an assistant professor at UC Berkeley’s Haas School of Business. His research focuses on state capacity, taxation, and the relationship between culture and institutions.\n\n UC Berkeley Profile \n\n\n\n\n\n\n\n\n\n\n\n\nJames Robinson\n\n\nBoard Member\n\n\nA Nobel Prize laureate, James Robinson is a professor at the University of Chicago’s Harris School of Public Policy and Department of Political Science. His research examines the political and institutional foundations of development and the historical roots of prosperity and poverty.\n\n UChicago Profile \n\n\n\n\n\n\n\n\n\n\n\n\nNathan Nunn\n\n\nBoard Member\n\n\nNathan Nunn is a professor at the Vancouver School of Economics. His research explores the historical and cultural foundations of economic development and how local contexts shape the effectiveness of policies and institutions.\n\n UBC Profile \n\n\n\n\n\n\n\n\n\n\n\n\nAugustin Bergeron\n\n\nBoard Member\n\n\nAugustin Bergeron is an assistant professor of economics at Harvard University. His research focuses on state capacity and taxation, the historical roots of social structures and beliefs, and their impact on economic development.\n\n Harvard Profile \n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Tourek\n\n\nBoard Member\n\n\nGabriel Tourek is an assistant professor of economics at the University of California, Davis. His research focuses on public finance and development economics, with an emphasis on state capacity and governance in low-income countries.\n\n UC Davis Profile \n\n\n\n\n\n\n\n\n\n\n\nDirectors\nThe Director of Finance & Operations oversees finances, grant management, institutional relationships, and coordination between the Executive Board and the field. The Country Director heads all operations on the ground in Kananga and serves as the organization’s legal representative in the D.R. Congo. \n\n\n\n\n\n\n\n\nSenior Management\n\n\n\n\n\n\n\n\n\n\nElie Kabue Ngindu\n\n\nHead of Personnel\n\n\n\n\n\n\n\n\n\n\n\n\nJean-Freddy Kabasubabo Tshimanga\n\n\nHead of HR & External Relations\n\n\n\n\n\n\n\n\n\n\n\n\nRaphaël Fiston Mukendi Tshisanga\n\n\nDeputy Head of HR & External Relations\n\n\n\n\n\n\n\n\n\n\n\nResearch Interns\n\n\n\n\n\n\n\n\n\n\nPast Directors\nIndividuals who previously served as Director of Finance & Operations or Country Director. \n\n\n\n\n\n\n\n\n\nManon Bellot\n\n\nDirector of Finance & Operations, 2024-2025\n\n\nCountry Director, 2023-2024\n\n\nNext position: Consultant, World Bank Previous position: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nRobin Benabid Jegaden\n\n\nDirector of Finance & Operations, 2023-2024\n\n\nCountry Director, 2022-2023\n\n\nNext position: Research Engineer in Economics, CNRS Previous posititon: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nAdrien Foutelet\n\n\nDirector of Finance & Operations, 2022-2023\n\n\nCountry Director, 2021-2022\n\n\nNext position: PhD in Economics, Brown University Previous position: MSc Analysis and Policy in Economics, ENS Lyon\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nJean-François Coté\n\n\nDirector of Finance & Operations, 2021-2022\n\n\nCountry Director, 2020-2021\n\n\nNext position: Consultant, CPCS Previous position: Economist, Treasury Board of Canada\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nArthur Laroche\n\n\nDirector of Finance & Operations, 2020-2021\n\n\nCountry Director, 2019-2020\n\n\nNext position: PhD in Economics, UCL Previous position: MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\nPast Senior Management\nIndividuals who previously served in senior management roles, including Head of Personnel, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager. \n\n\n\n\n\n\n\n\n\nAdèle Somat\n\n\nProgram Manager, 2023-2025\n\n\nNext position: Project Officer, LoGRI Previous position: MPhil Inernational Political Economy, King’s College London\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nZacharie Quiviger\n\n\nProgram Manager, 2023-2024\n\n\nNext position: Researcher, SOAS University of London, then PhD in International Relations, Columbia University Previous position: MPhil Politics and International Studies, Cambridge University\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nDylan Reich\n\n\nProgram Manager, 2022-2023\n\n\nNext position: Research Assistant, Oxford University Previous position: MSc Development Management, Applied Development Economics, LSE\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\nPast Interns\nIndividuals who previously served as interns. \n\n\n\n\n\nZoé Baudoin\n\n\nResearch Intern, 2023-2024\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nKip Peeling\n\n\nResearch Intern, 2023\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nFadela Zouleya\n\n\nResearch Intern, 2023\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nLaure Lepine\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nMorgane Garcia\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nRomaine Loubes\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nCharlotte Humes\n\n\nResearch Intern, 2021\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nSara Merner\n\n\nResearch Intern, 2020-2021\n\n\n LinkedIn Profile"
-  },
-  {
-    "objectID": "02_people/people.html#blabla",
-    "href": "02_people/people.html#blabla",
-    "title": "People",
-    "section": "Blabla",
-    "text": "Blabla\n\nBlabla\nBlabla"
-  },
-  {
-    "objectID": "02_people/people.html#blabla-1",
-    "href": "02_people/people.html#blabla-1",
-    "title": "People",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "04_news/news-2.html",
-    "href": "04_news/news-2.html",
-    "title": "News 2",
-    "section": "",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "01_about/about.html",
-    "href": "01_about/about.html",
-    "title": "About us",
-    "section": "",
-    "text": "Who we are\n\nODEKA (Organisation d’Études Économiques au Kasaï) is an independent nonprofit research organization based in Kananga, Democratic Republic of Congo. Our mission is to generate rigorous evidence on economic development, governance, and culture to inform public policy and improve lives.\n\n\n\n\n\n\n\n\nHow we work \n\nWe work closely with government institutions, researchers, and local organizations to design and implement high-quality field research. Much of our work uses randomized controlled trials (RCTs) and other rigorous empirical methods to understand what policies are most effective. In particular, we collaborate closely with the Provincial Government of Kasaï Central to embed randomized evaluations within tax administration reforms, allowing us to study the causal effects of different policy interventions on public finance, state capacity, and citizen engagement.\n\n\n\n\n\n\n\n\nOur history\n\nFounded in 2015, ODEKA builds on a research partnership established in 2013 by Jonathan Weigel, Elie Kabue Ngindu, Jean Muana Kasongo, Sara Lowes, Nathan Nunn, and James Robinson. Today, the organization is jointly managed by Jonathan Weigel, Elie Kabue Ngindu, and Augustin Bergeron, with the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with researchers including Marina Ngoma, Gabriel Tourek, and many other academic partners.\n\n\n\n\n\n\n\n\n\nTo learn more about our ongoing research, visit our Projects page.\n\nExplore our projects →\n\n\nWith thanks to our donors and partners\n\nNational Science Foundation ◆ The Fund for Innovation in Development (FID) ◆ USAID ◆ Philomathia Foundation ◆ The International Growth Centre ◆ The Berkeley Research Opportunity Program ◆ The Weiss Family Fund ◆ SIDA ◆ J-PAL Governance Initiative ◆ J-PAL Peace and Recovery Initiative ◆ J-PAL Conflict and Violence Initiative ◆ J-PAL IGI ◆ The Kenneth C. Griffin Economics Research Fund ◆ Motsepe Fund ◆ CEPR RECIPE"
-  },
-  {
-    "objectID": "01_about/about.html#blabla",
-    "href": "01_about/about.html#blabla",
-    "title": "About us",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "01_about/about.html#blabla-1",
-    "href": "01_about/about.html#blabla-1",
-    "title": "About us",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla\nBlabla\nBlabla"
-  },
-  {
-    "objectID": "03_projects/paper-1.html",
-    "href": "03_projects/paper-1.html",
-    "title": "First Paper",
-    "section": "",
-    "text": "Blabla.\nBlabla."
-  },
-  {
-    "objectID": "03_projects/index.html",
-    "href": "03_projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Legal Antecedents of Fiscal Capacity\n\n\n\nJames Robinson, Jon Weigel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReligion & Development\n\n\n\nNathan Nunn, Jon Weigel, Clara Sievert, Marina NGoma\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "03_projects/project-1.html",
-    "href": "03_projects/project-1.html",
-    "title": "Religion & Development",
-    "section": "",
-    "text": "← Back to Projects\nPage under construction."
-  },
-  {
-    "objectID": "05_contacts/contacts.html",
-    "href": "05_contacts/contacts.html",
-    "title": "Contacts",
-    "section": "",
-    "text": "Headquarters address:\n6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC\n\n\nContact information:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20\n\n\nLegal matters:\n(+243) 9 94 63 66 87\n\n\nWebmaster:\nodeka.webmaster@gmail.com"
-  },
-  {
-    "objectID": "05_contacts/contacts.html#blabla",
-    "href": "05_contacts/contacts.html#blabla",
-    "title": "News",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "05_contacts/contacts.html#blabla-1",
-    "href": "05_contacts/contacts.html#blabla-1",
-    "title": "News",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "04_news/news-1.html",
-    "href": "04_news/news-1.html",
-    "title": "Visit of James Robinson and Jon Weigel to the field",
-    "section": "",
-    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper."
+    "text": "ODEKA A.S.B.L is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA, with its principal office located at:\nODEKA A.S.B.L 6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC.\nTax identification number: A2045536T\nODEKA A.S.B.L’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.\nThis website is published and maintained by ODEKA A.S.B.L Unless otherwise stated, all content on this site is the property of ODEKA A.S.B.L and may not be reproduced without prior written permission.\nCopyright © 2026 ODEKA A.S.B.L All rights reserved."
   },
   {
     "objectID": "04_news/index.html",
     "href": "04_news/index.html",
     "title": "News",
     "section": "",
-    "text": "⟳ Subscribe via RSS \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJames Robinson Wins the 2024 Nobel Prize in Economic Sciences\n\n\n\n\n\nWe are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences.\n\n\n\n\n\nOct 15, 2024\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nNew Kananga Team Takes Over Operations\n\n\n\n\n\nThe end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.\n\n\n\n\n\nSep 12, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nField Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga\n\n\n\n\n\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\n\n\n\n\n\nJul 18, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nLecture by James Robinson and Jon Weigel at UPC in Kinshasa\n\n\n\n\n\nUnder construction.\n\n\n\n\n\nJun 27, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nHazard, Uncertainty, and Risk in Kananga\n\n\n\n\n\nUnder construction.\n\n\n\n\n\nMay 22, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nEndline Enumerator Training Week at ODEKA A.S.B.L and the Launch of the First Endline Wave\n\n\n\n\n\nTwo weeks of training and preparation at ODEKA A.S.B.L culminate in the smooth launch of the project’s first endline wave.\n\n\n\n\n\nApr 30, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nA Day in the Life of ODEKA A.S.B.L\n\n\n\n\n\nFrom pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork.\n\n\n\n\n\nFeb 20, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nODEKA A.S.B.L Returns in 2022 with a Larger Team and Higher Goals\n\n\n\n\n\nAfter a short end-of-year break, ODEKA A.S.B.L begins 2022 reinvigorated, with new faces, new projects, and renewed ambitions.\n\n\n\n\n\nJan 13, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nLaunch of the Fourth Intervention Wave of the Religion and Development Project\n\n\n\n\n\nODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study.\n\n\n\n\n\nOct 16, 2021\n\n\nAdrien Foutelet\n\n\n\n\n\n\nNo matching items"
+    "text": "⟳ Subscribe via RSS \n\n\n\n\n\n\n\n\n\n\nJames Robinson Wins the 2024 Nobel Prize in Economic Sciences\n\n\n\n\n\nWe are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences.\n\n\n\n\n\nOct 15, 2024\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nNew Kananga Team Takes Over Operations\n\n\n\n\n\nThe end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.\n\n\n\n\n\nSep 12, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nField Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga\n\n\n\n\n\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\n\n\n\n\n\nJul 18, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nLecture by James Robinson and Jon Weigel at UPC in Kinshasa\n\n\n\n\n\nUnder construction.\n\n\n\n\n\nJun 27, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nHazard, Uncertainty, and Risk in Kananga\n\n\n\n\n\nUnder construction.\n\n\n\n\n\nMay 22, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nEndline Enumerator Training Week at ODEKA A.S.B.L and the Launch of the First Endline Wave\n\n\n\n\n\nTwo weeks of training and preparation at ODEKA A.S.B.L culminate in the smooth launch of the project’s first endline wave.\n\n\n\n\n\nApr 30, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nA Day in the Life of ODEKA A.S.B.L\n\n\n\n\n\nFrom pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork.\n\n\n\n\n\nFeb 20, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nODEKA A.S.B.L Returns in 2022 with a Larger Team and Higher Goals\n\n\n\n\n\nAfter a short end-of-year break, ODEKA A.S.B.L begins 2022 reinvigorated, with new faces, new projects, and renewed ambitions.\n\n\n\n\n\nJan 13, 2022\n\n\nAdrien Foutelet\n\n\n\n\n\n\n\n\n\n\n\n\nLaunch of the Fourth Intervention Wave of the Religion and Development Project\n\n\n\n\n\nODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study.\n\n\n\n\n\nOct 16, 2021\n\n\nAdrien Foutelet\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved.\n\n\n\n\n\n\n\n\n\n\n\n  twitter    Instagram    LinkedIn"
   },
   {
-    "objectID": "05_contacts/contacts.html#headquarters",
-    "href": "05_contacts/contacts.html#headquarters",
-    "title": "Contacts",
+    "objectID": "04_news/posts/news20220522.html",
+    "href": "04_news/posts/news20220522.html",
+    "title": "Hazard, Uncertainty, and Risk in Kananga",
     "section": "",
-    "text": "6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC"
+    "text": "← Back to News\nUnder construction.\nUnder construction."
   },
   {
-    "objectID": "05_contacts/contacts.html#contact-information",
-    "href": "05_contacts/contacts.html#contact-information",
-    "title": "Contacts",
-    "section": "Contact information:",
-    "text": "Contact information:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20"
-  },
-  {
-    "objectID": "05_contacts/contacts.html#webmaster",
-    "href": "05_contacts/contacts.html#webmaster",
-    "title": "Contacts",
-    "section": "Webmaster:",
-    "text": "Webmaster:\nodeka.webmaster@gmail.com"
-  },
-  {
-    "objectID": "05_contacts/contacts.html#legal-matters",
-    "href": "05_contacts/contacts.html#legal-matters",
-    "title": "Contacts",
-    "section": "Legal matters:",
-    "text": "Legal matters:\n(+243) 9 94 63 66 87"
-  },
-  {
-    "objectID": "05_contacts/contacts.html#headquarters-address",
-    "href": "05_contacts/contacts.html#headquarters-address",
-    "title": "Contacts",
+    "objectID": "04_news/posts/news20220220.html",
+    "href": "04_news/posts/news20220220.html",
+    "title": "A Day in the Life of ODEKA A.S.B.L",
     "section": "",
-    "text": "6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC"
+    "text": "← Back to News\nFrom pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork.\nWhile Raphaël has been coordinating motorbike drivers since 4:00 a.m. from our Procure office, using a radio to stay in contact across long distances, the drivers are sent to villages, sometimes 50 miles away, with the mission of bringing our intervention participants to town by 10.30 a.m. At 5:40 a.m. sharp, Philip, our guard and one of the region’s customary chiefs known for his charitable practice of magic, opens the gates of ODEKA A.S.B.L’s main compound. He welcomes Mama Beignet, a local baker who has prepared 14 bags of beignets. These will join the items Adrien is already arranging on the tables he has just set up outside: 14 tablets, 14 pouches, 14 batteries, and 14 instruction sheets.\nThese are the essential tools of our enumerators. It is crucial that the tablets are fully charged, no small feat in a town where electricity runs for only a few hours a day, and not every day, and that the pouches contain exactly the right amount of money needed for food, official and unofficial road barriers, potential motorbike repairs, and survey respondent payments. Carrying too much money would expose our teams to serious risks of assault, while too little would jeopardize the day’s work.\nAt 5:50, Elie and Jean-Freddy, always the first enumerators to arrive and both senior managers at ODEKA A.S.B.L, step through the gate. By 6:15 a.m., all 14 enumerators have arrived and departed for their missions. These are the elite of ODEKA A.S.B.L: some have been with us for almost ten years, and all are extraordinarily hardworking and dedicated to our baseline and endline surveys.\nThe human capital embodied in this team is remarkable. All are skilled motorbike drivers, capable of navigating without lights, GPS, or maps across vast regions with no proper roads or bridges, sometimes ferrying their bikes across rivers on pirogues. All speak and write at least three languages, French, Tshiluba, and Lingala, and are capable of administering surveys lasting up to four hours, involving complex research games and sensitive questions, often to respondents fearful of extortion or magic. They deploy the most sophisticated diplomacy, maintain rigorous accounts of their daily expenses, and fully understand the demands of conducting randomized controlled trials.\nThese men and women, the treasure and pride of ODEKA A.S.B.L, are the craftsmen of the data we produce.\nAfter a few final adjustments and oral instructions, Adrien can brew a well-deserved coffee as Morgane and Romaine step onto the scene. Once participants arrive, they are greeted by another team of younger, yet highly trained enumerators. The same ballet of tablets, batteries, pouches, beignets, and instructions continues until around 9:30 a.m.\nRaphaël meets the participants and their drivers, rushing between Kananga’s markets and churches to resolve small conflicts, again, diplomacy is essential. Lisette receives special attention: she is the enumerator responsible for collecting data for our local aggregate price index. She moves through the markets, gathering price information from merchants and consumers alike.\nMeanwhile, Adrien, Morgane, and Romaine tackle the day’s administrative tasks: accounting records, stakeholder meetings, responding to administrative requests, purchasing materials, solving problems and conflicts, designing the next survey, writing reports, and running quality checks on the data. The workload is immense. They are supported by Papa Danny, our cook, who masters the art of keeping everyone’s stomachs healthy with only a brazier and a few utensils, and Mama Louisa, our cleaner, who keeps the dusty compound livable, hand-washing clothes, ironing with embers to protect against parasites, stitching mosquito nets, our only defense against malaria, and even deterring cockroaches with ingenious tricks.\nAt 3:00 p.m., the intervention enumerators return. Their daily reports are highly detailed, including numerous procedures to detect errors, intentional or not, and to verify distributed funds. By 7:30 p.m., the baseline team is back, submitting even more complex reports. But the work doesn’t stop there: data cleaning must be done immediately, because tomorrow’s assignments depend on today’s results. This can take hours, with code to run, follow-up calls to enumerators already home, ad-hoc coding, and all work strictly documented according to best practices of replicability and transparency.\nAs dusk falls, one last challenge looms: electricity. Reliable power is vital not only for charging the tablets and batteries the teams use in the field, but also for running the computers needed for data cleaning and assignment generation. Will Kananga’s grid supply power tonight? Are our solar panels and batteries sufficient for a few more hours? Is the generator operational, and do we have enough affordable fuel? Is the cable linking us to the old train station (where state-provided generators were repurposed for local revenue) still intact and functional?\nOnly once these questions are answered does the day end, often around 9:30 p.m., when everyone finally shares a well-deserved dinner. ODEKA A.S.B.L’s people must go to bed early, because they rise early.\nThis is ODEKA A.S.B.L’s daily life, five days a week, Tuesday through Saturday. Sundays are lighter, with only intervention waves and payroll, a complex task since salaries include both a regular and a performance-based component. Mondays are nominally rest days, though often they become a mix of rest, administration, and cash withdrawals.\nAnd of course, this daily rhythm is far from predictable. Kananga is an extremely poor environment with non-functional institutions, where even the simplest task can be disrupted by uncertainty and hazard. No two days ever look the same, and that unpredictability is one of the most exciting parts of working at ODEKA A.S.B.L.\nBut that, as they say, is a story for another post…"
   },
   {
-    "objectID": "02_people/people.html#blabla-2",
-    "href": "02_people/people.html#blabla-2",
-    "title": "People",
-    "section": "Blabla",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "02_people/people.html#executive-board",
-    "href": "02_people/people.html#executive-board",
-    "title": "People",
-    "section": "Executive Board",
-    "text": "Executive Board\n\n\n\n\nJon Weigel\n\n\nChief Executive\n\n\nJohn oversees the implementation of ODEKA’s community programs in Kananga.\n\n\n&lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\" style=\"color: #0077b5; text-decoration: none; font-weight: 600;\"&gt;\n  LinkedIn Profile\n&lt;/a&gt;\n\n\n\n\n\n\n&lt;div class=\"name\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div class=\"title\"&gt;Chief Executive&lt;/div&gt;\n&lt;div class=\"description\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div class=\"linkedin\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\"&gt;LinkedIn&lt;/a&gt;\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "02_people/people.html#platform-executives",
-    "href": "02_people/people.html#platform-executives",
-    "title": "People",
-    "section": "Platform Executives",
-    "text": "Platform Executives\n\nPredoc\n\n\nElie"
-  },
-  {
-    "objectID": "02_people/people.html#team-managers",
-    "href": "02_people/people.html#team-managers",
-    "title": "People",
-    "section": "Team Managers",
-    "text": "Team Managers\n\nJean Freddy"
-  },
-  {
-    "objectID": "02_people/people.html#interns",
-    "href": "02_people/people.html#interns",
-    "title": "People",
-    "section": "Interns",
-    "text": "Interns\n\nLaure"
-  },
-  {
-    "objectID": "02_people/people.html#field-executives-alumni",
-    "href": "02_people/people.html#field-executives-alumni",
-    "title": "People",
-    "section": "Field Executives Alumni",
-    "text": "Field Executives Alumni"
-  },
-  {
-    "objectID": "02_people/people.html#field-executives",
-    "href": "02_people/people.html#field-executives",
-    "title": "People",
-    "section": "Field Executives",
-    "text": "Field Executives\n\nPredoc\n\n\nElie"
-  },
-  {
-    "objectID": "02_people/people.html#field-executives---alumni",
-    "href": "02_people/people.html#field-executives---alumni",
-    "title": "People",
-    "section": "Field Executives - Alumni",
-    "text": "Field Executives - Alumni"
-  },
-  {
-    "objectID": "05_jobs/index.html",
-    "href": "05_jobs/index.html",
-    "title": "Jobs",
+    "objectID": "04_news/posts/news20220627.html",
+    "href": "04_news/posts/news20220627.html",
+    "title": "Lecture by James Robinson and Jon Weigel at UPC in Kinshasa",
     "section": "",
-    "text": "Research Intern\n\n\n\n\n\n\n\n\nSep 2, 2025\n\n\nJon Weigel, UC Berkeley\n\n\n\n\n\n\n\nPredoctoral Research Associate\n\n\n\n\n\n\n\n\nSep 1, 2025\n\n\nJon Weigel, UC Berkeley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "05_jobs/news-2.html",
-    "href": "05_jobs/news-2.html",
-    "title": "Job 2",
-    "section": "",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "05_jobs/news-1.html",
-    "href": "05_jobs/news-1.html",
-    "title": "Job 1",
-    "section": "",
-    "text": "Blabla\nBlabla"
-  },
-  {
-    "objectID": "06_contacts/contacts.html",
-    "href": "06_contacts/contacts.html",
-    "title": "Contacts",
-    "section": "",
-    "text": "Headquarters address:\n6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC\n\n\nGeneral inquiries:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20\n\n\nLegal inquiries:\n(+243) 9 94 63 66 87\n\n\nWebsite administrator:\nodeka.webmaster@gmail.com"
-  },
-  {
-    "objectID": "05_jobs/job-1.html",
-    "href": "05_jobs/job-1.html",
-    "title": "Predoctoral Research Associate",
-    "section": "",
-    "text": "← Back to Jobs\nUnder construction"
-  },
-  {
-    "objectID": "05_jobs/job-2.html",
-    "href": "05_jobs/job-2.html",
-    "title": "Research Intern",
-    "section": "",
-    "text": "← Back to Jobs\nUnder construction"
-  },
-  {
-    "objectID": "07_legal_notice/legal_notice.html",
-    "href": "07_legal_notice/legal_notice.html",
-    "title": "Legal Notice",
-    "section": "",
-    "text": "ODEKA A.S.B.L is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA, with its principal office located at:\nODEKA A.S.B.L 6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC.\nTax identification number: A2045536T\nODEKA A.S.B.L’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.\nThis website is published and maintained by ODEKA A.S.B.L Unless otherwise stated, all content on this site is the property of ODEKA A.S.B.L and may not be reproduced without prior written permission.\nCopyright © 2026 ODEKA A.S.B.L All rights reserved."
-  },
-  {
-    "objectID": "02_people/people.html#past-field-executives",
-    "href": "02_people/people.html#past-field-executives",
-    "title": "People",
-    "section": "Past Field Executives",
-    "text": "Past Field Executives\n\nArthur"
-  },
-  {
-    "objectID": "02_people/people.html#jon-weigel",
-    "href": "02_people/people.html#jon-weigel",
-    "title": "People",
-    "section": "Jon Weigel",
-    "text": "Jon Weigel\nChief Executive John oversees the implementation of ODEKA’s community programs in Kananga. He works closely with local communities and international partners to coordinate all field operations.\nHis work has significantly improved the reach and efficiency of ODEKA’s educational and health initiatives across the Kasai region.\nThis paragraph will continue to flow around the image to the right, wrapping naturally while the image stays on the left.\n\n\n\n&lt;div style=\"font-weight:800; font-size:1.6rem; margin-bottom:6px;\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div style=\"font-style:italic; color:#555; margin-bottom:10px;\"&gt;Chief Executive&lt;/div&gt;\n&lt;div style=\"font-size:1rem; color:#333; margin-bottom:12px; line-height:1.5;\n            white-space:normal; overflow-wrap:anywhere; word-break:break-word;\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\"\n     target=\"_blank\" style=\"color:#0077b5; text-decoration:none; font-weight:600;\"&gt;\n    LinkedIn Profile\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n\n\n\n&lt;div class=\"name\"&gt;Jon Weigel&lt;/div&gt;\n&lt;div class=\"title\"&gt;Chief Executive&lt;/div&gt;\n&lt;div class=\"description\"&gt;\n  John oversees the implementation of ODEKA’s community programs in Kananga.\n&lt;/div&gt;\n&lt;div class=\"linkedin\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/jonathan-weigel-85462812b/?originalSubdomain=uk\" target=\"_blank\"&gt;LinkedIn&lt;/a&gt;\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "03_projects/project-2.html",
-    "href": "03_projects/project-2.html",
-    "title": "Legal Antecedents of Fiscal Capacity",
-    "section": "",
-    "text": "← Back to Projects\nPage under construction."
-  },
-  {
-    "objectID": "01_about/about.html#in-construction",
-    "href": "01_about/about.html#in-construction",
-    "title": "About us",
-    "section": "In construction",
-    "text": "In construction\nUnder construction"
-  },
-  {
-    "objectID": "01_about/about.html#in-construction-1",
-    "href": "01_about/about.html#in-construction-1",
-    "title": "About us",
-    "section": "In construction",
-    "text": "In construction\nUnder construction\nUnder construction\nUnder construction"
-  },
-  {
-    "objectID": "04_news/news20220912.html",
-    "href": "04_news/news20220912.html",
-    "title": "Visit of James Robinson and Jon Weigel to the field",
-    "section": "",
-    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper."
-  },
-  {
-    "objectID": "04_news/news20220718.html",
-    "href": "04_news/news20220718.html",
-    "title": "Visit of James Robinson and Jon Weigel to the field",
-    "section": "",
-    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper."
-  },
-  {
-    "objectID": "04_news/news20241014.html",
-    "href": "04_news/news20241014.html",
-    "title": "James Robinson laureate of the 2024 Nobel Prize in Economics",
-    "section": "",
-    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi and Secretary of Finance Jim Mukenge. The local team, Eva Davoine, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper."
+    "text": "← Back to News\nUnder construction.\nUnder construction."
   },
   {
     "objectID": "04_news/posts/news20241014.html",
@@ -497,18 +42,11 @@
     "text": "← Back to News\nWe are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences.\nJames A. Robinson, a founding member of ODEKA A.S.B.L and professor at the University of Chicago’s Harris School of Public Policy, was awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. He shares the prize with Daron Acemoglu and Simon Johnson “for studies of how institutions are formed and affect prosperity.” Robinson’s work has profoundly reshaped our understanding of why some nations flourish while others remain trapped in poverty. Together with his co-laureates, he has shown how differences in political and economic institutions, many rooted in the legacies of European colonization, persist over time and continue to shape patterns of prosperity today. Their theoretical contributions have also deepened our understanding of how institutions evolve and how change becomes possible.\nA central figure in the field of political economy and development, Robinson combines rigorous mathematical and quantitative analysis with deep historical research, case studies, and fieldwork. His research spans Latin America and sub-Saharan Africa, with extensive field experience in the Democratic Republic of the Congo, Nigeria, Sierra Leone, Bolivia, and beyond. He is the co-author, with Acemoglu, of three landmark books (Economic Origins of Dictatorship and Democracy, Why Nations Fail, and The Narrow Corridor) that have shaped global debates on institutions, state formation, and development.\nJames Robinson’s connection to ODEKA A.S.B.L runs deep. In the early 2010s, he was part of the original team that traveled to Kasai, driven by his idea to study the political and historical legacy of the Kuba Kingdom after a formative conversation with a Congolese political leader. That journey laid the foundations for what would become the Kuba Kingdom project, a cornerstone of ODEKA A.S.B.L’s early research and one that continues to influence the economics of culture and institutions today. ODEKA A.S.B.L is proud to have contributed to the research agenda that ultimately led to this Nobel Prize.\nBeyond his towering scholarly influence, James Robinson is deeply admired by everyone at ODEKA A.S.B.L, especially by the younger researchers. He is renowned not only for his brilliance but also for his exceptional kindness, generosity, and humility. He speaks with every team member as if they were themselves Nobel laureates, asking thoughtful questions about their knowledge and ideas, and fostering a spirit of genuine intellectual curiosity and mutual respect.\nWe at ODEKA A.S.B.L are honored to count James Robinson among our founders and leaders. His Nobel Prize is not only a recognition of his extraordinary contributions to the field, but also a celebration of the collaborative spirit, curiosity, and humanity that have defined ODEKA’s work since its inception.\nCongratulations, Jim, on this historic and deeply deserved recognition."
   },
   {
-    "objectID": "04_news/posts/news20220718.html",
-    "href": "04_news/posts/news20220718.html",
-    "title": "Field Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga",
+    "objectID": "06_contacts/contacts.html",
+    "href": "06_contacts/contacts.html",
+    "title": "<img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>",
     "section": "",
-    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi, Secretary of Finance Jim Mukenge, and Chief Kalamaba, King of the Lulua Bashilange. The local team, Eva Davoine, a PhD student from UC Berkeley visiting since May, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.\nThe team was particularly inspired by the principal investigators’ accessibility, generosity, and intellectual curiosity throughout the visit. Their openness to discussion and close collaboration made the experience both stimulating and deeply rewarding. The entire ODEKA A.S.B.L team was also delighted to learn that Eva Davoine will officially join the team of principal investigators, a development that had been under consideration for some time and is now confirmed."
-  },
-  {
-    "objectID": "04_news/posts/news20220912.html",
-    "href": "04_news/posts/news20220912.html",
-    "title": "New Kananga Team Takes Over Operations",
-    "section": "",
-    "text": "← Back to News\nThe end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.\nRobin Benabid Jegaden, the new Country Director, and Dylan Reich, the new Program Manager, arrived in Kananga in early August, where they joined Laure Lepine, the new Research Intern, who had arrived a few weeks earlier. The three will steer ODEKA A.S.B.L through the months ahead.\nOver six weeks, outgoing Country Director Adrien Foutelet introduced them to ODEKA A.S.B.L’s employees, contractors, and partners, as well as key stakeholders in Kananga. They received extensive training on the organization’s management, current financial and HR priorities, and the scientific and practical dimensions of ODEKA A.S.B.L’s main ongoing project, Religion & Development.\nWhile the baseline phase of this project is now fully complete, the team will oversee one ongoing wave of intervention and prepare to launch the final, tenth wave in the coming weeks. The intervention phase is projected to conclude in about seven months. They will also manage the shorter but crucial endline survey waves, five of which remain to be conducted.\nAs Religion & Development enters its final stage, ODEKA A.S.B.L is preparing to embark on a new horizon: Legal Antecedents of Fiscal Capacity, an ambitious project originally conceived by James Robinson. The three young researchers will play a key role as the practical hands in the field, devising concrete solutions and implementing actions in response to the principal investigators’ directives.\nMeanwhile, Adrien Foutelet will transition to a new role as Director of Finance & Operations, joining Jonathan Weigel on the UC Berkeley campus to oversee project finances and serve as the day-to-day bridge between the field team and the principal investigators.\nIn the coming months, the Kananga team may welcome additional members, as the workload promises to grow significantly. Good luck to our three new recruits, and stay tuned!"
+    "text": "Headquarters address:\n6, avenue du Commerce L/AZDA (Cinquantenaire) Q/TSHINSAMBI C/KANANGA KASAÏ CENTRAL, RDC\n\n\nGeneral inquiries:\nodeka.contact@gmail.com (+243) 9 79 49 50 67 (+243) 8 30 62 28 20\n\n\nLegal inquiries:\n(+243) 9 94 63 66 87\n\n\nWebsite administrator:\nodeka.webmaster@gmail.com\n\n\nSocial media:\nTwitter Instagram LinkedIn"
   },
   {
     "objectID": "05_jobs/posts/job-2.html",
@@ -516,6 +54,20 @@
     "title": "Research Intern",
     "section": "",
     "text": "← Back to Jobs\nUnder construction"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "<img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'><span style='color: black;vertical-align: middle;'>ODEKA</span>",
+    "section": "",
+    "text": "“You cross to my side, and I cross to yours, so that we may meet. Who am I?”\n\n\nKuba proverb\n\n\n\nGood intentions are not enough. We use history, culture, institutions, economic theory, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.\n\n\nHere is what that looks like in practice.\n\n\n\nOngoing major projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLegal Antecedents of Fiscal Capacity\n\n\nTracing how colonial and customary legal institutions shape the state’s capacity to tax and govern in Kasaï today.\n\n\n\n\n\n\n\n\n\n\n\n\n\nReligion & Development\n\n\nExamining how religious affiliation and practice shape economic development outcomes across Congolese communities.\n\n\n\n\n\n\n\nNo matching items\n\n\n\nExplore all our projects →\n\n\n\n\n\n\n\n\nIntentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.\n\nJacob Moscona, Nathan Nunn & James A. Robinson“Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters,” Working Paper, 2026\n\n\n\n Looking for a job? →\n\n\n\nLatest News\n\nView all news → \n\n\n\n\n\n\n\n\n\n\n\n\nJames Robinson Wins the 2024 Nobel Prize in Economic Sciences\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Kananga Team Takes Over Operations\n\n\n\nSep 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga\n\n\n\nJul 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLecture by James Robinson and Jon Weigel at UPC in Kinshasa\n\n\n\nJun 27, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved."
+  },
+  {
+    "objectID": "03_projects/index.html",
+    "href": "03_projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Major projects\n\n\n\n\n\n\n\n\n\n\nLegal Antecedents of Fiscal Capacity\n\n\nTracing how colonial and customary legal institutions shape the state’s capacity to tax and govern in Kasaï today.\n\n\n\nJames Robinson, Jon Weigel\n\n\n\n\n\nstatus\n\n\nongoing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReligion & Development\n\n\nExamining how religious affiliation and practice shape economic development outcomes across Congolese communities.\n\n\n\nNathan Nunn, Jon Weigel, Clara Sievert, Marina NGoma\n\n\n\n\n\nstatus\n\n\nongoing\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nOther projects\n\n\n\n\n\n\n\n\n\n\nSupernatural Beliefs and Modern Medicine\n\n\nProject page coming soon.\n\n\n\nClara Sievert\n\n\n\n\n\nstatus\n\n\nongoing\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved.\n\n\n\n\n\n\n\n\n\n\n\n  twitter    Instagram    LinkedIn"
   },
   {
     "objectID": "03_projects/posts/project-2.html",
@@ -532,6 +84,13 @@
     "text": "← Back to Projects\nPage under construction."
   },
   {
+    "objectID": "01_about/about.html",
+    "href": "01_about/about.html",
+    "title": "About us",
+    "section": "",
+    "text": "Who we are\n\nODEKA (Organisation d’Études Économiques au Kasaï) is an independent nonprofit research organization based in Kananga, Democratic Republic of Congo. Our mission is to generate rigorous evidence on economic development, governance, and culture to inform public policy and improve lives.\n\n\n\n\n\n How we work\n\nWe work closely with government institutions, researchers, and local organizations to design and implement high-quality field research. Much of our work uses randomized controlled trials (RCTs) and other rigorous empirical methods to understand what policies are most effective. In particular, we collaborate closely with the Provincial Government of Kasaï Central to embed randomized evaluations within tax administration reforms, allowing us to study the causal effects of different policy interventions on public finance, state capacity, and citizen engagement.\n\n\n\n\n\n◆\n\n\n\n\n\n\nBecause they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.\n\nMichael Kremer“Experimentation, Innovation, and Economics,” American Economic Review 110(7), 2020, pp. 1974–1994\n\n\n\n\n\n\n\n\n\n\nOur history\n\nFounded in 2015, ODEKA builds on a research partnership established in 2013 by Jonathan Weigel, Elie Kabue Ngindu, Jean Muana Kasongo, Sara Lowes, Nathan Nunn, and James Robinson. Today, the organization is jointly managed by Jonathan Weigel, Elie Kabue Ngindu, and Augustin Bergeron, with the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with researchers including Marina Ngoma, Gabriel Tourek, and many other academic partners.\n\n\n\n\n\n\n\n\n\nTo learn more about our ongoing research, visit our Projects page.\n\nExplore our projects →\n\n\nWith thanks to our donors and partners\n\nNational Science Foundation ◆ The Fund for Innovation in Development (FID) ◆ USAID ◆ Philomathia Foundation ◆ The International Growth Centre ◆ The Berkeley Research Opportunity Program ◆ The Weiss Family Fund ◆ SIDA ◆ J-PAL Governance Initiative ◆ J-PAL Peace and Recovery Initiative ◆ J-PAL Conflict and Violence Initiative ◆ J-PAL IGI ◆ The Kenneth C. Griffin Economics Research Fund ◆ Motsepe Fund ◆ CEPR RECIPE\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved."
+  },
+  {
     "objectID": "05_jobs/posts/job-1.html",
     "href": "05_jobs/posts/job-1.html",
     "title": "Predoctoral Research Associate",
@@ -539,25 +98,11 @@
     "text": "← Back to Jobs\nUnder construction"
   },
   {
-    "objectID": "01_about/about.html#under-construction",
-    "href": "01_about/about.html#under-construction",
-    "title": "About us",
-    "section": "Under construction",
-    "text": "Under construction\nUnder construction"
-  },
-  {
-    "objectID": "01_about/about.html#under-construction-1",
-    "href": "01_about/about.html#under-construction-1",
-    "title": "About us",
-    "section": "Under construction",
-    "text": "Under construction\nUnder construction"
-  },
-  {
-    "objectID": "04_news/posts/news20220220.html",
-    "href": "04_news/posts/news20220220.html",
-    "title": "A Day in the Life of ODEKA A.S.B.L",
+    "objectID": "05_jobs/index.html",
+    "href": "05_jobs/index.html",
+    "title": "Jobs",
     "section": "",
-    "text": "← Back to News\nFrom pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork.\nWhile Raphaël has been coordinating motorbike drivers since 4:00 a.m. from our Procure office, using a radio to stay in contact across long distances, the drivers are sent to villages, sometimes 50 miles away, with the mission of bringing our intervention participants to town by 10.30 a.m. At 5:40 a.m. sharp, Philip, our guard and one of the region’s customary chiefs known for his charitable practice of magic, opens the gates of ODEKA A.S.B.L’s main compound. He welcomes Mama Beignet, a local baker who has prepared 14 bags of beignets. These will join the items Adrien is already arranging on the tables he has just set up outside: 14 tablets, 14 pouches, 14 batteries, and 14 instruction sheets.\nThese are the essential tools of our enumerators. It is crucial that the tablets are fully charged, no small feat in a town where electricity runs for only a few hours a day, and not every day, and that the pouches contain exactly the right amount of money needed for food, official and unofficial road barriers, potential motorbike repairs, and survey respondent payments. Carrying too much money would expose our teams to serious risks of assault, while too little would jeopardize the day’s work.\nAt 5:50, Elie and Jean-Freddy, always the first enumerators to arrive and both senior managers at ODEKA A.S.B.L, step through the gate. By 6:15 a.m., all 14 enumerators have arrived and departed for their missions. These are the elite of ODEKA A.S.B.L: some have been with us for almost ten years, and all are extraordinarily hardworking and dedicated to our baseline and endline surveys.\nThe human capital embodied in this team is remarkable. All are skilled motorbike drivers, capable of navigating without lights, GPS, or maps across vast regions with no proper roads or bridges, sometimes ferrying their bikes across rivers on pirogues. All speak and write at least three languages, French, Tshiluba, and Lingala, and are capable of administering surveys lasting up to four hours, involving complex research games and sensitive questions, often to respondents fearful of extortion or magic. They deploy the most sophisticated diplomacy, maintain rigorous accounts of their daily expenses, and fully understand the demands of conducting randomized controlled trials.\nThese men and women, the treasure and pride of ODEKA A.S.B.L, are the craftsmen of the data we produce.\nAfter a few final adjustments and oral instructions, Adrien can brew a well-deserved coffee as Morgane and Romaine step onto the scene. Once participants arrive, they are greeted by another team of younger, yet highly trained enumerators. The same ballet of tablets, batteries, pouches, beignets, and instructions continues until around 9:30 a.m.\nRaphaël meets the participants and their drivers, rushing between Kananga’s markets and churches to resolve small conflicts, again, diplomacy is essential. Lisette receives special attention: she is the enumerator responsible for collecting data for our local aggregate price index. She moves through the markets, gathering price information from merchants and consumers alike.\nMeanwhile, Adrien, Morgane, and Romaine tackle the day’s administrative tasks: accounting records, stakeholder meetings, responding to administrative requests, purchasing materials, solving problems and conflicts, designing the next survey, writing reports, and running quality checks on the data. The workload is immense. They are supported by Papa Danny, our cook, who masters the art of keeping everyone’s stomachs healthy with only a brazier and a few utensils, and Mama Louisa, our cleaner, who keeps the dusty compound livable, hand-washing clothes, ironing with embers to protect against parasites, stitching mosquito nets, our only defense against malaria, and even deterring cockroaches with ingenious tricks.\nAt 3:00 p.m., the intervention enumerators return. Their daily reports are highly detailed, including numerous procedures to detect errors, intentional or not, and to verify distributed funds. By 7:30 p.m., the baseline team is back, submitting even more complex reports. But the work doesn’t stop there: data cleaning must be done immediately, because tomorrow’s assignments depend on today’s results. This can take hours, with code to run, follow-up calls to enumerators already home, ad-hoc coding, and all work strictly documented according to best practices of replicability and transparency.\nAs dusk falls, one last challenge looms: electricity. Reliable power is vital not only for charging the tablets and batteries the teams use in the field, but also for running the computers needed for data cleaning and assignment generation. Will Kananga’s grid supply power tonight? Are our solar panels and batteries sufficient for a few more hours? Is the generator operational, and do we have enough affordable fuel? Is the cable linking us to the old train station (where state-provided generators were repurposed for local revenue) still intact and functional?\nOnly once these questions are answered does the day end, often around 9:30 p.m., when everyone finally shares a well-deserved dinner. ODEKA A.S.B.L’s people must go to bed early, because they rise early.\nThis is ODEKA A.S.B.L’s daily life, five days a week, Tuesday through Saturday. Sundays are lighter, with only intervention waves and payroll, a complex task since salaries include both a regular and a performance-based component. Mondays are nominally rest days, though often they become a mix of rest, administration, and cash withdrawals.\nAnd of course, this daily rhythm is far from predictable. Kananga is an extremely poor environment with non-functional institutions, where even the simplest task can be disrupted by uncertainty and hazard. No two days ever look the same, and that unpredictability is one of the most exciting parts of working at ODEKA A.S.B.L.\nBut that, as they say, is a story for another post…"
+    "text": "Research Intern\n\n\n\n\n\n\n\n\nSep 2, 2025\n\n\nJon Weigel, UC Berkeley\n\n\n\n\n\n\n\nPredoctoral Research Associate\n\n\n\n\n\n\n\n\nSep 1, 2025\n\n\nJon Weigel, UC Berkeley\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved.\n\n\n\n\n\n\n\n\n\n\n\n  twitter    Instagram    LinkedIn"
   },
   {
     "objectID": "04_news/posts/news20220113.html",
@@ -567,32 +112,11 @@
     "text": "← Back to News\nAfter a short end-of-year break, ODEKA A.S.B.L begins 2022 reinvigorated, with new faces, new projects, and renewed ambitions.\nWhile we were sad to see Charlotte depart in early December at the end of her internship, Adrien left on December 16 for a three-week Christmas break. But ODEKA A.S.B.L’s end-of-year pause was brief: just two weeks later, on January 1, Kananga welcomed Clara Sievert, a Ph.D. student at Harvard University supervised by Nathan Nunn, ODEKA A.S.B.L Executive Board member and principal investigator of the Religion and Development project.\nClara took over as interim country director during Adrien’s absence and, upon his return, continued to support the organization’s daily operations while also finalizing the design of her own randomized controlled trial (RCT) and preparing to launch it in Kananga. She will remain on site until late May.\nAnd there is more to come for ODEKA A.S.B.L In early February, Romaine Loubes, a student at the Paris School of Economics set to begin a Ph.D. in economics there next fall, will join the team. Romaine is currently visiting Harvard at Nathan Nunn’s invitation and will assist with our projects until April. A few weeks from now, Morgane Garcia, a Master’s student at ENS Lyon, will also join ODEKA A.S.B.L for a six-month internship, during which she will both contribute to the interventions and write her master’s thesis — possibly on a topic related to the research conducted by ODEKA A.S.B.L.\nIt was also announced that members of the Executive Board, including Jonathan Weigel and James Robinson, possibly accompanied by Ph.D. students, will visit Kananga during the summer months to lay the groundwork for a new research project. More details will follow in the coming months.\nThe entire ODEKA A.S.B.L team is thrilled to welcome this group of excellent students and dedicated collaborators. Good luck to everyone, and here’s to a year of ambitious research and exciting progress!"
   },
   {
-    "objectID": "04_news/posts/news20220502.html",
-    "href": "04_news/posts/news20220502.html",
-    "title": "Hazard, Uncertainty, and Risk in Kananga",
-    "section": "",
-    "text": "← Back to News\nUnder construction.\nUnder construction."
-  },
-  {
     "objectID": "04_news/posts/news20211005.html",
     "href": "04_news/posts/news20211005.html",
     "title": "Launch of the Fourth Intervention Wave of the Religion and Development Project",
     "section": "",
     "text": "← Back to News\nODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study.\nYesterday, ODEKA A.S.B.L completed the launch of the fourth intervention wave of the Religion and Development project with its introduction day, the culmination of an intensive, methodologically sensitive process that takes place roughly every two months and will occur ten times in total over the course of the project.\nAfter a series of precise randomization procedures designed to select a representative sample of villages in the rural areas surrounding Kananga, stratified using both the detailed cartography produced in 2020 and baseline data collected during previous waves, the Kananga team created GIS maps by cross-referencing village and respondent location data with satellite imagery and precise manual drawing and classification of local pathroads.\nVillages from the previous wave were grouped into clusters, and the locations of respondents’ residences were mapped, the basis for the backcheck procedures that will be carried out by two enumerators in addition to their regular baseline work. These checks will begin in the coming days, as they do after every new intervention wave is launched.\nFor this new wave, personalized invitations were generated for participants, some containing additional information expected to affect our outcome variables, in addition to the main treatment. This meant that no error was permissible in assigning invitations. Tens of assignment sheets, dozens of tablet updates, survey uploads, map loadings, badge printings, and laminations later, the main office was almost ready.\nRoutes had to be identified, travel distances computed, and the precise fuel cost per trip inferred, since motorbike drivers are contractors paid based on time, bike amortization, and fuel consumption. Participant phone numbers had to be compiled and weekly reminder lists printed, as participants must be called the day before their scheduled session. In an environment filled with uncertainty, where committing to a six-month weekly program is extraordinarily rare, these reminders are vital.\nMeanwhile, Raphaël was gathering the dozens of motorbike drivers responsible for transporting respondents selected for this wave twice a week (Fridays and Sundays) from their villages to Kananga’s markets and churches. ODEKA A.S.B.L runs three intervention waves simultaneously, involving hundreds of motorbike drivers, making Raphaël’s coordination role both immensely demanding and absolutely critical to the project’s success. And in an environment as unpredictable as rural Congo, with the inherent risks of motorbike travel, managing such a workforce requires constant patience and exceptional diplomacy.\nYet motorbike drivers could not simply be sent to the villages alone. In a region where trust is extremely low, villagers would never accept traveling with strangers. On introduction day, therefore, each driver was accompanied by enumerators known to the participants, who facilitated introductions, helped build trust, and handed out invitations. Pairing enumerators, drivers, and participants is a delicate task: personalities sometimes clash, and in Kananga, even small interpersonal tensions can escalate quickly.\nAt 5:00 a.m., everyone gathered at the Procure Office. Raphaël, Adrien, and Charlotte outlined the day’s objectives, gave motivational remarks, and distributed materials. By 7:00 a.m., all the teams had departed. For the rest of the day, as Raphaël coordinated operations on the ground via radio, Adrien and Charlotte remained at the main office, alternating between administrative work and data quality checks, all while holding their breath, waiting for updates.\nBy 7:00 p.m., the enumerators began to return, one by one, to deliver their reports. No major incidents were reported: the day had gone smoothly, and no selected respondent refused to participate. A few could not be reached, but none had moved away: they were simply working in the fields that day. The concerned enumerators left notes and will return Monday morning with their motorbike drivers to attempt a new introduction.\nNext Friday, the intervention itself will begin, marking another step forward in ODEKA A.S.B.L’s main research project. A sigh of relief, until the next wave launch… and the next challenge."
-  },
-  {
-    "objectID": "04_news/posts/news20220303.html",
-    "href": "04_news/posts/news20220303.html",
-    "title": "Endline Enumerator Training Week at ODEKA A.S.B.L and the Launch of the First Endline Wave",
-    "section": "",
-    "text": "← Back to News\nTwo week of training and preparation at ODEKA A.S.B.L culminates in the smooth launch of the project’s first endline wave.\nAfter weeks of preparation and coding for the endline survey, the six-month deadline following the end of the first baseline wave was approaching, and everything had to be ready.\nOur expert enumerator team grew from 14 to 18 members after a demanding selection process that promoted the best performers from our second-tier teams. This expansion allows the first team to be large enough to conduct both baseline and endline surveys simultaneously, a major step forward in our field capacity.\nThe 18 enumerators were relieved from fieldwork for a week of intensive training, during which the endline phase was presented to them in detail: how assignments are structured, how to handle respondents, how to confirm and document cases of participant attrition, and more. The endline questionnaire, containing hundreds of questions and research games that vary by enumerator type, was reviewed item by item over three days. All translations from English into French and Tshiluba were checked and finalized, with new items translated as needed.\nMeanwhile, long Stata routines were prepared to clean the forthcoming endline dataset and to verify each new data addition through automated quality checks, routines designed to identify and flag potential sources of error. New tablets and batteries were sourced, and a new field-commuting system had to be designed: with baseline and endline missions now running concurrently across a vast area, it had become too demanding for enumerators to return to the office each night for reporting. Instead, enumerators are now reimbursed to stay in guest houses in the field, and a new system was created to track and verify these significant new expenses, a crucial matter for maintaining credibility with our funders.\nFinally, the past two days marked the launch of the first endline wave and, incredibly, everything went smoothly. Surveys were completed on time, the data came in clean, and not a single major incident occurred.\nBut that’s not the whole story. In truth, a large part of the previous week’s preparation had been devoted to running a pilot phase: a full-scale rehearsal designed to identify every possible glitch before the real launch. And indeed, there were many: tablet synchronization errors, broken maps, a few mistranslated survey items, and plenty of last-minute improvisation. Thanks to that pilot, all these small issues were solved in time, and what looked like effortless success over the past two days was, in fact, the result of a week of hidden chaos: exactly as planned."
-  },
-  {
-    "objectID": "04_news/posts/news20220627.html",
-    "href": "04_news/posts/news20220627.html",
-    "title": "Lecture by James Robinson and Jon Weigel at UPC in Kinshasa",
-    "section": "",
-    "text": "← Back to News\nUnder construction.\nUnder construction."
   },
   {
     "objectID": "04_news/posts/news20220430.html",
@@ -602,10 +126,38 @@
     "text": "← Back to News\nTwo week of training and preparation at ODEKA A.S.B.L culminates in the smooth launch of the project’s first endline wave.\nAfter weeks of preparation and coding for the endline survey, the six-month deadline following the end of the first baseline wave was approaching, and everything had to be ready.\nOur expert enumerator team grew from 14 to 18 members after a demanding selection process that promoted the best performers from our second-tier teams. This expansion allows the first team to be large enough to conduct both baseline and endline surveys simultaneously, a major step forward in our field capacity.\nThe 18 enumerators were relieved from fieldwork for a week of intensive training, during which the endline phase was presented to them in detail: how assignments are structured, how to handle respondents, how to confirm and document cases of participant attrition, and more. The endline questionnaire, containing hundreds of questions and research games that vary by enumerator type, was reviewed item by item over three days. All translations from English into French and Tshiluba were checked and finalized, with new items translated as needed.\nMeanwhile, long Stata routines were prepared to clean the forthcoming endline dataset and to verify each new data addition through automated quality checks, routines designed to identify and flag potential sources of error. New tablets and batteries were sourced, and a new field-commuting system had to be designed: with baseline and endline missions now running concurrently across a vast area, it had become too demanding for enumerators to return to the office each night for reporting. Instead, enumerators are now reimbursed to stay in guest houses in the field, and a new system was created to track and verify these significant new expenses, a crucial matter for maintaining credibility with our funders.\nFinally, the past two days marked the launch of the first endline wave and, incredibly, everything went smoothly. Surveys were completed on time, the data came in clean, and not a single major incident occurred.\nBut that’s not the whole story. In truth, a large part of the previous week’s preparation had been devoted to running a pilot phase: a full-scale rehearsal designed to identify every possible glitch before the real launch. And indeed, there were many: tablet synchronization errors, broken maps, a few mistranslated survey items, and plenty of last-minute improvisation. Thanks to that pilot, all these small issues were solved in time, and what looked like effortless success over the past two days was, in fact, the result of a week of hidden chaos: exactly as planned."
   },
   {
-    "objectID": "04_news/posts/news20220522.html",
-    "href": "04_news/posts/news20220522.html",
-    "title": "Hazard, Uncertainty, and Risk in Kananga",
+    "objectID": "04_news/posts/news20220912.html",
+    "href": "04_news/posts/news20220912.html",
+    "title": "New Kananga Team Takes Over Operations",
     "section": "",
-    "text": "← Back to News\nUnder construction.\nUnder construction."
+    "text": "← Back to News\nThe end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.\nRobin Benabid Jegaden, the new Country Director, and Dylan Reich, the new Program Manager, arrived in Kananga in early August, where they joined Laure Lepine, the new Research Intern, who had arrived a few weeks earlier. The three will steer ODEKA A.S.B.L through the months ahead.\nOver six weeks, outgoing Country Director Adrien Foutelet introduced them to ODEKA A.S.B.L’s employees, contractors, and partners, as well as key stakeholders in Kananga. They received extensive training on the organization’s management, current financial and HR priorities, and the scientific and practical dimensions of ODEKA A.S.B.L’s main ongoing project, Religion & Development.\nWhile the baseline phase of this project is now fully complete, the team will oversee one ongoing wave of intervention and prepare to launch the final, tenth wave in the coming weeks. The intervention phase is projected to conclude in about seven months. They will also manage the shorter but crucial endline survey waves, five of which remain to be conducted.\nAs Religion & Development enters its final stage, ODEKA A.S.B.L is preparing to embark on a new horizon: Legal Antecedents of Fiscal Capacity, an ambitious project originally conceived by James Robinson. The three young researchers will play a key role as the practical hands in the field, devising concrete solutions and implementing actions in response to the principal investigators’ directives.\nMeanwhile, Adrien Foutelet will transition to a new role as Director of Finance & Operations, joining Jonathan Weigel on the UC Berkeley campus to oversee project finances and serve as the day-to-day bridge between the field team and the principal investigators.\nIn the coming months, the Kananga team may welcome additional members, as the workload promises to grow significantly. Good luck to our three new recruits, and stay tuned!"
+  },
+  {
+    "objectID": "04_news/posts/news20220718.html",
+    "href": "04_news/posts/news20220718.html",
+    "title": "Field Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga",
+    "section": "",
+    "text": "← Back to News\nEnd of a productive two-week visit marks the beginning of a new multi-year project for ODEKA A.S.B.L.\nODEKA A.S.B.L.’s team in Kananga had the privilege of welcoming and working with principal investigators James Robinson and Jon Weigel over the past two weeks. They were accompanied by Mats Ahrenshop, a PhD student from Oxford University, to prepare a new research project exploring how securing land property rights could foster tax compliance.\nThe visit included focus groups with customary chiefs, lawyers, and citizens, as well as meetings with key stakeholders such as Governor Jon Kabeya Shikayi, Secretary of Finance Jim Mukenge, and Chief Kalamaba, King of the Lulua Bashilange. The local team, Eva Davoine, a PhD student from UC Berkeley visiting since May, Adrien Foutelet, and Morgane Garcia, worked closely with the principal investigators each day, contributing to the intervention design, the practical solutions envisioned, and the theoretical foundation of the forthcoming paper.\nThe team was particularly inspired by the principal investigators’ accessibility, generosity, and intellectual curiosity throughout the visit. Their openness to discussion and close collaboration made the experience both stimulating and deeply rewarding. The entire ODEKA A.S.B.L team was also delighted to learn that Eva Davoine will officially join the team of principal investigators, a development that had been under consideration for some time and is now confirmed."
+  },
+  {
+    "objectID": "02_people/people.html",
+    "href": "02_people/people.html",
+    "title": "People",
+    "section": "",
+    "text": "Executive Board\n\n\n\n\n\n\n\n\n\n\nJon Weigel\n\n\nChief Executive & Chair\n\n\nJonathan Weigel is an assistant professor at UC Berkeley’s Haas School of Business. His research focuses on state capacity, taxation, and the relationship between culture and institutions.\n\n UC Berkeley Profile \n\n\n\n\n\n\n\n\n\n\n\n\nJames Robinson\n\n\nBoard Member\n\n\nA Nobel Prize laureate, James Robinson is a professor at the University of Chicago’s Harris School of Public Policy and Department of Political Science. His research examines the political and institutional foundations of development and the historical roots of prosperity and poverty.\n\n UChicago Profile \n\n\n\n\n\n\n\n\n\n\n\n\nNathan Nunn\n\n\nBoard Member\n\n\nNathan Nunn is a professor at the Vancouver School of Economics. His research explores the historical and cultural foundations of economic development and how local contexts shape the effectiveness of policies and institutions.\n\n UBC Profile \n\n\n\n\n\n\n\n\n\n\n\n\nAugustin Bergeron\n\n\nBoard Member\n\n\nAugustin Bergeron is an assistant professor of economics at Harvard University. His research focuses on state capacity and taxation, the historical roots of social structures and beliefs, and their impact on economic development.\n\n Harvard Profile \n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Tourek\n\n\nBoard Member\n\n\nGabriel Tourek is an assistant professor of economics at the University of California, Davis. His research focuses on public finance and development economics, with an emphasis on state capacity and governance in low-income countries.\n\n UC Davis Profile \n\n\n\n\n\n\n\n\n\n\n\nDirectors\nThe Director of Finance & Operations oversees finances, grant management, institutional relationships, and coordination between the Executive Board and the field. The Country Director heads all operations on the ground in Kananga and serves as the organization’s legal representative in the D.R. Congo. \n\n\n\n\n\n\n\n\nSenior Management\n\n\n\n\n\n\n\n\n\n\nElie Kabue Ngindu\n\n\nHead of Personnel\n\n\n\n\n\n\n\n\n\n\n\n\nJean-Freddy Kabasubabo Tshimanga\n\n\nHead of HR & External Relations\n\n\n\n\n\n\n\n\n\n\n\n\nRaphaël Fiston Mukendi Tshisanga\n\n\nDeputy Head of HR & External Relations\n\n\n\n\n\n\n\n\n\n\n\nResearch Interns\n\n\n\n\n\n\n\n\n\n\nPast Directors\nIndividuals who previously served as Director of Finance & Operations or Country Director. \n\n\n\n\n\n\n\n\n\nManon Bellot\n\n\nDirector of Finance & Operations, 2024-2025\n\n\nCountry Director, 2023-2024\n\n\nNext position: Consultant, World Bank Previous position: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nRobin Benabid Jegaden\n\n\nDirector of Finance & Operations, 2023-2024\n\n\nCountry Director, 2022-2023\n\n\nNext position: Research Engineer in Economics, CNRS Previous posititon: MSc Development Economics, Université Paris 1 Panthéon Sorbonne\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nAdrien Foutelet\n\n\nDirector of Finance & Operations, 2022-2023\n\n\nCountry Director, 2021-2022\n\n\nNext position: PhD in Economics, Brown University Previous position: MSc Analysis and Policy in Economics, ENS Lyon\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nJean-François Coté\n\n\nDirector of Finance & Operations, 2021-2022\n\n\nCountry Director, 2020-2021\n\n\nNext position: Consultant, CPCS Previous position: Economist, Treasury Board of Canada\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nArthur Laroche\n\n\nDirector of Finance & Operations, 2020-2021\n\n\nCountry Director, 2019-2020\n\n\nNext position: PhD in Economics, UCL Previous position: MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\nPast Senior Management\nIndividuals who previously served in senior management roles, including Head of Personnel, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager. \n\n\n\n\n\n\n\n\n\nAdèle Somat\n\n\nProgram Manager, 2023-2025\n\n\nNext position: Project Officer, LoGRI Previous position: MPhil Inernational Political Economy, King’s College London\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nZacharie Quiviger\n\n\nProgram Manager, 2023-2024\n\n\nNext position: Researcher, SOAS University of London, then PhD in International Relations, Columbia University Previous position: MPhil Politics and International Studies, Cambridge University\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\n\nDylan Reich\n\n\nProgram Manager, 2022-2023\n\n\nNext position: Research Assistant, Oxford University Previous position: MSc Development Management, Applied Development Economics, LSE\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\nPast Interns\nIndividuals who previously served as interns. \n\n\n\n\n\nZoé Baudoin\n\n\nResearch Intern, 2023-2024\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nKip Peeling\n\n\nResearch Intern, 2023\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nFadela Zouleya\n\n\nResearch Intern, 2023\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nLaure Lepine\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nMorgane Garcia\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nRomaine Loubes\n\n\nResearch Intern, 2022\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nCharlotte Humes\n\n\nResearch Intern, 2021\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\nSara Merner\n\n\nResearch Intern, 2020-2021\n\n\n LinkedIn Profile \n\n\n\n\n\n\n\n\n\n\n\nCopyright © 2026 ODEKA A.S.B.L All rights reserved.\n\n\n\n\n\n\n\n\n\n\n\n  twitter    Instagram    LinkedIn"
+  },
+  {
+    "objectID": "03_projects/posts/other/supernatural-beliefs-modern-medicine.html",
+    "href": "03_projects/posts/other/supernatural-beliefs-modern-medicine.html",
+    "title": "Supernatural Beliefs and Modern Medicine",
+    "section": "",
+    "text": "← Back to Projects\nPage under construction."
+  },
+  {
+    "objectID": "03_projects/posts/supernatural-beliefs-modern-medicine.html",
+    "href": "03_projects/posts/supernatural-beliefs-modern-medicine.html",
+    "title": "Supernatural Beliefs and Modern Medicine",
+    "section": "",
+    "text": "← Back to Projects\nPage under construction."
   }
 ]
