@@ -938,13 +938,13 @@ edits across two files:
     navbar, and swaps in the plain divider on the homepage.
 \end{enumerate}
 
-To turn News back on, reverse all four steps (re-comment/uncomment the
-opposite way) and render again.
+To turn News back on, reverse the edits from steps 1--3 above
+(re-comment/uncomment the opposite way), then render again.
 
 \begin{quote}
 \textit{Ask Claude Code: ``Turn the News section off'' or ``Turn the
-News section back on'' --- it knows to make all four changes together
-and re-render.}
+News section back on'' --- it knows to make all the coordinated edits
+together and re-render.}
 \end{quote}
 
 See Section~\ref{sec:news-todo} for a note on \emph{when} you might
@@ -1128,6 +1128,7 @@ happening again. If you ever do add an image and later decide not to
 use it, delete it rather than leaving it behind.
 
 \subsection{Cropping and Sizing Conventions}
+\label{sec:cropping}
 
 \begin{itemize}
     \item \term{Person photos} (\file{02\_people/faces/}): square
@@ -1161,11 +1162,13 @@ resolved.
     Senior Enumerators entries currently show only a first name
     (Junior, Gilbert, Jacques; Max, Grégoire, Bernard, Serge, André,
     Benjamin, Théo, Jean). Family names need to be added.
-    \item \term{Photos missing}: the people listed above, plus the
-    current PhD Students (Clotaire Boyer, Sarah Danner, Eva Davoine,
-    Gabriel Granato, Nic Wicaksono), are all still showing the
-    placeholder silhouette. See Section~\ref{sec:projects-todo}'s
-    sibling above for cropping conventions once real photos are ready.
+    \item \term{Photos missing}: the people listed above, plus most of
+    the current PhD Students (Clotaire Boyer, Sarah Danner, Eva
+    Davoine, Gabriel Granato, Nic Wicaksono), are still showing the
+    placeholder silhouette. Arthur Laroche, the sixth current PhD
+    student, already has a real photo --- his entry is the model to
+    follow for the rest. See Section~\ref{sec:cropping} for cropping
+    conventions once more real photos are ready.
     \item \term{PhD Students section is missing information}: for each
     current PhD student, we're missing the year they started working
     with ODEKA and their PhD institution --- probably worth labeling
@@ -1256,16 +1259,22 @@ separate things need deciding here, and they shouldn't be conflated:
 \begin{itemize}
     \item \term{Linking a custom domain.} This is mostly mechanical once
     a domain is chosen and registered: GitHub Pages supports it via a
-    \file{CNAME} file at the root of \file{docs/} naming the domain,
-    plus a DNS record set up wherever the domain was purchased (either
-    a \cmd{CNAME} record pointing at
-    \file{odeka-asbl.github.io}, or \cmd{A} records pointing at
-    GitHub's IP addresses, depending on whether it's a subdomain or an
-    apex/root domain). Registering the domain itself and configuring
-    DNS happens outside this repository, with whoever manages ODEKA's
-    domain registrar --- Claude Code can help with the \file{CNAME}
-    file and the DNS record values once a domain is picked, but can't
-    register a domain or log into a registrar on its own.
+    \file{CNAME} file naming the domain, plus a DNS record set up
+    wherever the domain was purchased (either a \cmd{CNAME} record
+    pointing at \file{odeka-asbl.github.io}, or \cmd{A} records
+    pointing at GitHub's IP addresses, depending on whether it's a
+    subdomain or an apex/root domain). The \file{CNAME} file itself
+    should live in the \emph{project root} (alongside
+    \file{\_quarto.yml}), not be placed by hand inside \file{docs/} ---
+    Quarto automatically copies loose files like this from the project
+    root into \file{docs/} on every render (the same way it already
+    does for \file{favicon.ico}), so a root-level copy survives
+    renders reliably where a \file{docs/}-only one wouldn't.
+    Registering the domain itself and configuring DNS happens outside
+    this repository, with whoever manages ODEKA's domain registrar ---
+    Claude Code can help with the \file{CNAME} file and the DNS record
+    values once a domain is picked, but can't register a domain or log
+    into a registrar on its own.
     \item \term{Where the address should land.} Separately, and still
     undecided: Jon has asked that the website address land directly on
     the \emph{Projects} page rather than the current homepage. That's
