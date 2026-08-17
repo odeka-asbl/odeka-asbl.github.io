@@ -73,15 +73,14 @@ listing:
   <a class="about-button banner-cta banner-cta--green" href="05_jobs/index.html">Looking for a job? →</a>
 </div>
 
-<div class="home-news-heading">
-<h2>Latest News</h2>
-<a href="04_news/index.html" class="home-news-link">View all news →</a>
-<img class="home-news-heading-diamond" src="/odeka_logo_diamond.png" alt="">
-</div>
-<div style="margin-left: 27px; margin-right: 27px; margin-bottom: 36px;">
-:::{#news_carousel}
-:::
-</div>
+<!-- =====================================================================
+     NEWS SECTION SWITCH — see read_me/ for the full instructions.
+     Currently pointing at news_section_on.qmd. To turn News OFF,
+     change the filename below to news_section_off.qmd — that's the
+     only edit needed here. Also flip the switch in _quarto.yml (see
+     its own comment) for the rest of the steps.
+     ===================================================================== -->
+{{< include 00_index/news_section_on.qmd >}}
 
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">

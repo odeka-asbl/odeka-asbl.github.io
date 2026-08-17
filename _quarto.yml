@@ -1,6 +1,20 @@
 project:
   type: website
   output-dir: docs
+  # =====================================================================
+  # NEWS SECTION SWITCH — see read_me/ for the full instructions.
+  # To turn the News section OFF, uncomment the two lines below (and see
+  # the matching comments in the navbar just below and in index.qmd —
+  # all three need to change together), then run `quarto render`. That
+  # single render both removes 04_news from the live site (already-built
+  # pages get pruned automatically, nothing to delete by hand) and picks
+  # up the other two changes. To turn News back ON, reverse all three;
+  # nothing in 04_news/ itself is ever touched, so it comes back exactly
+  # as it was.
+  # render:
+  #   - "*"
+  #   - "!04_news/**"
+  # =====================================================================
 
 website:
   site-url: "https://odeka-asbl.github.io"
@@ -14,6 +28,7 @@ website:
         text: People
       - href: 03_projects/index.qmd
         text: Projects
+      # NEWS SWITCH: comment out these two lines to remove News from the navbar
       - href: 04_news/index.qmd
         text: News
       - href: 05_jobs/index.qmd

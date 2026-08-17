@@ -222,7 +222,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="title-bracket-wrap"><span class="title-inner"><span class="title-text">Projects</span></span><img class="title-diamond" src="../odeka_logo_diamond.png" alt=""><img src="../odeka_logo_right_bracket.png" alt=""></span></h1>
+<h1 class="title"><span class="title-bracket-wrap"><img src="../odeka_logo_left_bracket.png" alt=""><span class="title-inner"><span class="title-text">Projects</span></span><img class="title-diamond" src="../odeka_logo_diamond.png" alt=""><img src="../odeka_logo_right_bracket.png" alt=""></span></h1>
 </div>
 
 
@@ -246,7 +246,7 @@ window.Quarto = {
 <p><span class="projects-eyebrow"><img src="../odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Major projects</span><span class="about-eyebrow-rule"></span></span></p>
 <div id="listing-major_projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1641013200000" data-listing-file-modified-sort="1786830042479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1641013200000" data-listing-file-modified-sort="1786925244326" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../03_projects/posts/project-2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -278,7 +278,7 @@ ongoing
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1577854800000" data-listing-file-modified-sort="1786830038352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1577854800000" data-listing-file-modified-sort="1786925237279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../03_projects/posts/project-1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -321,7 +321,7 @@ No matching items
 <p><span class="projects-eyebrow"><img src="../odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Other projects</span><span class="about-eyebrow-rule"></span></span></p>
 <div id="listing-other_projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1786766400000" data-listing-file-modified-sort="1786830034037" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1786766400000" data-listing-file-modified-sort="1786925253423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../03_projects/posts/supernatural-beliefs-modern-medicine.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -590,6 +590,195 @@ No matching items
   } else {
     init();
   }
+})();
+</script>
+
+<script>
+(function () {
+  // Full-bleed banner/title correction. .hero-image and the overlaid
+  // .quarto-title-block break out to full viewport width via
+  // left:50% + transform:translateX(-50%) — a trick that only
+  // self-centers correctly when its containing block (main.content)
+  // is itself horizontally centered on the viewport. That holds on
+  // every page with toc:false, but a page with a TOC sidebar pushes
+  // main.content off-center (extra reserved space on the right for
+  // the sidebar), and the two 50%s stop canceling out — the banner
+  // ends up shifted left by exactly that off-centering. Fixed here by
+  // measuring main.content's actual live offset and setting `left`
+  // to the exact pixel value that re-centers on the true viewport,
+  // instead of assuming the parent is centered.
+  function correctFullBleed() {
+    var targets = document.querySelectorAll(
+      '.full-width-banner .hero-image, main.content:has(.full-width-banner) .quarto-title-block, ' +
+      '.page-footer-copyright, .page-footer-logo, .page-footer-social, ' +
+      'hr.about-sep:has(+ .page-footer-social)'
+    );
+    if (!targets.length) return;
+    var main = document.querySelector('main.content');
+    if (!main) return;
+    var mainLeft = main.getBoundingClientRect().left;
+    var leftPx = (window.innerWidth / 2 - mainLeft) + 'px';
+    targets.forEach(function (el) {
+      el.style.setProperty('left', leftPx, 'important');
+    });
+  }
+
+  correctFullBleed();
+  window.addEventListener('load', correctFullBleed);
+  window.addEventListener('resize', correctFullBleed);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(correctFullBleed);
+  }
+})();
+</script>
+
+<script>
+(function () {
+  // The TOC sidebar (#quarto-margin-sidebar) is position:sticky, and
+  // its containing block is the whole page-columns row — which spans
+  // all the way down through the closing banner and footer, not just
+  // the article content. Native sticky has nothing else telling it to
+  // let go, so on a long page it stays stuck and visibly overlaps the
+  // closing banner as you scroll past it.
+  //
+  // Fixed by capturing exactly where the sidebar is sitting on screen
+  // the moment continuing to stick would start overlapping the
+  // banner, and pinning it there via position:fixed (both top and
+  // left — fixed removes it from the grid entirely, so its column
+  // placement has to be captured explicitly too, or it collapses
+  // toward the viewport's top-left corner). Unlike position:absolute
+  // (anchored to a document position, so it still scrolls away with
+  // the page), fixed keeps it on screen at that same spot for the
+  // rest of the scroll — it stops, but never disappears. Reverses if
+  // scrolled back above the point where it froze.
+  function correctSidebarOverlap() {
+    var sidebar = document.querySelector('#quarto-margin-sidebar');
+    if (!sidebar) return;
+    var banners = document.querySelectorAll('main.content .full-width-banner .hero-image');
+    var closingBanner = banners.length ? banners[banners.length - 1] : null;
+    if (!closingBanner) return;
+    // The sidebar's own box has max-height:100vh (Quarto's default) and
+    // is stretched to fill most of the viewport, not sized to its
+    // actual content — using its height/bottom directly would trigger
+    // way too early. The TOC nav inside it is sized to its real
+    // content, so that's what matters here.
+    var content = sidebar.querySelector('nav#TOC') || sidebar;
+    var gap = 24;
+
+    // The sidebar's natural "stuck" resting position (top/left) and the
+    // TOC's real height are measured once, here, rather than read live
+    // on every scroll. Reading them live seemed more accurate, but on
+    // one large scroll jump (a trackpad flick straight to the bottom,
+    // dragging the scrollbar thumb, pressing End) the only scroll event
+    // that fires can land AFTER native sticky has already run out of
+    // its own containing block and detached down near the footer — at
+    // that instant getBoundingClientRect() reports the already-detached
+    // position, and freezing from it just pins the sidebar exactly
+    // where it had already gone wrong. Measuring once, up front, while
+    // nothing has scrolled yet and stickiness is unambiguously engaged
+    // at its true resting offset, avoids ever sampling that broken
+    // in-between state.
+    if (sidebar.dataset.stuckTop === undefined) {
+      var r = sidebar.getBoundingClientRect();
+      var cr = content.getBoundingClientRect();
+      sidebar.dataset.stuckTop = r.top;
+      sidebar.dataset.stuckLeft = r.left;
+      sidebar.dataset.contentHeight = cr.height;
+    }
+
+    var stuckTop = parseFloat(sidebar.dataset.stuckTop);
+    var stuckLeft = parseFloat(sidebar.dataset.stuckLeft);
+    var contentHeight = parseFloat(sidebar.dataset.contentHeight);
+
+    // Everything from here on is pure scrollY arithmetic against a
+    // reliable, non-sticky element (the banner) — no live read of the
+    // sidebar's own current position — so it gives the same answer
+    // whether this fires many times during a slow scroll or exactly
+    // once after a huge jump.
+    var bannerRect = closingBanner.getBoundingClientRect();
+    var bannerDocTop = bannerRect.top + window.scrollY;
+    var freezeScrollY = bannerDocTop - stuckTop - contentHeight - gap;
+    var shouldFreeze = window.scrollY >= freezeScrollY;
+
+    if (shouldFreeze && !sidebar.dataset.frozen) {
+      // Quarto's own CSS puts a `transition: top 200ms linear` on
+      // .sidebar. Switching position from sticky to fixed changes what
+      // the `top` property even means, so without suppressing the
+      // transition for this one switch, the browser eases into the new
+      // spot instead of snapping, causing a brief visible drift.
+      sidebar.style.setProperty('transition', 'none', 'important');
+      sidebar.style.setProperty('position', 'fixed', 'important');
+      sidebar.style.setProperty('top', stuckTop + 'px', 'important');
+      sidebar.style.setProperty('left', stuckLeft + 'px', 'important');
+      sidebar.style.setProperty('margin', '0', 'important');
+      // The fade below (opacity ramping down as soon as it stops) is
+      // brief, but the banner — later in the DOM — would still paint
+      // over the sidebar during that window without an explicit
+      // stacking order, since both occupy the same screen area then.
+      sidebar.style.setProperty('z-index', '50', 'important');
+      sidebar.dataset.frozen = '1';
+      void sidebar.offsetHeight;
+      sidebar.style.removeProperty('transition');
+    } else if (!shouldFreeze && sidebar.dataset.frozen) {
+      sidebar.style.setProperty('transition', 'none', 'important');
+      sidebar.style.removeProperty('position');
+      sidebar.style.removeProperty('top');
+      sidebar.style.removeProperty('left');
+      sidebar.style.removeProperty('margin');
+      sidebar.style.removeProperty('z-index');
+      delete sidebar.dataset.frozen;
+      void sidebar.offsetHeight;
+      sidebar.style.removeProperty('transition');
+    }
+
+    // Pinning the sidebar to a constant screen position doesn't stop the
+    // banner below it from scrolling — the banner is tall and keeps
+    // sliding up the screen with further scrolling, so staying frozen
+    // for the rest of the page would eventually put the banner right
+    // where the sidebar sits. Opacity is tied directly to scroll
+    // position, continuously, starting well before it actually stops
+    // (PREFADE_DISTANCE, while it's still tracking scroll normally) and
+    // finishing a bit after (FADE_DISTANCE) — no separate "hidden"
+    // state or CSS transition to desync from the actual scroll, and no
+    // abrupt jump from fully-opaque to fading. Scrolling back up
+    // reverses it exactly the same way, continuously.
+    var PREFADE_DISTANCE = 450;
+    var FADE_DISTANCE = 20;
+    var fadeStart = freezeScrollY - PREFADE_DISTANCE;
+    var fadeProgress = (window.scrollY - fadeStart) / (PREFADE_DISTANCE + FADE_DISTANCE);
+    var opacity = Math.max(0, Math.min(1, 1 - fadeProgress));
+    if (opacity < 1) {
+      sidebar.style.setProperty('opacity', String(opacity), 'important');
+      sidebar.style.setProperty('pointer-events', opacity > 0 ? 'auto' : 'none', 'important');
+    } else {
+      sidebar.style.removeProperty('opacity');
+      sidebar.style.removeProperty('pointer-events');
+    }
+  }
+
+  // Re-measures the sidebar's natural resting position. Only safe to
+  // call while not frozen — while frozen, the sidebar is pinned via
+  // inline styles, so reading its rect would capture that pinned
+  // position instead of the true sticky resting spot.
+  function remeasureSidebarStuckPosition() {
+    var sidebar = document.querySelector('#quarto-margin-sidebar');
+    if (!sidebar || sidebar.dataset.frozen) return;
+    delete sidebar.dataset.stuckTop;
+    correctSidebarOverlap();
+  }
+
+  window.addEventListener('scroll', correctSidebarOverlap, { passive: true });
+  window.addEventListener('resize', function () {
+    remeasureSidebarStuckPosition();
+    correctSidebarOverlap();
+  });
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      remeasureSidebarStuckPosition();
+      correctSidebarOverlap();
+    });
+  }
+  correctSidebarOverlap();
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

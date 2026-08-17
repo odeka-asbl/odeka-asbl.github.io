@@ -1,7 +1,7 @@
 ---
 title: "Launch of the Fourth Intervention Wave of the Religion and Development Project"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "October 16, 2021"
 description: "ODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study."
 image: ../images/news20211005.jpeg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **ODEKA A.S.B.L launched the fourth intervention wave of the Religion and Development project, marking another step in this ambitious ten-wave study.**
 

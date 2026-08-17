@@ -1,6 +1,8 @@
 ---
-toc: false
-title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='title-text'>People</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
+toc: true
+toc-depth: 2
+toc-title: ""
+title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-inner'><span class='title-text'>People</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 #about:
 #  template: solana
 ---
@@ -12,30 +14,50 @@ title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='
 <!-- ============================ -->
 <!-- ============================ -->
 <!-- ============================ -->
-# Executive Board
+# Senior Management {#executive-board .people-eyebrow-heading}
 <!-- ============================ -->
 
 <div style="clear: both;">
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/weigel.jpg" alt="Jon Weigel" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/kabue.jpg" alt="Elie Kabue NGindu">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
+  Elie Kabue Ngindu
+</div>
+
+<div class="person-title">
+  Co-Founder, General Manager, and Director of Human Resources
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/weigel.jpg" alt="Jon Weigel">
+</div>
+
+<div class="person-info">
+<div class="person-name">
   Jon Weigel
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Chief Executive & Chair
+<div class="person-title">
+  Co-Founder and Scientific Director
 </div>
 
 <p>Jonathan Weigel is an assistant professor at UC Berkeley’s Haas School of Business. His research focuses on state capacity, taxation, and the relationship between culture and institutions.
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://haas.berkeley.edu/faculty/jonathan-weigel/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://haas.berkeley.edu/faculty/jonathan-weigel/" target="_blank">
   UC Berkeley Profile
 </a>
 </div>
@@ -47,79 +69,23 @@ title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/robinson.jpeg" alt="James Robinson" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/bergeron.jpeg" alt="Augustin Bergeron">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  James Robinson
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Board Member
-</div>
-
-<p>A Nobel Prize laureate, James Robinson is a professor at the University of Chicago’s Harris School of Public Policy and Department of Political Science. His research examines the political and institutional foundations of development and the historical roots of prosperity and poverty.
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://harris.uchicago.edu/directory/james-robinson" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  UChicago Profile
-</a>
-</div>
-</div>
-
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/nunn.jpeg" alt="Nathan Nunn" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Nathan Nunn
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Board Member
-</div>
-
-<p>Nathan Nunn is a professor at the Vancouver School of Economics. His research explores the historical and cultural foundations of economic development and how local contexts shape the effectiveness of policies and institutions.
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://nathannunn.arts.ubc.ca" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  UBC Profile
-</a>
-</div>
-</div>
-
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/bergeron.jpeg" alt="Augustin Bergeron" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
   Augustin Bergeron
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Board Member
+<div class="person-title">
+  Deputy Scientific Director
 </div>
 
 <p>Augustin Bergeron is an assistant professor of economics at Harvard University. His research focuses on state capacity and taxation, the historical roots of social structures and beliefs, and their impact on economic development.
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.economics.harvard.edu/people/augustin-bergeron" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.economics.harvard.edu/people/augustin-bergeron" target="_blank">
   Harvard Profile
 </a>
 </div>
@@ -131,23 +97,413 @@ title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/tourek.jpeg" alt="Gabriel Tourek" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Espoir Malu Malu Ntumba">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
+  Espoir Malu Malu Ntumba
+</div>
+
+<div class="person-title">
+  Legal Advisor
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/kabasubabo.jpg" alt="Jean-Freddy Kabasubabo Tshimanga">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Jean-Freddy Kabasubabo Tshimanga
+</div>
+
+<div class="person-title">
+  Senior Advisor and Quality Control Lead
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/fiston.jpg" alt="Raphaël Fiston Mukendi Tshisanga">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Raphaël Fiston Mukendi Tshisanga
+</div>
+
+<div class="person-title">
+  Logistics and Finance Manager
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Junior">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Junior
+</div>
+
+<div class="person-title">
+  Quality Control Officer
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Gilbert">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Gilbert
+</div>
+
+<div class="person-title">
+  Coordinator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Jacques">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Jacques
+</div>
+
+<div class="person-title">
+  Coordinator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Senior Enumerators {.people-eyebrow-heading}
+
+ODEKA's senior enumerators play a central role in supervising data collection, training field teams, and ensuring high-quality implementation of research projects.
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Max">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Max
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Grégoire">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Grégoire
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Bernard">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Bernard
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Serge">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Serge
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="André">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  André
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Benjamin">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Benjamin
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Théo">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Théo
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Jean">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Jean
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Scientific Advisory Committee {.people-eyebrow-heading}
+
+ODEKA's Scientific Advisory Committee provides guidance on the organization's scientific strategy, research design, and long-term development.
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/robinson.jpeg" alt="James Robinson">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  James Robinson
+</div>
+
+<div class="person-title">
+  Member
+</div>
+
+<p>A Nobel Prize laureate, James Robinson is a professor at the University of Chicago’s Harris School of Public Policy and Department of Political Science. His research examines the political and institutional foundations of development and the historical roots of prosperity and poverty.
+
+<div class="person-link">
+<a href="https://harris.uchicago.edu/directory/james-robinson" target="_blank">
+  UChicago Profile
+</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/nunn.jpeg" alt="Nathan Nunn">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Nathan Nunn
+</div>
+
+<div class="person-title">
+  Member
+</div>
+
+<p>Nathan Nunn is a professor at the Vancouver School of Economics. His research explores the historical and cultural foundations of economic development and how local contexts shape the effectiveness of policies and institutions.
+
+<div class="person-link">
+<a href="https://nathannunn.arts.ubc.ca" target="_blank">
+  UBC Profile
+</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/lowes.jpg" alt="Sara Lowes">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Sara Lowes
+</div>
+
+<div class="person-title">
+  Member
+</div>
+
+<p>Sara Lowes is an associate professor of economics at the University of California, San Diego. Her research sits at the intersection of development economics, economic history, and political economy, examining how culture and institutions shape development outcomes.
+
+<div class="person-link">
+<a href="https://economics.ucsd.edu/faculty-and-research/faculty-profiles/lowes.html" target="_blank">
+  UCSD Profile
+</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/tourek.jpeg" alt="Gabriel Tourek">
+</div>
+
+<div class="person-info">
+<div class="person-name">
   Gabriel Tourek
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Board Member
+<div class="person-title">
+  Member
 </div>
 
 <p>Gabriel Tourek is an assistant professor of economics at the University of California, Davis. His research focuses on public finance and development economics, with an emphasis on state capacity and governance in low-income countries.
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://economics.ucdavis.edu/people/gabriel-tourek" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://economics.ucdavis.edu/people/gabriel-tourek" target="_blank">
   UC Davis Profile
 </a>
 </div>
@@ -157,14 +513,30 @@ title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='
 
 <div style="clear: both;">
 </div>
+<br>
 
-<!-- ============================ -->
-<!-- ============================ -->
-<!-- ============================ -->
-# Directors
+<div class="person-photo">
+  <img src="faces/ngoma.jpg" alt="Marina Ngoma Mavungu">
+</div>
 
-The Director of Finance & Operations oversees finances, grant management, institutional relationships, and coordination between the Executive Board and the field.<br>
-The Country Director heads all operations on the ground in Kananga and serves as the organization’s legal representative in the D.R. Congo.
+<div class="person-info">
+<div class="person-name">
+  Marina Ngoma Mavungu
+</div>
+
+<div class="person-title">
+  Member
+</div>
+
+<p>Marina Ngoma Mavungu is an economist at the World Bank, specializing in economic development with a focus on private sector policies, industrialization, regional integration, public finance, and institutions.
+
+<div class="person-link">
+<a href="https://www.worldbank.org/en/about/people/m/marina-ngoma-mavungu" target="_blank">
+  World Bank Profile
+</a>
+</div>
+</div>
+
 <!-- ============================ -->
 
 <div style="clear: both;">
@@ -173,44 +545,28 @@ The Country Director heads all operations on the ground in Kananga and serves as
 <!-- ============================ -->
 <!-- ============================ -->
 <!-- ============================ -->
-# Senior Management
+<div class="about-section-divider"></div>
+
+# PhD Students {.people-eyebrow-heading}
+
+ODEKA works closely with doctoral students who contribute to our research projects and field activities.
 <!-- ============================ -->
 
 <div style="clear: both;">
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/kabue.jpg" alt="Elie Kabue NGindu" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Clotaire Boyer">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Elie Kabue Ngindu
+<div class="person-info">
+<div class="person-name">
+  Clotaire Boyer
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Head of Personnel
-</div>
-</div>
-
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/kabasubabo.jpg" alt="Jean-Freddy Kabasubabo Tshimanga" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Jean-Freddy Kabasubabo Tshimanga
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Head of HR & External Relations
+<div class="person-title">
+  PhD Student
 </div>
 </div>
 
@@ -220,69 +576,236 @@ The Country Director heads all operations on the ground in Kananga and serves as
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/fiston.jpg" alt="Raphaël Fiston Mukendi Tshisanga" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Sarah Danner">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Raphaël Fiston Mukendi Tshisanga
+<div class="person-info">
+<div class="person-name">
+  Sarah Danner
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Deputy Head of HR & External Relations
+<div class="person-title">
+  PhD Student
 </div>
 </div>
 
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-
-<!-- ============================ -->
-<!-- ============================ -->
-<!-- ============================ -->
-# Research Interns
-<!-- ============================ -->
-
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-
-<!-- ============================ -->
-<!-- ============================ -->
-<!-- ============================ -->
-# Past Directors
-
-Individuals who previously served as Director of Finance & Operations or Country Director.
 <!-- ============================ -->
 
 <div style="clear: both;">
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/bellot.jpeg" alt="Manon Bellot" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Eva Davoine">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
+  Eva Davoine
+</div>
+
+<div class="person-title">
+  PhD Student
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Gabriel Granato">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Gabriel Granato
+</div>
+
+<div class="person-title">
+  PhD Student
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/laroche.jpg" alt="Arthur Laroche">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Arthur Laroche
+</div>
+
+<div class="person-title">
+  PhD Student
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Nic Wicaksono">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Nic Wicaksono
+</div>
+
+<div class="person-title">
+  PhD Student
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Research Associates {.people-eyebrow-heading}
+
+ODEKA works closely with research associates who contribute to our research projects and field activities.
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Research Interns {.people-eyebrow-heading}
+
+ODEKA works closely with research interns who contribute to our research projects and field activities.
+<!-- ============================ -->
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Past PhD Students {.people-eyebrow-heading}
+
+We are grateful to the PhD students who contributed to ODEKA's work over the years.
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/sievert.jpg" alt="Clara Sievert">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Clara Sievert
+</div>
+
+<div class="person-title">
+  PhD student, 2021-2024
+</div>
+
+<p>**Placement:** CERGE-EI<br>
+**PhD:** Harvard University
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/clara-sievert-harvard/" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/ngoma.jpg" alt="Marina Ngoma Mavungu">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Marina Ngoma Mavungu
+</div>
+
+<div class="person-title">
+  PhD student, 2020-2022
+</div>
+
+<p>**Placement:** World Bank<br>
+**PhD:** Tufts University
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/marina-mavungu-ngoma-b5b16411b/" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# Past Research Associates {#past-directors .people-eyebrow-heading}
+
+We are grateful to the many research associates who contributed to ODEKA's work over the years.
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/bellot.jpeg" alt="Manon Bellot">
+</div>
+
+<div class="person-info">
+<div class="person-name">
   Manon Bellot
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Director of Finance & Operations, 2024-2025
-</div>
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 1;">
-  Country Director, 2023-2024
+<div class="person-title">
+  Predoctoral Research Associate, 2023-2025
 </div>
 
 <p>**Next position:** Consultant, World Bank<br>
 **Previous position:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/manon-bellot-409b08204/?locale=en_US" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/manon-bellot-409b08204/?locale=en_US" target="_blank">
   LinkedIn Profile
 </a>
 </div>
@@ -293,159 +816,24 @@ Individuals who previously served as Director of Finance & Operations or Country
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/benabid.jpg" alt="Robin Benabid Jegaden" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/somat.jpeg" alt="Adèle Somat">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Robin Benabid Jegaden
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Director of Finance & Operations, 2023-2024
-</div>
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 1;">
-  Country Director, 2022-2023
-</div>
-
-<p>**Next position:** Research Engineer in Economics, CNRS<br>
-**Previous posititon:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/robin-benabid-jegaden-630446157/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  LinkedIn Profile
-</a>
-</div>
-</div>
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/foutelet.jpg" alt="Adrien Foutelet" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Adrien Foutelet
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Director of Finance & Operations, 2022-2023
-</div>
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 1;">
-  Country Director, 2021-2022
-</div>
-
-<p>**Next position:** PhD in Economics, Brown University<br>
-**Previous position:** MSc Analysis and Policy in Economics, ENS Lyon
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/adrien-foutelet-110b37168/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  LinkedIn Profile
-</a>
-</div>
-</div>
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/cote.jpg" alt="Jean-François Coté" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Jean-François Coté
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Director of Finance & Operations, 2021-2022
-</div>
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 1;">
-  Country Director, 2020-2021
-</div>
-
-<p>**Next position:** Consultant, CPCS<br>
-**Previous position:** Economist, Treasury Board of Canada
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/jf-côté/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  LinkedIn Profile
-</a>
-</div>
-</div>
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/laroche.jpg" alt="Arthur Laroche" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
-  Arthur Laroche
-</div>
-
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Director of Finance & Operations, 2020-2021
-</div>
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 1;">
-  Country Director, 2019-2020
-</div>
-
-<p>**Next position:** PhD in Economics, UCL<br>
-**Previous position:** MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées
-
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/arthur-laroche-294774133/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
-  LinkedIn Profile
-</a>
-</div>
-</div>
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-
-<!-- ============================ -->
-<!-- ============================ -->
-<!-- ============================ -->
-# Past Senior Management
-
-Individuals who previously served in senior management roles, including Head of Personnel, Head of HR & External Relations, Deputy Head of HR & External Relations, and Program Manager.
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/somat.jpeg" alt="Adèle Somat" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
-</div>
-
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
   Adèle Somat
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Program Manager, 2023-2025
+<div class="person-title">
+  Research Associate, 2023-2025
 </div>
 
 <p>**Next position:** Project Officer, LoGRI<br>
 **Previous position:** MPhil Inernational Political Economy, King's College London
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/adelesomat/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/adelesomat/?originalSubdomain=fr" target="_blank">
   LinkedIn Profile
 </a>
 </div>
@@ -456,24 +844,24 @@ Individuals who previously served in senior management roles, including Head of 
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/quiviger.jpeg" alt="Zacharie Quiviger" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/quiviger.jpeg" alt="Zacharie Quiviger">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
   Zacharie Quiviger
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Program Manager, 2023-2024
+<div class="person-title">
+  Research Associate, 2023-2024
 </div>
 
 <p>**Next position:** Researcher, SOAS University of London, then PhD in International Relations, Columbia University<br>
 **Previous position:** MPhil Politics and International Studies, Cambridge University
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/zachariequiviger/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/zachariequiviger/" target="_blank">
   LinkedIn Profile
 </a>
 </div>
@@ -484,24 +872,136 @@ Individuals who previously served in senior management roles, including Head of 
 </div>
 <br>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
-  <img src="faces/reich.jpg" alt="Dylan Reich" style="width: 200px; height: 200px; object-fit: cover; border-radius: 0px;">
+<div class="person-photo">
+  <img src="faces/benabid.jpg" alt="Robin Benabid Jegaden">
 </div>
 
-<div style="overflow: hidden">
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-info">
+<div class="person-name">
+  Robin Benabid Jegaden
+</div>
+
+<div class="person-title">
+  Predoctoral Research Associate, 2022-2024
+</div>
+
+<p>**Next position:** Research Engineer in Economics, CNRS<br>
+**Previous posititon:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/robin-benabid-jegaden-630446157/?originalSubdomain=fr" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/reich.jpg" alt="Dylan Reich">
+</div>
+
+<div class="person-info">
+<div class="person-name">
   Dylan Reich
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
-  Program Manager, 2022-2023
+<div class="person-title">
+  Research Associate, 2022-2023
 </div>
 
 <p>**Next position:** Research Assistant, Oxford University<br>
 **Previous position:** MSc Development Management, Applied Development Economics, LSE
 
-<div style="margin-top: 0px;line-height: 0;">
-<a href="https://www.linkedin.com/in/dylan-reich-9709231a0/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/dylan-reich-9709231a0/" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/foutelet.jpg" alt="Adrien Foutelet">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Adrien Foutelet
+</div>
+
+<div class="person-title">
+  Predoctoral Research Associate, 2021-2023
+</div>
+
+<p>**Next position:** PhD in Economics, Brown University<br>
+**Previous position:** MSc Analysis and Policy in Economics, ENS Lyon
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/adrien-foutelet-110b37168/" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/cote.jpg" alt="Jean-François Coté">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Jean-François Coté
+</div>
+
+<div class="person-title">
+  Predoctoral Research Associate, 2020-2022
+</div>
+
+<p>**Next position:** Consultant, CPCS<br>
+**Previous position:** Economist, Treasury Board of Canada
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/jf-côté/" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/laroche.jpg" alt="Arthur Laroche">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Arthur Laroche
+</div>
+
+<div class="person-title">
+  Predoctoral Research Associate, 2019-2021
+</div>
+
+<p>**Next position:** PhD in Economics, UCL<br>
+**Previous position:** MSc Mathematics, Statistics, Economics, Ecole nationale des ponts et chaussées
+
+<div class="person-link">
+<a href="https://www.linkedin.com/in/arthur-laroche-294774133/" target="_blank">
   LinkedIn Profile
 </a>
 </div>
@@ -514,172 +1014,174 @@ Individuals who previously served in senior management roles, including Head of 
 <!-- ============================ -->
 <!-- ============================ -->
 <!-- ============================ -->
-# Past Interns
-Individuals who previously served as interns.
+<div class="about-section-divider"></div>
+
+# Past Research Interns {.people-eyebrow-heading}
+We are grateful to the many research interns who contributed to ODEKA's work over the years.
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Zoé Baudoin
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2023-2024
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/zoé-baudoin/?locale=en_US" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/zoé-baudoin/?locale=en_US" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Kip Peeling
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2023
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/kip-peeling-b397541a7/?originalSubdomain=uk" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/kip-peeling-b397541a7/?originalSubdomain=uk" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Fadela Zouleya
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2023
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/fadela-sadou-zouleya-b41197141/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/fadela-sadou-zouleya-b41197141/" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Laure Lepine
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2022
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/laure-lépine/?originalSubdomain=ma" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/laure-lépine/?originalSubdomain=ma" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Morgane Garcia
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2022
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/morgane-garcia-a6247b1a0/?locale=fr_FR" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/morgane-garcia-a6247b1a0/?locale=fr_FR" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Romaine Loubes
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2022
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/romaine-loubes-56038217b/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/romaine-loubes-56038217b/?originalSubdomain=fr" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Charlotte Humes
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2021
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/charlotte-humes-11330764/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/charlotte-humes-11330764/" target="_blank">
   LinkedIn Profile
 </a>
 </div>
 </div>
 <!-- ============================ -->
 
-<div style="clear: both; margin-bottom: 10px;">
+<div style="clear: both; margin-bottom: 38px;">
 </div>
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;margin-left: 40px;">
+<div class="person-info person-info--no-photo">
 
-<div style="font-size: 1.4rem; font-weight: 700; color: #666; margin: 0;">
+<div class="person-name">
   Sara Merner
 </div>
 
-<div style="font-size: 1rem; color: #555; font-style: italic; margin: 0; line-height: 0;">
+<div class="person-title">
   Research Intern, 2020-2021
 </div>
 
-<div style="margin-top: 27px;line-height: 0;">
-<a href="https://www.linkedin.com/in/saramerner/?originalSubdomain=fr" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: 600;">
+<div class="person-link">
+<a href="https://www.linkedin.com/in/saramerner/?originalSubdomain=fr" target="_blank">
   LinkedIn Profile
 </a>
 </div>
@@ -688,6 +1190,9 @@ Individuals who previously served as interns.
 
 <div style="clear: both;">
 </div>
+
+<div class="about-section-divider"></div>
+
 <br>
 
 <div class="full-width-banner">

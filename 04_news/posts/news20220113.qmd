@@ -1,7 +1,7 @@
 ---
 title: "ODEKA A.S.B.L Returns in 2022 with a Larger Team and Higher Goals"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "January 13, 2022"
 description: "After a short end-of-year break, ODEKA A.S.B.L begins 2022 reinvigorated, with new faces, new projects, and renewed ambitions."
 image: ../images/news20220113.jpeg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **After a short end-of-year break, ODEKA A.S.B.L begins 2022 reinvigorated, with new faces, new projects, and renewed ambitions.**
 

@@ -1,10 +1,10 @@
 ---
 title: "Lecture by James Robinson and Jon Weigel at UPC in Kinshasa"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "June 27, 2022"
 description: "Under construction."
-image: ../images/news20220627.JPG
+image: ../images/news20220627.jpg
 
 about:
   template: marquee
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **Under construction.**
 

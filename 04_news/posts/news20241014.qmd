@@ -1,7 +1,7 @@
 ---
 title: "James Robinson Wins the 2024 Nobel Prize in Economic Sciences"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "October 15, 2024"
 description: "We are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences."
 image: ../images/news20241014.jpg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **We are proud to celebrate James A. Robinson, founding member of ODEKA A.S.B.L and Executive Board member, who has been awarded the 2024 Nobel Prize in Economic Sciences.**
 

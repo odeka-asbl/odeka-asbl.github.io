@@ -1,0 +1,1218 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{booktabs}
+
+\definecolor{odekared}{RGB}{178,49,40}
+\definecolor{codebg}{RGB}{245,245,245}
+\definecolor{codeframe}{RGB}{210,210,210}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=odekared,
+    urlcolor=odekared,
+    citecolor=odekared,
+    pdftitle={Maintaining the ODEKA Website},
+    pdfauthor={ODEKA A.S.B.L}
+}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{odekared}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\part}[display]{\normalfont\huge\bfseries\color{odekared}\centering}{Part \thepart}{0.5em}{}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{codebg},
+    frame=single,
+    rulecolor=\color{codeframe},
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    keepspaces=true,
+    xleftmargin=8pt,
+    xrightmargin=8pt,
+    framextopmargin=6pt,
+    framexbottommargin=6pt,
+    showstringspaces=false,
+}
+
+\newcommand{\term}[1]{\textbf{#1}}
+\newcommand{\file}[1]{\texttt{#1}}
+\newcommand{\cmd}[1]{\texttt{#1}}
+
+\title{\color{odekared}\Huge Maintaining the ODEKA Website\\[0.3em]
+\normalsize\color{black} A Guide for Research Associates}
+\author{ODEKA A.S.B.L}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\part{Getting Started with Quarto}
+
+\section{Introduction}
+
+This guide is for research associates and other ODEKA staff who need to update
+the ODEKA website (\url{https://odeka-asbl.github.io}) --- adding a news post,
+a job listing, a new team member, or a new project, for example.
+
+The website is built with a tool called \term{Quarto}. You do not need to know
+how to code to use it: pages are written mostly in plain text (with a little bit
+of HTML sprinkled in for layout), and Quarto turns that text into the actual
+website.
+
+This first part of the guide covers two things:
+
+\begin{enumerate}
+    \item Setting up your computer with the tools you need (Section~\ref{sec:setup}).
+    \item How Quarto works in general --- the concepts you need to understand
+    before touching this specific website (Section~\ref{sec:quarto-basics}).
+\end{enumerate}
+
+Part II covers the specifics of \emph{this} website: its folder
+structure, its custom design system, and step-by-step instructions for
+common tasks (adding a news post, adding a team member, etc.).
+
+\section{Setting Up Your Computer}
+\label{sec:setup}
+
+You only need to do this once. If a tool is already installed on your
+computer, you can skip that step.
+
+\subsection{Install Visual Studio Code}
+
+Visual Studio Code (\term{VS Code}) is the text editor we use to write and
+edit the website's files.
+
+\begin{enumerate}
+    \item Go to \url{https://code.visualstudio.com}.
+    \item Download the version for your operating system (Mac, Windows, or
+    Linux) and run the installer.
+    \item Open VS Code once to confirm it launches correctly.
+\end{enumerate}
+
+\subsection{Install Quarto}
+
+Quarto is the actual engine that converts our source files into the website.
+
+\begin{enumerate}
+    \item Go to \url{https://quarto.org/docs/get-started/}.
+    \item Download and run the installer for your operating system.
+    \item To confirm it installed correctly, open a terminal (on Mac:
+    Terminal app; on Windows: Command Prompt or PowerShell) and type:
+\begin{lstlisting}
+quarto check
+\end{lstlisting}
+    This should print a summary confirming Quarto is installed, along with
+    the version number, without any errors.
+\end{enumerate}
+
+\subsection{Install the Quarto Extension for VS Code}
+
+This extension gives you syntax highlighting, a ``Preview'' button, and other
+conveniences directly inside VS Code.
+
+\begin{enumerate}
+    \item Open VS Code.
+    \item Click the Extensions icon in the left-hand sidebar (it looks like
+    four small squares), or press \cmd{Cmd+Shift+X} (Mac) / \cmd{Ctrl+Shift+X}
+    (Windows).
+    \item Search for \term{Quarto}.
+    \item Install the extension published by \term{Quarto}.
+\end{enumerate}
+
+Once installed, opening any \file{.qmd} file in VS Code will show a
+``Preview'' button (a small icon with a magnifying glass, usually in the
+top-right corner of the editor) that opens a live preview of that page.
+
+\subsection{Install Git and Get Access to the Repository}
+
+The website's files live in a \term{Git repository} hosted on
+\term{GitHub}, at a URL your supervisor will share with you. Git is the
+tool that tracks changes to the files and lets you publish (``push'') your
+edits so they show up on the live website.
+
+\begin{enumerate}
+    \item Create a free account at \url{https://github.com} if you don't
+    already have one, and ask your supervisor to give your account access
+    to the repository.
+    \item Install Git:
+    \begin{itemize}
+        \item \term{Mac}: open Terminal and type \cmd{git --version}. If
+        Git isn't already installed, macOS will prompt you to install the
+        Xcode Command Line Tools, which include it.
+        \item \term{Windows}: download and install Git from
+        \url{https://git-scm.com/downloads}.
+    \end{itemize}
+    \item (Optional but recommended for beginners) Install
+    \term{GitHub Desktop} (\url{https://desktop.github.com}), a graphical
+    app that lets you commit and push changes without typing Git commands
+    directly. VS Code also has built-in Git support (the ``Source Control''
+    icon in the sidebar) if you prefer to stay in one app.
+\end{enumerate}
+
+\subsection{Connecting VS Code to Your GitHub Account}
+\label{sec:git-auth}
+
+Before you can push changes, Git needs to know it's really you. Note that
+GitHub no longer lets you sign in for this using your regular account
+password --- you'll instead use one of the two methods below.
+
+\paragraph{Option A: Sign in through VS Code (recommended).} This is the
+easiest method and involves no typing of tokens at all.
+
+\begin{enumerate}
+    \item In VS Code, click the \textbf{Source Control} icon in the
+    left-hand sidebar (it looks like a branching line).
+    \item Click \textbf{Sign in} (or, if you don't see it there yet, wait
+    until you perform your first push --- VS Code will prompt you
+    automatically at that point).
+    \item Your web browser will open a GitHub page asking you to log in
+    (username and password there, on GitHub's own site) and then
+    \term{authorize Visual Studio Code} to access your account.
+    \item Click \textbf{Authorize}. You'll be sent back to VS Code, which
+    is now connected to your GitHub account. You will not be asked again
+    on this computer.
+\end{enumerate}
+
+If you installed GitHub Desktop instead, the equivalent step is:
+\textbf{GitHub Desktop} $\to$ \textbf{Settings} (Mac) or \textbf{Options}
+(Windows) $\to$ \textbf{Accounts} $\to$ \textbf{Sign in to GitHub.com},
+which opens the same kind of browser sign-in window.
+
+\paragraph{Option B: Personal Access Token (if you work from the terminal).}
+If you type Git commands directly in a terminal rather than using VS
+Code's Source Control panel or GitHub Desktop, the first time you
+\cmd{git push} you'll be prompted for a username and password. Enter your
+GitHub username as usual, but for the password, you must use a
+\term{Personal Access Token} (a long, randomly generated code) instead of
+your real password --- typing your real password here will simply fail.
+
+To create one:
+
+\begin{enumerate}
+    \item Go to \url{https://github.com/settings/tokens}.
+    \item Click \textbf{Generate new token} $\to$ \textbf{Generate new
+    token (classic)}.
+    \item Give it a name (e.g. ``ODEKA laptop''), set an expiration date,
+    and check the box next to \textbf{repo}.
+    \item Click \textbf{Generate token} at the bottom of the page, then
+    \textbf{copy the token immediately} --- GitHub will only show it to
+    you once.
+    \item The next time Git asks for a password, paste this token instead.
+    Your computer will normally remember it after that, so you won't need
+    to repeat this often.
+\end{enumerate}
+
+Unless you have a specific reason to work from the terminal, Option A is
+simpler and is what we recommend.
+
+\subsection{Clone the Repository}
+
+``Cloning'' means downloading a working copy of the website's files onto
+your computer.
+
+\begin{enumerate}
+    \item Open a terminal and navigate to the folder where you want to keep
+    the project, e.g.:
+\begin{lstlisting}
+cd Documents
+\end{lstlisting}
+    \item Clone the repository (replace the URL with the one your
+    supervisor gives you):
+\begin{lstlisting}
+git clone https://github.com/odeka-asbl/odeka-asbl.github.io.git
+\end{lstlisting}
+    \item Open the resulting folder in VS Code: \textbf{File} $\to$
+    \textbf{Open Folder...} and select it.
+\end{enumerate}
+
+You now have everything you need on your machine. The remainder of this
+document explains how Quarto itself works.
+
+\section{Quarto: The General Principles}
+\label{sec:quarto-basics}
+
+\subsection{What Quarto Is}
+
+Quarto is a \term{static site generator}. That means: you write content in
+simple source files, and Quarto ``renders'' (builds) those files into
+plain HTML pages --- the actual files a web browser displays. Nothing runs
+on a server when someone visits the site; every page is just a
+pre-built HTML file sitting in a folder, served as-is. This makes the site
+fast, simple to host (we use GitHub Pages, which is free), and hard to
+break in unpredictable ways.
+
+The two building blocks you'll work with constantly are:
+
+\begin{itemize}
+    \item \term{\file{.qmd} files} --- these are the source files for each
+    page. ``qmd'' stands for Quarto Markdown. You write and edit these.
+    \item \term{The \file{docs/} folder} --- this is where Quarto puts the
+    finished HTML files after rendering. This is what actually gets
+    published to the live website. \textbf{You should never hand-edit
+    files inside \file{docs/}} --- they get overwritten every time the site
+    is rendered again. Always edit the \file{.qmd} source files instead.
+\end{itemize}
+
+\subsection{Markdown, Briefly}
+
+Most of the text content on the site is written in \term{Markdown}, a
+simple way to format text using plain characters instead of a toolbar.
+The basics:
+
+\begin{lstlisting}
+# This is a big heading
+## This is a smaller heading
+
+Regular paragraph text goes here. You can make text **bold**
+or *italic*. You can add a [link](https://example.com), or an
+image: ![alt text](path/to/image.jpg)
+
+- A bullet point
+- Another bullet point
+\end{lstlisting}
+
+Our website also mixes in small pieces of raw HTML directly inside the
+\file{.qmd} files (for things like banners, custom layouts, and buttons)
+--- this is normal and something we'll cover in Part II. You don't need to
+know HTML deeply, but you will encounter it.
+
+\subsection{The YAML Frontmatter}
+
+Every \file{.qmd} file starts with a block between two lines of three
+dashes (\cmd{---}). This is called the \term{frontmatter}, written in a
+format called \term{YAML}, and it controls settings for that specific
+page: its title, whether it has a table of contents, and so on.
+
+\begin{lstlisting}
+---
+title: "About us"
+toc: false
+---
+
+The rest of the page's content starts here, after the
+closing `---`.
+\end{lstlisting}
+
+\subsection{The Project-Wide Configuration File}
+
+At the root of the project sits a single file, \file{\_quarto.yml}, which
+controls settings for the \emph{entire} website rather than one page. This
+is where the navigation bar, the site title, and the overall output
+folder are defined. For example, a simplified version of ours looks like:
+
+\begin{lstlisting}
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ODEKA"
+  navbar:
+    left:
+      - href: 01_about/about.qmd
+        text: About us
+      - href: 02_people/people.qmd
+        text: People
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+\end{lstlisting}
+
+Notice how each navbar entry simply points to a \file{.qmd} file and gives
+it a label. Adding a new top-level page to the site generally starts with
+adding an entry here.
+
+\subsection{Rendering the Site}
+
+``Rendering'' is the act of converting your \file{.qmd} source files into
+the finished HTML in \file{docs/}. You do this from the terminal, from
+the project's root folder:
+
+\begin{lstlisting}
+quarto render
+\end{lstlisting}
+
+This rebuilds the \emph{entire} site. If you only changed one page and
+want a faster rebuild, you can render just that file:
+
+\begin{lstlisting}
+quarto render 04_news/index.qmd
+\end{lstlisting}
+
+You need to render (and then commit and push, see Section~\ref{sec:publish})
+before your changes actually appear on the live website.
+
+\subsection{Previewing Your Changes Live}
+
+Rendering the whole site every time you make a small edit is slow. Instead,
+while you're actively working on a page, use \term{preview mode}, which
+opens a local copy of the site in your browser and automatically refreshes
+it every time you save a file:
+
+\begin{lstlisting}
+quarto preview
+\end{lstlisting}
+
+This will print a local address (something like
+\url{http://localhost:4848}) and normally opens it in your browser
+automatically. Leave this command running in the terminal while you work;
+press \cmd{Ctrl+C} in the terminal to stop it when you're done.
+
+If you installed the Quarto VS Code extension mentioned earlier, you can
+also just click the \textbf{Preview} button at the top of an open
+\file{.qmd} file, which does the same thing without needing the terminal.
+
+\subsection{Publishing Your Changes}
+\label{sec:publish}
+
+The live website is served directly from the \file{docs/} folder in the
+GitHub repository. Publishing a change means three steps:
+
+\begin{enumerate}
+    \item \term{Render} the site (or the page you changed), so
+    \file{docs/} is up to date:
+\begin{lstlisting}
+quarto render
+\end{lstlisting}
+    \item \term{Commit} your changes --- this saves a labeled snapshot of
+    what changed, both in the source files and in \file{docs/}:
+\begin{lstlisting}
+git add .
+git commit -m "Add news post about the new field team"
+\end{lstlisting}
+    \item \term{Push} your commit to GitHub, which is what actually makes
+    it live (usually within a minute or two):
+\begin{lstlisting}
+git push
+\end{lstlisting}
+\end{enumerate}
+
+If you're using GitHub Desktop or VS Code's Source Control panel instead
+of typing Git commands, these same three steps exist as buttons: review
+your changed files, write a short commit message, click \term{Commit},
+then click \term{Push}.
+
+\subsection{How a Quarto \emph{Website} Project Is Organized}
+
+A single Quarto document is just one file. A Quarto \emph{website} project
+--- which is what we have --- is a folder containing many \file{.qmd}
+files (one per page), plus:
+
+\begin{itemize}
+    \item \term{Shared styling}: a single \file{.css} file (ours is
+    \file{styles.css}) that controls fonts, colors, spacing, and layout
+    across every page, so the whole site looks consistent.
+    \item \term{Listings}: some pages (like News or Jobs) don't list their
+    content by hand. Instead, they automatically generate a list of posts
+    from a folder, sorted by date, based on settings in that page's
+    frontmatter. Adding a new post is often just a matter of adding a new
+    file to the right folder --- the listing picks it up automatically.
+    \item \term{Includes}: small snippets of HTML or JavaScript that get
+    inserted into every page automatically (for example, code that
+    powers a hover effect in our navigation bar). These live in their own
+    files and are referenced from \file{\_quarto.yml}.
+    \item \term{Images and other assets}: stored alongside the pages that
+    use them, referenced by file path from within the \file{.qmd} files.
+\end{itemize}
+
+\subsection{A Typical Editing Workflow, Start to Finish}
+
+Putting it all together, here is what a routine edit looks like:
+
+\begin{enumerate}
+    \item Open the project folder in VS Code.
+    \item Open the relevant \file{.qmd} file and start editing.
+    \item Run \cmd{quarto preview} (or click the Preview button) to watch
+    your changes as you make them.
+    \item Once you're happy with the result, stop the preview, run
+    \cmd{quarto render} to rebuild the whole site cleanly, and skim a few
+    pages to make sure nothing else broke.
+    \item Commit and push your changes (Section~\ref{sec:publish}).
+    \item Check the live website after a minute or two to confirm your
+    change appears correctly.
+\end{enumerate}
+
+\section{Editing the Website with Claude Code}
+\label{sec:claude-code}
+
+Everything above describes doing the work by hand: opening a file,
+editing Markdown and HTML yourself, running the commands yourself. That's
+essential to understand, but it isn't the only way to work. \term{Claude
+Code} is an AI coding assistant from Anthropic that runs inside VS Code
+(or a terminal) and can read the whole project, make the edits itself,
+run \cmd{quarto render}, and even commit and push --- all from
+plain-English instructions you give it, like ``add a new job listing for
+a Research Intern position, same format as the existing ones.''
+
+Starting in Part II, this guide will show most tasks \emph{two} ways: how
+to do them yourself, step by step, and a suggested prompt you could give
+Claude Code instead to have it done for you in seconds. Understanding the
+manual steps is still worthwhile --- it means you can judge whether
+Claude Code's changes look right and fix small things yourself when
+needed --- but for most day-to-day updates, describing what you want is
+often faster than doing it by hand.
+
+\subsection{Installing Claude Code in VS Code}
+
+\begin{enumerate}
+    \item Open VS Code and click the Extensions icon in the sidebar (or
+    press \cmd{Cmd+Shift+X} / \cmd{Ctrl+Shift+X}).
+    \item Search for \term{Claude Code} and install the extension
+    published by Anthropic.
+    \item A new Claude icon will appear in the sidebar. Click it to open
+    the Claude Code panel.
+    \item You'll be prompted to sign in. This uses the same kind of
+    browser-based sign-in as GitHub in Section~\ref{sec:git-auth}: click
+    \textbf{Sign in}, log into your Claude account in the browser window
+    that opens, and authorize VS Code.
+    \item Using Claude Code requires an active Claude plan (Pro or Max)
+    or billing set up on the Anthropic Console. Ask your supervisor if
+    ODEKA already has an account you should use, or if you need to set up
+    your own at \url{https://claude.ai}.
+\end{enumerate}
+
+\subsection{Working with Claude Code}
+
+\begin{enumerate}
+    \item Make sure the ODEKA website folder is the one open in VS Code
+    (\textbf{File} $\to$ \textbf{Open Folder...} if it isn't) --- Claude
+    Code works on whichever project is currently open.
+    \item In the Claude Code panel, type what you want in plain English,
+    for example:
+    \begin{quote}
+    \textit{``Add a news post announcing that ODEKA hired a new field
+    coordinator, dated today. Use the same format and image size as the
+    other news posts.''}
+    \end{quote}
+    \item Claude Code will make the edits, and can also run
+    \cmd{quarto render}/\cmd{quarto preview} for you and describe what it
+    changed. Review its summary and the changed files before moving on.
+    \item Ask it to show you a preview, or open one yourself
+    (Section~\ref{sec:quarto-basics}), to confirm the result looks right.
+    \item You can ask Claude Code to commit and push the change too
+    (``commit this and push it''), or do that step yourself once you're
+    happy with it --- either is fine.
+\end{enumerate}
+
+\paragraph{A few habits worth keeping.} Be specific about which page and
+what you want (naming the exact page, section, or person makes for a
+better result than a vague request). Always look over what changed before
+pushing, the same way you'd proofread something before sending it. And if
+a result isn't quite right, just say so in plain language --- ``move that
+a bit to the left,'' ``make the text smaller'' --- the same way the rest
+of this guide describes fixing things by hand.
+
+\part{The ODEKA Website, Page by Page}
+
+This part walks through every page of the site and the specific edits
+you'll actually make: updating a bio, adding a project, publishing a
+news post, posting a job, or swapping out a photo. Each task is shown
+the manual way first, then --- where it's genuinely faster --- as a
+Claude Code prompt (Section~\ref{sec:claude-code}). Reading the manual
+version at least once is worth it even if you always use Claude Code
+afterward: it's what lets you tell whether what Claude Code did is
+actually right.
+
+A general note before starting: after \emph{any} edit described below,
+the workflow is always the same three steps from Part I --- render (or
+preview while you work), check it, then commit and push
+(Section~\ref{sec:publish}). This part won't repeat that every time.
+
+\section{The People Page}
+\label{sec:people-page}
+
+The People page (\file{02\_people/people.qmd}) is one long file. It's
+organized into named sections (Senior Management, PhD Students, Past
+Research Associates, and so on), each containing a run of individual
+entries. There's no listing magic here like on News or Jobs --- every
+person is hand-written directly in this one file, in the order they
+appear on the page.
+
+\subsection{How an Entry Is Built}
+
+Every person has the same two-part shape: a small square photo, and an
+info block next to it with their name, title, and (optionally) a short
+bio and a link. Most entries look like this:
+
+\begin{lstlisting}
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/lastname.jpg" alt="Full Name">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Full Name
+</div>
+
+<div class="person-title">
+  Their Title
+</div>
+
+<p>Optional one- or two-sentence bio.
+
+<div class="person-link">
+<a href="https://example.com" target="_blank">
+  Profile Link Text
+</a>
+</div>
+</div>
+\end{lstlisting}
+
+A few sections list people with no photo at all --- currently ``Past
+Research Interns'', and ``Research Interns'' should follow the same
+pattern once people are added there (it's empty for now). Those use a
+slightly different wrapper --- the photo \file{<div>} is simply
+skipped, and \file{person-info} gets a second class:
+
+\begin{lstlisting}
+<div style="clear: both; margin-bottom: 38px;">
+</div>
+
+<div class="person-info person-info--no-photo">
+<div class="person-name">
+  Full Name
+</div>
+<div class="person-title">
+  Their Title
+</div>
+<div class="person-link">
+<a href="https://example.com" target="_blank">
+  LinkedIn Profile
+</a>
+</div>
+</div>
+\end{lstlisting}
+
+If someone doesn't have a photo yet, use
+\file{faces/placeholder.jpg} rather than leaving it out --- every entry
+on the page currently has an image, and the placeholder (a plain
+silhouette icon) is what keeps the layout consistent until a real photo
+is added.
+
+\subsection{Editing Someone's Information}
+
+Open \file{02\_people/people.qmd}, search for their name, and edit the
+text directly --- the name, title, bio paragraph, or link text/URL are
+all plain text inside the block shown above. To swap their photo,
+replace the file at \file{02\_people/faces/whatever.jpg} with the new
+image \emph{using the same filename} (simplest option), or add a new
+image file and update the \file{src="..."} path to match.
+
+\begin{quote}
+\textit{Ask Claude Code: ``On the People page, update Jon Weigel's
+title to `Scientific Director' and change his bio to say he's now at
+[institution].''}
+\end{quote}
+
+\subsection{Adding a Person}
+
+\begin{enumerate}
+    \item Find the section they belong in, and find another entry in
+    that same section to use as a template.
+    \item Copy that whole entry (from its opening
+    \cmd{<div style="clear: both...}} down to the closing
+    \cmd{</div>} of \file{person-info}) and paste it either right before
+    or right after it, depending on where the new person should sit.
+    \item Update the name, title, bio, link, and photo path. If you
+    don't have a photo yet, point it at
+    \file{faces/placeholder.jpg}.
+    \item If the section is ordered a particular way (PhD Students is
+    alphabetical by family name; Past Research Associates run
+    newest-to-oldest), place the new entry in the position that keeps
+    that order.
+\end{enumerate}
+
+\begin{quote}
+\textit{Ask Claude Code: ``Add a new person to the PhD Students section
+of the People page: [Name], PhD Student, no bio yet, placeholder photo.
+Keep the section in alphabetical order by family name.''}
+\end{quote}
+
+\subsection{Removing a Person}
+
+Delete their entire block, from the \cmd{<div style="clear: both...}}
+spacer immediately before their photo down through the closing
+\cmd{</div>} of \file{person-info}. Be careful with the closing
+\file{</div>} tags in particular --- there are several nested divs in
+each entry, and deleting one too many (or too few) will silently break
+the layout of the \emph{next} person's entry rather than produce an
+error. Render the page afterward and check that both the deleted
+person is gone and the people around them still look normal.
+
+\begin{quote}
+\textit{Ask Claude Code: ``Remove Jean-François Coté's entry from the
+Past Research Associates section of the People page.''}
+\end{quote}
+
+\subsection{Adding a New Section}
+
+Copy this pattern, placing it wherever the new section should sit
+between two existing ones:
+
+\begin{lstlisting}
+<!-- ============================ -->
+<!-- ============================ -->
+<!-- ============================ -->
+<div class="about-section-divider"></div>
+
+# New Section Title {.people-eyebrow-heading}
+
+One-sentence description of who belongs in this section.
+<!-- ============================ -->
+\end{lstlisting}
+
+Then add person entries underneath it as described above. Two things
+to know:
+
+\begin{itemize}
+    \item The heading text becomes an entry in the ``on this page'' box
+    on the right automatically --- nothing else to configure.
+    \item If the new heading's text is identical to another heading
+    already on the page (this has come up before, e.g. two sections
+    both wanting to be called ``Past Directors''), add an explicit
+    anchor to keep their links from colliding: \cmd{\# New Section
+    Title \{\#a-unique-id .people-eyebrow-heading\}}.
+\end{itemize}
+
+\begin{quote}
+\textit{Ask Claude Code: ``Add a new section to the People page called
+`Visiting Researchers', right after Scientific Advisory Committee, with
+the description `ODEKA hosts visiting researchers who contribute to our
+work during their stay.' Leave it empty for now.''}
+\end{quote}
+
+\section{The Projects Page}
+\label{sec:projects-page}
+
+Unlike People, Projects uses Quarto's \term{listing} system: each
+project is its own file in \file{03\_projects/posts/}, and both the
+Projects page and the homepage carousel are automatically generated
+from those files based on a few frontmatter fields. You never edit a
+list of projects by hand --- you add, edit, or delete the individual
+project files, and the listings update themselves.
+
+\subsection{The Fields That Matter}
+
+Every project file's frontmatter looks like this:
+
+\begin{lstlisting}
+---
+title: "Project Name"
+author:
+  - Person One
+  - Person Two
+date: 2020-01-01
+display date: "2020-2023"
+image: ../images/projectN.jpg
+description: "One-sentence summary shown on the card."
+status: ongoing
+type: major
+about:
+  template: marquee
+---
+<style>
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+
+[← Back to Projects](../index.qmd){.breadcrumb}
+
+The actual page content goes here.
+\end{lstlisting}
+
+The \file{marquee} template (the same one News posts use) is what puts
+a large banner image at the top of the page instead of a small sidebar
+photo --- the \cmd{<style>} block right after it is required for the
+same reason it's required on News posts (Section~\ref{sec:news-page}):
+without it, the \file{description} field shows up twice.
+
+Two fields drive everything about where a project shows up, and they
+are independent of each other:
+
+\begin{itemize}
+    \item \term{\file{type}}: either \cmd{major} or \cmd{other}. This
+    decides which section of the \emph{Projects page itself} the
+    project appears under (``Major Projects'' or ``Other Projects'').
+    \item \term{\file{status}}: currently \cmd{ongoing} or anything
+    else (e.g. \cmd{completed}). This only affects the little
+    ``ONGOING'' badge shown on the card --- \emph{except} for one
+    important consequence below.
+\end{itemize}
+
+\subsection{The Homepage Carousel Is Pickier Than the Projects Page}
+
+The Projects page shows every project of a given \file{type}, regardless
+of status. The \term{homepage} carousel (``Ongoing major projects'') is
+more restrictive: it only shows projects where \file{type: major}
+\emph{and} \file{status: ongoing} are \emph{both} true. This means:
+
+\begin{itemize}
+    \item Marking a major project's status as anything other than
+    \cmd{ongoing} removes it from the homepage immediately, but it
+    stays exactly where it was on the Projects page.
+    \item An \cmd{other}-type project will never appear on the homepage
+    carousel, no matter its status.
+    \item If you want a project to stop being featured on the homepage
+    the moment it wraps up, changing its \file{status} field is the
+    single edit that does it --- nothing else needs to change.
+\end{itemize}
+
+\subsection{Adding a Project}
+
+\begin{enumerate}
+    \item Create a new file in \file{03\_projects/posts/}, e.g.
+    \file{my-new-project.qmd}, using the template above.
+    \item Add a card image to \file{03\_projects/images/} and point
+    \file{image:} at it.
+    \item Set \file{type} and \file{status} deliberately, per the rules
+    above.
+    \item Write the actual project page content below the frontmatter
+    (see Section~\ref{sec:projects-todo} for the current state of this
+    --- it's genuinely unresolved for existing projects too).
+\end{enumerate}
+
+\begin{quote}
+\textit{Ask Claude Code: ``Add a new major, ongoing project called
+`[Name]' to the Projects page, described as `[one sentence]'. Use
+[image file] as the card image.''}
+\end{quote}
+
+\subsection{Editing or Removing a Project}
+
+To edit, open its file in \file{03\_projects/posts/} and change the
+frontmatter fields or the page content directly. To remove a project
+entirely, delete its \file{.qmd} file (and its image, if nothing else
+uses it) --- it disappears from every listing automatically.
+
+\begin{quote}
+\textit{Ask Claude Code: ``Change the Religion \& Development project's
+status to completed'' or ``Delete the [project name] project.''}
+\end{quote}
+
+\section{The News Page}
+\label{sec:news-page}
+
+News works the same way as Projects: one file per post in
+\file{04\_news/posts/}, listed automatically.
+
+\subsection{Adding, Editing, or Removing a Post}
+
+A news post's frontmatter is simpler than a project's:
+
+\begin{lstlisting}
+---
+title: "Headline Goes Here"
+author:
+  - Author Name
+date: "Month DD, YYYY"
+description: "One-sentence summary."
+image: ../images/newsYYYYMMDD.jpg
+
+about:
+  template: marquee
+---
+<style>
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+
+[← Back to News](../index.qmd){.breadcrumb}
+
+**A bold one-sentence lead-in, restating the summary.**
+
+The rest of the story, in normal paragraphs.
+\end{lstlisting}
+
+That \cmd{<style>} block isn't decorative --- without it, the
+\file{description} shows up twice (once as Quarto's own subtitle, once
+as your bold lead-in paragraph). Keep it in every new post.
+
+To add a post: copy an existing file in \file{04\_news/posts/}, rename
+it (the convention so far is \file{newsYYYYMMDD.qmd}), update the
+frontmatter and body, and add its image to \file{04\_news/images/}. To
+edit one, just open and change it. To remove one, delete its file.
+
+\begin{quote}
+\textit{Ask Claude Code: ``Add a news post dated today announcing
+[whatever happened]. Use the same format as the existing posts.''}
+\end{quote}
+
+\subsection{Turning the News Section On and Off}
+\label{sec:news-switch}
+
+If nobody is actively writing news, the whole section can be switched
+off --- hidden from the navbar, removed from the homepage (replaced by
+a plain divider), and excluded from the built site --- without deleting
+any of the actual posts. Turning it back on later restores everything
+exactly as it was, because nothing in \file{04\_news/} itself is ever
+touched by the switch. It only takes a handful of small, coordinated
+edits across two files:
+
+\begin{enumerate}
+    \item In \file{\_quarto.yml}, find the block of comments marked
+    \cmd{NEWS SECTION SWITCH} near the top. Uncomment the two-line
+    \file{render:} exclusion inside it.
+    \item A little further down in the same file, in
+    \file{navbar: left:}, comment out the two lines for the News entry
+    (marked with a \cmd{NEWS SWITCH} comment right above them).
+    \item In \file{index.qmd}, two more places are marked
+    \cmd{NEWS SWITCH}:
+    \begin{itemize}
+        \item Comment out the \file{news\_carousel} listing definition
+        in the frontmatter (this one matters --- if you skip it, Quarto
+        will dump the news carousel awkwardly at the very bottom of the
+        homepage instead of hiding it).
+        \item Change the \cmd{\{\{< include ... >\}\}} line just above
+        where ``Latest News'' used to be from
+        \file{news\_section\_on.qmd} to \file{news\_section\_off.qmd}.
+    \end{itemize}
+    \item Run \cmd{quarto render}. That single render does everything:
+    removes the News pages that were already built, updates the
+    navbar, and swaps in the plain divider on the homepage.
+\end{enumerate}
+
+To turn News back on, reverse all four steps (re-comment/uncomment the
+opposite way) and render again.
+
+\begin{quote}
+\textit{Ask Claude Code: ``Turn the News section off'' or ``Turn the
+News section back on'' --- it knows to make all four changes together
+and re-render.}
+\end{quote}
+
+See Section~\ref{sec:news-todo} for a note on \emph{when} you might
+actually want to do this.
+
+\section{The Jobs Page}
+\label{sec:jobs-page}
+
+Jobs also uses one file per posting, in \file{05\_jobs/posts/}, but the
+page layout is richer than News --- it has a structured header
+(supervisors, dates, location, duration) above the actual posting text.
+
+\subsection{The Content Rule: Copy the Posting Verbatim}
+
+This is important enough to call out on its own: when you add a real
+job posting, the body text (Overview, Responsibilities, Qualifications,
+etc.) should be an exact, word-for-word copy of the actual posting
+--- wherever it's really hosted (J-PAL/IPA, a university jobs board,
+wherever) --- not a rewritten or summarized version. Only the
+\emph{layout} (the section headers, the meta block at the top, colors,
+fonts) is ours; the wording is not. When you fetch the source page to
+copy from, copy the literal text, not a paraphrase of it.
+
+One consequence of this: our postings are sometimes hosted on a
+recruiting platform (J-PAL/IPA's shared application system) as a matter
+of practicality, but \term{ODEKA is always the actual employer}. Keep
+that clear on the page --- e.g. the short description under the title
+should say ``We are hiring...'', not name the hosting platform as the
+employer.
+
+\subsection{The Template}
+
+\begin{lstlisting}
+---
+title: "Exact Job Title"
+author:
+  - Supervisor Name, Affiliation
+date: "Month DD, YYYY"
+description: "We are hiring a [role] to [one-sentence summary]."
+language:
+  title-block-author-single: "Supervisor"
+  title-block-author-plural: "Supervisors"
+  listing-page-field-author: "Supervisor"
+---
+
+<div class="job-page">
+
+<div class="job-meta">
+<div class="job-meta-item"><strong>Posted</strong>Month DD, YYYY</div>
+<div class="job-meta-item"><strong>Supervisors</strong>Name One<br>Name Two</div>
+<div class="job-meta-item"><strong>Location</strong>City, Country</div>
+<div class="job-meta-item"><strong>Start Date</strong>Month D, YYYY</div>
+<div class="job-meta-item"><strong>Duration</strong>N months</div>
+</div>
+
+[← View All Open Positions](../index.qmd){.breadcrumb}
+
+### Overview
+Copied verbatim from the real posting.
+
+### Responsibilities
+- Copied verbatim, as a bullet list.
+
+### Qualifications
+- Copied verbatim (required)
+- Copied verbatim (desired)
+
+### Supervisors
+**Primary supervisors:** ...
+**Secondary supervisors:** ...
+
+### How to Apply
+Copied verbatim, plus a plain-language note that ODEKA is the employer
+if the original posting doesn't make that obvious.
+
+<div class="job-apply">
+<a class="about-button" href="https://actual-application-url"
+   target="_blank">Apply for this position →</a>
+</div>
+
+</div>
+\end{lstlisting}
+
+The \file{language:} block is what relabels Quarto's default ``Author''
+heading to ``Supervisor''/``Supervisors'' --- keep it in every posting.
+The section headers (\cmd{\#\#\#}) can be adjusted to match whatever
+structure the real posting actually uses; they don't have to be exactly
+these five.
+
+\subsection{Adding, Editing, or Removing a Posting}
+
+Same pattern as News and Projects: add a new file in
+\file{05\_jobs/posts/} for a new posting, edit a file directly to
+update one, delete a file to remove one (once it's filled or closed).
+
+\begin{quote}
+\textit{Ask Claude Code: ``Here's a job posting URL: [link]. Add it to
+the Jobs page, copying the content verbatim, in our usual job-page
+format.''}
+\end{quote}
+
+\section{Contacts and Legal Notice}
+
+These two are the simplest pages on the site --- each is a single file
+(\file{06\_contacts/contacts.qmd} and
+\file{07\_legal\_notice/legal\_notice.qmd}) with plain text content,
+organized under \cmd{\#\#\#} headings:
+
+\begin{lstlisting}
+### Section Heading:
+Whatever text or contact details go here.<br>
+Use <br> for a line break within a section.
+\end{lstlisting}
+
+Just open the relevant file and edit the text directly --- add, remove,
+or reword a \cmd{\#\#\#} section however needed. The photo shown next to
+the text is set by the \file{image:} field in the frontmatter
+(\file{about: image: image1.jpg}); replace that file to change it.
+
+\section{Changing an Illustration Anywhere on the Site}
+
+Every image on the site is a plain file referenced by path, either in a
+page's frontmatter (\file{image: ...}) or directly in the page content
+(\file{<img src="...">}). To swap one out, you have two options:
+
+\begin{enumerate}
+    \item \term{Simplest}: replace the file at that exact path with
+    your new image, keeping the same filename. Nothing else needs to
+    change.
+    \item Add a new image file and update the path that references it,
+    if you'd rather keep the old one around or use a more descriptive
+    filename.
+\end{enumerate}
+
+\subsection{Where Images Live, and How They're Named}
+
+Every page keeps its own images in its own folder, right next to the
+\file{.qmd} file that uses them --- there is no single shared
+\file{images/} folder for the whole site. The pattern is consistent
+enough to state as a table:
+
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+\textbf{What} & \textbf{Where, and how it's named} \\
+\midrule
+Page banner (top/bottom of a page) & \file{0N\_folder/imageN.ext}
+(sequential) \\
+Person photo & \file{02\_people/faces/lastname.ext} \\
+Project card image & \file{03\_projects/images/projectN.ext} \\
+News post image & \file{04\_news/images/newsYYYYMMDD.ext} \\
+Site-wide logos/brackets & root folder, \file{odeka\_logo\_*.png} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\term{Stick to whichever pattern already applies to the page you're
+editing.} This matters more than it might seem, for two reasons we've
+already hit in practice, not hypothetically:
+
+\begin{itemize}
+    \item \term{File extension case has to match exactly.} One news
+    post once linked to \file{news20220627.JPG} while the actual file
+    on disk was \file{news20220627.jpg}. It worked by accident on a Mac
+    (whose filesystem ignores case) and would have silently shown a
+    broken image once deployed, since GitHub Pages' hosting does not.
+    Always match the real filename's case exactly, and prefer lowercase
+    extensions for anything new.
+    \item \term{Unused images pile up fast if filenames drift.} A
+    routine cleanup pass on this site once found --- and removed --- ten
+    image files that nothing on the site referenced anymore, plus an
+    entire folder of raw, never-used originals. That happens naturally
+    when a new image doesn't follow the existing naming pattern closely
+    enough to make it obvious which page it belongs to, or whether an
+    old one it was meant to replace is still hanging around.
+\end{itemize}
+
+Following the table above --- same folder as the page, same naming
+style as the images already there --- is what keeps that from
+happening again. If you ever do add an image and later decide not to
+use it, delete it rather than leaving it behind.
+
+\subsection{Cropping and Sizing Conventions}
+
+\begin{itemize}
+    \item \term{Person photos} (\file{02\_people/faces/}): square
+    crops, centered on the face, saved at a reasonable resolution (the
+    existing photos are roughly 400--800px square). They're displayed
+    at 200×200px, so anything comfortably larger than that is fine.
+    \item \term{Banners} (the full-width images at the top and bottom
+    of most pages): wide landscape crops. Keep the subject roughly
+    centered horizontally --- the banner crops responsively as the
+    browser window resizes, and content too close to the left or right
+    edge can get cut off on narrower screens.
+    \item \term{Card images} (Projects, News): roughly a 4:3 or similar
+    landscape crop works best; they display inside a fixed-size card.
+\end{itemize}
+
+\begin{quote}
+\textit{Ask Claude Code: ``Replace [person]'s photo on the People page
+with [new file], cropped the same way as the others.''}
+\end{quote}
+
+\section{What Remains To Be Done}
+
+This section is a snapshot of known gaps as of this writing --- a
+starting checklist, not a complete one. Update or trim it as items get
+resolved.
+
+\subsection{People Page}
+
+\begin{itemize}
+    \item \term{Full names missing}: several Senior Management and
+    Senior Enumerators entries currently show only a first name
+    (Junior, Gilbert, Jacques; Max, Grégoire, Bernard, Serge, André,
+    Benjamin, Théo, Jean). Family names need to be added.
+    \item \term{Photos missing}: the people listed above, plus the
+    current PhD Students (Clotaire Boyer, Sarah Danner, Eva Davoine,
+    Gabriel Granato, Nic Wicaksono), are all still showing the
+    placeholder silhouette. See Section~\ref{sec:projects-todo}'s
+    sibling above for cropping conventions once real photos are ready.
+    \item \term{PhD Students section is missing information}: for each
+    current PhD student, we're missing the year they started working
+    with ODEKA and their PhD institution --- probably worth labeling
+    the same way Past PhD Students already does it (a \cmd{**PhD:**}
+    line), but that's worth double-checking once the actual information
+    is in hand rather than assuming the format transfers directly.
+    \item \term{Research Associates and Research Interns sections are
+    empty}: both currently exist as headings with a description and no
+    one listed underneath. Add current members as they're identified
+    --- Research Interns should use the no-photo entry pattern
+    (Section~\ref{sec:people-page}), matching Past Research Interns.
+    \item \term{Past People}: double-check whether anyone who has left
+    ODEKA is missing from the appropriate ``Past...'' section.
+\end{itemize}
+
+\subsection{Projects Page}
+\label{sec:projects-todo}
+
+Every project's actual page content is currently a placeholder
+(``Page under construction''). Beyond just writing that content, the
+following are genuinely open questions --- not yet decided, and worth
+real thought rather than a quick default:
+
+\begin{itemize}
+    \item What a project page should actually contain, and how it
+    should be laid out.
+    \item What the illustration strategy should be (one image per
+    project? several? a gallery?).
+    \item How to choose what image represents a given project.
+\end{itemize}
+
+One specific open question, unresolved as of this writing: Jon has
+asked for articles to be listed \emph{by theme} somewhere on the site,
+but the current structure is organized by \emph{project}, and a theme
+is not the same thing as a project (a single theme could span several
+projects, or a project could touch several themes). How --- or whether
+--- to reconcile ``browse by project'' with ``browse by theme'' hasn't
+been figured out yet.
+
+It's worth being precise about what ``project'' means here in the
+first place: from ODEKA's side, what we've been calling a project is
+really an RCT program --- a specific randomized evaluation, not a
+research topic. Organizing the site around that unit seems like the
+intuitive choice for what is, at bottom, a program-evaluation research
+platform: it's the natural unit of \emph{our} work. But that intuition
+is exactly the kind worth distrusting a little --- what's obvious from
+ODEKA's side of the platform isn't necessarily what's most useful to
+the researchers actually browsing it, and their sense of what should
+group together (by theme, by question, by region, by something else
+entirely) may not line up with the program structure at all. This is a
+real design question, not just a missing feature, and deserves to be
+thought through with that in mind rather than defaulted one way or the
+other.
+
+\subsection{News Page}
+\label{sec:news-todo}
+
+The intended model for this section is that people out in the field
+write their own news posts and sign them in their own name --- a
+first-person record of their time at ODEKA, not just an announcements
+feed. If someone in the field wants to do that, they should keep
+writing.
+
+Getting credit for what you wrote, under your own name, is itself part
+of the motivation for anyone to want to keep this up --- so the byline
+matters, not just the content. As of this writing, the existing posts
+are attributed to ``The Research Associate Team'' rather than the
+individual who actually wrote them (Adrien, for all of them). If the
+sign-your-own-name model above is the one that's actually adopted
+going forward, those existing posts' \file{author:} fields should be
+updated to match --- back to the person who wrote each one --- rather
+than left as a team byline while new posts are signed individually
+(Section~\ref{sec:news-page}).
+
+If nobody is willing to keep the section updated, though, that's a
+real, acceptable option too: rather than let it visibly go stale,
+turn it off (Section~\ref{sec:news-switch}). Nothing is lost by doing
+that --- every post that's already been written stays intact and can be
+switched back on the moment someone wants to pick it back up.
+
+\subsection{Keeping This Document Itself Up to Date}
+
+As items on this list get done --- full names added, photos in place,
+a real project page written --- this guide should be updated to match,
+not left describing a state of the site that no longer exists. That's
+exactly the kind of small, well-defined edit Claude Code is good at:
+point it at whatever changed and ask it to update the relevant part of
+\file{read\_me/odeka\_website\_guide.tex} accordingly (it can even
+recompile the PDF for you).
+
+\end{document}

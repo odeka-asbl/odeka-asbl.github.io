@@ -1,7 +1,7 @@
 ---
 title: "Endline Enumerator Training Week at ODEKA A.S.B.L and the Launch of the First Endline Wave"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "April 30, 2022"
 description: "Two weeks of training and preparation at ODEKA A.S.B.L culminate in the smooth launch of the project’s first endline wave."
 image: ../images/news20220430.jpeg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **Two week of training and preparation at ODEKA A.S.B.L culminates in the smooth launch of the project’s first endline wave.**
 

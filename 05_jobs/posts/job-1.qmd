@@ -1,9 +1,76 @@
 ---
-title: "Predoctoral Research Associate"
-author: 
-  - Jon Weigel, UC Berkeley
-date: "September 01, 2025"
+title: "Field-Based Research Associate or Research Manager"
+author:
+  - Jonathan Weigel, UC Berkeley
+  - Dina Pomeranz, University of Zurich
+date: "January 15, 2026"
+description: "We are hiring a field-based Research Associate or Research Manager to lead survey operations for a study of tax collection and state capacity in Kananga, DRC."
+language:
+  title-block-author-single: "Supervisor"
+  title-block-author-plural: "Supervisors"
+  listing-page-field-author: "Supervisor"
 ---
-[← Back to Jobs](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
 
-Under construction
+<div class="job-page">
+
+<div class="job-meta">
+<div class="job-meta-item"><strong>Posted</strong>January 15, 2026</div>
+<div class="job-meta-item"><strong>Supervisors</strong>Jonathan Weigel, UC Berkeley<br>Dina Pomeranz, University of Zurich</div>
+<div class="job-meta-item"><strong>Location</strong>Kananga, Democratic Republic of Congo</div>
+<div class="job-meta-item"><strong>Start Date</strong>May 1 – July 1, 2026</div>
+<div class="job-meta-item"><strong>Duration</strong>12 months</div>
+</div>
+
+[← View All Open Positions](../index.qmd){.breadcrumb}
+
+### Overview
+
+We are looking for qualified applications for the position of **Research Associate** or **Research Manager** to work on research projects in development economics and political economy in Kananga, Democratic Republic of Congo. This is an opportunity to gain field research experience in development economics and political economy, managing large-scale randomized controlled trials. You will also acquire management and analytical skills in this role. The position will require significant commitment, and long hours in a poor, remote setting.
+
+This 12-month position will be based in Kananga, DRC. The entire period will be devoted to field research activities as described below. The position is particularly suitable for individuals who anticipate pursuing a PhD in economics or other quantitative social sciences, or for young professionals who are looking for experience in managing projects in low-income country settings.
+
+### Project Description
+
+The Research Associate will work on several ongoing randomized research studies related to state capacity and tax collection in collaboration with the provincial government and the provincial tax revenue department. Current projects include studies on the progressity of tax enforcement, the facilitation of tax payments through mobile money, or the strengthening of tax fairness through enforcement policies.
+
+### Responsibilities of the Research Associate
+
+- Managing the daily work of a team of French-speaking field enumerators (leading training sessions, enumerators follow-up, survey reports, field and survey equipment preparation, etc.)
+- Cooperating with local implementation partners in the government and civil society
+- Preparing and managing survey instruments with Excel and SurveyCTO
+- Extraction (SurveyCTO) and Cleaning (STATA) survey data collected daily
+- Regular monitoring of project databases to maintain and improve accuracy and consistency of data collection
+- Handling communications with local stakeholders and principal investigators
+- Preparing frequent progress reports and briefings to keep principal investigators informed of developments in the field
+- Contributing to financial management and accounting tasks including expense tracking, archiving, forecasting, and financial reporting
+
+### Qualifications
+
+- Master's degree in economics or a related field (required)
+- Quantitative skills and experience with Stata (required)
+- Familiarity with randomized evaluations and econometric methods (required)
+- Fluency in French: native speaker or advanced fluency (required)
+- Excellent organizational, and communication skills (required)
+- Detail-oriented, able to work independently and take initiative (required)
+- Experience with Survey CTO (desired)
+- Experience with ArcGIS/QGIS (desired)
+- Experience with R and/or Python (desired)
+- Experience living in a developing country (desired)
+
+### Supervisors
+
+**Primary supervisors:** Jonathan Weigel (Haas School of Business, University of California Berkeley), Dina Pomeranz (University of Zurich)
+
+**Secondary supervisors:** Augustin Bergeron (Harvard University), Marina Mavungu Ngoma (The World Bank Group), Gabriel Tourek (University of Pittsburgh), Joana Naritomi (London School of Economics), Samuel Kapon (University of California Berkeley), Binta Zahra Diop (Stanford University), Arthur Laroche (University College London), and other collaborators.
+
+### How to Apply
+
+Complete the [J-PAL/IPA common application](https://apply.povertyactionlab.org). After completing a brief registration, choose the Research job category, then select "Field-Based Research Associate or Research Manager" and include resume, cover letter and at minimum one recommendation letter. Note that applications with incomplete submissions will not be considered.
+
+Given the volume of applications received, only short-listed candidates will be contacted for an interview.
+
+<div class="job-apply">
+<a class="about-button" href="https://www.povertyactionlab.org/careers/field-based-research-associate-or-research-manager-democratic-republic-congo-job-105467" target="_blank">Apply for this position →</a>
+</div>
+
+</div>

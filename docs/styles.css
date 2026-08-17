@@ -58,6 +58,185 @@
   margin-right: 0.5em;
 }
 
+/* People page: same eyebrow look (diamond + label + rule) as
+   .about-eyebrow/.projects-eyebrow, but built as ::before/::after on
+   the section heading itself instead of a wrapping <span> — these
+   headings (# Executive Board, etc.) have to stay real markdown
+   headings, not decorative markup, since the TOC sidebar scans actual
+   heading elements to build "on this page". Applied via the
+   `{.people-eyebrow-heading}` heading attribute in the .qmd — Quarto's
+   section-divs puts that class on both the <h1> and its wrapping
+   <section>, so this is scoped to the h1 tag specifically; targeting
+   the bare class would also flex/recolor the whole section (heading
+   plus every bio underneath it). */
+h1.people-eyebrow-heading {
+  display: flex;
+  align-items: center;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin: 0 0 10px 0;
+}
+
+/* First section only: matches the About page's measured gap between
+   its banner and "Who we are" (56px — see .projects-listings' own
+   margin-top for how that number was established). Later sections
+   already get their own spacing from .about-section-divider above
+   them, so this isn't applied to every heading. */
+#executive-board h1.people-eyebrow-heading {
+  margin-top: 56px;
+}
+
+/* Same 56px, applied between each section-ending divider and the next
+   section's title, so the gap is consistent with the banner-to-first-
+   title gap above. Scoped to the People page specifically (via the
+   unique #executive-board id) rather than changing the shared
+   .about-section-divider rule directly — on the About page a divider
+   is never immediately followed by the next title (there's always a
+   quote band, image, or banner in between), so a global change here
+   would add unwanted gap there instead of matching anything. */
+main.content:has(#executive-board) .about-section-divider {
+  margin-bottom: 56px;
+}
+
+h1.people-eyebrow-heading::before {
+  content: "";
+  display: block;
+  height: 1.6em;
+  aspect-ratio: 418 / 354;
+  background-image: url('odeka_logo_diamond.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  margin-right: 0.5em;
+}
+
+h1.people-eyebrow-heading::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 90px;
+  height: 4px;
+  background: rgb(35, 30, 25);
+  margin-left: 8px;
+  clip-path: polygon(0% 50%, 6px 0%, calc(100% - 6px) 0%, 100% 50%, calc(100% - 6px) 100%, 6px 100%);
+}
+
+/* Section intro line under each eyebrow heading ("ODEKA's Scientific
+   Advisory Committee provides guidance...") — a plain paragraph with
+   no class, so it fell back to the theme's default sans-serif body
+   text instead of the site's Cambria-serif identity. Scoped to direct
+   children of a people-eyebrow-heading section specifically, so it
+   doesn't touch the person bios nested further inside (those are
+   already styled via .person-info p). */
+section.people-eyebrow-heading > p {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 720px;
+  margin: 0 0 10px 0;
+}
+
+/* People page: individual person entries. Originally hand-authored as
+   raw floated divs with inline font/color styles (default Bootstrap
+   sans-serif, LinkedIn blue links) — completely disconnected from the
+   rest of the site's Cambria-serif, red-accent identity established on
+   About/Projects. These classes replace those inline styles so entries
+   read as part of the same design system as everywhere else. */
+.person-photo {
+  float: left;
+  margin: 0 20px 10px 40px;
+}
+
+.person-photo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Clears the floated .person-photo without overflow:hidden — that
+   would clip .person-name's negative top margin (pulled up to align
+   its cap-height with the photo's top edge), cutting the tops of the
+   letters off. */
+.person-info::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Entries with no photo (e.g. Past Research Interns) previously reused
+   the photo wrapper's float:left for no real reason — dropped here
+   since there's no image beside it to float around. */
+.person-info--no-photo {
+  float: none;
+  margin: 0;
+}
+
+/* Pandoc wraps each of these bare text lines in its own <p>, and the
+   theme's default paragraph color applies directly to that <p> —
+   direct rules always win over an inherited color regardless of
+   specificity, so without targeting the <p> too, the color set here
+   on the wrapping div gets silently overridden. Written as
+   `.person-info .person-name p` rather than just `.person-name p` so
+   it reliably outweighs .person-info p (the bio-paragraph rule below,
+   same 0-1-1 specificity as a bare `.person-name p` would have, since
+   .person-name sits inside .person-info) regardless of source order. */
+.person-name,
+.person-info .person-name p {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: rgb(35, 30, 25);
+  margin: 0;
+}
+.person-name {
+  margin: -0.1em 0 0 0;
+}
+
+.person-title,
+.person-info .person-title p {
+  font-family: "Cambria Math", Cambria, serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+.person-title {
+  margin: 4px 0 0 0;
+}
+
+.person-info p {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  margin: 10px 0 0 0;
+}
+
+.person-link {
+  margin-top: 10px;
+}
+
+.person-link a {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgb(178, 49, 40);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(178, 49, 40, 0.35);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.person-link a:hover {
+  color: rgb(148, 40, 33);
+  border-bottom-color: rgb(148, 40, 33);
+}
+
 /* Projects page: same grid-with-thumbnail idea as the homepage
    carousel, but toned down. The homepage card is built to catch a
    scrolling eye (full-bleed photo, dark gradient, hover lift+zoom) —
@@ -235,6 +414,14 @@
   color: inherit;
 }
 
+#listing-jobs_listing .listing-description {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #444;
+  margin-top: 6px;
+}
+
 #listing-jobs_listing .listing-date::before {
   content: "◆";
   display: inline-block;
@@ -247,6 +434,155 @@
 
 #listing-jobs_listing .listing-author {
   margin-left: 15px; /* lines up under the date text, past the diamond+gap on the line above */
+}
+
+/* Individual job posting pages (05_jobs/posts/*.qmd) — no custom
+   `about:` template, so the title itself stays Quarto's plain default;
+   only the body content below it is styled here, matching the rest of
+   the site's serif/red-accent identity. Scoped to .job-page rather than
+   applied globally to every post-type page, since News/Projects posts
+   don't use this markup. */
+
+/* The summary line under the title (from frontmatter `description:`)
+   is Quarto's plain default too — same Source Sans Pro/grey mismatch
+   as the metadata row above. Also outside .job-page, so scoped the
+   same way via :has(). */
+main.content:has(.job-page) .description {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Quarto's own title-block metadata (the "Supervisors"/"Published" row
+   it generates from the author/date frontmatter fields) sits in a
+   separate header, outside .job-page, so it can't be styled to match
+   .job-meta below directly — hidden here and rebuilt as part of that
+   same unified .job-meta block instead, so Supervisors/Published and
+   Location/Start Date/Duration all read as one consistent header.
+   !important: Quarto's own rule for this is ID-scoped
+   (#title-block-header.quarto-title-block.default .quarto-title-meta),
+   which outranks any class/attribute selector here no matter how many
+   are stacked, since ID beats them regardless of count. */
+main.content:has(.job-page) .quarto-title-meta {
+  display: none !important;
+}
+
+/* "← Back to X" link used at the top of every post-detail page
+   (News, Projects, Jobs) — was an inline style per-page (font-size,
+   uppercase, LinkedIn blue #0077b5), now a single shared rule so all
+   three read consistently. !important on color: Bootstrap ships its
+   own `.breadcrumb` component (meant for a <nav><ol> trail) that this
+   plain class name collides with. */
+.breadcrumb {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(178, 49, 40) !important;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.breadcrumb:hover {
+  color: rgb(148, 40, 33) !important;
+}
+
+.job-meta {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin: 4px 0 32px 0;
+  padding-bottom: 24px;
+}
+
+/* Same pointed-bar motif as .about-section-divider/.home-news-heading,
+   minus the diamond — that combination reads as a section-heading
+   flourish (how "Latest News" announces a whole new block on the
+   homepage), which is more than this small metadata-to-body divider
+   needs. */
+.job-meta::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(35, 30, 25, 0.35);
+  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
+.job-meta-item {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.98rem;
+  color: #333;
+}
+
+.job-meta-item strong {
+  display: block;
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin-bottom: 3px;
+}
+
+.job-page h3 {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin: 36px 0 12px 0;
+}
+
+.job-page p,
+.job-page li {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Paragraphs only, matching .about-section p — justifying short list
+   items (Responsibilities, Qualifications) tends to stretch them into
+   awkward gaps instead of reading as a clean list. */
+.job-page p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.job-page ul {
+  padding-left: 1.25em;
+  margin: 0 0 16px 0;
+}
+
+.job-page li {
+  margin-bottom: 4px;
+}
+
+.job-page .job-apply {
+  margin: 40px 0 24px 0;
+}
+
+/* News page: RSS subscribe link — was inline-styled with the same
+   leftover LinkedIn blue (#0077b5) and default sans-serif as the old
+   breadcrumbs, not a deliberate color choice. */
+.news-rss-link {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(178, 49, 40);
+  text-decoration: none;
+}
+
+.news-rss-link:hover {
+  color: rgb(148, 40, 33);
 }
 
 /* News page: same light typographic pass on its own plain default
@@ -292,6 +628,14 @@
 
 #listing-news_listing.quarto-listing-container-default .listing-author {
   margin-left: 15px; /* lines up under the date text, past the diamond+gap on the line above */
+}
+
+#listing-news_listing.quarto-listing-container-default .listing-description {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #444;
+  margin-top: 6px;
 }
 
 #listing-projects_carousel .list.grid {
@@ -372,7 +716,7 @@ h1.title,
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;       /* makes the title bold */
   font-size: 2rem;      /* small enough that descenders (p, j) stay inside the 42px title band */
-  color: rgb(196, 18, 18); /* vivid, saturated red — stronger than the eyebrow accent */
+  color: rgb(178, 49, 40); /* same red as the eyebrow accent (.people-eyebrow-heading, .about-eyebrow, etc.) */
   -webkit-text-stroke: 0.6px currentColor; /* thickens the letterforms beyond font-weight 900's max */
 }
 
@@ -430,7 +774,7 @@ h1.title,
   max-width: none;
   width: 100%;
   margin: 0;
-  padding: 0 12px 0 44px;
+  padding: 0 12px 0 20px;
   height: 42px;
   display: flex;
   align-items: center;
@@ -459,6 +803,11 @@ h1.title,
   margin-right: 10px; /* almost to the edge, not flush against it */
 }
 
+.quarto-about-jolla:has(.quarto-title-block) .title-bracket-wrap > img:first-child {
+  height: 68px;
+  margin-right: -0.28em; /* pulls the title text in closer than the wrap's default 0.4em gap */
+}
+
 .quarto-about-jolla:has(.quarto-title-block) .title-diamond {
   height: 58px; /* same scale as the bracket, like a piece of the same dismantled logo mark — both break out beyond the thin band */
   margin-left: auto; /* pushes the diamond, and the bracket after it, to the right as a group */
@@ -473,7 +822,7 @@ h1.title,
 }
 
 .quarto-about-jolla:has(.quarto-title-block) h1.title .title-text {
-  color: rgb(196, 18, 18);
+  color: rgb(178, 49, 40);
   top: 0 !important;
 }
 
@@ -487,6 +836,79 @@ h1.title,
 main.content:has(.full-width-banner) {
   position: relative;
   margin-top: 0 !important;
+}
+
+/* On pages with a TOC (currently just People): the sidebar's default
+   sticky position (top: 61px, right under the fixed navbar) lands it
+   on top of the full-width banner, since the banner/title are
+   absolutely positioned out of normal flow and don't push it down
+   themselves. Cleared to just past the banner's own height (min(45vh,
+   550px), matching .hero-image's actual formula) plus a bit extra so
+   it settles in the second half of the window rather than hugging the
+   banner's bottom edge. */
+body:has(main.content .full-width-banner) #quarto-margin-sidebar {
+  top: calc(min(45vh, 550px) + 180px) !important; /* Quarto's own JS sets `top` via inline style at runtime (navbar-height-based), which otherwise always wins over a plain stylesheet rule regardless of specificity */
+}
+
+/* TOC sidebar ("on this page" nav): default Quarto styling is plain
+   sans-serif with a Bootstrap-blue active link — same mismatch as the
+   rest of the People page had, just smaller-scale. Brought in line
+   with the site's Cambria-serif / red-accent identity. */
+#quarto-margin-sidebar nav#TOC {
+  font-family: "Cambria Math", Cambria, serif;
+}
+
+#quarto-margin-sidebar nav#TOC ul.collapse {
+  padding-left: 0;
+}
+
+#quarto-margin-sidebar nav#TOC a.nav-link {
+  position: relative;
+  color: #666;
+  font-size: 0.92rem;
+  padding: 4px 0 4px 14px;
+  border-left: none; /* Quarto's own doc-toc rule puts a 1px border-left on every link (grey normally, blue when active) — this is the ◆ marker's replacement for that */
+  transition: color 0.2s ease;
+}
+
+/* Same small red ◆ used site-wide as a gentle marker (About's
+   mini-sep, donor list separators, Projects card seams) — reused here
+   instead of a plain vertical bar, marking the active section. Always
+   present but invisible on inactive links so the text doesn't shift
+   left/right when the active item changes. */
+#quarto-margin-sidebar nav#TOC a.nav-link::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.6em;
+  color: rgb(178, 49, 40);
+  opacity: 0;
+}
+
+/* !important: same Bootstrap doc-toc :hover rule sets blue with
+   !important too. */
+#quarto-margin-sidebar nav#TOC a.nav-link:hover {
+  color: rgb(35, 30, 25) !important;
+}
+
+/* !important on color: Quarto's own doc-toc active-link rule sets its
+   Bootstrap blue with !important too, which beats specificity
+   regardless of ID count, so this has to match it. border-left: none
+   isn't !important because Quarto's border-left isn't either — the ◆
+   below stands in for it instead. Text itself stays dark rather than
+   red — the ◆ alone marks the active item. No font-weight:700 either:
+   bolding widens the text enough that some labels wrap onto an extra
+   line only while active (e.g. "Scientific Advisory Committee"),
+   shifting every item below it. */
+#quarto-margin-sidebar nav#TOC a.nav-link.active {
+  color: rgb(35, 30, 25) !important;
+  border-left: none;
+}
+
+#quarto-margin-sidebar nav#TOC a.nav-link.active::before {
+  opacity: 1;
 }
 
 main.content:has(.full-width-banner) .quarto-title-block {
@@ -510,7 +932,7 @@ main.content:has(.full-width-banner) .quarto-title {
   max-width: none;
   width: 100%;
   margin: 0;
-  padding: 0 12px 0 44px;
+  padding: 0 12px 0 20px;
   height: 42px;
   display: flex;
   align-items: center;
@@ -539,6 +961,11 @@ main.content:has(.full-width-banner) .title-bracket-wrap > img:last-child {
   margin-right: 10px;
 }
 
+main.content:has(.full-width-banner) .title-bracket-wrap > img:first-child {
+  height: 68px;
+  margin-right: -0.28em; /* pulls the title text in closer than the wrap's default 0.4em gap */
+}
+
 main.content:has(.full-width-banner) .title-diamond {
   height: 58px;
   margin-left: auto;
@@ -553,7 +980,7 @@ main.content:has(.full-width-banner) .title-inner {
 }
 
 main.content:has(.full-width-banner) h1.title .title-text {
-  color: rgb(196, 18, 18);
+  color: rgb(178, 49, 40);
   top: 0 !important;
 }
 
@@ -1253,6 +1680,39 @@ main.content:has(.full-width-banner) {
   color: rgb(148, 40, 33);
 }
 
+/* Stand-in for the "Latest News" heading+carousel block when the News
+   section switch (see _quarto.yml and this file's own toggle comment)
+   is turned off — same pointed-bar-with-diamond motif as
+   .home-news-heading, just without the heading text/link, with extra
+   vertical margin so it reads as deliberate breathing room between the
+   two banners rather than a gap where something is missing. */
+.home-section-divider {
+  position: relative;
+  height: 3px;
+  margin: 64px 27px 64px 27px;
+}
+
+.home-section-divider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(35, 30, 25, 0.35);
+  clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
+.home-section-divider-diamond {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translate(-50%, 50%);
+  height: 28px;
+  width: auto;
+  z-index: 2;
+}
+
 /* Quarto's default separator before the footer social links —
    replaced with the site's pointed-rule motif for consistency */
 .about-sep {
@@ -1261,6 +1721,19 @@ main.content:has(.full-width-banner) {
   opacity: 1; /* Bootstrap's default hr opacity (0.25) was compounding with the rgba alpha below, making this much fainter than the matching News rule */
   background: rgba(35, 30, 25, 0.35);
   clip-path: polygon(0% 50%, 8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%);
+}
+
+/* This page's manual footer places <hr class="about-sep"> inside
+   main.content (right before .page-footer-social); the homepage's
+   auto-generated version sits outside main.content entirely, in a
+   differently-centered container, so it doesn't share this bug.
+   Scoped to that specific adjacency so About/Contacts' own uses of
+   .about-sep are untouched. */
+hr.about-sep:has(+ .page-footer-social) {
+  width: 479px; /* matches the About page's rendered .about-sep width exactly (from .quarto-about-jolla .about-sep's 60% rule, resolved in that context) */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Between "How we work" and the citation band: plain white space with
@@ -1559,7 +2032,13 @@ a.about-button:hover {
    falling back to Bootstrap's sans-serif instead of the site's one
    typeface used everywhere else. */
 .page-footer-copyright {
-  margin: 40px 14px 0 14px;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 40px 0 0 0;
+  padding: 0 14px;
   text-align: center;
   font-family: "Cambria Math", Cambria, serif;
 }
@@ -1571,6 +2050,10 @@ a.about-button:hover {
    footer's hr had only its own default ~17px top margin and nothing
    else, since there's no equivalent built-in spacing to inherit here. */
 .page-footer-logo {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   margin-bottom: 51px; /* collapses with hr.about-sep's own ~17px margin-top, so this value (not the 34px difference) is what determines the final gap */
 }
@@ -1583,6 +2066,10 @@ a.about-button:hover {
    <main>, margin-top:10%) is meant for a full about-page layout and
    would misplace/resize this footer if applied directly here */
 .page-footer-social {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
 }
 

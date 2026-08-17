@@ -1,0 +1,9 @@
+<div class="home-news-heading">
+<h2>Latest News</h2>
+<a href="04_news/index.html" class="home-news-link">View all news →</a>
+<img class="home-news-heading-diamond" src="/odeka_logo_diamond.png" alt="">
+</div>
+<div style="margin-left: 27px; margin-right: 27px; margin-bottom: 36px;">
+:::{#news_carousel}
+:::
+</div>

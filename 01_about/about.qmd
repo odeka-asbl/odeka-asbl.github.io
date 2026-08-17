@@ -1,6 +1,6 @@
 ---
 toc: false
-title: "<span class='title-bracket-wrap'><span class='title-inner'><span class='title-text'>About us</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
+title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-inner'><span class='title-text'>About us</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 about:
   template: jolla
   links:

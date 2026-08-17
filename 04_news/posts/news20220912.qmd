@@ -1,7 +1,7 @@
 ---
 title: "New Kananga Team Takes Over Operations"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "September 12, 2022"
 description: "The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team."
 image: ../images/news20220912.jpg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **The end of a six-week transition between the outgoing Country Director and the three new members of the Kananga team.**
 

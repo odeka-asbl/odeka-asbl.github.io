@@ -1,7 +1,7 @@
 ---
 title: "A Day in the Life of ODEKA A.S.B.L"
 author: 
-  - Adrien Foutelet
+  - The Research Associate Team
 date: "February 20, 2022"
 description: "From pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork."
 image: ../images/news20220220.jpg
@@ -19,7 +19,7 @@ p.description {
 }
 </style>
 
-[← Back to News](../index.qmd){.breadcrumb style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:#0077b5;"}
+[← Back to News](../index.qmd){.breadcrumb}
 
 **From pre-dawn coordination to late-night data checks, the daily rhythm of ODEKA A.S.B.L is a testament to dedication, ingenuity, and teamwork.**
 
