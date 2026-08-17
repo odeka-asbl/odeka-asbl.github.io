@@ -50,6 +50,15 @@ format:
     css: styles.css
     toc: true
     include-after-body: nav-brackets-include.html
+    # No page on this site uses math notation, so Quarto's default MathJax
+    # setup (html-math-method: mathjax) is pure dead weight — worse, it
+    # pulls in a render-blocking <script src="https://polyfill.io/..."> as
+    # a dependency. polyfill.io was sold to a new owner in 2024 and began
+    # serving malware through that exact script; browsers and security
+    # software widely started blocking/throttling it since, which can
+    # visibly stall page load (Safari especially) while the browser waits
+    # on that connection. Disabling math rendering removes both scripts.
+    html-math-method: plain
 
 editor:
   render-on-save: true

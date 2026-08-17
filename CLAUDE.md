@@ -186,6 +186,21 @@ Current state as of the last push: **News is ON**.
 
 ## Quarto/build gotchas
 
+- **Quarto's default math rendering pulls in a known-malicious CDN script.**
+  Every page was shipping `<script src="https://polyfill.io/v3/polyfill.min.js">`
+  (render-blocking, no `async`/`defer`) purely because Quarto's HTML format
+  defaults to `html-math-method: mathjax`, and MathJax's dependency chain
+  includes that polyfill script — even though this site has zero math
+  notation anywhere. polyfill.io was sold to a new owner in 2024 and began
+  serving malware through that exact script; it's now widely blocked/
+  throttled by browsers and security software, which can visibly stall page
+  load (reported as "Safari takes forever, Chrome is instant" — browser
+  security stacks differ in how they handle a now-untrusted domain). Fixed
+  by setting `html-math-method: plain` in `_quarto.yml`'s `format: html:`
+  block, which removes both the polyfill.io script and the MathJax CDN
+  script entirely. **If this site ever legitimately needs math notation,
+  don't just revert this — use `html-math-method: katex` instead (self-
+  hosted-friendly, no polyfill.io dependency), never the `mathjax` default.**
 - **Root-level `.md` files get rendered as live pages unless excluded** — Quarto
   has a built-in exception for `README.md` (never rendered) but nothing else is
   special-cased. When `CLAUDE.md` was first added at the repo root, the very
