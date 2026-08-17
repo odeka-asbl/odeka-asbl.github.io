@@ -98,7 +98,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Espoir Malu Malu Ntumba">
+  <img src="faces/malumalu.jpg" alt="Espoir Malu Malu Ntumba">
 </div>
 
 <div class="person-info">
