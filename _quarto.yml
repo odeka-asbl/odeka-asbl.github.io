@@ -19,7 +19,7 @@ project:
     # up the other two changes. To turn News back ON, reverse all three;
     # nothing in 04_news/ itself is ever touched, so it comes back exactly
     # as it was.
-    # - "!04_news/**"
+    - "!04_news/**"
     # =====================================================================
 
 website:
@@ -35,8 +35,8 @@ website:
       - href: 03_projects/index.qmd
         text: Projects
       # NEWS SWITCH: comment out these two lines to remove News from the navbar
-      - href: 04_news/index.qmd
-        text: News
+      # - href: 04_news/index.qmd
+      #   text: News
       - href: 05_jobs/index.qmd
         text: Jobs
       - href: 06_contacts/contacts.qmd
