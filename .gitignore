@@ -49,3 +49,9 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# LaTeX build artifacts (read_me guide)
+read_me/*.aux
+read_me/*.log
+read_me/*.out
+read_me/*.toc

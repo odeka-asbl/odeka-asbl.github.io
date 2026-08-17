@@ -516,6 +516,45 @@ a result isn't quite right, just say so in plain language --- ``move that
 a bit to the left,'' ``make the text smaller'' --- the same way the rest
 of this guide describes fixing things by hand.
 
+\subsection{What Claude Code Already Knows: \file{CLAUDE.md}}
+\label{sec:claude-md}
+
+A conversation with Claude Code is not remembered afterward. Close the
+window, and the next session --- even yours, even five minutes later ---
+starts from nothing except the files in the project. That's normally fine,
+since Claude Code can read the code itself, but some things aren't visible
+just from reading the code once: a bug that only shows up on the live site
+and not while previewing locally, a design choice that was tried and
+deliberately rejected, a CSS rule that looks redundant but isn't. Losing
+that kind of hard-won context between sessions is wasteful --- it means
+re-discovering the same problem twice.
+
+To fix this, the repository has a file at its root named \file{CLAUDE.md}.
+Claude Code reads it automatically, every time, at the start of any
+session opened in this folder --- on any computer, for anyone. It exists
+purely to carry exactly this kind of knowledge forward: known traps (for
+example, an image that displays fine locally but silently fails once
+published, because of a filename case mismatch that only matters on the
+live server), the reasoning behind non-obvious choices, and pointers to
+this guide for the step-by-step version of a task.
+
+\paragraph{You don't need to write it yourself.} If Claude Code hits
+something tricky while helping you --- a bug with a non-obvious cause, a
+setting that has to be right in three different files at once --- it
+should be the one updating \file{CLAUDE.md}, not you. A reasonable habit:
+after Claude Code fixes something confusing, ask it directly, ``is this
+worth adding to CLAUDE.md?'' If a future problem turns out to be something
+Claude Code already ran into before but never wrote down, that's a sign to
+ask it to add a note next time.
+
+\paragraph{How this differs from this guide.} \file{CLAUDE.md} is written
+\emph{for Claude Code} --- terse, technical, assumes familiarity with the
+code. This document is written \emph{for you} --- the person doing the
+work, whether by hand or by asking Claude Code. They're meant to stay in
+sync but serve different readers: if you make a structural change to how a
+page works, both may need updating (Section~\ref{sec:doc-upkeep} says more
+about keeping this document itself current).
+
 \part{The ODEKA Website, Page by Page}
 
 This part walks through every page of the site and the specific edits
@@ -1206,6 +1245,7 @@ that --- every post that's already been written stays intact and can be
 switched back on the moment someone wants to pick it back up.
 
 \subsection{Keeping This Document Itself Up to Date}
+\label{sec:doc-upkeep}
 
 As items on this list get done --- full names added, photos in place,
 a real project page written --- this guide should be updated to match,
@@ -1214,5 +1254,12 @@ exactly the kind of small, well-defined edit Claude Code is good at:
 point it at whatever changed and ask it to update the relevant part of
 \file{read\_me/odeka\_website\_guide.tex} accordingly (it can even
 recompile the PDF for you).
+
+The same goes for \file{CLAUDE.md} (Section~\ref{sec:claude-md}): the two
+documents are meant to stay in sync. As a rough rule, if a fix or a
+decision would help a future \emph{person} doing this work, it belongs
+here; if it would help a future \emph{Claude Code session} avoid
+re-debugging the same problem, it belongs in \file{CLAUDE.md}. Often it's
+worth adding to both.
 
 \end{document}
