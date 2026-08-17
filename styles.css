@@ -1954,7 +1954,7 @@ hr.about-sep:has(+ .page-footer-social) {
   height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  margin: 28px 0 52px 0;
+  margin: 28px 0 96px 0;
 }
 
 .about-float--right {
@@ -2136,7 +2136,7 @@ a.about-button:hover {
 
 /* === Legal Notice: donor credit line === */
 .donors-credit {
-  margin: 96px 0;
+  margin: 96px 0 64px 0;
   padding: 0 24px;
   text-align: center;
 }
