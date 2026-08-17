@@ -1978,7 +1978,7 @@ hr.about-sep:has(+ .page-footer-social) {
 
 .about-cta {
   max-width: 720px;
-  margin: 96px auto;
+  margin: 48px auto 96px auto;
   padding: 0 24px;
   text-align: center;
 }
@@ -2136,7 +2136,7 @@ a.about-button:hover {
 
 /* === Legal Notice: donor credit line === */
 .donors-credit {
-  margin: 96px 0 64px 0;
+  margin: 96px 0 48px 0;
   padding: 0 24px;
   text-align: center;
 }
