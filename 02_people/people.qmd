@@ -158,12 +158,12 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Junior">
+  <img src="faces/placeholder.jpg" alt="Junior Ntambue">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Junior
+  Junior Ntambue
 </div>
 
 <div class="person-title">
@@ -178,12 +178,12 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Gilbert">
+  <img src="faces/placeholder.jpg" alt="Gilbert Tshiebue">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Gilbert
+  Gilbert Tshiebue
 </div>
 
 <div class="person-title">
@@ -198,12 +198,12 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Jacques">
+  <img src="faces/placeholder.jpg" alt="Jacques Kazadi">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Jacques
+  Jacques Kazadi
 </div>
 
 <div class="person-title">
@@ -231,12 +231,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Max">
+  <img src="faces/placeholder.jpg" alt="Max Mbosho">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Max
+  Max Mbosho
 </div>
 
 <div class="person-title">
@@ -251,12 +251,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Grégoire">
+  <img src="faces/placeholder.jpg" alt="Grégoire Ntumba">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Grégoire
+  Grégoire Ntumba
 </div>
 
 <div class="person-title">
@@ -271,12 +271,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Bernard">
+  <img src="faces/placeholder.jpg" alt="Bernard Makinda">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Bernard
+  Bernard Makinda
 </div>
 
 <div class="person-title">
@@ -291,12 +291,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Serge">
+  <img src="faces/placeholder.jpg" alt="Serge Nseya">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Serge
+  Serge Nseya
 </div>
 
 <div class="person-title">
@@ -311,12 +311,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="André">
+  <img src="faces/placeholder.jpg" alt="André Kapumbu">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  André
+  André Kapumbu
 </div>
 
 <div class="person-title">
@@ -331,12 +331,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Benjamin">
+  <img src="faces/placeholder.jpg" alt="Benjamin Badibanga">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Benjamin
+  Benjamin Badibanga
 </div>
 
 <div class="person-title">
@@ -351,12 +351,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Théo">
+  <img src="faces/placeholder.jpg" alt="Théo Kalamba">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Théo
+  Théo Kalamba
 </div>
 
 <div class="person-title">
@@ -371,12 +371,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Jean">
+  <img src="faces/placeholder.jpg" alt="Jean Kalala">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Jean
+  Jean Kalala
 </div>
 
 <div class="person-title">
