@@ -186,6 +186,16 @@ Current state as of the last push: **News is ON**.
 
 ## Quarto/build gotchas
 
+- **Root-level `.md` files get rendered as live pages unless excluded** — Quarto
+  has a built-in exception for `README.md` (never rendered) but nothing else is
+  special-cased. When `CLAUDE.md` was first added at the repo root, the very
+  next `quarto render` silently published it as `docs/CLAUDE.html` and added it
+  to `docs/sitemap.xml` — internal notes, live on the public site. Fixed by
+  adding an explicit `render:` list in `_quarto.yml`'s `project:` block
+  (`"*"` then `"!CLAUDE.md"`), which the News on/off switch below now shares.
+  **If you ever add another root-level `.md` file that isn't meant to be a
+  page, exclude it there too, and check `git status` after rendering for a
+  surprise `docs/<name>.html`.**
 - **A stray background `quarto preview` process** (seemingly auto-started by VS
   Code's Quarto extension) has intermittently overwritten fresh `quarto render`
   output with stale content during this project's development, causing

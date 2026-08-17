@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://odeka-asbl.github.io/00_index/news_section_on.html</loc>
-    <lastmod>2026-08-16T23:16:32.034Z</lastmod>
+    <loc>https://odeka-asbl.github.io/index.html</loc>
+    <lastmod>2026-08-17T02:13:24.648Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/07_legal_notice/legal_notice.html</loc>
-    <lastmod>2026-08-15T22:47:32.819Z</lastmod>
+    <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
+    <lastmod>2026-08-15T23:05:53.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
+    <lastmod>2026-08-16T22:49:45.421Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/index.html</loc>
@@ -29,18 +33,6 @@
     <lastmod>2026-08-17T00:37:22.579Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/06_contacts/contacts.html</loc>
-    <lastmod>2026-08-15T23:05:53.026Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-2.html</loc>
-    <lastmod>2026-08-16T22:49:45.421Z</lastmod>
-  </url>
-  <url>
-    <loc>https://odeka-asbl.github.io/index.html</loc>
-    <lastmod>2026-08-16T23:48:23.491Z</lastmod>
-  </url>
-  <url>
     <loc>https://odeka-asbl.github.io/03_projects/index.html</loc>
     <lastmod>2026-08-16T19:12:29.053Z</lastmod>
   </url>
@@ -49,24 +41,28 @@
     <lastmod>2026-08-17T00:07:24.326Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/03_projects/posts/supernatural-beliefs-modern-medicine.html</loc>
-    <lastmod>2026-08-17T00:07:33.423Z</lastmod>
+    <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
+    <lastmod>2026-08-16T19:30:46.456Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/03_projects/posts/project-1.html</loc>
-    <lastmod>2026-08-17T00:07:17.279Z</lastmod>
+    <loc>https://odeka-asbl.github.io/00_index/news_section_on.html</loc>
+    <lastmod>2026-08-16T23:16:32.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/00_index/news_section_off.html</loc>
+    <lastmod>2026-08-16T23:16:37.491Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/01_about/about.html</loc>
     <lastmod>2026-08-16T19:12:05.335Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-1.html</loc>
-    <lastmod>2026-08-16T22:49:32.779Z</lastmod>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/supernatural-beliefs-modern-medicine.html</loc>
+    <lastmod>2026-08-17T00:07:33.423Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
-    <lastmod>2026-08-16T22:17:13.944Z</lastmod>
+    <loc>https://odeka-asbl.github.io/03_projects/posts/project-1.html</loc>
+    <lastmod>2026-08-17T00:07:17.279Z</lastmod>
   </url>
   <url>
     <loc>https://odeka-asbl.github.io/04_news/posts/news20220113.html</loc>
@@ -89,11 +85,15 @@
     <lastmod>2026-08-17T00:37:22.648Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/02_people/people.html</loc>
-    <lastmod>2026-08-16T19:30:46.456Z</lastmod>
+    <loc>https://odeka-asbl.github.io/05_jobs/posts/job-1.html</loc>
+    <lastmod>2026-08-16T22:49:32.779Z</lastmod>
   </url>
   <url>
-    <loc>https://odeka-asbl.github.io/00_index/news_section_off.html</loc>
-    <lastmod>2026-08-16T23:16:37.491Z</lastmod>
+    <loc>https://odeka-asbl.github.io/05_jobs/index.html</loc>
+    <lastmod>2026-08-16T22:17:13.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://odeka-asbl.github.io/07_legal_notice/legal_notice.html</loc>
+    <lastmod>2026-08-15T22:47:32.819Z</lastmod>
   </url>
 </urlset>

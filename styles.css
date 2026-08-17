@@ -1384,6 +1384,13 @@ main.content:has(.full-width-banner) {
   margin-top: 32px;
 }
 
+/* About page only: much more breathing room between blocks than the
+   56px .about-section shares with People/Projects. Scoped to the
+   jolla-template wrapper so it doesn't affect those other pages. */
+.quarto-about-jolla .about-section {
+  margin: 96px auto;
+}
+
 .about-section::after {
   content: "";
   display: table;
@@ -1745,7 +1752,7 @@ hr.about-sep:has(+ .page-footer-social) {
   text-align: center;
   color: rgb(178, 49, 40);
   font-size: 9.52px;
-  margin: 40px 0 56px 0;
+  margin: 64px 0 96px 0;
 }
 
 .about-quote-band {
@@ -1753,7 +1760,7 @@ hr.about-sep:has(+ .page-footer-social) {
   left: 50%;
   width: 100vw;
   transform: translateX(-50%);
-  padding: 0 0 24px 0; /* top removed — the strip's own margin-bottom now provides the full visible gap above the citation */
+  padding: 0 0 96px 0; /* top removed — the strip's own margin-bottom now provides the full visible gap above the citation */
 }
 
 .about-quote-band .home-quote-row {
@@ -1971,7 +1978,7 @@ hr.about-sep:has(+ .page-footer-social) {
 
 .about-cta {
   max-width: 720px;
-  margin: 56px auto;
+  margin: 96px auto;
   padding: 0 24px;
   text-align: center;
 }
@@ -2129,7 +2136,7 @@ a.about-button:hover {
 
 /* === Legal Notice: donor credit line === */
 .donors-credit {
-  margin: 32px 0;
+  margin: 96px 0;
   padding: 0 24px;
   text-align: center;
 }

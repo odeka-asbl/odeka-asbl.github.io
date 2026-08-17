@@ -915,8 +915,10 @@ edits across two files:
 
 \begin{enumerate}
     \item In \file{\_quarto.yml}, find the block of comments marked
-    \cmd{NEWS SECTION SWITCH} near the top. Uncomment the two-line
-    \file{render:} exclusion inside it.
+    \cmd{NEWS SECTION SWITCH} near the top, inside the project's
+    \file{render:} list. Uncomment the single \cmd{"!04\_news/**"}
+    exclusion line inside it (the list already always excludes
+    \file{CLAUDE.md} above it --- leave that line alone).
     \item A little further down in the same file, in
     \file{navbar: left:}, comment out the two lines for the News entry
     (marked with a \cmd{NEWS SWITCH} comment right above them).
