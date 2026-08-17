@@ -178,6 +178,12 @@ Latest News
           var linkSegments = new URL(link.href).pathname.split('/').filter(Boolean);
           if (linkSegments[0] === currentSection) {
             activeLink = link;
+            // Quarto's own .active is what the CSS keys the red color off
+            // of (.nav-link-bracketed only handles the bracket itself) —
+            // add it here too, so a post's nav item is fully styled the
+            // same way the section's own index page's is, not just
+            // bracketed in black.
+            link.classList.add('active');
           }
         });
       }
