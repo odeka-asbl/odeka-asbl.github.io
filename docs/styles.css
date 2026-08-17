@@ -2136,7 +2136,7 @@ a.about-button:hover {
 
 /* === Legal Notice: donor credit line === */
 .donors-credit {
-  margin: 96px 0 48px 0;
+  margin: 96px 0 12px 0;
   padding: 0 24px;
   text-align: center;
 }
@@ -2161,6 +2161,9 @@ a.about-button:hover {
   line-height: 2.4;
   color: #444;
   margin-top: 20px;
+  margin-bottom: 0; /* Bootstrap's default <p> margin-bottom (~17px) was
+    colliding with .donors-credit's own margin-bottom below a certain size —
+    margin collapse took whichever was larger, silently flooring the gap */
 }
 
 .donors-credit-list .donor-sep {
