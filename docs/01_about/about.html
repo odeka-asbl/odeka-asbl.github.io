@@ -242,6 +242,26 @@ National Science Foundation <span class="donor-sep">◆</span> The Fund for Inno
     // return to, so the brackets stay hidden until the cursor lands on
     // a title, then fade in there instead of sliding in from nowhere.
 
+    // Quarto only marks a nav link .active on an exact URL match against
+    // that section's own index page, so a News/Jobs/Projects POST page
+    // (one level deeper, e.g. 04_news/posts/x.html) gets no active link
+    // at all — even though the visitor is still within that section.
+    // Fall back to matching the current page's top-level folder against
+    // each nav link's target folder, so a post keeps its section
+    // highlighted the same way the section's own index page is.
+    if (!activeLink) {
+      var pathSegments = location.pathname.split('/').filter(Boolean);
+      var currentSection = pathSegments.length > 1 ? pathSegments[0] : null;
+      if (currentSection) {
+        nav.querySelectorAll('.nav-link').forEach(function (link) {
+          var linkSegments = new URL(link.href).pathname.split('/').filter(Boolean);
+          if (linkSegments[0] === currentSection) {
+            activeLink = link;
+          }
+        });
+      }
+    }
+
     var container = document.querySelector('.navbar-collapse') || nav.parentElement;
     if (getComputedStyle(container).position === 'static') {
       container.style.position = 'relative';
