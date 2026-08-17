@@ -28,14 +28,14 @@ listing:
   # fields) when News is off. Leaving it defined but unplaced (because
   # news_section_off.qmd has no :::{#news_carousel} marker) makes Quarto
   # dump it, unstyled, at the very bottom of the page instead of hiding it.
-  # - id: news_carousel
-  #   type: grid
-  #   contents:
-  #     - "04_news/posts/*.qmd"
-  #   max-items: 4
-  #   grid-columns: 4
-  #   sort: "date desc"
-  #   fields: [title, date, image]
+  - id: news_carousel
+    type: grid
+    contents:
+      - "04_news/posts/*.qmd"
+    max-items: 4
+    grid-columns: 4
+    sort: "date desc"
+    fields: [title, date, image]
 
 ---
 
@@ -84,7 +84,7 @@ listing:
      only edit needed here. Also flip the switch in _quarto.yml (see
      its own comment) for the rest of the steps.
      ===================================================================== -->
-{{< include 00_index/news_section_off.qmd >}}
+{{< include 00_index/news_section_on.qmd >}}
 
 <div class="full-width-banner">
   <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
