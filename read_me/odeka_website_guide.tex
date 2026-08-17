@@ -1244,6 +1244,45 @@ turn it off (Section~\ref{sec:news-switch}). Nothing is lost by doing
 that --- every post that's already been written stays intact and can be
 switched back on the moment someone wants to pick it back up.
 
+\subsection{Custom Domain, and Where the Address Should Land}
+\label{sec:domain-todo}
+
+The site currently lives at its default GitHub Pages address
+(\url{https://odeka-asbl.github.io}), not a domain ODEKA owns. Two
+separate things need deciding here, and they shouldn't be conflated:
+
+\begin{itemize}
+    \item \term{Linking a custom domain.} This is mostly mechanical once
+    a domain is chosen and registered: GitHub Pages supports it via a
+    \file{CNAME} file at the root of \file{docs/} naming the domain,
+    plus a DNS record set up wherever the domain was purchased (either
+    a \cmd{CNAME} record pointing at
+    \file{odeka-asbl.github.io}, or \cmd{A} records pointing at
+    GitHub's IP addresses, depending on whether it's a subdomain or an
+    apex/root domain). Registering the domain itself and configuring
+    DNS happens outside this repository, with whoever manages ODEKA's
+    domain registrar --- Claude Code can help with the \file{CNAME}
+    file and the DNS record values once a domain is picked, but can't
+    register a domain or log into a registrar on its own.
+    \item \term{Where the address should land.} Separately, and still
+    undecided: Jon has asked that the website address land directly on
+    the \emph{Projects} page rather than the current homepage. That's
+    not automatic just from pointing a domain at the site --- as
+    things stand, the root address serves \file{index.qmd} (the
+    homepage), and Projects is a page underneath it. Making Projects
+    the landing page means an actual decision about \emph{how}: whether
+    the homepage should redirect to Projects, whether Projects should
+    effectively \emph{become} the homepage (absorbing whatever from the
+    current homepage is still worth keeping --- the project carousels,
+    the quotes, the News section), or whether the navbar and homepage
+    both stay as they are and only the bare domain root redirects. This
+    is a real design question in the same spirit as the
+    project-versus-theme one above (Section~\ref{sec:projects-todo}),
+    not a small technical toggle --- worth resolving deliberately once
+    a domain is actually in hand, rather than picking the easiest
+    option by default.
+\end{itemize}
+
 \subsection{Keeping This Document Itself Up to Date}
 \label{sec:doc-upkeep}
 
