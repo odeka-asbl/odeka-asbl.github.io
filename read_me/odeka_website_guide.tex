@@ -376,6 +376,45 @@ If you installed the Quarto VS Code extension mentioned earlier, you can
 also just click the \textbf{Preview} button at the top of an open
 \file{.qmd} file, which does the same thing without needing the terminal.
 
+\subsection{Pulling the Latest Changes}
+\label{sec:pull}
+
+Before you start editing, make sure your local copy actually matches
+what's really on GitHub. \term{Pulling} downloads whatever has changed
+there since you last synced --- an edit from another RA, something you
+pushed from a different computer, or a change Claude Code made in a
+separate session. It's the mirror image of publishing
+(Section~\ref{sec:publish}): pull \emph{before} you edit, push
+\emph{after}.
+
+\begin{lstlisting}
+git pull
+\end{lstlisting}
+
+If you're using GitHub Desktop, the equivalent is the
+\textbf{Fetch origin} button at the top --- it relabels itself
+\textbf{Pull origin} (with a count of how many commits are waiting)
+whenever there's something new to bring down; click it. In VS Code's
+Source Control panel, use the circular sync-arrows icon in the bottom
+status bar, or the \textbf{...} menu $\to$ \textbf{Pull}.
+
+Skipping this isn't just risky in theory: if someone else's change
+reached GitHub after your last pull, your own \cmd{git push} will
+simply be \term{rejected} --- Git's way of refusing to silently
+overwrite work it doesn't know about, rather than a sign you did
+something wrong. The fix is almost always to pull (which will try to
+merge the two sets of changes automatically) and then push again. If
+Git instead reports an actual \term{merge conflict} --- meaning the
+same lines of the same file were edited two different ways --- don't
+guess at fixing it by hand; ask Claude Code to resolve it, or ask your
+supervisor.
+
+\begin{quote}
+\textit{Ask Claude Code: ``Pull the latest changes before we start.''
+It's a good habit to say this at the start of any session, especially
+if you're not sure whether someone else has edited the site recently.}
+\end{quote}
+
 \subsection{Publishing Your Changes}
 \label{sec:publish}
 
@@ -435,6 +474,8 @@ Putting it all together, here is what a routine edit looks like:
 
 \begin{enumerate}
     \item Open the project folder in VS Code.
+    \item Pull the latest changes (Section~\ref{sec:pull}), so you're
+    starting from what's actually live.
     \item Open the relevant \file{.qmd} file and start editing.
     \item Run \cmd{quarto preview} (or click the Preview button) to watch
     your changes as you make them.
@@ -566,9 +607,10 @@ version at least once is worth it even if you always use Claude Code
 afterward: it's what lets you tell whether what Claude Code did is
 actually right.
 
-A general note before starting: after \emph{any} edit described below,
-the workflow is always the same three steps from Part I --- render (or
-preview while you work), check it, then commit and push
+A general note before starting: pull the latest changes
+(Section~\ref{sec:pull}) before you begin, and after \emph{any} edit
+described below, the workflow is always the same steps from Part I ---
+render (or preview while you work), check it, then commit and push
 (Section~\ref{sec:publish}). This part won't repeat that every time.
 
 \section{The People Page}
