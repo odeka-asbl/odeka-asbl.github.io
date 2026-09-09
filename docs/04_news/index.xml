@@ -9,7 +9,7 @@
 <link>https://odeka-asbl.github.io/04_news/</link>
 <atom:link href="https://odeka-asbl.github.io/04_news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Latest updates and announcements from ODEKA A.S.B.L.</description>
-<generator>quarto-1.4.551</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>James Robinson Wins the 2024 Nobel Prize in Economic Sciences</title>
@@ -206,7 +206,7 @@ p.description {
 
  ]]></description>
   <guid>https://odeka-asbl.github.io/04_news/posts/news20220220.html</guid>
-  <pubDate>Sun, 20 Feb 2022 05:00:00 GMT</pubDate>
+  <pubDate>Sun, 20 Feb 2022 04:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220220.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -234,7 +234,7 @@ p.description {
 
  ]]></description>
   <guid>https://odeka-asbl.github.io/04_news/posts/news20220113.html</guid>
-  <pubDate>Thu, 13 Jan 2022 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 13 Jan 2022 04:00:00 GMT</pubDate>
   <media:content url="https://odeka-asbl.github.io/04_news/images/news20220113.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
