@@ -1,99 +1,55 @@
 ---
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/gateau_thecongolesecat/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-
+title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-inner'><span class='title-text'>Projects</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 page-layout: full
 listing:
-  - id: projects_carousel
+  - id: major_projects
     type: grid
     contents: 03_projects/posts
     include:
       type: major
-      status: ongoing
-    max-items: 4
-    grid-columns: 4
     sort: "date desc"
-    fields: [title, image, description]
-  # NEWS SWITCH: comment out this whole news_carousel block (id through
-  # fields) when News is off. Leaving it defined but unplaced (because
-  # news_section_off.qmd has no :::{#news_carousel} marker) makes Quarto
-  # dump it, unstyled, at the very bottom of the page instead of hiding it.
-  - id: news_carousel
+    fields: [title, author, image, description, status]
+  - id: other_projects
     type: grid
-    contents:
-      - "04_news/posts/*.qmd"
-    max-items: 4
-    grid-columns: 4
+    contents: 03_projects/posts
+    include:
+      type: other
     sort: "date desc"
-    fields: [title, date, image]
-
+    fields: [title, author, image, description, status]
 ---
 
 <div class="full-width-banner">
-  <img src="00_index/image4.JPG" alt="ODEKA banner" class="hero-image">
-  <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo">
+  <img src="03_projects/images/project1.jpg" alt="A village in Kasai" class="hero-image hero-image--projects">
 </div>
 
-<div class="home-manifesto">
-<p class="home-manifesto-proverb">"You cross to my side, and I cross to yours, so that we may meet. Who am I?"</p>
-<p class="home-manifesto-attribution">Kuba proverb</p>
-<img class="home-manifesto-divider" src="/odeka_logo_diamond.png" alt="">
-<p class="home-manifesto-mission">Good intentions are not enough. We use history, culture, institutions, economic theory, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.</p>
-<p class="home-manifesto-bridge">Here is what that looks like in practice.</p>
-<div class="home-projects-heading">
-<h2>Ongoing major projects</h2>
-<span class="home-projects-rule"></span>
-</div>
-<div class="home-projects-grid">
-:::{#projects_carousel}
+<div class="projects-listings">
+
+<span class="projects-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Major projects</span><span class="about-eyebrow-rule"></span></span>
+
+:::{#major_projects}
 :::
-</div>
-<a class="about-button home-manifesto-cta" href="03_projects/index.html">Explore all our projects →</a>
-</div>
 
-<div class="home-quote-row">
-<div class="home-quote-row-image">
-<img src="00_index/image12.jpg" alt="ODEKA enumerators">
-</div>
-<div class="home-quote">
-<img src="/odeka_logo_diamond.png" alt="">
-<blockquote><img class="quote-bracket left" src="/odeka_logo_left_bracket.png" alt="">Intentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
-<cite>Jacob Moscona, Nathan Nunn &amp; James A. Robinson<span>"Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters," Working Paper, 2026</span></cite>
-</div>
+<div class="about-section-divider"></div>
+
+<span class="projects-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Other projects</span><span class="about-eyebrow-rule"></span></span>
+
+:::{#other_projects}
+:::
+
+<div class="about-section-divider"></div>
+
 </div>
 
 <div class="full-width-banner">
-  <img src="00_index/image13.JPG" alt="ODEKA banner" class="hero-image hero-image--bottom-anchored">
-  <a class="about-button banner-cta banner-cta--green" href="05_jobs/index.html">Looking for a job? →</a>
-</div>
-
-<!-- =====================================================================
-     NEWS SECTION SWITCH — see read_me/ for the full instructions.
-     Currently pointing at news_section_on.qmd. To turn News OFF,
-     change the filename below to news_section_off.qmd — that's the
-     only edit needed here. Also flip the switch in _quarto.yml (see
-     its own comment) for the rest of the steps.
-     ===================================================================== -->
-{{< include 00_index/news_section_on.qmd >}}
-
-<div class="full-width-banner">
-  <img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image">
+  <img src="03_projects/images/project2.jpg" alt="Daily life in Kananga" class="hero-image hero-image--projects-closing">
 </div>
 
 <div class="page-footer-copyright">
-**Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
+**Copyright (C) 2026 ODEKA A.S.B.L All rights reserved.**
 </div>
 
 <div style="clear: both;"></div>
 <br>
-<img src='/odeka_logo.png' style='height: 40px; margin : 0 0 0 0px'>
+<div class="page-footer-logo">
+<img src='/odeka_logo.png' style='height: 40px; margin: 0 auto;'>
+</div>

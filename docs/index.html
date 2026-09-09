@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>&lt;img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'&gt;&lt;span style="color: black;vertical-align: middle;"&gt;ODEKA&lt;/span&gt;</title>
+<title>Projects – &lt;img src='/odeka_logo.png' style='height: 30px; vertical-align: middle; margin-right: 8px;'&gt;&lt;span style='color: black;vertical-align: middle;'&gt;ODEKA&lt;/span&gt;</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,6 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -79,20 +80,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects_carousel .list');
+    const listingTargetEl = window.document.querySelector('#listing-major_projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects_carousel'] = new List('listing-projects_carousel', options);
+    window['quarto-listings']['listing-major_projects'] = new List('listing-major_projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -107,20 +108,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news_carousel .list');
+    const listingTargetEl = window.document.querySelector('#listing-other_projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news_carousel'] = new List('listing-news_carousel', options);
+    window['quarto-listings']['listing-other_projects'] = new List('listing-other_projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -194,36 +195,38 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla column-page">
- <header id="title-block-header" class="quarto-title-block"></header><main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="title-bracket-wrap"><img src="./odeka_logo_left_bracket.png" alt=""><span class="title-inner"><span class="title-text">Projects</span></span><img class="title-diamond" src="./odeka_logo_diamond.png" alt=""><img src="./odeka_logo_right_bracket.png" alt=""></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <div class="full-width-banner">
-<p><img src="00_index/image4.JPG" alt="ODEKA banner" class="hero-image"> <img src="00_index/image11.png" alt="ODEKA logo" class="hero-logo"></p>
+<p><img src="03_projects/images/project1.jpg" alt="A village in Kasai" class="hero-image hero-image--projects"></p>
 </div>
-<div class="home-manifesto">
-<p class="home-manifesto-proverb">
-“You cross to my side, and I cross to yours, so that we may meet. Who am I?”
-</p>
-<p class="home-manifesto-attribution">
-Kuba proverb
-</p>
-<img class="home-manifesto-divider" src="./odeka_logo_diamond.png" alt="">
-<p class="home-manifesto-mission">
-Good intentions are not enough. We use history, culture, institutions, economic theory, and insights across disciplines to understand what might work, and rigorous experiments to learn what does, what does not, for whom, and in which context.
-</p>
-<p class="home-manifesto-bridge">
-Here is what that looks like in practice.
-</p>
-<div class="home-projects-heading">
-<h2>
-Ongoing major projects
-</h2>
-<p><span class="home-projects-rule"></span></p>
-</div>
-<div class="home-projects-grid">
-<div id="listing-projects_carousel" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
+<div class="projects-listings">
+<p><span class="projects-eyebrow"><img src="./odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Major projects</span><span class="about-eyebrow-rule"></span></span></p>
+<div id="listing-major_projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1641009600000" data-listing-file-modified-sort="1788966288780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="./03_projects/posts/project-2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -237,6 +240,23 @@ Legal Antecedents of Fiscal Capacity
 <div class="card-text listing-description delink">
 <p>Tracing how colonial and customary legal institutions shape the state’s capacity to tax and govern in Kasaï today.</p>
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+James Robinson, Jon Weigel
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+status
+</td>
+<td class="status">
+ongoing
+</td>
+</tr>
+
+</tbody></table>
 </div>
 </div></a>
 </div>
@@ -253,151 +273,93 @@ Religion &amp; Development
 <div class="card-text listing-description delink">
 <p>Examining how religious affiliation and practice shape economic development outcomes across Congolese communities.</p>
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Nathan Nunn, Jon Weigel, Clara Sievert, Marina NGoma
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+status
+</td>
+<td class="status">
+ongoing
+</td>
+</tr>
+
+</tbody></table>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<div class="about-section-divider">
+
 </div>
-<p><a class="about-button home-manifesto-cta" href="03_projects/index.html">Explore all our projects →</a></p>
-</div>
-<div class="home-quote-row">
-<div class="home-quote-row-image">
-<p><img src="00_index/image12.jpg" alt="ODEKA enumerators"></p>
-</div>
-<div class="home-quote">
-<img src="./odeka_logo_diamond.png" alt="">
-<blockquote class="blockquote">
-<img class="quote-bracket left" src="./odeka_logo_left_bracket.png" alt="">Intentionally or not, the forms of economic, industrial, and political organization that were central to each success story were drawn from the local context, or by melding lessons from economics and political science with characteristics of local culture and society.<img class="quote-bracket right" src="./odeka_logo_right_bracket.png" alt="">
-</blockquote>
-<p><cite>Jacob Moscona, Nathan Nunn &amp; James A. Robinson<span>“Searching for Fish in Trees (缘木求鱼)? Economic Development When Context Matters,” Working Paper, 2026</span></cite></p>
-</div>
-</div>
-<div class="full-width-banner">
-<p><img src="00_index/image13.JPG" alt="ODEKA banner" class="hero-image hero-image--bottom-anchored"> <a class="about-button banner-cta banner-cta--green" href="05_jobs/index.html">Looking for a job? →</a></p>
-</div>
-<!-- =====================================================================
-     NEWS SECTION SWITCH — see read_me/ for the full instructions.
-     Currently pointing at news_section_on.qmd. To turn News OFF,
-     change the filename below to news_section_off.qmd — that's the
-     only edit needed here. Also flip the switch in _quarto.yml (see
-     its own comment) for the rest of the steps.
-     ===================================================================== -->
-<div class="home-news-heading">
-<h2>
-Latest News
-</h2>
-<p><a href="04_news/index.html" class="home-news-link">View all news →</a> <img class="home-news-heading-diamond" src="./odeka_logo_diamond.png" alt=""></p>
-</div>
-<div style="margin-left: 27px; margin-right: 27px; margin-bottom: 36px;">
-<div id="listing-news_carousel" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1728964800000" data-listing-file-modified-sort="1788966288834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
-<a href="./04_news/posts/news20241014.html" class="quarto-grid-link">
+<p><span class="projects-eyebrow"><img src="./odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Other projects</span><span class="about-eyebrow-rule"></span></span></p>
+<div id="listing-other_projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1786766400000" data-listing-file-modified-sort="1788966288780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="./03_projects/posts/supernatural-beliefs-modern-medicine.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./04_news/images/news20241014.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./03_projects/images/project3.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-James Robinson Wins the 2024 Nobel Prize in Economic Sciences
+Supernatural Beliefs and Modern Medicine
 </h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 15, 2024
+<div class="card-text listing-description delink">
+<p>Project page coming soon.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Clara Sievert
 </div>
 </div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1662955200000" data-listing-file-modified-sort="1788966288834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
-<a href="./04_news/posts/news20220912.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./04_news/images/news20220912.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New Kananga Team Takes Over Operations
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 12, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1658116800000" data-listing-file-modified-sort="1788966288834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
-<a href="./04_news/posts/news20220718.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./04_news/images/news20220718.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Field Visit of James Robinson and Jonathan Weigel to ODEKA A.S.B.L in Kananga
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 18, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1656302400000" data-listing-file-modified-sort="1788966288834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<a href="./04_news/posts/news20220627.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./04_news/images/news20220627.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Lecture by James Robinson and Jon Weigel at UPC in Kinshasa
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 27, 2022
-</div>
-</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+status
+</td>
+<td class="status">
+ongoing
+</td>
+</tr>
+
+</tbody></table>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<div class="about-section-divider">
+
+</div>
 </div>
 <div class="full-width-banner">
-<p><img src="00_index/image10.JPG" alt="ODEKA banner" class="hero-image"></p>
+<p><img src="03_projects/images/project2.jpg" alt="Daily life in Kananga" class="hero-image hero-image--projects-closing"></p>
 </div>
 <div class="page-footer-copyright">
-<p><strong>Copyright © 2026 ODEKA A.S.B.L All rights reserved.</strong></p>
+<p><strong>Copyright (C) 2026 ODEKA A.S.B.L All rights reserved.</strong></p>
 </div>
 <div style="clear: both;">
+
 </div>
-<p><br> <img src="./odeka_logo.png" style="height: 40px; margin : 0 0 0 0px"></p>
+<br>
+<div class="page-footer-logo">
+<p><img src="./odeka_logo.png" style="height: 40px; margin: 0 auto;"></p>
+</div>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://www.instagram.com/gateau_thecongolesecat/" class="about-link" rel="" target="">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text">Instagram</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+
+</main> <!-- /main -->
 <script>
 (function () {
   function init() {
@@ -821,6 +783,13 @@ Jun 27, 2022
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
