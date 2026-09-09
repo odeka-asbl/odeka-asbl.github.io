@@ -32,7 +32,6 @@ p.description {
 }
 </style>
 
-[← Back to Projects](../index.qmd){.breadcrumb}
 
 In Kananga, DRC, the Provincial Ministry of Justice of Kasai Central implemented
 a randomized legal capacity building program at scale aimed at mediating
@@ -43,3 +42,6 @@ customary chiefs perform the same functions. We study how the program influences
 dispute resolution and perceptions of the competence and impartiality of state
 and customary systems. In turn, we investigate how these differentiated outcomes
 shape property rights security, crime, violence, and tax compliance.
+
+[← Back to Projects](../index.qmd){.breadcrumb}
+
