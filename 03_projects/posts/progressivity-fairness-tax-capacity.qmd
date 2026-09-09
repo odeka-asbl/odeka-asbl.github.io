@@ -8,8 +8,8 @@ author:
   - Gabriel Tourek
   - Jonathan L. Weigel
   - Augustin Bergeron
-date: 2026-08-15
-image: ../images/project3.jpg
+date: 2023
+image: 
 description: >-
   This project explores the randomized introduction of progressive property
   taxation in the D.R. Congo, a low-income country with weak fiscal capacity.
@@ -21,7 +21,7 @@ description: >-
   household compliance, and perceptions of fairness and tax morale to inform the
   design at scale of a tax schedule that balances revenue and fairness.
 status: ongoing
-type: other
+type: major
 about:
   template: marquee
 ---
