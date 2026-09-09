@@ -1,0 +1,44 @@
+---
+toc: false
+title: "Progressivity, Fairness, and Tax Capacity: Evidence from the DR Congo"
+author:
+  - Sarah Danner
+  - Marina Mavungu Ngoma
+  - Dina Pomeranz
+  - Gabriel Tourek
+  - Jonathan L. Weigel
+  - Augustin Bergeron
+date: 2026-08-15
+image: ../images/project3.jpg
+description: >-
+  This project explores the randomized introduction of progressive property
+  taxation in the D.R. Congo, a low-income country with weak fiscal capacity.
+  In collaboration with the Provincial Government of Kasaï-Central, ODEKA
+  conducted an evaluation to compare neighbourhoods in the city of Kananga
+  assigned to either the existing flat fee schedule (control), a proportional
+  tax rate schedule (treatment 1), or a schedule of progressive property tax
+  rates (treatment 2). The project team examined effects on total revenue,
+  household compliance, and perceptions of fairness and tax morale to inform the
+  design at scale of a tax schedule that balances revenue and fairness.
+status: ongoing
+type: other
+about:
+  template: marquee
+---
+<style>
+/* Hide the visible description under the title block on THIS page */
+header.quarto-title-block .description,
+.quarto-title .description,
+.quarto-title-meta .description,
+p.description {
+  display: none !important;
+}
+</style>
+
+This project explores the randomized introduction of progressive property taxation in the D.R. Congo, a low-income country with weak fiscal capacity. In collaboration with the Provincial Government of Kasaï-Central, ODEKA conducted an evaluation to compare neighbourhoods in the city of Kananga assigned to either the existing flat fee schedule (control), a proportional tax rate schedule (treatment 1), or a schedule of progressive property tax rates (treatment 2). The project team examined effects on total revenue, household compliance, and perceptions of fairness and tax morale to inform the design at scale of a tax schedule that balances revenue and fairness.
+
+The initial stage of the project involved, in coordination with provincial government partners, the mapping and valuation of properties throughout the entire city of Kananga. This process supported the integration of the digitized tax system (MopTax) into tax authority operations for the first time, providing a database of properties citywide and facilitates the tracking over time of enforcement activities, tax payments, and changes in property value. By providing a systematic survey of properties and their values, MopTax allowed the tax authority to design and implement the tax schedule treatments that are the focus of this evaluation.
+
+The 2024 property tax campaign involved door-to-door collection of property taxes by state personnel under the randomly assigned schedules. Billing of properties and collection of tax duties was conducted between August and December 2024, spanning over 100,000 properties in Kananga.
+
+[← Back to Projects](../index.qmd){.breadcrumb}
