@@ -39,8 +39,6 @@ website:
         text: Jobs
       - href: 06_contacts/contacts.qmd
         text: Contacts
-      - href: 07_legal_notice/legal_notice.qmd
-        text: Legal Notice 
 
 format:
   html:

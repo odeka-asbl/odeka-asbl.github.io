@@ -1314,11 +1314,46 @@ main.content:has(.full-width-banner) {
    heavier apparatus built for the longer pages. */
 .quarto-about-trestles {
   margin-top: 32px;
-  align-items: center; /* Quarto's default is stretch, which top-aligns both columns' content against the full row height instead of centering the (usually shorter) photo+socials column against the text column */
+  align-items: flex-start; /* top-align the photo column against the (much taller) text column, rather than Quarto's default "stretch" or a vertical center — needed so the second sidebar photo below can be positioned at a reliable fixed offset from the top (see .contacts-sidebar-photo2) instead of a center-offset that shifts with text length */
+  position: relative; /* positioning context for .contacts-sidebar-photo2 */
 }
 
 .quarto-about-trestles .about-image img {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+/* Second sidebar photo (Legal Notice section, added below the Contacts
+   page's own about-image). Quarto's trestles template only supports one
+   image via the `about:` YAML block, and .about-entity is populated
+   entirely by its template — there's no way to add a real second <img>
+   as its sibling from markdown content. Instead this lives in the
+   normal content flow (near the Legal Notice heading, for proximity in
+   the source) and is pulled into the sidebar column visually via
+   absolute positioning: left:0/width:20em match .about-image's own
+   box exactly, and top is that box's own fixed height (20em wide at
+   this photo's 4:3 ratio = 15em tall) plus its 1.5em bottom margin,
+   plus a bit of breathing room. */
+.contacts-sidebar-photo2 {
+  position: absolute;
+  top: 44em; /* level with the Legal Notice section's text, past the four shorter sections above it */
+  left: 0;
+  width: 20em;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+/* Below the breakpoint where trestles collapses to a single stacked
+   column, the absolute offset above no longer lines up with anything
+   (the sidebar photo is no longer a fixed-width column to its left) —
+   drop back into normal flow instead, matching .about-float's own
+   mobile fallback. */
+@media (max-width: 700px) {
+  .contacts-sidebar-photo2 {
+    position: static;
+    width: 100%;
+    margin: 24px 0;
+  }
 }
 
 .quarto-about-trestles .about-contents {
