@@ -42,24 +42,16 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/weigel.jpg" alt="Jon Weigel">
+  <img src="faces/weigel.jpg" alt="Jonathan Weigel">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Jon Weigel
+  Jonathan Weigel
 </div>
 
 <div class="person-title">
-  Co-Founder and Scientific Director
-</div>
-
-<p>Jonathan Weigel is an assistant professor at UC Berkeley’s Haas School of Business. His research focuses on state capacity, taxation, and the relationship between culture and institutions.
-
-<div class="person-link">
-<a href="https://haas.berkeley.edu/faculty/jonathan-weigel/" target="_blank">
-  UC Berkeley Profile
-</a>
+  Co-Founder and Scientific Director; <a href="https://jonathanweigel.com" target="_blank">Assistant Professor, UC Berkeley Haas School of Business</a>
 </div>
 </div>
 
@@ -79,15 +71,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Deputy Scientific Director
-</div>
-
-<p>Augustin Bergeron is an assistant professor of economics at Harvard University. His research focuses on state capacity and taxation, the historical roots of social structures and beliefs, and their impact on economic development.
-
-<div class="person-link">
-<a href="https://www.economics.harvard.edu/people/augustin-bergeron" target="_blank">
-  Harvard Profile
-</a>
+  Deputy Scientific Director; <a href="https://www.augustinbergeron.com/" target="_blank">Assistant Professor of Economics, Harvard University</a>
 </div>
 </div>
 
@@ -158,7 +142,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Junior Ntambue">
+  <img src="faces/ntambue.jpg" alt="Junior Ntambue">
 </div>
 
 <div class="person-info">
@@ -178,7 +162,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Gilbert Tshiebue">
+  <img src="faces/tshiebue.jpg" alt="Gilbert Tshiebue">
 </div>
 
 <div class="person-info">
@@ -198,7 +182,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Jacques Kazadi">
+  <img src="faces/kazadi.jpg" alt="Jacques Kazadi">
 </div>
 
 <div class="person-info">
@@ -231,12 +215,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Max Mbosho">
+  <img src="faces/tshidiapa.jpg" alt="Albert Muanza Tshidiapa">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Max Mbosho
+  Albert Muanza Tshidiapa
 </div>
 
 <div class="person-title">
@@ -251,12 +235,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Grégoire Ntumba">
+  <img src="faces/kayembe.jpg" alt="Andre Kapumbu Kayembe">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Grégoire Ntumba
+  Andre Kapumbu Kayembe
 </div>
 
 <div class="person-title">
@@ -271,12 +255,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Bernard Makinda">
+  <img src="faces/kapena.jpg" alt="Benjamin Badibanga Kapena">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Bernard Makinda
+  Benjamin Badibanga Kapena
 </div>
 
 <div class="person-title">
@@ -291,12 +275,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Serge Nseya">
+  <img src="faces/katembue.jpg" alt="Bernard Mankinda Katembue">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Serge Nseya
+  Bernard Mankinda Katembue
 </div>
 
 <div class="person-title">
@@ -311,12 +295,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="André Kapumbu">
+  <img src="faces/mukendi.jpg" alt="Constantin Tshimanga Mukendi">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  André Kapumbu
+  Constantin Tshimanga Mukendi
 </div>
 
 <div class="person-title">
@@ -331,12 +315,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Benjamin Badibanga">
+  <img src="faces/esther-kabue.jpg" alt="Esther Dikebele Kabue">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Benjamin Badibanga
+  Esther Dikebele Kabue
 </div>
 
 <div class="person-title">
@@ -351,12 +335,12 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Théo Kalamba">
+  <img src="faces/lobo.jpg" alt="Gregoire Ntumba Lobo">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Théo Kalamba
+  Gregoire Ntumba Lobo
 </div>
 
 <div class="person-title">
@@ -371,12 +355,112 @@ ODEKA's senior enumerators play a central role in supervising data collection, t
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Jean Kalala">
+  <img src="faces/konshi.jpg" alt="Max Mbosho Konshi">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Jean Kalala
+  Max Mbosho Konshi
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/mukengeshayi.jpg" alt="Mireille Kanyanga Mukengeshayi">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Mireille Kanyanga Mukengeshayi
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/katanga.jpg" alt="Moise Katenga Katanga">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Moise Katenga Katanga
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/nkongolo.jpg" alt="Samy-Délice Tshitala Nkongolo">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Samy-Délice Tshitala Nkongolo
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/wakadipenyi.jpg" alt="Serge Nseya Wakadipenyi">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Serge Nseya Wakadipenyi
+</div>
+
+<div class="person-title">
+  Enumerator
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/muepu.jpg" alt="Théodore Kalamba Muepu">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Théodore Kalamba Muepu
 </div>
 
 <div class="person-title">
@@ -404,6 +488,26 @@ ODEKA's Scientific Advisory Committee provides guidance on the organization's sc
 <br>
 
 <div class="person-photo">
+  <img src="faces/ngoma.jpg" alt="Marina Ngoma Mavungu">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Marina Ngoma Mavungu
+</div>
+
+<div class="person-title">
+  <a href="https://www.worldbank.org/en/about/people/m/marina-ngoma-mavungu" target="_blank">Economist, World Bank</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
   <img src="faces/robinson.jpeg" alt="James Robinson">
 </div>
 
@@ -413,15 +517,7 @@ ODEKA's Scientific Advisory Committee provides guidance on the organization's sc
 </div>
 
 <div class="person-title">
-  Member
-</div>
-
-<p>A Nobel Prize laureate, James Robinson is a professor at the University of Chicago’s Harris School of Public Policy and Department of Political Science. His research examines the political and institutional foundations of development and the historical roots of prosperity and poverty.
-
-<div class="person-link">
-<a href="https://harris.uchicago.edu/directory/james-robinson" target="_blank">
-  UChicago Profile
-</a>
+  <a href="https://harris.uchicago.edu/directory/james-robinson" target="_blank">Professor, University of Chicago Harris School of Public Policy</a>
 </div>
 </div>
 
@@ -441,15 +537,7 @@ ODEKA's Scientific Advisory Committee provides guidance on the organization's sc
 </div>
 
 <div class="person-title">
-  Member
-</div>
-
-<p>Nathan Nunn is a professor at the Vancouver School of Economics. His research explores the historical and cultural foundations of economic development and how local contexts shape the effectiveness of policies and institutions.
-
-<div class="person-link">
-<a href="https://nathannunn.arts.ubc.ca" target="_blank">
-  UBC Profile
-</a>
+  <a href="https://nathannunn.arts.ubc.ca" target="_blank">Professor, Vancouver School of Economics</a>
 </div>
 </div>
 
@@ -469,15 +557,7 @@ ODEKA's Scientific Advisory Committee provides guidance on the organization's sc
 </div>
 
 <div class="person-title">
-  Member
-</div>
-
-<p>Sara Lowes is an associate professor of economics at the University of California, San Diego. Her research sits at the intersection of development economics, economic history, and political economy, examining how culture and institutions shape development outcomes.
-
-<div class="person-link">
-<a href="https://economics.ucsd.edu/faculty-and-research/faculty-profiles/lowes.html" target="_blank">
-  UCSD Profile
-</a>
+  <a href="https://economics.ucsd.edu/faculty-and-research/faculty-profiles/lowes.html" target="_blank">Associate Professor of Economics, UC San Diego</a>
 </div>
 </div>
 
@@ -497,43 +577,7 @@ ODEKA's Scientific Advisory Committee provides guidance on the organization's sc
 </div>
 
 <div class="person-title">
-  Member
-</div>
-
-<p>Gabriel Tourek is an assistant professor of economics at the University of California, Davis. His research focuses on public finance and development economics, with an emphasis on state capacity and governance in low-income countries.
-
-<div class="person-link">
-<a href="https://economics.ucdavis.edu/people/gabriel-tourek" target="_blank">
-  UC Davis Profile
-</a>
-</div>
-</div>
-
-<!-- ============================ -->
-
-<div style="clear: both;">
-</div>
-<br>
-
-<div class="person-photo">
-  <img src="faces/ngoma.jpg" alt="Marina Ngoma Mavungu">
-</div>
-
-<div class="person-info">
-<div class="person-name">
-  Marina Ngoma Mavungu
-</div>
-
-<div class="person-title">
-  Member
-</div>
-
-<p>Marina Ngoma Mavungu is an economist at the World Bank, specializing in economic development with a focus on private sector policies, industrialization, regional integration, public finance, and institutions.
-
-<div class="person-link">
-<a href="https://www.worldbank.org/en/about/people/m/marina-ngoma-mavungu" target="_blank">
-  World Bank Profile
-</a>
+  <a href="https://economics.ucdavis.edu/people/gabriel-tourek" target="_blank">Assistant Professor of Economics, UC Davis</a>
 </div>
 </div>
 
@@ -557,7 +601,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Clotaire Boyer">
+  <img src="faces/boyer.jpg" alt="Clotaire Boyer">
 </div>
 
 <div class="person-info">
@@ -566,7 +610,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 </div>
 
 <div class="person-title">
-  PhD Student
+  <a href="https://clotaireboyer.github.io/Academic-Website-Clotaire-Boyer/index.html" target="_blank">PhD Student in Economics, UC Berkeley</a>
 </div>
 </div>
 
@@ -577,7 +621,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Sarah Danner">
+  <img src="faces/danner.jpg" alt="Sarah Danner">
 </div>
 
 <div class="person-info">
@@ -586,7 +630,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 </div>
 
 <div class="person-title">
-  PhD Student
+  <a href="https://besi.berkeley.edu/people/sarah-danner/" target="_blank">PhD Student, Haas School of Business, UC Berkeley</a>
 </div>
 </div>
 
@@ -597,7 +641,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Eva Davoine">
+  <img src="faces/davoine.jpg" alt="Eva Davoine">
 </div>
 
 <div class="person-info">
@@ -606,7 +650,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 </div>
 
 <div class="person-title">
-  PhD Student
+  <a href="https://www.evadavoine.com/" target="_blank">PhD Candidate, UC Berkeley</a>
 </div>
 </div>
 
@@ -617,7 +661,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Gabriel Granato">
+  <img src="faces/granato.jpg" alt="Gabriel Granato">
 </div>
 
 <div class="person-info">
@@ -626,7 +670,7 @@ ODEKA works closely with doctoral students who contribute to our research projec
 </div>
 
 <div class="person-title">
-  PhD Student
+  <a href="https://gabrielgranato.github.io/" target="_blank">PhD Student in Business and Public Policy, Haas School of Business, UC Berkeley</a>
 </div>
 </div>
 
@@ -657,16 +701,16 @@ ODEKA works closely with doctoral students who contribute to our research projec
 <br>
 
 <div class="person-photo">
-  <img src="faces/placeholder.jpg" alt="Nic Wicaksono">
+  <img src="faces/wicaksono.jpg" alt="Nicolas Wicaksono">
 </div>
 
 <div class="person-info">
 <div class="person-name">
-  Nic Wicaksono
+  Nicolas Wicaksono
 </div>
 
 <div class="person-title">
-  PhD Student
+  <a href="https://www.gov.harvard.edu/directory/nicolas-wicaksono/" target="_blank">PhD Student in Government, Harvard University</a>
 </div>
 </div>
 

@@ -237,6 +237,25 @@ section.people-eyebrow-heading > p {
   border-bottom-color: rgb(148, 40, 33);
 }
 
+/* Academic-title links now inlined directly into .person-title (Senior
+   Management's "ODEKA title; academic title" entries, Scientific
+   Advisory Committee) — same red-accent treatment as .person-link a,
+   not Bootstrap's default blue, and not italicized like the
+   surrounding .person-title text. */
+.person-title a {
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(178, 49, 40);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(178, 49, 40, 0.35);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.person-title a:hover {
+  color: rgb(148, 40, 33);
+  border-bottom-color: rgb(148, 40, 33);
+}
+
 /* Projects page: same grid-with-thumbnail idea as the homepage
    carousel, but toned down. The homepage card is built to catch a
    scrolling eye (full-bleed photo, dark gradient, hover lift+zoom) —
@@ -871,20 +890,13 @@ body:has(main.content .full-width-banner) #quarto-margin-sidebar {
   transition: color 0.2s ease;
 }
 
-/* Same small red ◆ used site-wide as a gentle marker (About's
-   mini-sep, donor list separators, Projects card seams) — reused here
-   instead of a plain vertical bar, marking the active section. Always
-   present but invisible on inactive links so the text doesn't shift
-   left/right when the active item changes. */
+/* Active-section marker removed — on this page's banner-cleared
+   sidebar position (see body:has(...) #quarto-margin-sidebar above),
+   a lone ◆ next to a single nav-link read as a stray floating dot
+   rather than a marker tied to a visible list. The nav-link text
+   itself still navigates/highlights via .active below. */
 #quarto-margin-sidebar nav#TOC a.nav-link::before {
-  content: "◆";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.6em;
-  color: rgb(178, 49, 40);
-  opacity: 0;
+  content: none;
 }
 
 /* !important: same Bootstrap doc-toc :hover rule sets blue with
@@ -896,19 +908,13 @@ body:has(main.content .full-width-banner) #quarto-margin-sidebar {
 /* !important on color: Quarto's own doc-toc active-link rule sets its
    Bootstrap blue with !important too, which beats specificity
    regardless of ID count, so this has to match it. border-left: none
-   isn't !important because Quarto's border-left isn't either — the ◆
-   below stands in for it instead. Text itself stays dark rather than
-   red — the ◆ alone marks the active item. No font-weight:700 either:
-   bolding widens the text enough that some labels wrap onto an extra
-   line only while active (e.g. "Scientific Advisory Committee"),
-   shifting every item below it. */
+   isn't !important because Quarto's border-left isn't either. No
+   font-weight:700 either: bolding widens the text enough that some
+   labels wrap onto an extra line only while active (e.g. "Scientific
+   Advisory Committee"), shifting every item below it. */
 #quarto-margin-sidebar nav#TOC a.nav-link.active {
   color: rgb(35, 30, 25) !important;
   border-left: none;
-}
-
-#quarto-margin-sidebar nav#TOC a.nav-link.active::before {
-  opacity: 1;
 }
 
 main.content:has(.full-width-banner) .quarto-title-block {
