@@ -1,0 +1,59 @@
+---
+title: "Enquêteur/Enquêtrice de Terrain"
+author:
+  - ODEKA A.S.B.L.
+date: "September 13, 2026"
+lang: fr
+description: "ODEKA recrute en continu des enquêteurs et enquêtrices de terrain pour la collecte de données dans le cadre de ses projets de recherche à Kananga."
+---
+
+<div class="job-page">
+
+<div class="job-meta">
+<div class="job-meta-item"><strong>Poste</strong>Enquêteur/Enquêtrice de terrain</div>
+<div class="job-meta-item"><strong>Lieu</strong>Kananga, Kasaï Central, RDC</div>
+<div class="job-meta-item"><strong>Recrutement</strong>Continu — candidatures acceptées à tout moment</div>
+<div class="job-meta-item"><strong>Contact</strong>odeka.contact@gmail.com</div>
+</div>
+
+[← Voir tous les postes ouverts](../index.qmd){.breadcrumb}
+
+### Aperçu du poste
+
+ODEKA (Organisation d'Études Économiques au Kasaï) constitue en permanence une réserve de candidats pour le poste d'**enquêteur/enquêtrice de terrain**, chargé·e de la collecte de données dans le cadre de nos projets de recherche menés à Kananga et dans la province du Kasaï Central. Ce travail se déroule sur le terrain, auprès des ménages et des autorités locales, et exige rigueur, ponctualité et respect des personnes enquêtées.
+
+Nous n'avons pas de date de recrutement fixe : les candidatures sont examinées au fil de l'eau, selon les besoins de nos différents projets. Si vous êtes intéressé·e, n'hésitez pas à nous contacter dès aujourd'hui.
+
+### Responsabilités de l'enquêteur/enquêtrice
+
+- Administrer des questionnaires auprès des ménages, commerçants ou autorités locales, en français et/ou en tshiluba
+- Utiliser une tablette et le logiciel SurveyCTO pour la collecte des données
+- Suivre rigoureusement les protocoles de terrain et les consignes des superviseurs
+- Vérifier la qualité et la cohérence des données collectées avant leur soumission
+- Participer aux sessions de formation organisées avant chaque phase de collecte
+- Faire preuve de courtoisie et de professionnalisme envers les personnes enquêtées et les autorités locales
+- Rédiger de brefs rapports de terrain à l'attention des superviseurs
+
+### Profil recherché
+
+- Diplôme d'État (minimum) ; une formation universitaire est un atout
+- Bonne maîtrise du français, à l'oral comme à l'écrit
+- Maîtrise du tshiluba ou d'une autre langue locale du Kasaï (fortement souhaitée)
+- Aisance avec les smartphones/tablettes (souhaitée)
+- Expérience antérieure en enquête de terrain ou en collecte de données (un atout)
+- Résidence à Kananga ou disponibilité à s'y déplacer
+- Sérieux, ponctualité, honnêteté et sens du travail en équipe
+
+### Comment postuler
+
+Vous pouvez nous contacter à tout moment : envoyez votre CV et une lettre de motivation, à l'attention du chargé de recrutement ODEKA, à l'adresse [odeka.contact@gmail.com](mailto:odeka.contact@gmail.com).
+
+Vous pouvez également déposer votre dossier directement à notre bureau, du lundi au vendredi (9h–17h) : 6, avenue du Commerce, L/AZDA, Q/TSHINSAMBI, C/KANANGA.
+
+Étant donné le nombre de candidatures reçues, seules les personnes présélectionnées seront contactées pour un entretien.
+
+<div class="job-apply">
+<a class="about-button" href="mailto:odeka.contact@gmail.com">Nous contacter par email →</a>
+</div>
+
+</div>

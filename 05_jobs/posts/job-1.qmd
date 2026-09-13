@@ -3,7 +3,7 @@ title: "Field-Based Research Associate or Research Manager"
 author:
   - Jonathan Weigel, UC Berkeley
   - Dina Pomeranz, University of Zurich
-date: "January 15, 2026"
+date: "August 19, 2026"
 description: "We are hiring a field-based Research Associate or Research Manager to lead survey operations for a study of tax collection and state capacity in Kananga, DRC."
 language:
   title-block-author-single: "Supervisor"
@@ -14,10 +14,10 @@ language:
 <div class="job-page">
 
 <div class="job-meta">
-<div class="job-meta-item"><strong>Posted</strong>January 15, 2026</div>
+<div class="job-meta-item"><strong>Posted</strong>August 19, 2026</div>
 <div class="job-meta-item"><strong>Supervisors</strong>Jonathan Weigel, UC Berkeley<br>Dina Pomeranz, University of Zurich</div>
 <div class="job-meta-item"><strong>Location</strong>Kananga, Democratic Republic of Congo</div>
-<div class="job-meta-item"><strong>Start Date</strong>May 1 – July 1, 2026</div>
+<div class="job-meta-item"><strong>Start Date</strong>October 1 – November 1, 2026</div>
 <div class="job-meta-item"><strong>Duration</strong>12 months</div>
 </div>
 
@@ -46,7 +46,7 @@ The Research Associate will work on several ongoing randomized research studies 
 
 ### Qualifications
 
-- Master's degree in economics or a related field (required)
+- Master's degree in economics or a related field (highly desired)
 - Quantitative skills and experience with Stata (required)
 - Familiarity with randomized evaluations and econometric methods (required)
 - Fluency in French: native speaker or advanced fluency (required)
@@ -70,7 +70,7 @@ Complete the [J-PAL/IPA common application](https://apply.povertyactionlab.org).
 Given the volume of applications received, only short-listed candidates will be contacted for an interview.
 
 <div class="job-apply">
-<a class="about-button" href="https://www.povertyactionlab.org/careers/field-based-research-associate-or-research-manager-democratic-republic-congo-job-105467" target="_blank">Apply for this position →</a>
+<a class="about-button" href="https://www.povertyactionlab.org/careers/field-based-research-associate-democratic-republic-congo-job-105604" target="_blank">Apply for this position →</a>
 </div>
 
 </div>

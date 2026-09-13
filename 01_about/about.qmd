@@ -59,7 +59,7 @@ about:
 </div>
 
 <div class="logo-strip" style="margin : 0 14px 32px 14px;">
-  <img src="image6.jpg" alt="ODEKA team with community members" class="logo-alone">
+  <img src="image6.jpg" alt="The ODEKA and research team with children from the community" class="logo-alone">
 </div>
 
 <div class="about-cta">
