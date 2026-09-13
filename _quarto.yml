@@ -23,7 +23,7 @@ project:
     # =====================================================================
 
 website:
-  site-url: "https://odeka-asbl.github.io"
+  site-url: "https://www.odekalab.org"
   title: "ODEKA"
   favicon: "/favicon.ico"
   navbar:

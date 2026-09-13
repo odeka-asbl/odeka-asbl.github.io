@@ -1,1 +1,1 @@
-Sitemap: https://odeka-asbl.github.io/sitemap.xml
+Sitemap: https://www.odekalab.org/sitemap.xml

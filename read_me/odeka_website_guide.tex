@@ -1290,50 +1290,36 @@ turn it off (Section~\ref{sec:news-switch}). Nothing is lost by doing
 that --- every post that's already been written stays intact and can be
 switched back on the moment someone wants to pick it back up.
 
-\subsection{Custom Domain, and Where the Address Should Land}
+\subsection{Custom Domain}
 \label{sec:domain-todo}
 
-The site currently lives at its default GitHub Pages address
-(\url{https://odeka-asbl.github.io}), not a domain ODEKA owns. Two
-separate things need deciding here, and they shouldn't be conflated:
+The site now has a chosen domain, \url{https://www.odekalab.org}, in
+place of the default GitHub Pages address
+(\url{https://odeka-asbl.github.io}). On the repository side this is
+done: a \file{CNAME} file naming \file{www.odekalab.org} lives in the
+\emph{project root} (alongside \file{\_quarto.yml}, not placed by
+hand inside \file{docs/} --- Quarto copies loose root-level files like
+this into \file{docs/} on every render, the same way it already does
+for \file{favicon.ico}, so a root-level copy survives renders reliably
+where a \file{docs/}-only one wouldn't), and \file{\_quarto.yml}'s
+\texttt{site-url} points at the new domain too (this feeds the
+generated \file{sitemap.xml} and social-preview meta tags).
 
-\begin{itemize}
-    \item \term{Linking a custom domain.} This is mostly mechanical once
-    a domain is chosen and registered: GitHub Pages supports it via a
-    \file{CNAME} file naming the domain, plus a DNS record set up
-    wherever the domain was purchased (either a \cmd{CNAME} record
-    pointing at \file{odeka-asbl.github.io}, or \cmd{A} records
-    pointing at GitHub's IP addresses, depending on whether it's a
-    subdomain or an apex/root domain). The \file{CNAME} file itself
-    should live in the \emph{project root} (alongside
-    \file{\_quarto.yml}), not be placed by hand inside \file{docs/} ---
-    Quarto automatically copies loose files like this from the project
-    root into \file{docs/} on every render (the same way it already
-    does for \file{favicon.ico}), so a root-level copy survives
-    renders reliably where a \file{docs/}-only one wouldn't.
-    Registering the domain itself and configuring DNS happens outside
-    this repository, with whoever manages ODEKA's domain registrar ---
-    Claude Code can help with the \file{CNAME} file and the DNS record
-    values once a domain is picked, but can't register a domain or log
-    into a registrar on its own.
-    \item \term{Where the address should land.} Separately, and still
-    undecided: Jon has asked that the website address land directly on
-    the \emph{Projects} page rather than the current homepage. That's
-    not automatic just from pointing a domain at the site --- as
-    things stand, the root address serves \file{index.qmd} (the
-    homepage), and Projects is a page underneath it. Making Projects
-    the landing page means an actual decision about \emph{how}: whether
-    the homepage should redirect to Projects, whether Projects should
-    effectively \emph{become} the homepage (absorbing whatever from the
-    current homepage is still worth keeping --- the project carousels,
-    the quotes, the News section), or whether the navbar and homepage
-    both stay as they are and only the bare domain root redirects. This
-    is a real design question in the same spirit as the
-    project-versus-theme one above (Section~\ref{sec:projects-todo}),
-    not a small technical toggle --- worth resolving deliberately once
-    a domain is actually in hand, rather than picking the easiest
-    option by default.
-\end{itemize}
+What's still outside this repository: a DNS record needs to exist
+wherever \file{odekalab.org} was registered, pointing the
+\file{www} subdomain at GitHub Pages --- a \cmd{CNAME} DNS record for
+\file{www} targeting \file{odeka-asbl.github.io}. Until that record is
+in place and has propagated, \file{www.odekalab.org} won't resolve
+(the plain \url{https://odeka-asbl.github.io} address keeps working
+throughout). Claude Code can prepare the repository side and state the
+exact DNS record needed, but can't log into a registrar or configure
+DNS itself.
+
+The separate question this section used to raise --- whether the
+address should land on the homepage or on Projects --- is resolved:
+Projects and Publications \emph{is} the homepage now (the old
+homepage content was replaced, not kept behind a redirect), so the
+domain lands on it automatically once DNS is configured.
 
 \subsection{Keeping This Document Itself Up to Date}
 \label{sec:doc-upkeep}
