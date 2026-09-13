@@ -1218,10 +1218,12 @@ main.content:has(.full-width-banner) {
   object-position: 50% 39%;
 }
 
-/* Same height as the closing banner — object-position tuned to keep
-   the crowd (not the sky/landscape above it) in frame */
+/* About page: research-team photo at the DGRKAC tax office (1600x1200
+   / 4:3, same crop math as .hero-image--tall above). Tuned by eye to
+   keep the back row on the building's steps through the front row in
+   frame, cropping the roofline/sky above and the motorbikes below. */
 .full-width-banner .hero-image--crowd {
-  object-position: 50% 66%;
+  object-position: 50% 47%;
 }
 
 .full-width-banner .hero-image--bottom-anchored {
