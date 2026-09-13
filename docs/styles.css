@@ -1193,10 +1193,17 @@ main.content:has(.full-width-banner) {
   position: relative;           /* enable absolute positioning for logo */
 }
 
+/* About page's opening photo (image1.jpeg, 1600x1200 / 4:3): at this
+   banner's normal ~2.6:1 box, object-fit:cover only shows about half
+   the photo's height. Centering the crop a little below the vertical
+   midpoint keeps every face in frame (standing row's heads down
+   through the kneeling front row's) and crops the sky/tree/barbed
+   wire above and legs/feet below instead — those are less than half
+   the photo's height together, so a near-centered crop is enough. */
 .full-width-banner .hero-image--tall {
   height: 45vh;
   max-height: 550px;
-  object-position: 50% 72%;   /* shifts view down, cropping off the top instead */
+  object-position: 50% 58%;
 }
 
 .full-width-banner .hero-image--large {
