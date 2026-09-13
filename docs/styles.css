@@ -2176,3 +2176,49 @@ a.about-button:hover {
   position: relative;
   top: -0.07em; /* vertical-align:middle centers on the x-height midpoint, which sits a bit low against uppercase cap-height */
 }
+
+/* Projects & Publications page: bibliography content. Scoped to its own
+   class rather than reusing .projects-listings, which is shared with the
+   homepage's project-carousel grid (different layout, different rules).
+   .about-section p already covers paragraphs but not li/ul — added
+   explicitly here so the citation lists don't fall back to Bootstrap's
+   default sans-serif (see CLAUDE.md's serif-font gotcha). */
+.publications-page p,
+.publications-page li {
+  font-family: "Cambria Math", Cambria, serif;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: #222;
+}
+
+.publications-page ul {
+  padding-left: 1.25em;
+  margin: 0 0 4px 0;
+}
+
+.publications-page li {
+  margin-bottom: 14px;
+}
+
+.publications-page .pub-subheading {
+  font-family: "Cambria Math", Cambria, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgb(178, 49, 40);
+  margin: 28px 0 12px 0;
+}
+
+.publications-page .pub-subheading:first-of-type {
+  margin-top: 0;
+}
+
+.publications-page a {
+  color: rgb(178, 49, 40);
+  text-decoration: underline;
+}
+
+.publications-page a:hover {
+  color: rgb(148, 40, 33);
+}

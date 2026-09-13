@@ -27,5 +27,4 @@ p.description {
 
 [← Back to Projects](../index.qmd){.breadcrumb}
 
-Page under construction.
 
