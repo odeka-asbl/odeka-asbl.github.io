@@ -731,6 +731,86 @@ ODEKA works closely with research associates who contribute to our research proj
 
 <div style="clear: both;">
 </div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/adams.jpg" alt="Matthew Adams">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Matthew Adams
+</div>
+
+<div class="person-title">
+  Research Associate
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/correrella.jpg" alt="Maia Correrella">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Maia Correrella
+</div>
+
+<div class="person-title">
+  Research Associate
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/santanatavera.jpg" alt="Gabriela Santana Tavera">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Gabriela Santana Tavera
+</div>
+
+<div class="person-title">
+  <a href="https://www.linkedin.com/in/gabriela-santana-tavera-devecon?originalSubdomain=fr" target="_blank">Research Associate</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/placeholder.jpg" alt="Maria Gabriela Scarano Pereira">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Maria Gabriela Scarano Pereira
+</div>
+
+<div class="person-title">
+  <a href="https://es.linkedin.com/in/maria-gabriela-scarano-pereira/en" target="_blank">Research Associate</a>
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
 
 <!-- ============================ -->
 <!-- ============================ -->
@@ -741,6 +821,24 @@ ODEKA works closely with research associates who contribute to our research proj
 
 ODEKA works closely with research interns who contribute to our research projects and field activities.
 <!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/djekinnou.jpg" alt="Marina Djekinnou">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Marina Djekinnou
+</div>
+
+<div class="person-title">
+  Research Intern
+</div>
+</div>
 
 <!-- ============================ -->
 
@@ -845,7 +943,7 @@ We are grateful to the many research associates who contributed to ODEKA's work 
   Predoctoral Research Associate, 2023-2025
 </div>
 
-<p>**Next position:** Consultant, World Bank<br>
+<p>**Next position:** PhD Student, UCL<br>
 **Previous position:** MSc Development Economics, Université Paris 1 Panthéon Sorbonne
 
 <div class="person-link">
