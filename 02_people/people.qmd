@@ -1392,21 +1392,3 @@ We are grateful to the many research interns who contributed to ODEKA's work ove
 <div class="page-footer-logo">
 <img src='/odeka_logo.png' style='height: 40px; margin : 0 auto;'>
 </div>
-
-<hr class="about-sep">
-<div class="page-footer-social">
-<div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://www.instagram.com/gateau_thecongolesecat/" class="about-link" rel="" target="">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text">Instagram</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-</div>
