@@ -49,7 +49,7 @@ about:
 
 <div class="about-section">
 <span class="about-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Our history</span><span class="about-eyebrow-rule"></span></span>
-<p>ODEKA grew out of a research partnership established in 2013 by Elie Kabue Ngindu, Jean Muana Kasongo, Jonathan Weigel, Sara Lowes, Nathan Nunn, and James Robinson. In 2015, Elie and Jonathan founded ODEKA to mark the start of year-round operations and collaborations with the provincial government. Today, the organization is managed by Elie, Jonathan, Augustin Bergeron, and the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with researchers including Marina Ngoma, Gabriel Tourek, Dina Pomeranz and other academic partners.</p>
+<p>ODEKA grew out of a research partnership established in 2013 by Elie Kabue Ngindu, Jean Muana Kasongo, Jonathan Weigel, Sara Lowes, Nathan Nunn, and James Robinson. In 2015, Elie and Jonathan founded ODEKA to mark the start of year-round operations and collaborations with the provincial government. Today, the organization is managed by Elie, Jonathan, Augustin Bergeron, and the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with many academics based overseas including Marina Ngoma, Gabriel Tourek, Dina Pomeranz and other academic partners.</p>
 <div class="about-section-divider"></div>
 </div>
 
