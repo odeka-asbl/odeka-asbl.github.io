@@ -9,12 +9,6 @@ about:
   <img src="image8.jpg" alt="Children by a fish pond in the Kasaï region" class="hero-image hero-image--people">
 </div>
 
-<div style="height: 56px;"></div>
-
-<div class="full-width-banner">
-  <img src="image1.jpeg" alt="ODEKA team" class="hero-image hero-image--tall">
-</div>
-
 <div class="about-section">
 <span class="about-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Who we are</span><span class="about-eyebrow-rule"></span></span>
 <p class="about-lead">ODEKA (Organisation d'Études Économiques au Kasaï) is an independent nonprofit research organization based in Kananga, Democratic Republic of Congo. Our mission is to generate rigorous evidence on economic development, governance, and culture to inform public policy and improve lives.</p>
