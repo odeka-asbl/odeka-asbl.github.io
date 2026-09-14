@@ -3,18 +3,13 @@ toc: false
 title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png' alt=''><span class='title-inner'><span class='title-text'>About us</span></span><img class='title-diamond' src='/odeka_logo_diamond.png' alt=''><img src='/odeka_logo_right_bracket.png' alt=''></span>"
 about:
   template: jolla
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/gateau_thecongolesecat/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-
 ---
+
+<div class="full-width-banner">
+  <img src="image8.jpg" alt="Children by a fish pond in the Kasaï region" class="hero-image hero-image--people">
+</div>
+
+<div style="height: 56px;"></div>
 
 <div class="full-width-banner">
   <img src="image1.jpeg" alt="ODEKA team" class="hero-image hero-image--tall">
@@ -40,7 +35,7 @@ about:
 <div class="home-quote home-quote--right">
 <img src="/odeka_logo_diamond.png" alt="">
 <blockquote><img class="quote-bracket left" src="/odeka_logo_left_bracket.png" alt="">Because they require time in the field, experiments provide economists a richer sense of context than many would otherwise obtain.<img class="quote-bracket right" src="/odeka_logo_right_bracket.png" alt=""></blockquote>
-<cite>Michael Kremer<span>"Experimentation, Innovation, and Economics," American Economic Review 110(7), 2020, pp. 1974–1994</span></cite>
+<cite>Michael Kremer</cite>
 </div>
 <div class="home-quote-row-image">
 <img src="image5.jpg" alt="ODEKA enumerators">
@@ -54,12 +49,8 @@ about:
 
 <div class="about-section">
 <span class="about-eyebrow"><img src="/odeka_logo_diamond.png" alt=""><span class="about-eyebrow-text">Our history</span><span class="about-eyebrow-rule"></span></span>
-<p>Founded in 2015, ODEKA builds on a research partnership established in 2013 by Jonathan Weigel, Elie Kabue Ngindu, Jean Muana Kasongo, Sara Lowes, Nathan Nunn, and James Robinson. Today, the organization is jointly managed by Jonathan Weigel, Elie Kabue Ngindu, and Augustin Bergeron, with the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with researchers including Marina Ngoma, Gabriel Tourek, and many other academic partners.</p>
+<p>ODEKA grew out of a research partnership established in 2013 by Elie Kabue Ngindu, Jean Muana Kasongo, Jonathan Weigel, Sara Lowes, Nathan Nunn, and James Robinson. In 2015, Elie and Jonathan founded ODEKA to mark the start of year-round operations and collaborations with the provincial government. Today, the organization is managed by Elie, Jonathan, Augustin Bergeron, and the support of a growing team of researchers, project managers, and field staff. ODEKA also collaborates with researchers including Marina Ngoma, Gabriel Tourek, Dina Pomeranz and other academic partners.</p>
 <div class="about-section-divider"></div>
-</div>
-
-<div class="logo-strip" style="margin : 0 14px 32px 14px;">
-  <img src="image6.jpg" alt="The ODEKA and research team with children from the community" class="logo-alone">
 </div>
 
 <div class="about-cta">
@@ -74,9 +65,7 @@ about:
 <p class="donors-credit-list">National Science Foundation <span class="donor-sep">◆</span> The Fund for Innovation in Development (FID) <span class="donor-sep">◆</span> USAID <span class="donor-sep">◆</span> Philomathia Foundation <span class="donor-sep">◆</span> The International Growth Centre <span class="donor-sep">◆</span> The Berkeley Research Opportunity Program <span class="donor-sep">◆</span> The Weiss Family Fund <span class="donor-sep">◆</span> SIDA <span class="donor-sep">◆</span> J-PAL Governance Initiative <span class="donor-sep">◆</span> J-PAL Peace and Recovery Initiative <span class="donor-sep">◆</span> J-PAL Conflict and Violence Initiative <span class="donor-sep">◆</span> J-PAL IGI <span class="donor-sep">◆</span> The Kenneth C. Griffin Economics Research Fund <span class="donor-sep">◆</span> Motsepe Fund <span class="donor-sep">◆</span> CEPR RECIPE</p>
 </div>
 
-<div class="full-width-banner">
-  <img src="image7.jpg" alt="A family in Kananga" class="hero-image hero-image--family">
-</div>
+<img src="image7.jpg" alt="A family in Kananga" class="about-closing-photo">
 
 <div class="page-footer-copyright">
 **Copyright © 2026 ODEKA A.S.B.L All rights reserved.**

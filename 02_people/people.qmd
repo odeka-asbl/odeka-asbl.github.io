@@ -8,7 +8,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 ---
 
 <div class="full-width-banner">
-  <img src="image1.jpg" alt="Children by a fish pond in the Kasaï region" class="hero-image hero-image--people">
+  <img src="image1.jpg" alt="A crowd at the stadium in Kananga" class="hero-image hero-image--stadium">
 </div>
 
 <!-- ============================ -->
@@ -31,7 +31,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Co-Founder, General Manager, and Director of Human Resources
+  Co-Founder, General Manager, and Head of Administration and Human Resources
 </div>
 </div>
 
@@ -91,7 +91,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Legal Advisor
+  Legal Advisor and Deputy Head of Administration and Human Resources
 </div>
 </div>
 
@@ -111,7 +111,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Senior Advisor and Quality Control Lead
+  Senior Advisor and Quality Control Officer for DGRKAC
 </div>
 </div>
 
@@ -131,7 +131,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Logistics and Finance Manager
+  Logistics Manager and Finance Officer for DGRKAC Projects
 </div>
 </div>
 
@@ -151,7 +151,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Quality Control Officer
+  Quality Control Officer and Training Officer
 </div>
 </div>
 
@@ -171,7 +171,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Coordinator
+  Coordinator and Technical Officer for DGRKAC Projects
 </div>
 </div>
 
@@ -191,7 +191,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Coordinator
+  Coordinator and Technical Officer for DGRKAC Projects
 </div>
 </div>
 
@@ -205,9 +205,9 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 <!-- ============================ -->
 <div class="about-section-divider"></div>
 
-# Senior Enumerators {.people-eyebrow-heading}
+# Enumerators {.people-eyebrow-heading}
 
-ODEKA's senior enumerators play a central role in supervising data collection, training field teams, and ensuring high-quality implementation of research projects.
+ODEKA's enumerators play a central role in collecting household surveys and ensuring high-quality implementation of research projects.
 <!-- ============================ -->
 
 <div style="clear: both;">
@@ -1152,6 +1152,48 @@ We are grateful to the many research associates who contributed to ODEKA's work 
 
 <div style="clear: both;">
 </div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/eke.jpg" alt="Joel Eke">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Joel Eke
+</div>
+
+<div class="person-title">
+  Research Associate
+</div>
+
+<p>**Current position:** Research Assistant, Political Economy, Artificial Intelligence and Taxation, Paris School of Economics
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
+  <img src="faces/lopez.jpg" alt="Henry Lopez">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Henry Lopez
+</div>
+
+<div class="person-title">
+  Research Associate
+</div>
+
+<p>**Current position:** Research Associate, Nova SBE
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
 
 <!-- ============================ -->
 <!-- ============================ -->
@@ -1338,7 +1380,7 @@ We are grateful to the many research interns who contributed to ODEKA's work ove
 <br>
 
 <div class="full-width-banner">
-  <img src="image2.jpg" alt="Children fishing in the Kasaï region" class="hero-image hero-image--people-closing">
+  <img src="image3.jpg" alt="A field interview in Kananga" class="hero-image hero-image--interview">
 </div>
 
 <div class="page-footer-copyright">

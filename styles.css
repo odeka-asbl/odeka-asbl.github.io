@@ -1206,10 +1206,17 @@ main.content:has(.full-width-banner) {
    through the kneeling front row's) and crops the sky/tree/barbed
    wire above and legs/feet below instead — those are less than half
    the photo's height together, so a near-centered crop is enough. */
+/* image1.jpeg (01_about/) is now pre-cropped to 1298x812 (ratio
+   1.599) — trimmed at the barbed wire (cutting the sky/tree above),
+   most of the brick wall on the left, and a little off the bottom,
+   baked into the file itself rather than done with object-position,
+   since showing the ODEKA sign at top AND the group's feet at bottom
+   needed a real crop, not just a taller box. Sized off viewport WIDTH
+   to match that ratio so object-fit: cover has ~nothing left to crop. */
 .full-width-banner .hero-image--tall {
-  height: 45vh;
-  max-height: 550px;
-  object-position: 50% 58%;
+  height: 62.5vw;
+  max-height: 780px;
+  object-position: 50% 50%;
 }
 
 .full-width-banner .hero-image--large {
@@ -1240,6 +1247,28 @@ main.content:has(.full-width-banner) {
    tuned per photo so the subjects stay in frame at the 45vh/550px crop */
 .full-width-banner .hero-image--people {
   object-position: 50% 55%;
+}
+
+/* People page's opening banner (stadium crowd photo, 1600x1200 / 4:3)
+   — own class rather than reusing .hero-image--people, since that one
+   is tuned for a different photo (now the About page's second
+   banner). Sky fills the top third or so; biased down to keep the
+   crowd, not the clouds, in frame. Currently unused (see
+   .hero-image--interview below) but left in place in case this photo
+   comes back into rotation. */
+.full-width-banner .hero-image--stadium {
+  object-position: 50% 62%;
+}
+
+/* People page's opening banner: field-interview photo (P8012204.JPG,
+   2736x3648 / portrait — much taller than this banner's usual wide
+   landscape crops). Against the standard ~2.6:1 box that leaves only
+   ~29% of the image height visible, so the position matters a lot:
+   biased hard toward the bottom, since the two people being
+   interviewed sit in the lower third of the frame with mostly empty
+   yard/trees above them. */
+.full-width-banner .hero-image--interview {
+  object-position: 50% 78%;
 }
 
 /* Closing banner reuses the page's former opening photo — same crop
@@ -2005,6 +2034,20 @@ hr.about-sep:has(+ .page-footer-social) {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   margin: 28px 0 96px 0;
+}
+
+/* About page's closing photo (the family in Kananga): was a full-
+   bleed .full-width-banner, but that box's fixed short height cropped
+   into the kids given how tall the group is standing. Shown instead
+   as a normal contained photo, matching the page's other inline
+   images/prose width (720px) — no aspect-ratio/object-fit override,
+   so it renders at its own natural proportions with nothing cropped. */
+.about-closing-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 48px auto 64px auto;
 }
 
 .about-float--right {
