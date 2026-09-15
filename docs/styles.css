@@ -1224,6 +1224,18 @@ main.content:has(.full-width-banner) {
   object-position: 50% 34%; /* barbed wire fills the top ~5.5% of the photo, the "ODEKA A.S.B.L" sign sits at ~12-20%, and the back row's heads start at ~22% — biased to crop the wire but keep the sign and every head in frame, cropping the bottom (legs/feet) instead */
 }
 
+/* Below the max-width cap's own breakpoint, 17vw reads as a razor-thin
+   strip (phones are already narrower than 580px, so the cap never
+   binds there — the height percentage is what's too small). Bumped
+   up for a normal-looking banner proportion instead of "skinny and
+   wide"; closer to the photo's own ratio, so it also shows more of
+   the image (less crop) rather than less. */
+@media (max-width: 600px) {
+  .full-width-banner .hero-image--tall {
+    height: 45vw;
+  }
+}
+
 .full-width-banner .hero-image--large {
   height: 65vh;
   max-height: 750px;
