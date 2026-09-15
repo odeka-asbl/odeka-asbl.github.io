@@ -11,7 +11,7 @@ listing:
 ---
 
 <div class="full-width-banner">
-  <img src="image1.jpg" alt="The ODEKA team at work" class="hero-image hero-image--jobs">
+  <img src="image2.jpg" alt="An ODEKA enumerator interviewing a mother and her baby" class="hero-image hero-image--jobs">
 </div>
 
 :::{#jobs_listing}

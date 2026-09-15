@@ -1351,7 +1351,7 @@ main.content:has(.full-width-banner) {
 }
 
 .full-width-banner .hero-image--jobs {
-  object-position: 50% 55%;
+  object-position: 50% 20%; /* interview photo (EL1A3807A.jpg, 6677x5009 / 1.33:1) — back to a normal full-bleed banner (site's standard box, no custom height/width), biased well up so heads (starting ~7-10% down) stay comfortably in frame, cropping the bottom (laps/legs) instead */
 }
 
 .full-width-banner .hero-logo {
