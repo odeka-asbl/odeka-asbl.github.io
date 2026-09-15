@@ -27,12 +27,16 @@ website:
   title: "ODEKA"
   favicon: "/favicon.ico"
   navbar:
-    # Brand text/link hidden (title: false) rather than removing
-    # website.title above — that title still feeds every page's browser
-    # tab title ("About us – ODEKA", etc.) via Quarto's title-prefix.
-    # The visible navbar brand duplicated "About us" (both linked to the
-    # same homepage-mirrors-About content), so just its display is off.
+    # Brand text hidden (title: false) rather than removing website.title
+    # above — that title still feeds every page's browser tab title
+    # ("About us – ODEKA", etc.) via Quarto's title-prefix. The old
+    # visible text brand duplicated "About us" (both linked to the same
+    # homepage-mirrors-About content). The logo below replaces it as a
+    # persistent "which site am I on" mark — non-clickable (see
+    # .navbar-brand in styles.css) so it can't reintroduce that
+    # duplicate-link problem.
     title: false
+    logo: odeka_logo.png
     left:
       - href: 01_about/about.qmd
         text: About us

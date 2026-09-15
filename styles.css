@@ -1111,6 +1111,8 @@ main.content:has(.full-width-banner) h1.title .title-text {
 
 .navbar-brand {
   overflow: visible; /* Bootstrap's default clips overflow for text-ellipsis truncation, which was cropping the logo as it scales up on hover */
+  pointer-events: none; /* logo is a persistent "which site am I on" mark, not a link to home — Quarto always wraps navbar: logo in an <a>, so the link is neutralized here rather than by removing the href (which would need overriding Quarto's generated markup directly) */
+  cursor: default;
 }
 
 .navbar-title span {
