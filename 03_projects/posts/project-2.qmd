@@ -7,7 +7,7 @@ author:
 date: 2022-01-01
 image: ../images/project2.jpg
 description: >-
-  In Kananga, DRC, the Provincial Ministry of Justice of Kasai Central
+  In Kananga, DRC, the Provincial Ministry of Justice of Kasaï-Central
   implemented a randomized legal capacity building program at scale aimed at
   mediating property, debt, and theft disputes between its citizens. This
   program has (i) a “formal” legal capacity arm in which state lawyers serve
@@ -33,7 +33,7 @@ p.description {
 </style>
 
 
-In Kananga, DRC, the Provincial Ministry of Justice of Kasai Central implemented
+In Kananga, DRC, the Provincial Ministry of Justice of Kasaï-Central implemented
 a randomized legal capacity building program at scale aimed at mediating
 property, debt, and theft disputes between its citizens. This program has (i) a
 “formal” legal capacity arm in which state lawyers serve as neighborhood legal

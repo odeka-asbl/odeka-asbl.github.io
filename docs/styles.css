@@ -1274,14 +1274,62 @@ main.content:has(.full-width-banner) {
   object-position: 50% 60%;
 }
 
+/* People page's closing banner: household-survey interview photo
+   (EL1A3825A.jpg, 6639x5022 / landscape) — replaces the portrait
+   field-interview photo above, so no need for that class's tall vw-sized
+   box. Subjects sit a bit below center with headroom from the window
+   grille above; biased down slightly from a plain center crop to keep
+   both faces and the gesturing hand in frame. */
+.full-width-banner .hero-image--fieldinterview {
+  object-position: 50% 32%;
+}
+
 /* Closing banner reuses the page's former opening photo — same crop
    that was already tuned for it as the opening banner */
 .full-width-banner .hero-image--people-closing {
   object-position: 50% 68%;
 }
 
+/* About page's opening banner: aerial street-intersection photo
+   (EL1A7507A.jpg, 8192x5464) — like the Projects aerial shot, activity
+   is spread evenly across the frame with no sky to bias away from, so
+   a plain center crop works. */
+.full-width-banner .hero-image--about {
+  object-position: 50% 50%;
+}
+
+/* People page's opening banner: survey-interview photo (EL1A3999A.jpg,
+   7895x5266) — subjects sit in the lower half of the frame with a tall
+   stretch of building facade above them; biased well down so the box's
+   ~2.6:1 crop keeps both men (and their chairs) in frame instead of
+   just the wall and window above them. */
+.full-width-banner .hero-image--survey {
+  object-position: 50% 78%;
+}
+
 .full-width-banner .hero-image--projects {
   object-position: 50% 50%; /* aerial view of Kananga (1780x1000) — evenly detailed corner to corner, no sky/dead space to bias away from, so a plain center crop works */
+}
+
+/* Contacts page's opening banner: aerial erosion/village photo
+   (image1.jpg, 1800x1200) — like the Projects aerial shot, detail is
+   spread evenly across the frame with no sky to crop away, so a plain
+   center crop works. */
+.full-width-banner .hero-image--contacts-1 {
+  object-position: 50% 50%;
+}
+
+/* Contacts page's second banner: supply-truck photo (image2.jpg,
+   1800x1350 / 1.33:1) — at the standard ~2.6:1 box only ~51% of the
+   height showed, reading as "too cropped". A taller box shows more of
+   the photo but read as "taking too much space" at 60vw/700px; settled
+   on a smaller vw-sized box (~2.22:1, ~60% of the height visible) as a
+   middle ground. Still biased down to trim the cloudy sky rather than
+   the truck. */
+.full-width-banner .hero-image--contacts-2 {
+  height: 45vw;
+  max-height: 550px;
+  object-position: 50% 62%;
 }
 
 /* Closing banner reuses the page's former opening photo. Biased low
@@ -1332,125 +1380,73 @@ main.content:has(.full-width-banner) {
   max-width: 720px;      /* matches .about-section max-width */
 }
 
-.quarto-about-trestles .about-image,
-.quarto-about-trestles .about-image img {
-  border-radius: 0 !important;
-  clip-path: none !important;
-  -webkit-clip-path: none !important;
-  overflow: visible !important;
-  mask: none !important;
-  -webkit-mask: none !important;
-}
-
-/* === Contacts & Legal Notice: light typographic pass on Quarto's
-   plain trestles about-template. These pages are short and simple on
-   purpose — no banners, eyebrows, or cards — but were otherwise
-   rendering in Bootstrap's stock sans-serif/black/link-blue, with zero
-   trace of the site's identity. This brings over just the serif font
-   and ink/red palette used everywhere else, plus a little breathing
-   room and a quiet shadow on the portrait, without adding any of the
-   heavier apparatus built for the longer pages. */
-.quarto-about-trestles {
-  margin-top: 32px;
-  align-items: flex-start; /* top-align the photo column against the (much taller) text column, rather than Quarto's default "stretch" or a vertical center — needed so the second sidebar photo below can be positioned at a reliable fixed offset from the top (see .contacts-sidebar-photo2) instead of a center-offset that shifts with text length */
-  position: relative; /* positioning context for .contacts-sidebar-photo2 */
-}
-
-.quarto-about-trestles .about-image img {
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
-  margin-top: 26px; /* lines the photo's top edge up with "6, avenue du Commerce" (the first address line), not the "Headquarters address:" heading above it — offset ≈ that heading's own line-height + margin-bottom */
-}
-
-/* Second sidebar photo (Legal Notice section, added below the Contacts
-   page's own about-image). Quarto's trestles template only supports one
-   image via the `about:` YAML block, and .about-entity is populated
-   entirely by its template — there's no way to add a real second <img>
-   as its sibling from markdown content. Instead this lives in the
-   normal content flow (near the Legal Notice heading, for proximity in
-   the source) and is pulled into the sidebar column visually via
-   absolute positioning: left:0/width:20em match .about-image's own
-   box exactly, and top is that box's own fixed height (20em wide at
-   this photo's 4:3 ratio = 15em tall) plus its 1.5em bottom margin,
-   plus a bit of breathing room. */
-.contacts-sidebar-photo2 {
-  position: absolute;
-  top: 44em; /* level with the Legal Notice section's text, past the four shorter sections above it */
-  left: 0;
-  width: 20em;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
-}
-
-/* Below the breakpoint where trestles collapses to a single stacked
-   column, the absolute offset above no longer lines up with anything
-   (the sidebar photo is no longer a fixed-width column to its left) —
-   drop back into normal flow instead, matching .about-float's own
-   mobile fallback. */
-@media (max-width: 700px) {
-  .contacts-sidebar-photo2 {
-    position: static;
-    width: 100%;
-    margin: 24px 0;
-  }
-}
-
-.quarto-about-trestles .about-contents {
+/* === Contacts page: light typographic pass, now on plain content
+   (no more `about: template: trestles` — the page was restructured to
+   alternate block images and text like Projects/About, so this no
+   longer needs a Quarto about-template's sidebar layout at all). These
+   selectors used to hang off Quarto's `.quarto-about-trestles
+   .about-contents` wrapper; retargeted to `.contacts-page` now that
+   the content is normal markdown. Brings over the serif font and
+   ink/red palette used everywhere else, since Bootstrap's stock
+   sans-serif/black/link-blue defaults have zero trace of the site's
+   identity. */
+.contacts-page {
   font-family: "Cambria Math", Cambria, serif;
   color: rgb(35, 30, 25);
 }
 
-.quarto-about-trestles .about-contents h3 {
+.contacts-page h3 {
   font-family: "Cambria Math", Cambria, serif;
   font-weight: 900;
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgb(178, 49, 40);
   margin-top: 32px;
   margin-bottom: 10px;
 }
 
-.quarto-about-trestles .about-contents h3:first-child {
+.contacts-page h3:first-child {
   margin-top: 0;
 }
 
-/* Small ◆ divider between contact categories (Contacts page only —
-   Legal Notice has no h3s, it's continuous prose) — same glyph/size
-   as the News/Jobs listing separators and the Projects card seam
-   marker, used here as a light section break instead of the full
-   eyebrow/rule apparatus. Targets the section wrapper, not the h3
-   itself — Pandoc wraps each ### heading in its own <section
-   class="level3">, so every h3 is :first-child of ITS OWN section,
-   never of a shared parent; :not(:first-child) on h3 never matches.
-   Centered in the text column (not on the border line), with equal
-   margin above and below — the h3's own margin-top is zeroed out
-   here so it can't collapse asymmetrically with the marker's margin. */
-.quarto-about-trestles .about-contents section.level3:not(:first-of-type)::before {
+/* Small ◆ divider between contact categories — same glyph/size as the
+   News/Jobs listing separators and the Projects card seam marker, used
+   here as a light section break instead of the full eyebrow/rule
+   apparatus. Targets the section wrapper, not the h3 itself — Pandoc
+   wraps each ### heading in its own <section class="level3">, so every
+   h3 is :first-child of ITS OWN section, never of a shared parent;
+   :not(:first-child) on h3 never matches. :first-of-type is scoped per
+   parent .about-section, so "Headquarters address:" and "Legal
+   Notice:" (each first in their own block) don't get a divider before
+   them, but "General inquiries"/"Legal inquiries"/"Website
+   administrator" do. The h3's own margin-top is zeroed out here so it
+   can't collapse asymmetrically with the marker's margin. */
+.contacts-page section.level3:not(:first-of-type)::before {
   content: "◆";
   display: block;
-  margin: 24px 0 24px 111px; /* centers the glyph on the horizontal midpoint of the widest text line ("Q/TSHINSAMBI C/KANANGA"), not the full (wider, mostly-empty) column */
+  margin: 24px 0 24px 0;
   color: rgb(178, 49, 40);
   font-size: 9.52px;
 }
 
-.quarto-about-trestles .about-contents section.level3:not(:first-of-type) h3 {
+.contacts-page section.level3:not(:first-of-type) h3 {
   margin-top: 0;
 }
 
-.quarto-about-trestles .about-contents p {
+.contacts-page p {
   font-size: 1.02rem;
   line-height: 1.7;
 }
 
-.quarto-about-trestles .about-contents a:not(.about-link) {
+.contacts-page a:not(.about-link) {
   color: rgb(178, 49, 40);
   text-decoration: none;
   border-bottom: 1px solid rgba(178, 49, 40, 0.35);
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-.quarto-about-trestles .about-contents a:not(.about-link):hover {
+.contacts-page a:not(.about-link):hover {
   color: rgb(148, 40, 33);
   border-bottom-color: rgba(148, 40, 33, 0.6);
 }
@@ -2110,12 +2106,12 @@ hr.about-sep:has(+ .page-footer-social) {
   transform: translateX(-50%);
 }
 
-/* Projects page, section 2: family-meal.jpg (1882x2557 portrait, side-
-   cropped). At the standard 16:9 box only ~41% of the height shows;
-   biased up to keep the top (the two standing adults) in frame,
-   cropping the bottom (the two kids/the plate) instead. */
-.about-block-image--family-meal {
-  object-position: 50% 15%;
+/* Projects page, section 2: elder-interview.jpg (7713x5287, landscape)
+   — close to the standard 16:9 box ratio already (~82% of the height
+   shows), so only a slight downward bias to keep the seated interview
+   fully in frame while trimming a little tree canopy off the top. */
+.about-block-image--elder-interview {
+  object-position: 50% 58%;
 }
 
 /* Closing photo utility (About page's family photo, People page's

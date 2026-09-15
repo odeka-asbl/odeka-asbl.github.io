@@ -42,6 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -129,45 +130,55 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="image1.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block"></header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="contacts-page">
+<div class="full-width-banner">
+<p><img src="image1.jpg" alt="An aerial view of erosion near a village in Kasaï-Central" class="hero-image hero-image--contacts-1"></p>
+</div>
+<div class="about-section">
 <section id="headquarters-address" class="level3">
-<h3 data-anchor-id="headquarters-address">Headquarters address:</h3>
+<h3 class="anchored" data-anchor-id="headquarters-address">Headquarters address:</h3>
 <p>6, avenue du Commerce<br> L/AZDA (Cinquantenaire)<br> Q/TSHINSAMBI C/KANANGA<br> KASAÏ CENTRAL, RDC</p>
 </section>
 <section id="general-inquiries" class="level3">
-<h3 data-anchor-id="general-inquiries">General inquiries:</h3>
+<h3 class="anchored" data-anchor-id="general-inquiries">General inquiries:</h3>
 <p><a href="mailto:odeka.contact@gmail.com">odeka.contact@gmail.com</a><br> (+243) 9 79 49 50 67<br> (+243) 8 30 62 28 20</p>
 </section>
 <section id="legal-inquiries" class="level3">
-<h3 data-anchor-id="legal-inquiries">Legal inquiries:</h3>
+<h3 class="anchored" data-anchor-id="legal-inquiries">Legal inquiries:</h3>
 <p>(+243) 9 94 63 66 87</p>
 </section>
 <section id="website-administrator" class="level3">
-<h3 data-anchor-id="website-administrator">Website administrator:</h3>
+<h3 class="anchored" data-anchor-id="website-administrator">Website administrator:</h3>
 <p><a href="mailto:odeka.webmaster@gmail.com">odeka.webmaster@gmail.com</a><br></p>
+<div class="about-section-divider">
+
+</div>
 </section>
-<section id="legal-notice" class="level3">
-<h3 data-anchor-id="legal-notice">Legal Notice:</h3>
-<p><img src="image2.jpg" alt="A supply truck on the road to Kananga" class="contacts-sidebar-photo2"></p>
+</div>
+<div class="full-width-banner">
+<p><img src="image2.jpg" alt="A supply truck on the road to Kananga" class="hero-image hero-image--contacts-2"></p>
+</div>
+<section id="legal-notice" class="level3 about-section">
+<h3 class="anchored" data-anchor-id="legal-notice">Legal Notice:</h3>
 <p><strong>ODEKA A.S.B.L</strong> is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA.</p>
 <p>Tax identification number: A2045536T</p>
 <p><strong>ODEKA A.S.B.L</strong>’s mission is to support evidence-based development initiatives in the Democratic Republic of Congo.</p>
 <p>This website is published and maintained by <strong>ODEKA A.S.B.L</strong>. Unless otherwise stated, all content on this site is the property of <strong>ODEKA A.S.B.L</strong> and may not be reproduced without prior written permission.</p>
 <p><strong>Copyright © 2026 ODEKA A.S.B.L All rights reserved.</strong></p>
-<div style="clear: both;">
-</div>
-
-
 </section>
-</main></div>
+<div style="clear: both;">
+
 </div>
- <!-- /main -->
+</div>
+
+
+
+</main> <!-- /main -->
 <script>
 (function () {
   function init() {
@@ -591,6 +602,13 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

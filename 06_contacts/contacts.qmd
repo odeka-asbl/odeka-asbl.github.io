@@ -2,10 +2,15 @@
 toc: false
 title: ""
 pagetitle: "ODEKA - Contacts"
-about:
-  template: trestles
-  image: image1.jpg
 ---
+
+<div class="contacts-page">
+
+<div class="full-width-banner">
+  <img src="image1.jpg" alt="An aerial view of erosion near a village in Kasaï-Central" class="hero-image hero-image--contacts-1">
+</div>
+
+<div class="about-section">
 
 ### Headquarters address:
 6, avenue du Commerce<br>
@@ -24,8 +29,16 @@ KASAÏ CENTRAL, RDC
 ### Website administrator:
 [odeka.webmaster@gmail.com](mailto:odeka.webmaster@gmail.com)<br>
 
+<div class="about-section-divider"></div>
+</div>
+
+<div class="full-width-banner">
+  <img src="image2.jpg" alt="A supply truck on the road to Kananga" class="hero-image hero-image--contacts-2">
+</div>
+
+<div class="about-section">
+
 ### Legal Notice:
-<img src="image2.jpg" alt="A supply truck on the road to Kananga" class="contacts-sidebar-photo2">
 
 **ODEKA A.S.B.L** is a 004/2001 nonprofit organization registered in the Democratic Republic of the Congo. It is incorporated in the Province of Central Kasaï under registration number 169/2020/KGA.
 
@@ -36,5 +49,8 @@ Tax identification number: A2045536T
 This website is published and maintained by **ODEKA A.S.B.L**. Unless otherwise stated, all content on this site is the property of **ODEKA A.S.B.L** and may not be reproduced without prior written permission.
 
 **Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
+</div>
 
 <div style="clear: both;"></div>
+
+</div>
