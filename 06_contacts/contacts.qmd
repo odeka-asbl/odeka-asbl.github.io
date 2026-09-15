@@ -32,10 +32,6 @@ KASAÏ CENTRAL, RDC
 <div class="about-section-divider"></div>
 </div>
 
-<div class="full-width-banner">
-  <img src="image2.jpg" alt="A supply truck on the road to Kananga" class="hero-image hero-image--contacts-2">
-</div>
-
 <div class="about-section">
 
 ### Legal Notice:
@@ -49,6 +45,10 @@ Tax identification number: A2045536T
 This website is published and maintained by **ODEKA A.S.B.L**. Unless otherwise stated, all content on this site is the property of **ODEKA A.S.B.L** and may not be reproduced without prior written permission.
 
 **Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
+</div>
+
+<div class="full-width-banner">
+  <img src="image2.jpg" alt="A supply truck on the road to Kananga" class="hero-image hero-image--contacts-2">
 </div>
 
 <div style="clear: both;"></div>

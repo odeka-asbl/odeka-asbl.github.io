@@ -91,7 +91,7 @@ title: "<span class='title-bracket-wrap'><img src='/odeka_logo_left_bracket.png'
 </div>
 
 <div class="person-title">
-  Scientific Lead and Data Quality Director
+  Scientific Lead and Data Quality Director; <a href="https://sites.google.com/view/marimavngoma/home" target="_blank">Economist, World Bank, Young Professionals Program</a>
 </div>
 </div>
 
