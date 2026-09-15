@@ -1,21 +1,13 @@
 ---
 title: "Field-Based Research Associate or Research Manager"
-author:
-  - Jonathan Weigel, UC Berkeley
-  - Dina Pomeranz, University of Zurich
 date: "August 19, 2026"
 description: "We are hiring a field-based Research Associate or Research Manager to lead survey operations for a study of tax collection and state capacity in Kananga, DRC."
-language:
-  title-block-author-single: "Supervisor"
-  title-block-author-plural: "Supervisors"
-  listing-page-field-author: "Supervisor"
 ---
 
 <div class="job-page">
 
 <div class="job-meta">
 <div class="job-meta-item"><strong>Posted</strong>August 19, 2026</div>
-<div class="job-meta-item"><strong>Supervisors</strong>Jonathan Weigel, UC Berkeley<br>Dina Pomeranz, University of Zurich</div>
 <div class="job-meta-item"><strong>Location</strong>Kananga, Democratic Republic of Congo</div>
 <div class="job-meta-item"><strong>Start Date</strong>October 1 – November 1, 2026</div>
 <div class="job-meta-item"><strong>Duration</strong>12 months</div>
@@ -56,12 +48,6 @@ The Research Associate will work on several ongoing randomized research studies 
 - Experience with ArcGIS/QGIS (desired)
 - Experience with R and/or Python (desired)
 - Experience living in a developing country (desired)
-
-### Supervisors
-
-**Primary supervisors:** Jonathan Weigel (Haas School of Business, University of California Berkeley), Dina Pomeranz (University of Zurich)
-
-**Secondary supervisors:** Augustin Bergeron (Harvard University), Marina Mavungu Ngoma (The World Bank Group), Gabriel Tourek (University of Pittsburgh), Joana Naritomi (London School of Economics), Samuel Kapon (University of California Berkeley), Binta Zahra Diop (Stanford University), Arthur Laroche (University College London), and other collaborators.
 
 ### How to Apply
 

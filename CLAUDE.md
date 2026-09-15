@@ -87,11 +87,20 @@ image files or do a cleanup pass — don't wait for a bug report.
 
 ## Design system
 
-- **Serif body font**: Cambria throughout (`"Cambria Math", Cambria, serif` in
-  several rules) — this is the site's identity; don't let new content fall back
-  to Bootstrap's default sans-serif. This has happened by accident multiple
-  times (People page entries, News/Jobs listing summaries) because Quarto's
-  defaults are sans-serif and only *some* elements had serif rules applied.
+- **Serif body font**: Lora throughout (`"Lora", Georgia, serif` in several
+  rules), loaded from Google Fonts via `font-include.html`
+  (`include-in-header` in `_quarto.yml`) — this is the site's identity; don't
+  let new content fall back to Bootstrap's default sans-serif. This has
+  happened by accident multiple times (People page entries, News/Jobs listing
+  summaries) because Quarto's defaults are sans-serif and only *some*
+  elements had serif rules applied. Previously Cambria (a system font, no
+  webfont load needed) until 2026-09-15, when it was swapped for Lora to
+  guarantee consistent rendering for visitors who don't have Cambria
+  installed (Windows/current macOS have it; Linux/many mobile browsers
+  don't). Lora has no 900/black weight on Google Fonts — the handful of
+  `font-weight: 900` rules (built for Cambria) now just render as Lora's
+  boldest available weight (700), browser-synthesized darker; if that ever
+  looks off, that's why.
 - **Two reds, intentionally different, don't conflate them**:
   - `rgb(178, 49, 40)` — the muted brand red. Titles, links, person names,
     accents. This is the "correct" current red.

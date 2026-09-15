@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -72,7 +72,7 @@
 h1.people-eyebrow-heading {
   display: flex;
   align-items: center;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -127,12 +127,12 @@ h1.people-eyebrow-heading::after {
 /* Section intro line under each eyebrow heading ("ODEKA's Scientific
    Advisory Committee provides guidance...") — a plain paragraph with
    no class, so it fell back to the theme's default sans-serif body
-   text instead of the site's Cambria-serif identity. Scoped to direct
+   text instead of the site's Lora-serif identity. Scoped to direct
    children of a people-eyebrow-heading section specifically, so it
    doesn't touch the person bios nested further inside (those are
    already styled via .person-info p). */
 section.people-eyebrow-heading > p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1rem;
   line-height: 1.6;
   color: #444;
@@ -143,7 +143,7 @@ section.people-eyebrow-heading > p {
 /* People page: individual person entries. Originally hand-authored as
    raw floated divs with inline font/color styles (default Bootstrap
    sans-serif, LinkedIn blue links) — completely disconnected from the
-   rest of the site's Cambria-serif, red-accent identity established on
+   rest of the site's Lora-serif, red-accent identity established on
    About/Projects. These classes replace those inline styles so entries
    read as part of the same design system as everywhere else. */
 .person-photo {
@@ -187,7 +187,7 @@ section.people-eyebrow-heading > p {
    .person-name sits inside .person-info) regardless of source order. */
 .person-name,
 .person-info .person-name p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
@@ -200,7 +200,7 @@ section.people-eyebrow-heading > p {
 
 .person-title,
 .person-info .person-title p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-style: italic;
   font-size: 1rem;
   color: #666;
@@ -211,7 +211,7 @@ section.people-eyebrow-heading > p {
 }
 
 .person-info p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1rem;
   line-height: 1.6;
   color: #222;
@@ -223,7 +223,7 @@ section.people-eyebrow-heading > p {
 }
 
 .person-link a {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 600;
   font-size: 0.95rem;
   color: rgb(178, 49, 40);
@@ -314,7 +314,7 @@ section.people-eyebrow-heading > p {
 }
 
 .projects-listings .quarto-listing-container-grid .card-title.listing-title {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 1.05rem;
   line-height: 1.35;
@@ -332,7 +332,7 @@ section.people-eyebrow-heading > p {
 }
 
 .projects-listings .quarto-listing-container-grid .card-text.listing-description {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.92rem;
   line-height: 1.5;
   color: rgb(70, 63, 57);
@@ -369,7 +369,7 @@ section.people-eyebrow-heading > p {
 
 .projects-listings .quarto-listing-container-grid table.card-other-values td.status {
   display: inline-block;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -381,7 +381,7 @@ section.people-eyebrow-heading > p {
 }
 
 .projects-listings .quarto-listing-container-grid .listing-author {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.8rem;
   letter-spacing: 0.02em;
   color: rgb(90, 82, 74);
@@ -407,7 +407,7 @@ section.people-eyebrow-heading > p {
    (border, spacing) left as Quarto's stock default. */
 #listing-jobs_listing .body h3.listing-title,
 #listing-jobs_listing .body .listing-title.h3 {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
 }
 
@@ -424,7 +424,7 @@ section.people-eyebrow-heading > p {
 }
 
 #listing-jobs_listing .metadata {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   color: rgb(90, 82, 74);
   letter-spacing: 0.03em;
 }
@@ -434,7 +434,7 @@ section.people-eyebrow-heading > p {
 }
 
 #listing-jobs_listing .listing-description {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.98rem;
   line-height: 1.6;
   color: #444;
@@ -467,7 +467,7 @@ section.people-eyebrow-heading > p {
    as the metadata row above. Also outside .job-page, so scoped the
    same way via :has(). */
 main.content:has(.job-page) .description {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.05rem;
   line-height: 1.5;
   color: #444;
@@ -494,7 +494,7 @@ main.content:has(.job-page) .quarto-title-meta {
    own `.breadcrumb` component (meant for a <nav><ol> trail) that this
    plain class name collides with. */
 .breadcrumb {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -534,14 +534,14 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 .job-meta-item {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.98rem;
   color: #333;
 }
 
 .job-meta-item strong {
   display: block;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.72rem;
   letter-spacing: 0.09em;
@@ -551,7 +551,7 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 .job-page h3 {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
@@ -562,7 +562,7 @@ main.content:has(.job-page) .quarto-title-meta {
 
 .job-page p,
 .job-page li {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.02rem;
   line-height: 1.7;
   color: #222;
@@ -593,7 +593,7 @@ main.content:has(.job-page) .quarto-title-meta {
    leftover LinkedIn blue (#0077b5) and default sans-serif as the old
    breadcrumbs, not a deliberate color choice. */
 .news-rss-link {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1rem;
   font-weight: 600;
   color: rgb(178, 49, 40);
@@ -609,7 +609,7 @@ main.content:has(.job-page) .quarto-title-meta {
    card styling above). Framing left as Quarto's stock default. */
 #listing-news_listing.quarto-listing-container-default .body h3.listing-title,
 #listing-news_listing.quarto-listing-container-default .body .listing-title.h3 {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
 }
 
@@ -626,7 +626,7 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 #listing-news_listing.quarto-listing-container-default .metadata {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   color: rgb(90, 82, 74);
   letter-spacing: 0.03em;
 }
@@ -650,7 +650,7 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 #listing-news_listing.quarto-listing-container-default .listing-description {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.98rem;
   line-height: 1.6;
   color: #444;
@@ -713,7 +713,7 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 #listing-news_carousel .card-title.listing-title {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.4;
@@ -722,7 +722,7 @@ main.content:has(.job-page) .quarto-title-meta {
 }
 
 #listing-news_carousel .listing-date {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 0.78rem;
   letter-spacing: 0.03em;
   color: #888;
@@ -732,7 +732,7 @@ main.content:has(.job-page) .quarto-title-meta {
 .quarto-title h1.title,
 h1.title,
 .title-block h1.title {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;       /* makes the title bold */
   font-size: 2rem;      /* small enough that descenders (p, j) stay inside the 42px title band */
   color: rgb(178, 49, 40); /* same red as the eyebrow accent (.people-eyebrow-heading, .about-eyebrow, etc.) */
@@ -872,9 +872,9 @@ body:has(main.content .full-width-banner) #quarto-margin-sidebar {
 /* TOC sidebar ("on this page" nav): default Quarto styling is plain
    sans-serif with a Bootstrap-blue active link — same mismatch as the
    rest of the People page had, just smaller-scale. Brought in line
-   with the site's Cambria-serif / red-accent identity. */
+   with the site's Lora-serif / red-accent identity. */
 #quarto-margin-sidebar nav#TOC {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
 }
 
 #quarto-margin-sidebar nav#TOC ul.collapse {
@@ -1032,7 +1032,7 @@ main.content:has(.full-width-banner) h1.title .title-text {
 .navbar-nav .nav-link,
 .navbar-brand,
 .navbar-nav li a {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;       /* optional – adjust to your taste */
   font-size: 1.0rem;      /* optional – adjust size of links */
   color: rgb(35, 30, 25);
@@ -1206,17 +1206,19 @@ main.content:has(.full-width-banner) {
    through the kneeling front row's) and crops the sky/tree/barbed
    wire above and legs/feet below instead — those are less than half
    the photo's height together, so a near-centered crop is enough. */
-/* image1.jpeg (01_about/) is now pre-cropped to 1298x812 (ratio
-   1.599) — trimmed at the barbed wire (cutting the sky/tree above),
-   most of the brick wall on the left, and a little off the bottom,
-   baked into the file itself rather than done with object-position,
-   since showing the ODEKA sign at top AND the group's feet at bottom
-   needed a real crop, not just a taller box. Sized off viewport WIDTH
-   to match that ratio so object-fit: cover has ~nothing left to crop. */
+/* image1.jpeg (01_about/) is pre-cropped to 1298x812 (ratio 1.599) —
+   trimmed at the barbed wire (cutting the sky/tree above), most of the
+   brick wall on the left, and a little off the bottom, baked into the
+   file itself rather than done with object-position. Originally sized
+   at 62.5vw/780px to match that ratio exactly (~nothing left to crop),
+   but at that size on wide viewports the 1298px-wide source was
+   upscaled enough to look visibly blurry — sized down to 45vw/560px
+   instead, which re-introduces a small centered crop (~72% of the
+   height visible) but keeps the banner sharp on typical screens. */
 .full-width-banner .hero-image--tall {
-  height: 62.5vw;
-  max-height: 780px;
-  object-position: 50% 50%;
+  height: 48vw;
+  max-height: 700px;
+  object-position: 50% 34%; /* barbed wire fills the top ~5.5% of the photo, the "ODEKA A.S.B.L" sign sits at ~12-20%, and the back row's heads start at ~22% — biased to crop the wire but keep the sign and every head in frame, cropping the bottom (legs/feet) instead */
 }
 
 .full-width-banner .hero-image--large {
@@ -1308,7 +1310,7 @@ main.content:has(.full-width-banner) {
 }
 
 .full-width-banner .hero-image--projects {
-  object-position: 50% 50%; /* aerial view of Kananga (1780x1000) — evenly detailed corner to corner, no sky/dead space to bias away from, so a plain center crop works */
+  object-position: 50% 78%; /* aerial view of Kananga (1780x1000) — the roundabout landmark near the bottom of the photo was getting cut off by a center crop; biased down to keep it in frame, cropping empty rooftops off the top instead */
 }
 
 /* Contacts page's opening banner: aerial erosion/village photo
@@ -1391,12 +1393,12 @@ main.content:has(.full-width-banner) {
    sans-serif/black/link-blue defaults have zero trace of the site's
    identity. */
 .contacts-page {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   color: rgb(35, 30, 25);
 }
 
 .contacts-page h3 {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 1.3rem;
   letter-spacing: 0.06em;
@@ -1480,7 +1482,7 @@ main.content:has(.full-width-banner) {
   display: flex;
   align-items: center;
   width: 100%;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -1581,7 +1583,7 @@ main.content:has(.full-width-banner) {
 .home-manifesto-proverb {
   max-width: 760px;
   margin: 0 auto;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-style: italic;
   font-weight: 500;
   font-size: 2rem;
@@ -1591,7 +1593,7 @@ main.content:has(.full-width-banner) {
 
 .home-manifesto-attribution {
   margin: 18px 0 0 0;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -1609,7 +1611,7 @@ main.content:has(.full-width-banner) {
 .home-manifesto-mission {
   max-width: 700px;
   margin: 0 auto;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-style: normal;
   font-size: 1.5rem;
@@ -1629,7 +1631,7 @@ main.content:has(.full-width-banner) {
 .home-manifesto-bridge {
   max-width: 560px;
   margin: 22px auto 0 auto;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-style: italic;
   font-weight: 500;
   font-size: 1.05rem;
@@ -1641,7 +1643,7 @@ main.content:has(.full-width-banner) {
 }
 
 .home-projects-heading h2 {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 1.6rem;
   letter-spacing: 0.04em;
@@ -1721,7 +1723,7 @@ main.content:has(.full-width-banner) {
 }
 
 #listing-projects_carousel .card-title.listing-title {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 1.15rem;
   line-height: 1.4;
@@ -1735,7 +1737,7 @@ main.content:has(.full-width-banner) {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-style: italic;
   font-weight: 400;
   font-size: 0.92rem;
@@ -1788,7 +1790,7 @@ main.content:has(.full-width-banner) {
 
 .home-news-heading h2 {
   margin: 10px 0 0 0;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 1.6rem;
   letter-spacing: 0.02em;
@@ -1796,7 +1798,7 @@ main.content:has(.full-width-banner) {
 }
 
 .home-news-link {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.01em;
@@ -1956,7 +1958,7 @@ hr.about-sep:has(+ .page-footer-social) {
   margin: 0;
   border: none;
   padding: 0 0 0 20px;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-style: italic;
   font-weight: 500;
   font-size: 1.4rem;
@@ -2011,7 +2013,7 @@ hr.about-sep:has(+ .page-footer-social) {
   margin-top: 20px;
   text-align: center;
   font-style: normal;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.08em;
@@ -2030,7 +2032,7 @@ hr.about-sep:has(+ .page-footer-social) {
 }
 
 .about-section p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.08rem;
   line-height: 1.8;
   color: #222;
@@ -2154,7 +2156,7 @@ hr.about-sep:has(+ .page-footer-social) {
 }
 
 .about-cta p {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.15rem;
   color: #333;
   margin-bottom: 16px;
@@ -2162,7 +2164,7 @@ hr.about-sep:has(+ .page-footer-social) {
 
 a.about-button {
   display: inline-block;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 1rem;
   color: #fff;
@@ -2217,7 +2219,7 @@ a.about-button:hover {
   margin: 40px 0 0 0;
   padding: 0 14px;
   text-align: center;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
 }
 
 /* Footer logo on pages that aren't about-template pages (Projects,
@@ -2313,7 +2315,7 @@ a.about-button:hover {
 
 .donors-credit-heading {
   display: block;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 900;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -2323,7 +2325,7 @@ a.about-button:hover {
 
 .donors-credit-list {
   text-align: center;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -2355,7 +2357,7 @@ a.about-button:hover {
    default sans-serif (see CLAUDE.md's serif-font gotcha). */
 .publications-page p,
 .publications-page li {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.02rem;
   line-height: 1.75;
   color: #222;
@@ -2371,7 +2373,7 @@ a.about-button:hover {
 }
 
 .publications-page .pub-subheading {
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.05em;
@@ -2408,7 +2410,7 @@ a.about-button:hover {
   display: inline-flex;
   align-items: baseline;
   gap: 0.3em;
-  font-family: "Cambria Math", Cambria, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 600;
   font-size: 0.92rem;
   color: rgb(178, 49, 40);

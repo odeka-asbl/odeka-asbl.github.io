@@ -27,6 +27,12 @@ website:
   title: "ODEKA"
   favicon: "/favicon.ico"
   navbar:
+    # Brand text/link hidden (title: false) rather than removing
+    # website.title above — that title still feeds every page's browser
+    # tab title ("About us – ODEKA", etc.) via Quarto's title-prefix.
+    # The visible navbar brand duplicated "About us" (both linked to the
+    # same homepage-mirrors-About content), so just its display is off.
+    title: false
     left:
       - href: 01_about/about.qmd
         text: About us
@@ -45,6 +51,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header: font-include.html
     include-after-body: nav-brackets-include.html
     # No page on this site uses math notation, so Quarto's default MathJax
     # setup (html-math-method: mathjax) is pure dead weight — worse, it

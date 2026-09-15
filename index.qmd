@@ -38,7 +38,7 @@ about:
 </div>
 
 <div class="full-width-banner">
-  <img src="03_projects/images/WhatsApp%20Image%202026-08-21%20at%2015.24.23.jpeg" alt="The research team at the Kasaï-Central tax authority (DGRKAC) in Kananga" class="hero-image hero-image--crowd">
+  <img src="01_about/image1.jpeg" alt="The ODEKA team" class="hero-image hero-image--tall">
 </div>
 
 <div class="about-section">
