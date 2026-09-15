@@ -1419,12 +1419,6 @@ We are grateful to the many research interns who contributed to ODEKA's work ove
 
 <div class="about-section-divider"></div>
 
-<br>
-
-<div class="full-width-banner">
-  <img src="image5.jpg" alt="An ODEKA enumerator conducting a household survey" class="hero-image hero-image--fieldinterview">
-</div>
-
 <div class="page-footer-copyright">
 **Copyright © 2026 ODEKA A.S.B.L All rights reserved.**
 </div>
