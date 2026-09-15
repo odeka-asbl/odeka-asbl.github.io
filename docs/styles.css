@@ -1218,9 +1218,9 @@ main.content:has(.full-width-banner) {
    instead, which re-introduces a small centered crop (~72% of the
    height visible) but keeps the banner sharp on typical screens. */
 .full-width-banner .hero-image--tall {
-  height: 24vw;
-  max-height: 350px; /* smaller again — same ratio as the 32vw:467px version preserved so the crop composition (sign + every head in frame) stays the same */
-  max-width: 825px; /* narrower too, scaled down from 1100px by the same factor */
+  height: 17vw;
+  max-height: 245px; /* smaller again — same ratio preserved so the crop composition (sign + every head in frame) stays the same */
+  max-width: 580px; /* narrower too, scaled down proportionally */
   object-position: 50% 34%; /* barbed wire fills the top ~5.5% of the photo, the "ODEKA A.S.B.L" sign sits at ~12-20%, and the back row's heads start at ~22% — biased to crop the wire but keep the sign and every head in frame, cropping the bottom (legs/feet) instead */
 }
 
@@ -1351,7 +1351,8 @@ main.content:has(.full-width-banner) {
 }
 
 .full-width-banner .hero-image--jobs {
-  object-position: 50% 20%; /* interview photo (EL1A3807A.jpg, 6677x5009 / 1.33:1) — back to a normal full-bleed banner (site's standard box, no custom height/width), biased well up so heads (starting ~7-10% down) stay comfortably in frame, cropping the bottom (laps/legs) instead */
+  max-width: 1400px; /* image3.jpg (2618x1250) is a tight crop zoomed into a small region of the original photo — at full-bleed width on large screens it was being stretched past a comfortable margin over its native resolution, reading as pixelated; capped well under its native width so it's always scaled down, never up */
+  object-position: 50% 60%; /* biased down slightly to keep both laptops in frame */
 }
 
 .full-width-banner .hero-logo {
