@@ -774,6 +774,26 @@ ODEKA works closely with research associates who contribute to our research proj
 <br>
 
 <div class="person-photo">
+  <img src="faces/bachelart.jpg" alt="Clémentine Bachelart">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  Clémentine Bachelart
+</div>
+
+<div class="person-title">
+  Research Associate
+</div>
+</div>
+
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
   <img src="faces/correrella.jpg" alt="Maia Correrella">
 </div>
 
