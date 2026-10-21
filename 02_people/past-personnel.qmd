@@ -24,6 +24,27 @@ We are grateful to the many research associates and research interns who have co
 <br>
 
 <div class="person-photo">
+  <img src="faces/schmidt.jpg" alt="David Schmidt">
+</div>
+
+<div class="person-info">
+<div class="person-name">
+  David Schmidt
+</div>
+
+<div class="person-title">
+  Research Associate, 2025-2026
+</div>
+
+<p>**Current position:** Portfolio Manager, Fondation Botnar
+</div>
+<!-- ============================ -->
+
+<div style="clear: both;">
+</div>
+<br>
+
+<div class="person-photo">
   <img src="faces/eke.jpg" alt="Joel Eke">
 </div>
 
